@@ -6,7 +6,7 @@
     "labelWidth": 5,
     "type": "SELECT_WIDGET",
     "serverSideFiltering": false,
-    "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( getDefaultValue.getDefaultValue(Table1Copy.triggeredRow?.Condutor_secundario, get_condutor.data.data)))(Condutor_secundarioCopyCopyCopy.options, Condutor_secundarioCopyCopyCopy.serverSideFiltering) }}",
+    "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( getDefaultValue.getDefaultValue(SemoventesDesativados.triggeredRow?.Condutor_secundario, get_condutor.data.data)))(Condutor_secundarioCopyCopyCopy.options, Condutor_secundarioCopyCopyCopy.serverSideFiltering) }}",
     "animateLoading": true,
     "leftColumn": 2,
     "dynamicBindingPathList": [

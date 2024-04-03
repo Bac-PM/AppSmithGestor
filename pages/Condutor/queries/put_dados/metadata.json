@@ -20,7 +20,7 @@
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
-      "path": "{{LinkUrl.url_api}}/api/condutors/{{appsmith.store.id}}",
+      "path": "{{LinkUrl.url_api}}/api/condutors/{{condutores_ativos.triggeredRow.id}}",
       "headers": [
         {
           "key": "Authorization",
@@ -66,8 +66,8 @@
     "messages": [],
     "jsonPathKeys": [
       "LinkUrl.url_api",
-      "appsmith.store.id",
       "appsmith.store.jwt",
+      "condutores_ativos.triggeredRow.id",
       "nome_edit.text",
       "rg_edit.text",
       "unidade_edit.selectedOptionValue"

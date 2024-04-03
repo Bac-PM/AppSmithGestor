@@ -9,7 +9,8 @@
     "leftColumn": 2,
     "dynamicBindingPathList": [
         {"key": "accentColor"},
-        {"key": "borderRadius"}
+        {"key": "borderRadius"},
+        {"key": "defaultText"}
     ],
     "labelStyle": "",
     "inputType": "MULTI_LINE_TEXT",
@@ -62,6 +63,6 @@
     "maxDynamicHeight": 9000,
     "shouldAllowAutofill": false,
     "iconAlign": "left",
-    "defaultText": "",
+    "defaultText": "{{unidades_ativas.triggeredRow.Endereco}}",
     "minDynamicHeight": 4
 }

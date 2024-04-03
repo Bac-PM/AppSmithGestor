@@ -60,6 +60,6 @@
     "maxDynamicHeight": 9000,
     "shouldAllowAutofill": false,
     "iconAlign": "left",
-    "defaultText": "{{Table1Copy.triggeredRow.Racao_Diaria}}",
+    "defaultText": "{{SemoventesDesativados.triggeredRow.Racao_Diaria}}",
     "minDynamicHeight": 4
 }

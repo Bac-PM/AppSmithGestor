@@ -3,7 +3,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 22,
     "widgetName": "Edit_confirm",
-    "onClick": "{{closeModal('Edit');\nput_dados.run().then(() => {\n  showAlert('editado com sucesso', 'success');\n  get.run();\n});}}",
+    "onClick": "{{\nput_dados.run().then(() => {\n\tget.run();\n\tcloseModal('Edit');\n  showAlert('editado com sucesso', 'success');\n}).catch(() => {\n  \n\tput_dados.data.error.details.errors.forEach(element => {\n    showAlert(element.message, 'error');\n\t\n});\t\n\t\n});}}",
     "buttonColor": "rgb(48, 73, 136)",
     "dynamicPropertyPathList": [],
     "displayName": "Button",

@@ -7,7 +7,7 @@
     "type": "SELECT_WIDGET",
     "serverSideFiltering": false,
     "iSLoading": false,
-    "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( Table1.triggeredRow.Status_operacional))(Status_operacionalBaixado.options, Status_operacionalBaixado.serverSideFiltering) }}",
+    "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( SemoventesDesativados.triggeredRow.Status_operacional))(Status_operacionalBaixado.options, Status_operacionalBaixado.serverSideFiltering) }}",
     "animateLoading": true,
     "leftColumn": 32,
     "dynamicBindingPathList": [

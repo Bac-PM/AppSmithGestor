@@ -6,7 +6,7 @@
     "labelWidth": 5,
     "type": "SELECT_WIDGET",
     "serverSideFiltering": false,
-    "topRowBeforeCollapse": 52,
+    "topRowBeforeCollapse": 56,
     "defaultOptionValue": "Operacional",
     "animateLoading": true,
     "leftColumn": 37,
@@ -16,7 +16,7 @@
     "isRequired": false,
     "dynamicHeight": "FIXED",
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-    "bottomRowBeforeCollapse": 59,
+    "bottomRowBeforeCollapse": 63,
     "isVisible": false,
     "version": 1,
     "tags": [

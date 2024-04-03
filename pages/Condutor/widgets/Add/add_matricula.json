@@ -26,6 +26,7 @@
         "Inputs"
     ],
     "isLoading": false,
+    "regex": "",
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileBottomRow": 21,
     "widgetName": "add_matricula",

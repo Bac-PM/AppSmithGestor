@@ -68,6 +68,6 @@
     "isSpellCheck": false,
     "shouldAllowAutofill": false,
     "iconAlign": "left",
-    "defaultText": "{{Table1.triggeredRow.valor_compra}}",
+    "defaultText": "{{SemoventesDesativados.triggeredRow.valor_compra}}",
     "minDynamicHeight": 4
 }

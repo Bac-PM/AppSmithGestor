@@ -40,7 +40,7 @@
     "labelPosition": "Top",
     "key": "q7h059pcjf",
     "labelTextSize": "0.875rem",
-    "defaultDate": "{{Table1Copy.triggeredRow.Data_nascimento}}",
+    "defaultDate": "{{SemoventesDesativados.triggeredRow.Data_nascimento}}",
     "isDeprecated": false,
     "rightColumn": 14,
     "widgetId": "za8imox4gf",

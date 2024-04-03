@@ -46,7 +46,7 @@
     "labelTextSize": "0.875rem",
     "isDeprecated": false,
     "rightColumn": 64,
-    "defaultDate": "{{Table1.triggeredRow.data_inclusao_carga}}",
+    "defaultDate": "{{SemoventesDesativados.triggeredRow.data_inclusao_carga}}",
     "widgetId": "7bwc4uuvhq",
     "minWidth": 450,
     "label": "Data de Inclusão na Carga",

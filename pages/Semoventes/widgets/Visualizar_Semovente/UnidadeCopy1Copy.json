@@ -6,7 +6,7 @@
     "labelWidth": 5,
     "type": "SELECT_WIDGET",
     "serverSideFiltering": false,
-    "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( getDefaultValue.getDefaultValue(Table1Copy.triggeredRow?.Alocacao, get_unidades.data.data)))(UnidadeCopy1Copy.options, UnidadeCopy1Copy.serverSideFiltering) }}",
+    "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( getDefaultValue.getDefaultValue(SemoventesDesativados.triggeredRow?.Alocacao, get_unidades.data.data)))(UnidadeCopy1Copy.options, UnidadeCopy1Copy.serverSideFiltering) }}",
     "animateLoading": true,
     "leftColumn": 2,
     "dynamicBindingPathList": [

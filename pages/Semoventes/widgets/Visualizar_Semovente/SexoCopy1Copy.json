@@ -6,7 +6,7 @@
     "labelWidth": 5,
     "type": "SELECT_WIDGET",
     "serverSideFiltering": false,
-    "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( Table1Copy.triggeredRow.Sexo))(SexoCopy1Copy.options, SexoCopy1Copy.serverSideFiltering) }}",
+    "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( SemoventesDesativados.triggeredRow.Sexo))(SexoCopy1Copy.options, SexoCopy1Copy.serverSideFiltering) }}",
     "animateLoading": true,
     "leftColumn": 16,
     "dynamicBindingPathList": [

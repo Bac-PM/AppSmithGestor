@@ -28,7 +28,7 @@
     ],
     "isLoading": false,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 57,
+    "originalBottomRow": 64,
     "mobileBottomRow": 25,
     "widgetName": "Status_geralCopyCopy",
     "isFilterable": true,

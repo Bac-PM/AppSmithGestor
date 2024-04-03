@@ -62,6 +62,6 @@
     "maxDynamicHeight": 9000,
     "shouldAllowAutofill": false,
     "iconAlign": "left",
-    "defaultText": "{{Table1Copy.triggeredRow.Justificativa_baixado}}",
+    "defaultText": "{{SemoventesDesativados.triggeredRow.Justificativa_baixado}}",
     "minDynamicHeight": 4
 }

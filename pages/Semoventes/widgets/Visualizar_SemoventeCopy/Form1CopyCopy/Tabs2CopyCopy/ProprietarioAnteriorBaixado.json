@@ -62,6 +62,6 @@
     "mobileLeftColumn": 7,
     "maxDynamicHeight": 9000,
     "iconAlign": "left",
-    "defaultText": "{{Table1.triggeredRow.nome_do_proprietario_anterior}}",
+    "defaultText": "{{SemoventesDesativados.triggeredRow.nome_do_proprietario_anterior}}",
     "minDynamicHeight": 4
 }

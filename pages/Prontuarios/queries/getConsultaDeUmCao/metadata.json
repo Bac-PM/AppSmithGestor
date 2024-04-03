@@ -21,7 +21,7 @@
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
-      "path": "{{LinkUrl.url_api}}/api/consultas/",
+      "path": "{{LinkUrl.url_api}}/api/consultas",
       "headers": [
         {
           "key": "Authorization",
@@ -37,8 +37,12 @@
       "encodeParamsToggle": true,
       "queryParameters": [
         {
-          "key": "populate[animal][populate]",
-          "value": "*"
+          "key": "filters[animal][id]",
+          "value": "{{seletor_animal.selectedOptionValue}}"
+        },
+        {
+          "key": "populate",
+          "value": "*\n"
         }
       ],
       "bodyFormData": [],
@@ -60,6 +64,9 @@
       },
       {
         "key": "path"
+      },
+      {
+        "key": "queryParameters[0].value"
       }
     ],
     "isValid": true,
@@ -67,7 +74,8 @@
     "messages": [],
     "jsonPathKeys": [
       "LinkUrl.url_api",
-      "appsmith.store.jwt"
+      "appsmith.store.jwt",
+      "seletor_animal.selectedOptionValue"
     ],
     "userSetOnLoad": true,
     "confirmBeforeExecute": false,

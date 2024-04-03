@@ -28,7 +28,7 @@
     ],
     "isLoading": false,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 67,
+    "originalBottomRow": 74,
     "mobileBottomRow": 25,
     "widgetName": "Status_saudeUpdateCopy",
     "isFilterable": true,

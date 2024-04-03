@@ -16,8 +16,6 @@
         {"key": "primaryColumns.id.computedValue"},
         {"key": "primaryColumns.createdAt.computedValue"},
         {"key": "primaryColumns.updatedAt.computedValue"},
-        {"key": "primaryColumns.customColumn1.borderRadius"},
-        {"key": "primaryColumns.customColumn1.boxShadow"},
         {"key": "primaryColumns.customColumn2.borderRadius"},
         {"key": "primaryColumns.customColumn2.boxShadow"},
         {"key": "primaryColumns.ativo.computedValue"},
@@ -72,7 +70,6 @@
     "defaultPageSize": 0,
     "columnOrder": [
         "customColumn2",
-        "customColumn1",
         "Nome",
         "id",
         "createdAt",
@@ -81,10 +78,7 @@
         "rg",
         "unidade"
     ],
-    "dynamicPropertyPathList": [
-        {"key": "tableData"},
-        {"key": "primaryColumns.customColumn1.onClick"}
-    ],
+    "dynamicPropertyPathList": [{"key": "tableData"}],
     "displayName": "Table",
     "bottomRow": 44,
     "columnWidthMap": {},
@@ -92,10 +86,7 @@
     "hideCard": false,
     "mobileRightColumn": 23,
     "parentColumnSpace": 12.160400390625,
-    "dynamicTriggerPathList": [
-        {"key": "primaryColumns.customColumn1.onClick"},
-        {"key": "primaryColumns.customColumn2.onClick"}
-    ],
+    "dynamicTriggerPathList": [{"key": "primaryColumns.customColumn2.onClick"}],
     "borderWidth": "1",
     "primaryColumns": {
         "createdAt": {
@@ -197,45 +188,6 @@
             "cellBackground": "",
             "verticalAlignment": "CENTER"
         },
-        "customColumn1": {
-            "boxShadow": "{{condutores_desativados.processedTableData.map((currentRow, currentIndex) => ( \"none\"))}}",
-            "computedValue": "",
-            "onClick": "{{showModal('Edit');\nnome_edit.setValue(condutores_desativados.triggeredRow.Nome);\nrg_edit.setValue(condutores_desativados.triggeredRow.Matricula);\nstoreValue('id', condutores_desativados.triggeredRow.id);\n}}",
-            "buttonColor": "rgb(48, 73, 136)",
-            "isEditable": false,
-            "notation": "standard",
-            "alias": "Editar",
-            "enableSort": true,
-            "isSaveVisible": true,
-            "id": "customColumn1",
-            "isDisabled": false,
-            "allowSameOptionsInNewRow": true,
-            "validation": {},
-            "isCellVisible": true,
-            "isDerived": true,
-            "textSize": "0.875rem",
-            "iconName": "edit",
-            "buttonStyle": "rgb(3, 179, 101)",
-            "allowCellWrapping": false,
-            "index": 6,
-            "isDiscardVisible": true,
-            "isVisible": true,
-            "label": "Editar",
-            "labelColor": "#FFFFFF",
-            "columnType": "iconButton",
-            "thousandSeparator": true,
-            "horizontalAlignment": "LEFT",
-            "isCellEditable": false,
-            "borderRadius": "{{condutores_desativados.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.borderRadius.appBorderRadius)))}}",
-            "decimals": 0,
-            "width": 150,
-            "enableFilter": true,
-            "sticky": "",
-            "originalId": "customColumn1",
-            "currencyCode": "USD",
-            "customAlias": "",
-            "verticalAlignment": "CENTER"
-        },
         "unidade": {
             "computedValue": "{{condutores_desativados.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"unidade\"].Nome))}}",
             "isEditable": false,
@@ -304,7 +256,7 @@
         "customColumn2": {
             "boxShadow": "{{condutores_desativados.processedTableData.map((currentRow, currentIndex) => ( \"none\"))}}",
             "computedValue": "",
-            "onClick": "{{storeValue('id', condutores_desativados.triggeredRow.id);\nstoreValue('status', true);\nput_ativo.run().then(() => {\n  showAlert('Ativado com sucesso', 'success');\n});\nget.run();}}",
+            "onClick": "{{\nput_ativo.run().then(() => {\n\tget.run();\n  showAlert('Ativado com sucesso', 'success');\n});\n}}",
             "buttonColor": "rgb(48, 73, 136)",
             "isEditable": false,
             "notation": "standard",

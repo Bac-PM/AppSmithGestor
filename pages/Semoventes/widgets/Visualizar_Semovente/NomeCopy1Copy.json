@@ -59,6 +59,6 @@
     "mobileLeftColumn": 7,
     "maxDynamicHeight": 9000,
     "iconAlign": "left",
-    "defaultText": "{{Table1Copy.triggeredRow.Nome}}",
+    "defaultText": "{{SemoventesDesativados.triggeredRow.Nome}}",
     "minDynamicHeight": 4
 }

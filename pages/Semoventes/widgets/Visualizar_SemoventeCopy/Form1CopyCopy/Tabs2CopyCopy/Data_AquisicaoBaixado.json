@@ -46,7 +46,7 @@
     "labelTextSize": "0.875rem",
     "isDeprecated": false,
     "rightColumn": 64,
-    "defaultDate": "{{Table1.triggeredRow.data_aquisicao}}",
+    "defaultDate": "{{SemoventesDesativados.triggeredRow.data_aquisicao}}",
     "widgetId": "cfkui23dpr",
     "minWidth": 450,
     "label": "Data de Aquisição",

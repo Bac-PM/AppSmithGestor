@@ -6,7 +6,7 @@
     "labelWidth": 5,
     "type": "SELECT_WIDGET",
     "serverSideFiltering": false,
-    "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( Table1.triggeredRow.cor))(CorBaixado.options, CorBaixado.serverSideFiltering) }}",
+    "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( SemoventesDesativados.triggeredRow.cor))(CorBaixado.options, CorBaixado.serverSideFiltering) }}",
     "animateLoading": true,
     "leftColumn": 32,
     "dynamicBindingPathList": [

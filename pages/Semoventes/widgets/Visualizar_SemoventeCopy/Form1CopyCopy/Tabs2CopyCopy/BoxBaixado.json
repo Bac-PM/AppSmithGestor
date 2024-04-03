@@ -63,6 +63,6 @@
     "maxDynamicHeight": 9000,
     "shouldAllowAutofill": false,
     "iconAlign": "left",
-    "defaultText": "{{Table1.triggeredRow.Box}}",
+    "defaultText": "{{SemoventesDesativados.triggeredRow.Box}}",
     "minDynamicHeight": 4
 }

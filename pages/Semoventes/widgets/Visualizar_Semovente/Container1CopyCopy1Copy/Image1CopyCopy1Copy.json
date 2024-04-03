@@ -19,7 +19,7 @@
         {"key": "defaultImage"},
         {"key": "borderRadius"}
     ],
-    "defaultImage": "{{LinkUrl.url_App_Smith + Table1Copy.triggeredRow.Foto_esquerda.url}}",
+    "defaultImage": "{{LinkUrl.url_App_Smith + SemoventesDesativados.triggeredRow.Foto_esquerda.url}}",
     "flexVerticalAlignment": "start",
     "key": "4zzsveeeuw",
     "image": "",

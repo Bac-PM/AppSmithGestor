@@ -19,7 +19,7 @@
         {"key": "borderRadius"},
         {"key": "defaultImage"}
     ],
-    "defaultImage": "{{ImagemLocal.direita}}",
+    "defaultImage": "{{LinkUrl.url_App_Smith+SemoventesDesativados.triggeredRow.Foto_direita.url}}",
     "flexVerticalAlignment": "start",
     "key": "mhpti1pgdv",
     "image": "",

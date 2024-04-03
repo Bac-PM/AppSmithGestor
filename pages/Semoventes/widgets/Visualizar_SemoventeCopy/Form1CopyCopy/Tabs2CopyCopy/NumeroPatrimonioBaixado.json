@@ -62,6 +62,6 @@
     "maxDynamicHeight": 9000,
     "shouldAllowAutofill": false,
     "iconAlign": "left",
-    "defaultText": "{{Table1.triggeredRow.numero_patrimonio}}",
+    "defaultText": "{{SemoventesDesativados.triggeredRow.numero_patrimonio}}",
     "minDynamicHeight": 4
 }

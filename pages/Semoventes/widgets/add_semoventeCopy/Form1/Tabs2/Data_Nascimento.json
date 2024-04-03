@@ -1,6 +1,6 @@
 {
     "boxShadow": "none",
-    "dateFormat": "YYYY-MM-DD HH:mm",
+    "dateFormat": "YYYY-MM-DD",
     "iconSVG": "/static/media/icon.c0c4b770ee1862b73198267331d1611c.svg",
     "topRow": 25,
     "labelWidth": 5,
@@ -9,7 +9,8 @@
     "leftColumn": 0,
     "dynamicBindingPathList": [
         {"key": "accentColor"},
-        {"key": "borderRadius"}
+        {"key": "borderRadius"},
+        {"key": "maxDate"}
     ],
     "labelTooltip": "",
     "isDisabled": false,
@@ -28,6 +29,7 @@
     "mobileBottomRow": 33,
     "widgetName": "Data_Nascimento",
     "minDate": "1920-12-31T18:30:00.000Z",
+    "dynamicPropertyPathList": [{"key": "maxDate"}],
     "displayName": "DatePicker",
     "searchTags": ["calendar"],
     "bottomRow": 32,
@@ -55,6 +57,6 @@
     "mobileLeftColumn": 3,
     "maxDynamicHeight": 9000,
     "firstDayOfWeek": 0,
-    "maxDate": "2121-12-31T18:29:00.000Z",
+    "maxDate": "{{\n(function() {\n  const dataAtual = new Date();\n\treturn dataAtual;\n})();\n}}",
     "minDynamicHeight": 4
 }

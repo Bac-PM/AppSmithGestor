@@ -6,7 +6,7 @@
     "labelWidth": 5,
     "type": "SELECT_WIDGET",
     "serverSideFiltering": false,
-    "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( Table1.triggeredRow.especializacao))(EspecializacaoBaixado.options, EspecializacaoBaixado.serverSideFiltering) }}",
+    "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( SemoventesDesativados.triggeredRow.especializacao))(EspecializacaoBaixado.options, EspecializacaoBaixado.serverSideFiltering) }}",
     "animateLoading": true,
     "leftColumn": 0,
     "dynamicBindingPathList": [

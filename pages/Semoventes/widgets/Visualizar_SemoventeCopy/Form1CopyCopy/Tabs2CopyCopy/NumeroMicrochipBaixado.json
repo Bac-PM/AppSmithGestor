@@ -62,6 +62,6 @@
     "maxDynamicHeight": 9000,
     "shouldAllowAutofill": false,
     "iconAlign": "left",
-    "defaultText": "{{Table1.triggeredRow.numero_de_microchip}}",
+    "defaultText": "{{SemoventesDesativados.triggeredRow.numero_de_microchip}}",
     "minDynamicHeight": 4
 }

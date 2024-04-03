@@ -2,8 +2,9 @@
     "boxShadow": "none",
     "mobileBottomRow": 4,
     "widgetName": "IconButton5",
-    "onClick": "{{closeModal('Add');}}",
+    "onClick": "{{resetWidget(\"Add\", true);\ncloseModal('Add');}}",
     "buttonColor": "rgb(48, 73, 136)",
+    "dynamicPropertyPathList": [],
     "displayName": "Icon button",
     "iconSVG": "/static/media/icon.b08054586989b185a0801e9a34f8ad49.svg",
     "searchTags": [

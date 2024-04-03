@@ -64,6 +64,6 @@
     "maxDynamicHeight": 9000,
     "isSpellCheck": false,
     "iconAlign": "left",
-    "defaultText": "{{Table1.triggeredRow.Nome}}",
+    "defaultText": "{{SemoventesDesativados.triggeredRow.Nome}}",
     "minDynamicHeight": 4
 }

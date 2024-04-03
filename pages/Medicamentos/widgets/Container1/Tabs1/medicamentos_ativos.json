@@ -299,7 +299,7 @@
         "customColumn2": {
             "boxShadow": "{{medicamentos_ativos.processedTableData.map((currentRow, currentIndex) => ( \"none\"))}}",
             "computedValue": "",
-            "onClick": "{{storeValue('id', medicamentos_ativos.triggeredRow.id);\nstoreValue('status', false);\nput_medicamentoCopy.run().then(() => {\n  showAlert('Desativado com sucesso', 'success');\n}).catch(() => {\n  showAlert('Um erro ocorreu', 'error');\n});\nget_medicamento.run();}}",
+            "onClick": "{{showModal('ConfirmaDesativarMedicamento');}}",
             "buttonColor": "rgb(48, 73, 136)",
             "isEditable": false,
             "notation": "standard",

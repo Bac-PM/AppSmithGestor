@@ -93,10 +93,10 @@
         }
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "columnUpdatedAt": 1711131594403,
+    "columnUpdatedAt": 1712169340887,
     "defaultSelectedRowIndices": [0],
     "mobileBottomRow": 29,
-    "widgetName": "Table1Copy",
+    "widgetName": "SemoventesDesativados",
     "defaultPageSize": 0,
     "columnOrder": [
         "customColumn2",
@@ -173,7 +173,7 @@
     "borderWidth": "1",
     "primaryColumns": {
         "Status_operacional": {
-            "computedValue": "{{Table1Copy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Status_operacional\"]))}}",
+            "computedValue": "{{SemoventesDesativados.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Status_operacional\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "Status_operacional",
@@ -207,7 +207,7 @@
             "verticalAlignment": "CENTER"
         },
         "animal_tratamento_medicos": {
-            "computedValue": "{{Table1Copy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"animal_tratamento_medicos\"]))}}",
+            "computedValue": "{{SemoventesDesativados.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"animal_tratamento_medicos\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "animal_tratamento_medicos",
@@ -241,7 +241,7 @@
             "verticalAlignment": "CENTER"
         },
         "Data_nascimento": {
-            "computedValue": "{{Table1Copy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Data_nascimento\"]))}}",
+            "computedValue": "{{SemoventesDesativados.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Data_nascimento\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "Data_nascimento",
@@ -273,7 +273,7 @@
             "verticalAlignment": "CENTER"
         },
         "Foto_esquerda": {
-            "computedValue": "{{Table1Copy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Foto_esquerda\"]))}}",
+            "computedValue": "{{SemoventesDesativados.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Foto_esquerda\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "Foto_esquerda",
@@ -307,7 +307,7 @@
             "verticalAlignment": "CENTER"
         },
         "cor": {
-            "computedValue": "{{Table1Copy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"cor\"]))}}",
+            "computedValue": "{{SemoventesDesativados.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"cor\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "cor",
@@ -341,7 +341,7 @@
             "verticalAlignment": "CENTER"
         },
         "numero_patrimonio": {
-            "computedValue": "{{Table1Copy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"numero_patrimonio\"]))}}",
+            "computedValue": "{{SemoventesDesativados.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"numero_patrimonio\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "numero_patrimonio",
@@ -375,7 +375,7 @@
             "verticalAlignment": "CENTER"
         },
         "registro_obs": {
-            "computedValue": "{{Table1Copy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"registro_obs\"]))}}",
+            "computedValue": "{{SemoventesDesativados.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"registro_obs\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "registro_obs",
@@ -409,7 +409,7 @@
             "verticalAlignment": "CENTER"
         },
         "data_aquisicao": {
-            "computedValue": "{{Table1Copy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"data_aquisicao\"]))}}",
+            "computedValue": "{{SemoventesDesativados.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"data_aquisicao\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "data_aquisicao",
@@ -443,7 +443,7 @@
             "verticalAlignment": "CENTER"
         },
         "Sexo": {
-            "computedValue": "{{Table1Copy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Sexo\"]))}}",
+            "computedValue": "{{SemoventesDesativados.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Sexo\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "Sexo",
@@ -474,7 +474,7 @@
             "verticalAlignment": "CENTER"
         },
         "Status_geral": {
-            "computedValue": "{{Table1Copy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Status_geral\"]))}}",
+            "computedValue": "{{SemoventesDesativados.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Status_geral\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "Status_geral",
@@ -508,7 +508,7 @@
             "verticalAlignment": "CENTER"
         },
         "Justificativa_baixado": {
-            "computedValue": "{{Table1Copy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Justificativa_baixado\"]))}}",
+            "computedValue": "{{SemoventesDesativados.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Justificativa_baixado\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "Justificativa_baixado",
@@ -542,7 +542,7 @@
             "verticalAlignment": "CENTER"
         },
         "e_alergicos": {
-            "computedValue": "{{Table1Copy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"e_alergicos\"]))}}",
+            "computedValue": "{{SemoventesDesativados.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"e_alergicos\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "e_alergicos",
@@ -576,7 +576,7 @@
             "verticalAlignment": "CENTER"
         },
         "createdAt": {
-            "computedValue": "{{Table1Copy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"createdAt\"]))}}",
+            "computedValue": "{{SemoventesDesativados.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"createdAt\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "createdAt",
@@ -610,7 +610,7 @@
             "verticalAlignment": "CENTER"
         },
         "Foto_direita": {
-            "computedValue": "{{Table1Copy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Foto_direita\"]))}}",
+            "computedValue": "{{SemoventesDesativados.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Foto_direita\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "Foto_direita",
@@ -644,7 +644,7 @@
             "verticalAlignment": "CENTER"
         },
         "id": {
-            "computedValue": "{{Table1Copy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"id\"]))}}",
+            "computedValue": "{{SemoventesDesativados.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"id\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "id",
@@ -675,7 +675,7 @@
             "verticalAlignment": "CENTER"
         },
         "Foto_frente": {
-            "computedValue": "{{Table1Copy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Foto_frente\"]))}}",
+            "computedValue": "{{SemoventesDesativados.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Foto_frente\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "Foto_frente",
@@ -709,7 +709,7 @@
             "verticalAlignment": "CENTER"
         },
         "Nome": {
-            "computedValue": "{{Table1Copy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Nome\"]))}}",
+            "computedValue": "{{SemoventesDesativados.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Nome\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "Nome",
@@ -740,7 +740,7 @@
             "verticalAlignment": "CENTER"
         },
         "data_inclusao_carga": {
-            "computedValue": "{{Table1Copy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"data_inclusao_carga\"]))}}",
+            "computedValue": "{{SemoventesDesativados.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"data_inclusao_carga\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "data_inclusao_carga",
@@ -774,7 +774,7 @@
             "verticalAlignment": "CENTER"
         },
         "Racao_Diaria": {
-            "computedValue": "{{Table1Copy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Racao_Diaria\"]))}}",
+            "computedValue": "{{SemoventesDesativados.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Racao_Diaria\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "Racao_Diaria",
@@ -790,7 +790,7 @@
             "allowCellWrapping": false,
             "index": 7,
             "isDiscardVisible": true,
-            "isVisible": true,
+            "isVisible": false,
             "label": "Ração(g)",
             "columnType": "number",
             "thousandSeparator": true,
@@ -805,7 +805,7 @@
             "verticalAlignment": "CENTER"
         },
         "updatedAt": {
-            "computedValue": "{{Table1Copy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"updatedAt\"]))}}",
+            "computedValue": "{{SemoventesDesativados.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"updatedAt\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "updatedAt",
@@ -839,7 +839,7 @@
             "verticalAlignment": "CENTER"
         },
         "Condutor_principal": {
-            "computedValue": "{{Table1Copy.processedTableData.map((currentRow, currentIndex) => ( currentRow?.Condutor_principal?.Nome))}}",
+            "computedValue": "{{SemoventesDesativados.processedTableData.map((currentRow, currentIndex) => ( currentRow?.Condutor_principal?.Nome))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "Condutor_principal",
@@ -873,7 +873,7 @@
             "verticalAlignment": "CENTER"
         },
         "Racaos": {
-            "computedValue": "{{Table1Copy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Racaos\"]))}}",
+            "computedValue": "{{SemoventesDesativados.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Racaos\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "Racaos",
@@ -907,7 +907,7 @@
             "verticalAlignment": "CENTER"
         },
         "peso": {
-            "computedValue": "{{Table1Copy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"peso\"]))}}",
+            "computedValue": "{{SemoventesDesativados.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"peso\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "peso",
@@ -941,7 +941,7 @@
             "verticalAlignment": "CENTER"
         },
         "numero_de_microchip": {
-            "computedValue": "{{Table1Copy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"numero_de_microchip\"]))}}",
+            "computedValue": "{{SemoventesDesativados.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"numero_de_microchip\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "numero_de_microchip",
@@ -975,7 +975,7 @@
             "verticalAlignment": "CENTER"
         },
         "Box": {
-            "computedValue": "{{Table1Copy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Box\"]))}}",
+            "computedValue": "{{SemoventesDesativados.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Box\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "Box",
@@ -1006,7 +1006,7 @@
             "verticalAlignment": "CENTER"
         },
         "customColumn2": {
-            "boxShadow": "{{Table1Copy.processedTableData.map((currentRow, currentIndex) => ( \"none\"))}}",
+            "boxShadow": "{{SemoventesDesativados.processedTableData.map((currentRow, currentIndex) => ( \"none\"))}}",
             "computedValue": "",
             "onClick": "{{showModal('Visualizar_SemoventeCopy');}}",
             "buttonColor": "rgb(48, 73, 136)",
@@ -1034,7 +1034,7 @@
             "thousandSeparator": true,
             "horizontalAlignment": "LEFT",
             "isCellEditable": false,
-            "borderRadius": "{{Table1Copy.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.borderRadius.appBorderRadius)))}}",
+            "borderRadius": "{{SemoventesDesativados.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.borderRadius.appBorderRadius)))}}",
             "decimals": 0,
             "width": 150,
             "enableFilter": true,
@@ -1045,7 +1045,7 @@
             "verticalAlignment": "CENTER"
         },
         "forma_aquisicao": {
-            "computedValue": "{{Table1Copy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"forma_aquisicao\"]))}}",
+            "computedValue": "{{SemoventesDesativados.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"forma_aquisicao\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "forma_aquisicao",
@@ -1079,7 +1079,7 @@
             "verticalAlignment": "CENTER"
         },
         "Idade": {
-            "computedValue": "{{Table1Copy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Idade\"]))}}",
+            "computedValue": "{{SemoventesDesativados.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Idade\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "Idade",
@@ -1110,7 +1110,7 @@
             "verticalAlignment": "CENTER"
         },
         "nome_do_proprietario_anterior": {
-            "computedValue": "{{Table1Copy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"nome_do_proprietario_anterior\"]))}}",
+            "computedValue": "{{SemoventesDesativados.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"nome_do_proprietario_anterior\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "nome_do_proprietario_anterior",
@@ -1144,7 +1144,7 @@
             "verticalAlignment": "CENTER"
         },
         "Alocacao": {
-            "computedValue": "{{Table1Copy.processedTableData.map((currentRow, currentIndex) => ( currentRow.Alocacao.Nome))}}",
+            "computedValue": "{{SemoventesDesativados.processedTableData.map((currentRow, currentIndex) => ( currentRow.Alocacao.Nome))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "Alocacao",
@@ -1178,7 +1178,7 @@
             "verticalAlignment": "CENTER"
         },
         "raca": {
-            "computedValue": "{{Table1Copy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"raca\"]))}}",
+            "computedValue": "{{SemoventesDesativados.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"raca\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "raca",
@@ -1212,7 +1212,7 @@
             "verticalAlignment": "CENTER"
         },
         "especializacao": {
-            "computedValue": "{{Table1Copy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"especializacao\"]))}}",
+            "computedValue": "{{SemoventesDesativados.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"especializacao\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "especializacao",
@@ -1246,7 +1246,7 @@
             "verticalAlignment": "CENTER"
         },
         "Condutor_secundario": {
-            "computedValue": "{{Table1Copy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Condutor_secundario\"].Nome))}}",
+            "computedValue": "{{SemoventesDesativados.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Condutor_secundario\"].Nome))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "Condutor_secundario",
@@ -1280,7 +1280,7 @@
             "verticalAlignment": "CENTER"
         },
         "Status_saude": {
-            "computedValue": "{{Table1Copy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Status_saude\"]))}}",
+            "computedValue": "{{SemoventesDesativados.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Status_saude\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "Status_saude",
@@ -1310,11 +1310,11 @@
             "sticky": "",
             "originalId": "Status_saude",
             "currencyCode": "USD",
-            "cellBackground": "{{Table1Copy.processedTableData.map((currentRow, currentIndex) => ( function(){\nlet colors = {\n\t'Sem medicação':'#7FFF00',\n\t'Em medicação restritiva':'#fca5a5',\n\t'Em medicação':'#fef9c3'\n};\nreturn colors[currentRow.Status_saude]\n}()))}}",
+            "cellBackground": "{{SemoventesDesativados.processedTableData.map((currentRow, currentIndex) => ( function(){\nlet colors = {\n\t'Sem medicação':'#7FFF00',\n\t'Em medicação restritiva':'#fca5a5',\n\t'Em medicação':'#fef9c3'\n};\nreturn colors[currentRow.Status_saude]\n}()))}}",
             "verticalAlignment": "CENTER"
         },
         "valor_compra": {
-            "computedValue": "{{Table1Copy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"valor_compra\"]))}}",
+            "computedValue": "{{SemoventesDesativados.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"valor_compra\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "valor_compra",

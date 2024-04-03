@@ -3,8 +3,9 @@
     "boxShadow": "none",
     "mobileBottomRow": 22,
     "widgetName": "Button7",
-    "onClick": "{{post.run().then(() => {\n  showAlert('Adicionado com sucesso', 'success');\n  closeModal('Add');\n}).catch(() => {\n  showAlert('Falhou', 'error');\n});\nget.run();}}",
+    "onClick": "{{post.run().then(() => {\n\tget.run();\n  showAlert('Adicionado com sucesso', 'success');\n  closeModal('Add');\n}).catch(() => {\n\tpost.data.error.details.errors.forEach(element => {\n    showAlert(element.message, 'error');\n\t\n});\n});}}",
     "buttonColor": "rgb(48, 73, 136)",
+    "dynamicPropertyPathList": [{"key": "onClick"}],
     "displayName": "Button",
     "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
     "searchTags": [

@@ -20,7 +20,7 @@
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
-      "path": "{{LinkUrl.url_api}}/api/unidades/{{appsmith.store.id}}",
+      "path": "{{LinkUrl.url_api}}/api/unidades/{{unidades_ativas.triggeredRow.id}}",
       "headers": [
         {
           "key": "Authorization",
@@ -66,10 +66,10 @@
     "messages": [],
     "jsonPathKeys": [
       "LinkUrl.url_api",
-      "appsmith.store.id",
       "appsmith.store.jwt",
       "endereco_edit.text",
-      "nome_edit.text"
+      "nome_edit.text",
+      "unidades_ativas.triggeredRow.id"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

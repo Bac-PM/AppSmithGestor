@@ -3,8 +3,9 @@
     "boxShadow": "none",
     "mobileBottomRow": 22,
     "widgetName": "Edit_Close",
-    "onClick": "{{closeModal('Edit');}}",
+    "onClick": "{{resetWidget(\"Edit\", true);\ncloseModal('Edit');}}",
     "buttonColor": "rgb(48, 73, 136)",
+    "dynamicPropertyPathList": [],
     "displayName": "Button",
     "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
     "searchTags": [

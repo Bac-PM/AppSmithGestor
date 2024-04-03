@@ -4,7 +4,7 @@
     "topRow": 63,
     "labelWidth": 5,
     "type": "INPUT_WIDGET_V2",
-    "topRowBeforeCollapse": 59,
+    "topRowBeforeCollapse": 63,
     "animateLoading": true,
     "resetOnSubmit": true,
     "leftColumn": 32,
@@ -20,7 +20,7 @@
     "dynamicHeight": "FIXED",
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",
     "showStepArrows": false,
-    "bottomRowBeforeCollapse": 66,
+    "bottomRowBeforeCollapse": 70,
     "isVisible": false,
     "version": 2,
     "tags": [

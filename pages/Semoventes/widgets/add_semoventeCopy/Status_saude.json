@@ -6,7 +6,7 @@
     "labelWidth": 5,
     "type": "SELECT_WIDGET",
     "serverSideFiltering": false,
-    "topRowBeforeCollapse": 62,
+    "topRowBeforeCollapse": 66,
     "defaultOptionValue": "Sem medicação",
     "animateLoading": true,
     "leftColumn": 0,
@@ -16,7 +16,7 @@
     "isRequired": false,
     "dynamicHeight": "FIXED",
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-    "bottomRowBeforeCollapse": 69,
+    "bottomRowBeforeCollapse": 73,
     "isVisible": false,
     "version": 1,
     "tags": [

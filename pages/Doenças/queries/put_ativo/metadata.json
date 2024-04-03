@@ -20,7 +20,7 @@
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
-      "path": "{{LinkUrl.url_api}}/api/doencas/{{appsmith.store.id}}",
+      "path": "{{LinkUrl.url_api}}/api/doencas/{{doencas_ativas.triggeredRow.id}}",
       "headers": [
         {
           "key": "Authorization",
@@ -66,9 +66,9 @@
     "messages": [],
     "jsonPathKeys": [
       "LinkUrl.url_api",
-      "appsmith.store.id",
       "appsmith.store.jwt",
-      "appsmith.store.status"
+      "appsmith.store.status",
+      "doencas_ativas.triggeredRow.id"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

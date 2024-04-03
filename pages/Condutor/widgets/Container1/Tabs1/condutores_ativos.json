@@ -314,7 +314,7 @@
         "customColumn2": {
             "boxShadow": "{{condutores_ativos.processedTableData.map((currentRow, currentIndex) => ( \"none\"))}}",
             "computedValue": "",
-            "onClick": "{{storeValue('id', condutores_ativos.triggeredRow.id);\nstoreValue('status', false);\nput_ativo.run().then(() => {\n  showAlert('Desativado com sucesso', 'success');\n});\nget.run();}}",
+            "onClick": "{{put_ativo.run().then(() => {\n  showAlert('Desativado com sucesso', 'success');\n  get.run();\n}).catch(() => {\n  put_ativo.data.error.details.errors.forEach(element => {\n    showAlert(element.message, 'error');\n\t\n});\t\n});}}",
             "buttonColor": "rgb(48, 73, 136)",
             "isEditable": false,
             "notation": "standard",
