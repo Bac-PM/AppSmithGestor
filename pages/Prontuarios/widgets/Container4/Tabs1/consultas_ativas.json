@@ -712,7 +712,7 @@
     "textSize": "0.875rem",
     "widgetId": "7hq82qggsw",
     "minWidth": 450,
-    "tableData": "{{filtros.data}}",
+    "tableData": "{{filtros.data}}\n\n",
     "label": "Data",
     "searchKey": "",
     "parentId": "nw6apsw2qe",

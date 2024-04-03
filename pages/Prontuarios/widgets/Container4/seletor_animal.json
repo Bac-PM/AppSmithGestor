@@ -60,6 +60,6 @@
     "responsiveBehavior": "fill",
     "mobileLeftColumn": 1,
     "maxDynamicHeight": 9000,
-    "onOptionChange": "{{filtros.consultasDeUmCao(seletor_animal.selectedOptionValue)}}",
+    "onOptionChange": "{{filtros.consultasDeUmCao(seletor_animal.selectedOptionValue)//getConsultaDeUmCao.run()}}",
     "minDynamicHeight": 4
 }
