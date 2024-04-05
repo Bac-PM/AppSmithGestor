@@ -33,7 +33,6 @@
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
-                "LinkUrl.url_api",
                 "appsmith.store.jwt"
               ],
               "timeoutInMillisecond": 10000
@@ -46,7 +45,6 @@
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
-                "LinkUrl.url_api",
                 "appsmith.store.jwt"
               ],
               "timeoutInMillisecond": 10000
@@ -57,7 +55,6 @@
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
-                "LinkUrl.url_api",
                 "appsmith.store.jwt"
               ],
               "timeoutInMillisecond": 10000
@@ -68,7 +65,6 @@
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
-                "LinkUrl.url_api",
                 "appsmith.store.jwt"
               ],
               "timeoutInMillisecond": 10000
@@ -79,7 +75,6 @@
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
-                "LinkUrl.url_api",
                 "appsmith.store.jwt"
               ],
               "timeoutInMillisecond": 10000

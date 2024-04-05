@@ -6,7 +6,7 @@
     "labelWidth": 5,
     "type": "SELECT_WIDGET",
     "serverSideFiltering": false,
-    "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( getDefaultValue.getDefaultValue(Table1.triggeredRow?.Condutor_principal.Nome, get_condutor.data.data)))(Condutor_principalUpdate.options, Condutor_principalUpdate.serverSideFiltering) }}",
+    "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( getDefaultValue.getDefaultValue(Table1.triggeredRow?.Condutor_principal, get_condutor.data.data)))(Condutor_principalUpdate.options, Condutor_principalUpdate.serverSideFiltering) }}",
     "animateLoading": true,
     "leftColumn": 0,
     "dynamicBindingPathList": [

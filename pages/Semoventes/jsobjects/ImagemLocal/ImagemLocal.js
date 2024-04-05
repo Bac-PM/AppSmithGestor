@@ -3,7 +3,7 @@ export default {
 	direita: "",
 	esquerda: "",
 	atualizaFrente (url) {
-		ImagemLocal.frente = LinkUrl.url_App_Smith + url;
+		ImagemLocal.frente = LinkUrl.url_App_Smith + url ; 
 	},
 	atualizaDireita (url) {
 		ImagemLocal.direita = LinkUrl.url_App_Smith + url;
@@ -23,3 +23,5 @@ export default {
 	}
 
 }
+
+frente: ""
