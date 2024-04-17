@@ -1,0 +1,8 @@
+{
+    "data_proxima_aplicacao": {{addDataProximaDose.selectedDate}},
+    "anotacoes": {{addAnotacoes.text}},
+    "lembrete_em_dias": {{addLembreteDias.selectedOptionValue}},
+    "dose_atual": {{addDoseAtual.text}},
+    "animal": {{seletor_animal.selectedOptionValue}},
+    "tipo_vacina": {{createTipoVacina.data.data.id}}
+}

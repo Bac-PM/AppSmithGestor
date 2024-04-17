@@ -1,29 +1,31 @@
 export default {
 
 	data: {},
-	caesAtivos (data) {
-		
-       let caesAtivosTransformados = data.data.data
-            .filter(u => u.Status_geral === "Operacional")
-            .map(obj => ({ label: obj.Nome, value: obj.id }));
+	doseMaxima() {
+		  //getVacinasDeUmCao.run().then(() => {
+			
+				if (parseInt(Vacinas.triggeredRow.dose_atual) < parseInt(Vacinas.triggeredRow["Doses Totais"])) {
+					
+					aplicaAnimalVacinaCriaNextDose.run().then(() => { 
+						
+						getVacinasDeUmCao.run();
+					});
 
-        return caesAtivosTransformados;
-	},
-	consultasDeUmCao(idAnimal) {
-		
-  
 
-  getAllConsultas.run().then((response) => {
-		
-		this.data = response.data.filter(consulta => consulta.animal && consulta.animal.id === idAnimal && consulta.removido === false);
-		
-  }).catch(() => {
-		
-  showAlert("O cão não tem nenhuma consulta");
-});
-		return this.data;
 
-	  
-	}
-}
+				}else{
+				
+					getVacinasDeUmCao.run();
+				}			
 
+				//});
+
+    
+}}
+
+
+
+
+			
+		
+ 

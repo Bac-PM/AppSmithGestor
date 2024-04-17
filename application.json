@@ -47,6 +47,14 @@
     {
       "id": "Prontuarios",
       "isDefault": false
+    },
+    {
+      "id": "Alertas",
+      "isDefault": false
+    },
+    {
+      "id": "Page2",
+      "isDefault": false
     }
   ],
   "viewMode": false,

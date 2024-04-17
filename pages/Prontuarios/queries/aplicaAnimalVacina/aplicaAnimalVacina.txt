@@ -1,0 +1,4 @@
+{
+		"data_aplicacao": {{new Date()}},
+		"aplicado": true
+}

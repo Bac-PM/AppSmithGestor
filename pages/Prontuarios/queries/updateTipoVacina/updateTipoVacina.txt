@@ -1,0 +1,9 @@
+{
+  "data": {
+    "nome_vacina": {{atualizaNomeVacina.selectedOptionValue}},
+    "tipo_vacina": {{atualizaTipoVacina.selectedOptionValue}},
+		"foto_etiqueta": {{parseInt(FotoId.text)}},
+    "doses_totais": {{parseInt(atualizaDoseTotal.text)}}
+   
+  }
+}

@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 720,
+          "bottomRow": 730,
           "containerStyle": "none",
           "snapRows": 79,
           "parentRowSpace": 1,
@@ -36,6 +36,18 @@
                 "appsmith.store.jwt"
               ],
               "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "Prontuarios_get_Ectoparasiticidas",
+              "name": "get_Ectoparasiticidas",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "appsmith.store.jwt"
+              ],
+              "timeoutInMillisecond": 10000
             },
             {
               "id": "Prontuarios_get_all_animals_someventes",
@@ -43,6 +55,38 @@
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
+                "appsmith.store.jwt"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Prontuarios_get_ectoparasiticidaDeCao",
+              "name": "get_ectoparasiticidaDeCao",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "seletor_animal.selectedOptionValue",
+                "appsmith.store.jwt"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Prontuarios_get_vermifugos",
+              "name": "get_vermifugos",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "appsmith.store.jwt"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Prontuarios_get_vermifugosDeCao",
+              "name": "get_vermifugosDeCao",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "seletor_animal.selectedOptionValue",
                 "appsmith.store.jwt"
               ],
               "timeoutInMillisecond": 10000

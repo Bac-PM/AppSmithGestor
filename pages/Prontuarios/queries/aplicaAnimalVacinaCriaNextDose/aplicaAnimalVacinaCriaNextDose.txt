@@ -1,0 +1,12 @@
+{
+    "data_proxima_aplicacao": {{(function() {
+		let inicio = new Date(); 
+		inicio.setDate(inicio.getDate()+  Vacinas.triggeredRow["Doses Totais"]) // seto a data pra um tempo depois
+		return inicio    
+})();}},
+    "anotacoes": {{atualizaAnotacoes.text}},
+    "lembrete_em_dias": {{atualizaLembreteDias.selectedOptionValue}},
+    "dose_atual": {{(parseInt(atualizaDoseAtual.text) + 1 )}},
+    "animal": {{seletor_animal.selectedOptionValue}},
+	 	"tipo_vacina":{{Vacinas.triggeredRow.idTipoVacina}} 
+}
