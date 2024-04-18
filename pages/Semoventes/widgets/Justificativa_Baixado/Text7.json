@@ -1,6 +1,6 @@
 {
     "mobileBottomRow": 5,
-    "widgetName": "Justificativa_do_BaixadoCopy",
+    "widgetName": "Text7",
     "displayName": "Text",
     "iconSVG": "/static/media/icon.a47d6d5dbbb718c4dc4b2eb4f218c1b7.svg",
     "searchTags": [
@@ -26,18 +26,18 @@
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
     "text": "Aviso!",
-    "key": "7k0xckrtpb",
+    "key": "lfvrpw774j",
     "isDeprecated": false,
     "rightColumn": 37,
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
-    "widgetId": "algsv0oxsy",
+    "widgetId": "h6gevpodsk",
     "minWidth": 450,
     "isVisible": true,
     "fontStyle": "BOLD",
     "textColor": "#231F20",
     "version": 1,
-    "parentId": "f8d2a3nyup",
+    "parentId": "r3bd2luk92",
     "tags": [
         "Suggested",
         "Content"
@@ -46,11 +46,9 @@
     "isLoading": false,
     "mobileTopRow": 1,
     "responsiveBehavior": "fill",
-    "originalTopRow": 0,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 1,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 8,
     "fontSize": "1.25rem",
     "minDynamicHeight": 4
 }

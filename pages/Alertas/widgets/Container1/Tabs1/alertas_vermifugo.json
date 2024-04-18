@@ -64,10 +64,10 @@
         }
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "columnUpdatedAt": 1713384575301,
+    "columnUpdatedAt": 1713384550007,
     "defaultSelectedRowIndices": [0],
     "mobileBottomRow": 28,
-    "widgetName": "alertas_coleiraCopyCopy1",
+    "widgetName": "alertas_vermifugo",
     "defaultPageSize": 0,
     "columnOrder": [
         "tipo_aplicacao",
@@ -86,7 +86,7 @@
     "bottomRow": 28,
     "columnWidthMap": {
         "data_proxima_aplicacao": 191,
-        "tipo_aplicacao": 244
+        "tipo_aplicacao": 438
     },
     "parentRowSpace": 10,
     "hideCard": false,
@@ -96,7 +96,7 @@
     "borderWidth": "1",
     "primaryColumns": {
         "createdAt": {
-            "computedValue": "{{alertas_coleiraCopyCopy1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"createdAt\"]))}}",
+            "computedValue": "{{alertas_vermifugo.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"createdAt\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "createdAt",
@@ -130,7 +130,7 @@
             "verticalAlignment": "CENTER"
         },
         "data_aplicacao": {
-            "computedValue": "{{alertas_coleiraCopyCopy1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"data_aplicacao\"]))}}",
+            "computedValue": "{{alertas_vermifugo.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"data_aplicacao\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "data_aplicacao",
@@ -164,7 +164,7 @@
             "verticalAlignment": "CENTER"
         },
         "publishedAt": {
-            "computedValue": "{{alertas_coleiraCopyCopy1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"publishedAt\"]))}}",
+            "computedValue": "{{alertas_vermifugo.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"publishedAt\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "publishedAt",
@@ -198,7 +198,7 @@
             "verticalAlignment": "CENTER"
         },
         "data_proxima_aplicacao": {
-            "computedValue": "{{alertas_coleiraCopyCopy1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"data_proxima_aplicacao\"]))}}",
+            "computedValue": "{{alertas_vermifugo.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"data_proxima_aplicacao\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "data_proxima_aplicacao",
@@ -233,7 +233,7 @@
             "verticalAlignment": "CENTER"
         },
         "aplicado": {
-            "computedValue": "{{alertas_coleiraCopyCopy1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"aplicado\"]))}}",
+            "computedValue": "{{alertas_vermifugo.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"aplicado\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "aplicado",
@@ -267,7 +267,7 @@
             "verticalAlignment": "CENTER"
         },
         "animal": {
-            "computedValue": "{{alertas_coleiraCopyCopy1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"animal\"]))}}",
+            "computedValue": "{{alertas_vermifugo.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"animal\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "animal",
@@ -301,7 +301,7 @@
             "verticalAlignment": "CENTER"
         },
         "id": {
-            "computedValue": "{{alertas_coleiraCopyCopy1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"id\"]))}}",
+            "computedValue": "{{alertas_vermifugo.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"id\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "id",
@@ -335,7 +335,7 @@
             "verticalAlignment": "CENTER"
         },
         "tipo_aplicacao": {
-            "computedValue": "{{alertas_coleiraCopyCopy1.processedTableData.map((currentRow, currentIndex) => ( currentRow.tipo_aplicacao.nome_produto))}}",
+            "computedValue": "{{alertas_vermifugo.processedTableData.map((currentRow, currentIndex) => ( currentRow.tipo_aplicacao.nome_produto))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "tipo_aplicacao",
@@ -352,7 +352,7 @@
             "index": 9,
             "isDiscardVisible": true,
             "isVisible": true,
-            "label": "tipo_aplicacao",
+            "label": "Nome do Produto",
             "columnType": "text",
             "thousandSeparator": true,
             "horizontalAlignment": "LEFT",
@@ -366,7 +366,7 @@
             "verticalAlignment": "CENTER"
         },
         "lembrete_em_dias": {
-            "computedValue": "{{alertas_coleiraCopyCopy1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"lembrete_em_dias\"] + ' dias antes'))}}",
+            "computedValue": "{{alertas_vermifugo.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"lembrete_em_dias\"] + ' dias antes'))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "lembrete_em_dias",
@@ -400,7 +400,7 @@
             "verticalAlignment": "CENTER"
         },
         "updatedAt": {
-            "computedValue": "{{alertas_coleiraCopyCopy1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"updatedAt\"]))}}",
+            "computedValue": "{{alertas_vermifugo.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"updatedAt\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "updatedAt",
@@ -439,12 +439,12 @@
     "isDeprecated": false,
     "rightColumn": 64,
     "textSize": "0.875rem",
-    "widgetId": "ql59d1oyy5",
+    "widgetId": "0j2iuugj9i",
     "minWidth": 450,
-    "tableData": "{{get_ectoparasiticidaDeCao.data.data}}",
+    "tableData": "{{get_vermifugosDeCao.data.data}}",
     "label": "Data",
     "searchKey": "",
-    "parentId": "788omqc4hj",
+    "parentId": "4t7maga5lh",
     "renderMode": "CANVAS",
     "mobileTopRow": 0,
     "horizontalAlignment": "LEFT",

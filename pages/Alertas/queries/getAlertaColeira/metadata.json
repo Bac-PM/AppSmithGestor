@@ -28,6 +28,10 @@
       "encodeParamsToggle": true,
       "queryParameters": [
         {
+          "key": "sort",
+          "value": "data_proxima_aplicacao"
+        },
+        {
           "key": "filters[animal][id]",
           "value": "{{seletor_animal.selectedOptionValue}}"
         },
@@ -64,10 +68,10 @@
         "key": "path"
       },
       {
-        "key": "queryParameters[0].value"
+        "key": "headers[0].value"
       },
       {
-        "key": "headers[0].value"
+        "key": "queryParameters[1].value"
       }
     ],
     "isValid": true,

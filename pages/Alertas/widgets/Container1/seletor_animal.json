@@ -59,6 +59,6 @@
     "responsiveBehavior": "fill",
     "mobileLeftColumn": 6,
     "maxDynamicHeight": 9000,
-    "onOptionChange": "{{getAlertaColeira.run();\ngetAlertaVacina.run();\n\n}}",
+    "onOptionChange": "{{getAlertaColeira.run();\ngetAlertaVacina.run();\nget_vermifugosDeCao.run();\nget_ectoparasiticidaDeCao.run();\n}}",
     "minDynamicHeight": 4
 }

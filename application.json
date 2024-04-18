@@ -41,10 +41,6 @@
       "isDefault": false
     },
     {
-      "id": "Semoventes",
-      "isDefault": false
-    },
-    {
       "id": "Prontuarios",
       "isDefault": false
     },
@@ -53,7 +49,7 @@
       "isDefault": false
     },
     {
-      "id": "Page2",
+      "id": "Semoventes",
       "isDefault": false
     }
   ],

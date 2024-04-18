@@ -22,7 +22,9 @@
         {"key": "primaryColumns.publishedAt.computedValue"},
         {"key": "primaryColumns.aplicado.computedValue"},
         {"key": "primaryColumns.animal.computedValue"},
-        {"key": "primaryColumns.tipo_aplicacao.computedValue"}
+        {"key": "primaryColumns.anotacoes.computedValue"},
+        {"key": "primaryColumns.dose_atual.computedValue"},
+        {"key": "primaryColumns.tipo_vacina.computedValue"}
     ],
     "needsHeightForContent": true,
     "leftColumn": 0,
@@ -64,13 +66,13 @@
         }
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "columnUpdatedAt": 1713384550007,
+    "columnUpdatedAt": 1713457273976,
     "defaultSelectedRowIndices": [0],
     "mobileBottomRow": 28,
-    "widgetName": "alertas_coleiraCopyCopy",
+    "widgetName": "alertas_vacina",
     "defaultPageSize": 0,
     "columnOrder": [
-        "tipo_aplicacao",
+        "tipo_vacina",
         "data_proxima_aplicacao",
         "lembrete_em_dias",
         "id",
@@ -79,14 +81,16 @@
         "updatedAt",
         "publishedAt",
         "aplicado",
-        "animal"
+        "animal",
+        "anotacoes",
+        "dose_atual"
     ],
     "dynamicPropertyPathList": [{"key": "tableData"}],
     "displayName": "Table",
     "bottomRow": 28,
     "columnWidthMap": {
         "data_proxima_aplicacao": 191,
-        "tipo_aplicacao": 240
+        "tipo_vacina": 211
     },
     "parentRowSpace": 10,
     "hideCard": false,
@@ -96,7 +100,7 @@
     "borderWidth": "1",
     "primaryColumns": {
         "createdAt": {
-            "computedValue": "{{alertas_coleiraCopyCopy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"createdAt\"]))}}",
+            "computedValue": "{{alertas_vacina.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"createdAt\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "createdAt",
@@ -130,7 +134,7 @@
             "verticalAlignment": "CENTER"
         },
         "data_aplicacao": {
-            "computedValue": "{{alertas_coleiraCopyCopy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"data_aplicacao\"]))}}",
+            "computedValue": "{{alertas_vacina.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"data_aplicacao\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "data_aplicacao",
@@ -163,8 +167,39 @@
             "cellBackground": "",
             "verticalAlignment": "CENTER"
         },
+        "anotacoes": {
+            "computedValue": "{{alertas_vacina.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"anotacoes\"]))}}",
+            "isEditable": false,
+            "notation": "standard",
+            "alias": "anotacoes",
+            "enableSort": true,
+            "isSaveVisible": true,
+            "id": "anotacoes",
+            "isDisabled": false,
+            "allowSameOptionsInNewRow": true,
+            "validation": {},
+            "isCellVisible": true,
+            "isDerived": false,
+            "textSize": "0.875rem",
+            "allowCellWrapping": false,
+            "index": 2,
+            "isDiscardVisible": true,
+            "isVisible": true,
+            "label": "Anotações",
+            "columnType": "text",
+            "thousandSeparator": true,
+            "horizontalAlignment": "LEFT",
+            "isCellEditable": false,
+            "decimals": 0,
+            "width": 150,
+            "enableFilter": true,
+            "sticky": "",
+            "originalId": "anotacoes",
+            "currencyCode": "USD",
+            "verticalAlignment": "CENTER"
+        },
         "publishedAt": {
-            "computedValue": "{{alertas_coleiraCopyCopy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"publishedAt\"]))}}",
+            "computedValue": "{{alertas_vacina.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"publishedAt\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "publishedAt",
@@ -198,7 +233,7 @@
             "verticalAlignment": "CENTER"
         },
         "data_proxima_aplicacao": {
-            "computedValue": "{{alertas_coleiraCopyCopy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"data_proxima_aplicacao\"]))}}",
+            "computedValue": "{{alertas_vacina.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"data_proxima_aplicacao\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "data_proxima_aplicacao",
@@ -233,7 +268,7 @@
             "verticalAlignment": "CENTER"
         },
         "aplicado": {
-            "computedValue": "{{alertas_coleiraCopyCopy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"aplicado\"]))}}",
+            "computedValue": "{{alertas_vacina.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"aplicado\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "aplicado",
@@ -267,7 +302,7 @@
             "verticalAlignment": "CENTER"
         },
         "animal": {
-            "computedValue": "{{alertas_coleiraCopyCopy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"animal\"]))}}",
+            "computedValue": "{{alertas_vacina.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"animal\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "animal",
@@ -300,8 +335,39 @@
             "cellBackground": "",
             "verticalAlignment": "CENTER"
         },
+        "dose_atual": {
+            "computedValue": "{{alertas_vacina.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"dose_atual\"]))}}",
+            "isEditable": false,
+            "notation": "standard",
+            "alias": "dose_atual",
+            "enableSort": true,
+            "isSaveVisible": true,
+            "id": "dose_atual",
+            "isDisabled": false,
+            "allowSameOptionsInNewRow": true,
+            "validation": {},
+            "isCellVisible": true,
+            "isDerived": false,
+            "textSize": "0.875rem",
+            "allowCellWrapping": false,
+            "index": 5,
+            "isDiscardVisible": true,
+            "isVisible": true,
+            "label": "Próxima Dose",
+            "columnType": "number",
+            "thousandSeparator": true,
+            "horizontalAlignment": "LEFT",
+            "isCellEditable": false,
+            "decimals": 0,
+            "width": 150,
+            "enableFilter": true,
+            "sticky": "",
+            "originalId": "dose_atual",
+            "currencyCode": "USD",
+            "verticalAlignment": "CENTER"
+        },
         "id": {
-            "computedValue": "{{alertas_coleiraCopyCopy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"id\"]))}}",
+            "computedValue": "{{alertas_vacina.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"id\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "id",
@@ -334,14 +400,14 @@
             "cellBackground": "",
             "verticalAlignment": "CENTER"
         },
-        "tipo_aplicacao": {
-            "computedValue": "{{alertas_coleiraCopyCopy.processedTableData.map((currentRow, currentIndex) => ( currentRow.tipo_aplicacao.nome_produto))}}",
+        "tipo_vacina": {
+            "computedValue": "{{alertas_vacina.processedTableData.map((currentRow, currentIndex) => ( currentRow.tipo_vacina.nome_vacina))}}",
             "isEditable": false,
             "notation": "standard",
-            "alias": "tipo_aplicacao",
+            "alias": "tipo_vacina",
             "enableSort": true,
             "isSaveVisible": true,
-            "id": "tipo_aplicacao",
+            "id": "tipo_vacina",
             "isDisabled": false,
             "allowSameOptionsInNewRow": true,
             "validation": {},
@@ -349,10 +415,10 @@
             "isDerived": false,
             "textSize": "0.875rem",
             "allowCellWrapping": false,
-            "index": 9,
+            "index": 11,
             "isDiscardVisible": true,
             "isVisible": true,
-            "label": "Nome do Produto",
+            "label": "Vacina",
             "columnType": "text",
             "thousandSeparator": true,
             "horizontalAlignment": "LEFT",
@@ -361,12 +427,12 @@
             "width": 150,
             "enableFilter": true,
             "sticky": "",
-            "originalId": "tipo_aplicacao",
+            "originalId": "tipo_vacina",
             "currencyCode": "USD",
             "verticalAlignment": "CENTER"
         },
         "lembrete_em_dias": {
-            "computedValue": "{{alertas_coleiraCopyCopy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"lembrete_em_dias\"] + ' dias antes'))}}",
+            "computedValue": "{{alertas_vacina.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"lembrete_em_dias\"] + ' dias antes'))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "lembrete_em_dias",
@@ -400,7 +466,7 @@
             "verticalAlignment": "CENTER"
         },
         "updatedAt": {
-            "computedValue": "{{alertas_coleiraCopyCopy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"updatedAt\"]))}}",
+            "computedValue": "{{alertas_vacina.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"updatedAt\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "updatedAt",
@@ -439,12 +505,12 @@
     "isDeprecated": false,
     "rightColumn": 64,
     "textSize": "0.875rem",
-    "widgetId": "0j2iuugj9i",
+    "widgetId": "luyrqy5bwx",
     "minWidth": 450,
-    "tableData": "{{get_vermifugosDeCao.data.data}}",
+    "tableData": "{{getAlertaVacina.data.data}}",
     "label": "Data",
     "searchKey": "",
-    "parentId": "4t7maga5lh",
+    "parentId": "28rbcuvj6h",
     "renderMode": "CANVAS",
     "mobileTopRow": 0,
     "horizontalAlignment": "LEFT",
