@@ -61,7 +61,7 @@
         "apiContentType": "text/plain"
       }
     },
-    "executeOnLoad": false,
+    "executeOnLoad": true,
     "dynamicBindingPathList": [],
     "isValid": true,
     "invalids": [],

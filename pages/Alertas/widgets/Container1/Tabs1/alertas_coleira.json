@@ -444,7 +444,7 @@
     "textSize": "0.875rem",
     "widgetId": "dgufydq9jh",
     "minWidth": 450,
-    "tableData": "{{getAlertaColeiraUmCao.data.data}}",
+    "tableData": "{{getTodosAlertaColeira.data.data.filter((a) => {\n\tlet dataProximaAplcacao = new Date(a.data_proxima_aplicacao);\n\tlet dataComLembrete = new Date(dataProximaAplcacao);\n\tdataComLembrete.setDate(dataComLembrete.getDate() - a.lembrete_em_dias);\n\t\n\treturn moment() >= dataComLembrete && moment() < dataProximaAplcacao\n}\n)}}",
     "label": "Data",
     "searchKey": "",
     "parentId": "0lj8qfgh52",

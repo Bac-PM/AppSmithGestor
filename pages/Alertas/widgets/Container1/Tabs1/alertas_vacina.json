@@ -518,7 +518,7 @@
     "textSize": "0.875rem",
     "widgetId": "luyrqy5bwx",
     "minWidth": 450,
-    "tableData": "{{//getAlertaVacina.data.data}}",
+    "tableData": "{{getTodosAlertaVacina.data.data.filter((a) => {\n\tlet dataProximaAplcacao = new Date(a.data_proxima_aplicacao);\n\tlet dataComLembrete = new Date(dataProximaAplcacao);\n\tdataComLembrete.setDate(dataComLembrete.getDate() - a.lembrete_em_dias);\n\t\n\treturn moment() >= dataComLembrete && moment() < dataProximaAplcacao\n}\n)}}",
     "label": "Data",
     "searchKey": "",
     "parentId": "28rbcuvj6h",

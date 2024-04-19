@@ -37,12 +37,54 @@
                 "appsmith.store.jwt"
               ],
               "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Alertas_getTodosEctoparasiticida",
+              "name": "getTodosEctoparasiticida",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "appsmith.store.jwt"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Alertas_getTodosVermifugos",
+              "name": "getTodosVermifugos",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "appsmith.store.jwt"
+              ],
+              "timeoutInMillisecond": 10000
             }
           ],
           [
             {
               "id": "Alertas_getCaesAtivos",
               "name": "getCaesAtivos",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "appsmith.store.jwt"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "Alertas_getTodosAlertaColeira",
+              "name": "getTodosAlertaColeira",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "appsmith.store.jwt"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Alertas_getTodosAlertaVacina",
+              "name": "getTodosAlertaVacina",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [

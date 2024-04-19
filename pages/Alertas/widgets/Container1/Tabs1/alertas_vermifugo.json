@@ -441,7 +441,7 @@
     "textSize": "0.875rem",
     "widgetId": "0j2iuugj9i",
     "minWidth": 450,
-    "tableData": "{{get_vermifugosDeCao.data.data}}",
+    "tableData": "{{getTodosVermifugos.data.data.filter((a) => {\n\tlet dataProximaAplcacao = new Date(a.data_proxima_aplicacao);\n\tlet dataComLembrete = new Date(dataProximaAplcacao);\n\tdataComLembrete.setDate(dataComLembrete.getDate() - a.lembrete_em_dias);\n\t\n\treturn moment() >= dataComLembrete && moment() < dataProximaAplcacao\n}\n)}}",
     "label": "Data",
     "searchKey": "",
     "parentId": "4t7maga5lh",
