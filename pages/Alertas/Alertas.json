@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 450,
+          "bottomRow": 600,
           "containerStyle": "none",
           "snapRows": 53,
           "parentRowSpace": 1,
@@ -28,8 +28,8 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Alertas_getAlertaColeira",
-              "name": "getAlertaColeira",
+              "id": "Alertas_getAlertaColeiraUmCao",
+              "name": "getAlertaColeiraUmCao",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
@@ -37,46 +37,15 @@
                 "appsmith.store.jwt"
               ],
               "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Alertas_getAlertaVacina",
-              "name": "getAlertaVacina",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "seletor_animal.selectedOptionValue",
-                "appsmith.store.jwt"
-              ],
-              "timeoutInMillisecond": 10000
-            },
+            }
+          ],
+          [
             {
               "id": "Alertas_getCaesAtivos",
               "name": "getCaesAtivos",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
-                "appsmith.store.jwt"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Alertas_get_ectoparasiticidaDeCao",
-              "name": "get_ectoparasiticidaDeCao",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "seletor_animal.selectedOptionValue",
-                "appsmith.store.jwt"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Alertas_get_vermifugosDeCao",
-              "name": "get_vermifugosDeCao",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "seletor_animal.selectedOptionValue",
                 "appsmith.store.jwt"
               ],
               "timeoutInMillisecond": 10000

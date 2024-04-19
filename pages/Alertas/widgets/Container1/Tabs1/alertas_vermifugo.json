@@ -64,12 +64,13 @@
         }
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "columnUpdatedAt": 1713384550007,
+    "columnUpdatedAt": 1713545724682,
     "defaultSelectedRowIndices": [0],
     "mobileBottomRow": 28,
     "widgetName": "alertas_vermifugo",
     "defaultPageSize": 0,
     "columnOrder": [
+        "animal",
         "tipo_aplicacao",
         "data_proxima_aplicacao",
         "lembrete_em_dias",
@@ -78,15 +79,14 @@
         "createdAt",
         "updatedAt",
         "publishedAt",
-        "aplicado",
-        "animal"
+        "aplicado"
     ],
     "dynamicPropertyPathList": [{"key": "tableData"}],
     "displayName": "Table",
-    "bottomRow": 28,
+    "bottomRow": 44,
     "columnWidthMap": {
         "data_proxima_aplicacao": 191,
-        "tipo_aplicacao": 438
+        "tipo_aplicacao": 319
     },
     "parentRowSpace": 10,
     "hideCard": false,
@@ -267,7 +267,7 @@
             "verticalAlignment": "CENTER"
         },
         "animal": {
-            "computedValue": "{{alertas_vermifugo.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"animal\"]))}}",
+            "computedValue": "{{alertas_vermifugo.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"animal\"].Nome))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "animal",
@@ -283,8 +283,8 @@
             "allowCellWrapping": false,
             "index": 8,
             "isDiscardVisible": true,
-            "isVisible": false,
-            "label": "animal",
+            "isVisible": true,
+            "label": "Animal",
             "fontStyle": "",
             "textColor": "",
             "columnType": "text",

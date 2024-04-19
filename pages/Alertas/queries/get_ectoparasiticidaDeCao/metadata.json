@@ -65,7 +65,7 @@
         "apiContentType": "text/plain"
       }
     },
-    "executeOnLoad": true,
+    "executeOnLoad": false,
     "dynamicBindingPathList": [
       {
         "key": "path"
@@ -81,7 +81,7 @@
       "appsmith.store.jwt",
       "seletor_animal.selectedOptionValue"
     ],
-    "userSetOnLoad": false,
+    "userSetOnLoad": true,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],

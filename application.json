@@ -51,6 +51,14 @@
     {
       "id": "Semoventes",
       "isDefault": false
+    },
+    {
+      "id": "Vermífugos",
+      "isDefault": false
+    },
+    {
+      "id": "Ectoparasiticidas",
+      "isDefault": false
     }
   ],
   "viewMode": false,

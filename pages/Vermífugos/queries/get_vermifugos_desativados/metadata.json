@@ -2,7 +2,7 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "getAlertaColeira",
+    "name": "get_vermifugos_desativados",
     "datasource": {
       "name": "strApi",
       "pluginId": "restapi-plugin",
@@ -13,11 +13,11 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Alertas",
+    "pageId": "Vermífugos",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
-      "path": "/api/animal-aplicacaos",
+      "path": "/api/tipo-aplicacaos",
       "headers": [
         {
           "key": "Authorization",
@@ -28,30 +28,24 @@
       "encodeParamsToggle": true,
       "queryParameters": [
         {
-          "key": "sort",
-          "value": "data_proxima_aplicacao"
+          "key": "fields[0]",
+          "value": "nome_produto"
         },
         {
-          "key": "filters[animal][id]",
-          "value": "{{seletor_animal.selectedOptionValue}}"
+          "key": "fields[1]",
+          "value": "duracao_em_dias"
         },
         {
-          "key": "filters[tipo_aplicacao][tipo_produto_antiparasitario][id]",
-          "value": "2"
+          "key": "filters[tipo_produto_antiparasitario][id]",
+          "value": "3"
         },
         {
-          "key": "filters[aplicado]",
-          "value": "true"
-        },
-        {
-          "key": "populate",
-          "value": "*"
+          "key": "filters[ativo]",
+          "value": "false"
         }
       ],
-      "body": "",
       "bodyFormData": [],
       "httpMethod": "GET",
-      "httpVersion": "HTTP11",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -65,29 +59,22 @@
     "executeOnLoad": true,
     "dynamicBindingPathList": [
       {
-        "key": "path"
-      },
-      {
         "key": "headers[0].value"
-      },
-      {
-        "key": "queryParameters[1].value"
       }
     ],
     "isValid": true,
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "appsmith.store.jwt",
-      "seletor_animal.selectedOptionValue"
+      "appsmith.store.jwt"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-04-17T19:26:33Z"
+    "createdAt": "2024-04-19T16:15:26Z"
   },
-  "id": "Alertas_getAlertaColeira",
+  "id": "Vermífugos_get_vermifugos_desativados",
   "deleted": false,
-  "gitSyncId": "6620198c897a1c105cb9afb5_66202269897a1c105cb9b04e"
+  "gitSyncId": "6620198c897a1c105cb9afb5_2024-04-19T16:15:26.964929549Z"
 }
