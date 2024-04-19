@@ -59,6 +59,10 @@
     {
       "id": "Ectoparasiticidas",
       "isDefault": false
+    },
+    {
+      "id": "Coleiras",
+      "isDefault": false
     }
   ],
   "viewMode": false,
