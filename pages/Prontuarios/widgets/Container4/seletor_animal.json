@@ -55,6 +55,6 @@
     "responsiveBehavior": "fill",
     "mobileLeftColumn": 1,
     "maxDynamicHeight": 9000,
-    "onOptionChange": "{{get_vermifugosDeCao.run();\ngetConsultaDeUmCao.run();\nget_ectoparasiticidaDeCao.run();\ngetVacinasDeUmCao.run()}}",
+    "onOptionChange": "{{get_vermifugosDeCao.run();\ngetConsultaDeUmCao.run();\nget_ectoparasiticidaDeCao.run();\ngetVacinasDeUmCao.run();\ngetAllColeirasDeUmCao.run()}}",
     "minDynamicHeight": 4
 }

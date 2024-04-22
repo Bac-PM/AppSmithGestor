@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 650,
+          "bottomRow": 1150,
           "containerStyle": "none",
           "snapRows": 79,
           "parentRowSpace": 1,
@@ -39,6 +39,27 @@
             }
           ],
           [
+            {
+              "id": "Prontuarios_getAllColeiras",
+              "name": "getAllColeiras",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "appsmith.store.jwt"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Prontuarios_getAllColeirasDeUmCao",
+              "name": "getAllColeirasDeUmCao",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "seletor_animal.selectedOptionValue",
+                "appsmith.store.jwt"
+              ],
+              "timeoutInMillisecond": 10000
+            },
             {
               "id": "Prontuarios_get_Ectoparasiticidas",
               "name": "get_Ectoparasiticidas",
