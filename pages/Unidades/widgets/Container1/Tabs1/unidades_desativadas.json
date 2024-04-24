@@ -238,7 +238,7 @@
         "customColumn2": {
             "boxShadow": "{{unidades_desativadas.processedTableData.map((currentRow, currentIndex) => ( \"none\"))}}",
             "computedValue": "",
-            "onClick": "{{storeValue('id', unidades_desativadas.triggeredRow.id);\nstoreValue('status', true);\nput_ativo.run().then(() => {\n  showAlert('Ativado com sucesso', 'success');\n});\nget.run();}}",
+            "onClick": "{{storeValue('id', unidades_desativadas.triggeredRow.id);\nstoreValue('status', true);\nput_ativoUnidades.run().then(() => {\n  showAlert('Ativado com sucesso', 'success');\n});\ngetUnidades.run();}}",
             "buttonColor": "rgb(48, 73, 136)",
             "isEditable": false,
             "notation": "standard",
@@ -378,7 +378,7 @@
     "textSize": "0.875rem",
     "widgetId": "tdkz2podxp",
     "minWidth": 450,
-    "tableData": "{{get.data.data.filter( element => element.ativo == false)}}",
+    "tableData": "{{getUnidades.data.data.filter( element => element.ativo == false)}}",
     "label": "Data",
     "searchKey": "",
     "parentId": "h9a5p0vwlq",

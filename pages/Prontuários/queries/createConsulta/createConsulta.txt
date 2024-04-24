@@ -1,0 +1,10 @@
+{
+	"data_consulta": {{dataConsultaCreate.selectedDate}},
+	"anamnese": {{anamneseCreate.text}},
+	"exame_fisico": {{exameFisicoCreate.text}},
+	"diagnostico": {{diagnosticoCreate.text}},
+	"animal" : {{seletor_animal.selectedOptionValue}},
+	"retorno" : {{retornoCreate.selectedOptionValue}},
+	"users_permissions_user" : {{getIdUsuario.data.id}}
+}
+

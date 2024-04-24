@@ -2,7 +2,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 4,
     "widgetName": "IconButton5",
-    "onClick": "{{resetWidget(\"Add_verm\", true);\ncloseModal('Add_verm');}}",
+    "onClick": "{{resetWidget(\"Add_ecto\", true);\ncloseModal('Add_ecto');}}",
     "buttonColor": "rgb(48, 73, 136)",
     "dynamicPropertyPathList": [],
     "displayName": "Icon button",

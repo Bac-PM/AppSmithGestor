@@ -19,7 +19,7 @@
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 87,
+          "version": 89,
           "minHeight": 710,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
@@ -28,8 +28,8 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Unidades_get",
-              "name": "get",
+              "id": "Unidades_getUnidades",
+              "name": "getUnidades",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [

@@ -3,7 +3,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 22,
     "widgetName": "Button7",
-    "onClick": "{{post.run().then(() => {\n\tget.run();\n  showAlert('Adicionado com sucesso', 'success');\n  closeModal('Add');\n}).catch(() => {\n post.data.error.details.errors.forEach(element => {\n    showAlert(element.message, 'error');\n\t\n});\t\n\t\n});}}",
+    "onClick": "{{postUnidades.run().then(() => {\n\tgetUnidades.run();\n  showAlert('Adicionado com sucesso', 'success');\n  closeModal('Add');\n}).catch(() => {\n postUnidades.data.error.details.errors.forEach(element => {\n    showAlert(element.message, 'error');\n\t\n});\t\n\t\n});}}",
     "buttonColor": "rgb(48, 73, 136)",
     "dynamicPropertyPathList": [],
     "displayName": "Button",

@@ -41,7 +41,7 @@
       "isDefault": false
     },
     {
-      "id": "Prontuarios",
+      "id": "Prontuários",
       "isDefault": false
     },
     {
@@ -62,6 +62,10 @@
     },
     {
       "id": "Coleiras",
+      "isDefault": false
+    },
+    {
+      "id": "Cadastros",
       "isDefault": false
     }
   ],
