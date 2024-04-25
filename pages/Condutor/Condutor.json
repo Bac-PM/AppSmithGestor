@@ -19,7 +19,7 @@
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 87,
+          "version": 89,
           "minHeight": 710,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
@@ -33,7 +33,6 @@
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
-                "LinkUrl.url_api",
                 "appsmith.store.jwt"
               ],
               "timeoutInMillisecond": 10000
@@ -44,7 +43,6 @@
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
-                "LinkUrl.url_api",
                 "appsmith.store.jwt"
               ],
               "timeoutInMillisecond": 10000

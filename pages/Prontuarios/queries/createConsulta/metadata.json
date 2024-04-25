@@ -32,7 +32,7 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{\n\t\"data_consulta\": {{dataConsultaCreate.formattedDate}},\n\t\"anamnese\": {{anamneseCreate.text}},\n\t\"exame_fisico\": {{exameFisicoCreate.text}},\n\t\"diagnostico\": {{diagnosticoCreate.text}},\n\t\"animal\" : {{seletor_animal.selectedOptionValue}},\n\t\"retorno\" : {{retornoCreate.selectedOptionValue}}\n}\n// precisa colocar qual medico ( pelo login)\n",
+      "body": "{\n\t\"data_consulta\": {{dataConsultaCreate.formattedDate}},\n\t\"anamnese\": {{anamneseCreate.text}},\n\t\"exame_fisico\": {{exameFisicoCreate.text}},\n\t\"diagnostico\": {{diagnosticoCreate.text}},\n\t\"animal\" : {{seletor_animal.selectedOptionValue}},\n\t\"retorno\" : {{retornoCreate.selectedOptionValue}},\n\t\"users_permissions_user\" : {{}}\n}\n// precisa colocar qual medico ( pelo login)\n",
       "bodyFormData": [],
       "httpMethod": "POST",
       "selfReferencingDataPaths": [],
@@ -58,6 +58,7 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
+      "",
       "anamneseCreate.text",
       "appsmith.store.jwt",
       "dataConsultaCreate.formattedDate",
@@ -70,7 +71,7 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-03-28T01:23:15Z"
+    "createdAt": "2024-04-17T18:47:47Z"
   },
   "id": "Prontuarios_createConsulta",
   "deleted": false,
