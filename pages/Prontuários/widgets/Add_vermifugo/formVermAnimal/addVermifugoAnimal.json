@@ -5,7 +5,7 @@
     "widgetName": "addVermifugoAnimal",
     "onClick": "{{create_vermAnimal.run().then(() => {\n  resetWidget(\"Add_vermifugo\", true);\n  closeModal('Add_vermifugo');\n  get_vermifugosDeCao.run();\n}).catch(() => {\n  create_vermAnimal.data.error.details.errors.forEach(element => {\n    showAlert(element.message, 'error');\n  });\n});}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "dynamicPropertyPathList": [],
+    "dynamicPropertyPathList": [{"key": "onClick"}],
     "displayName": "Button",
     "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
     "searchTags": [
