@@ -40,8 +40,8 @@
           ],
           [
             {
-              "id": "Semoventes_get_all_animals_someventes",
-              "name": "get_all_animals_someventes",
+              "id": "Semoventes_get_animals_ativos",
+              "name": "get_animals_ativos",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
@@ -72,6 +72,68 @@
             {
               "id": "Semoventes_get_unidades",
               "name": "get_unidades",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "appsmith.store.jwt"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "Semoventes_get_cor",
+              "name": "get_cor",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "appsmith.store.jwt"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Semoventes_get_especializacaos",
+              "name": "get_especializacaos",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "appsmith.store.jwt"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Semoventes_get_forma_Aquisicao",
+              "name": "get_forma_Aquisicao",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "appsmith.store.jwt"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Semoventes_get_raca",
+              "name": "get_raca",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "appsmith.store.jwt"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Semoventes_get_sexo",
+              "name": "get_sexo",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "appsmith.store.jwt"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Semoventes_get_stt_operacional",
+              "name": "get_stt_operacional",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [

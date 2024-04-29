@@ -20,11 +20,7 @@
     "parentColumnSpace": 6.9375,
     "dynamicTriggerPathList": [],
     "leftColumn": 2,
-    "dynamicBindingPathList": [
-        {"key": "truncateButtonColor"},
-        {"key": "fontFamily"},
-        {"key": "borderRadius"}
-    ],
+    "dynamicBindingPathList": [{"key": "fontFamily"}],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
     "text": "Ao dar baixa do animal, ele será desativado e não podera mais ser colocado em operação",

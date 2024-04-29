@@ -3,7 +3,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 4,
     "widgetName": "Button1Copy",
-    "onClick": "{{\nresetWidget(\"Add_consulta_id\", true);\nshowModal('Add_consulta_id');\n}}",
+    "onClick": "{{resetWidget(\"Add_consulta_id\", true);\ngetIdUsuario.run().then(() => {\n  showModal('Add_consulta_id');\n});}}",
     "buttonColor": "rgb(48, 73, 136)",
     "dynamicPropertyPathList": [],
     "displayName": "Button",

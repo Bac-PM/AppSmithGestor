@@ -3,9 +3,9 @@
     "boxShadow": "none",
     "mobileBottomRow": 37,
     "widgetName": "addAnimalVacinaANDTipoVacina",
-    "onClick": "{{createTipoVacina.run().then(() => {\n  createAnimalVacina.run().then(() => {\n    showAlert('Lembrete de Vacina adicionada com sucesso', 'success');\n    closeModal('modalAdicionaLembreteVacina');\n    getVacinasDeUmCao.run();\n  }).catch(() => {\n    showAlert(' Erro ao adicionar Lembrete de Vacina', 'failure');\n  });\n}).catch(() => {\n  showAlert('Erro ao adicionar Lembrete de Vacina', 'error');\n});}}",
+    "onClick": "{{  createAnimalVacina.run().then(() => {\n    showAlert('Lembrete de Vacina adicionada com sucesso', 'success');\n    closeModal('modalAdicionaLembreteVacina');\n    getVacinasDeUmCao.run();\n  }).catch(() => {\n    showAlert(' Erro ao adicionar Lembrete de Vacina', 'failure');\n  });}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "dynamicPropertyPathList": [],
+    "dynamicPropertyPathList": [{"key": "onClick"}],
     "displayName": "Button",
     "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
     "searchTags": [

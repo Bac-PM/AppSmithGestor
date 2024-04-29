@@ -29,43 +29,35 @@
       "queryParameters": [
         {
           "key": "fields[0]",
-          "value": "nome"
+          "value": "Nome"
         },
         {
-          "key": "fields[1]",
-          "value": "Sexo"
-        },
-        {
-          "key": "fields[2]",
-          "value": "Status_operacional"
-        },
-        {
-          "key": "fields[3]",
-          "value": "Racao_Diaria"
+          "key": "populate[sexo][fields][0]",
+          "value": "sexo"
         },
         {
           "key": "fields[4]",
           "value": "Data_nascimento"
         },
         {
-          "key": "fields[5]",
-          "value": "id"
-        },
-        {
           "key": "fields[6]",
-          "value": "box"
+          "value": "Box"
         },
         {
-          "key": "populate[0]",
-          "value": "Condutor_principal"
+          "key": "populate[Condutor_principal][fields][1]",
+          "value": "Nome"
         },
         {
-          "key": "fields[7]",
-          "value": "Status_geral"
+          "key": "populate[status_saude][fields][1]",
+          "value": "stt_saude"
         },
         {
-          "key": "fields[8]",
-          "value": "Status_saude"
+          "key": "populate[status_operacional][fields][1]",
+          "value": "stt_operacional"
+        },
+        {
+          "key": "filters[status_geral]",
+          "value": "true"
         }
       ],
       "body": "",

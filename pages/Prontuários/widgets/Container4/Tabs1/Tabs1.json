@@ -660,7 +660,7 @@
             "index": 7,
             "id": "tabha0a64v0i2",
             "label": "Ração",
-            "isVisible": true
+            "isVisible": false
         },
         "tabacej38f3r0": {
             "widgetId": "b4gp6foefo",
@@ -668,7 +668,7 @@
             "index": 6,
             "id": "tabacej38f3r0",
             "label": "Ocorrências",
-            "isVisible": true
+            "isVisible": false
         },
         "tabw3ximd96qc": {
             "widgetId": "6en2a2imye",
@@ -676,7 +676,7 @@
             "index": 8,
             "id": "tabw3ximd96qc",
             "label": "Pesos",
-            "isVisible": true
+            "isVisible": false
         },
         "tabo3x4xe6e8m": {
             "widgetId": "4wbtbvrzc6",

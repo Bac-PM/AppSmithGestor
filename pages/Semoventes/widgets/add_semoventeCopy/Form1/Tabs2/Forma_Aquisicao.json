@@ -9,7 +9,10 @@
     "defaultOptionValue": "",
     "animateLoading": true,
     "leftColumn": 0,
-    "dynamicBindingPathList": [{"key": "borderRadius"}],
+    "dynamicBindingPathList": [
+        {"key": "sourceData"},
+        {"key": "borderRadius"}
+    ],
     "placeholderText": "Selecione a forma de aquisição do animal",
     "isDisabled": false,
     "isRequired": false,
@@ -28,8 +31,8 @@
     "widgetName": "Forma_Aquisicao",
     "isFilterable": true,
     "dynamicPropertyPathList": [
-        {"key": "sourceData"},
-        {"key": "onOptionChange"}
+        {"key": "onOptionChange"},
+        {"key": "sourceData"}
     ],
     "displayName": "Select",
     "searchTags": ["dropdown"],
@@ -40,23 +43,23 @@
     "parentColumnSpace": 13.59375,
     "dynamicTriggerPathList": [{"key": "onOptionChange"}],
     "labelPosition": "Top",
-    "sourceData": "[\n  {\n    \"name\": \"Nascimento no Canil PMES\",\n    \"code\": \"Nascimento no Canil PMES\"\n  },\n  {\n    \"name\": \"Nascimento em Canil externo\",\n    \"code\": \"Nascimento em Canil externo\"\n  },\n  {\n    \"name\": \"Compra\",\n    \"code\": \"Compra\"\n  },\n  {\n    \"name\": \"Doação\",\n    \"code\": \"Doação\"\n  },\n  {\n    \"name\": \"Resgate\",\n    \"code\": \"Resgate\"\n  }\n]",
+    "sourceData": "{{get_forma_Aquisicao.data.data.map( (obj) =>{ return  {'label': obj.forma, 'value': obj.id } })}}",
     "key": "up885n6100",
     "labelTextSize": "0.875rem",
     "isDeprecated": false,
     "rightColumn": 31,
     "widgetId": "xew4alr9qd",
-    "optionValue": "code",
+    "optionValue": "value",
     "minWidth": 450,
     "parentId": "3run1myk2s",
     "labelAlignment": "left",
     "renderMode": "CANVAS",
     "mobileTopRow": 26,
-    "optionLabel": "name",
+    "optionLabel": "label",
     "responsiveBehavior": "fill",
     "originalTopRow": 21,
     "mobileLeftColumn": 2,
     "maxDynamicHeight": 9000,
-    "onOptionChange": "{{\n(function() {\n  if (Forma_Aquisicao.selectedOptionValue == 'Compra'){\n\tValor_Compra.setVisibility(true)\n\tProprietarioAnterior.setValue('')\n\tProprietarioAnterior.setDisabled(false)\n\t} else if (Forma_Aquisicao.selectedOptionValue == 'Nascimento no Canil PMES'){\n\tProprietarioAnterior.setDisabled(true)\n\tValor_Compra.setVisibility(false)\n\tProprietarioAnterior.setValue('Nascimento no Canil PMES')\n\t} else {\n\t\tProprietarioAnterior.setValue('')\n\t\tProprietarioAnterior.setDisabled(false)\n\t\tValor_Compra.setVisibility(false)\n\t\t}\n})();\n}}",
+    "onOptionChange": "{{\n(function() {\n  if (Forma_Aquisicao.selectedOptionLabel == 'Compra'){\n\tValor_Compra.setVisibility(true)\n\tProprietarioAnterior.setValue('')\n\tProprietarioAnterior.setDisabled(false)\n\t} else if (Forma_Aquisicao.selectedOptionLabel == 'Nascimento no Canil PMES'){\n\tProprietarioAnterior.setDisabled(true)\n\tValor_Compra.setVisibility(false)\n\tProprietarioAnterior.setValue('Nascimento no Canil PMES')\n\t} else {\n\t\tProprietarioAnterior.setValue('')\n\t\tProprietarioAnterior.setDisabled(false)\n\t\tValor_Compra.setVisibility(false)\n\t\t}\n})();\n}}",
     "minDynamicHeight": 4
 }

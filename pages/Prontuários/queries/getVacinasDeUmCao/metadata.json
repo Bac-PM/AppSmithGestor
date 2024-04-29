@@ -37,7 +37,7 @@
         },
         {
           "key": "populate",
-          "value": "*,tipo_vacina.foto_etiqueta"
+          "value": "*,nome_vacina.tipo_vacina"
         }
       ],
       "body": "",
@@ -60,10 +60,10 @@
         "key": "path"
       },
       {
-        "key": "queryParameters[0].value"
+        "key": "headers[0].value"
       },
       {
-        "key": "headers[0].value"
+        "key": "queryParameters[0].value"
       }
     ],
     "isValid": true,

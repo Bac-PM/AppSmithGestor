@@ -11,8 +11,8 @@
     "animateLoading": true,
     "leftColumn": 29,
     "dynamicBindingPathList": [
-        {"key": "borderRadius"},
-        {"key": "defaultOptionValue"}
+        {"key": "defaultOptionValue"},
+        {"key": "borderRadius"}
     ],
     "placeholderText": "Informe o status do animal",
     "isDisabled": true,

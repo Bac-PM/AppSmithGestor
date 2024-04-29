@@ -16,8 +16,8 @@
     "imageShape": "RECTANGLE",
     "leftColumn": 42,
     "dynamicBindingPathList": [
-        {"key": "borderRadius"},
-        {"key": "defaultImage"}
+        {"key": "defaultImage"},
+        {"key": "borderRadius"}
     ],
     "defaultImage": "{{LinkUrl.url_App_Smith+SemoventesDesativados.triggeredRow.Foto_frente.url}}",
     "flexVerticalAlignment": "start",

@@ -10,8 +10,8 @@
     "animateLoading": true,
     "leftColumn": 0,
     "dynamicBindingPathList": [
-        {"key": "borderRadius"},
-        {"key": "defaultOptionValue"}
+        {"key": "defaultOptionValue"},
+        {"key": "borderRadius"}
     ],
     "placeholderText": "Selecione a forma de aquisição do animal",
     "isDisabled": true,

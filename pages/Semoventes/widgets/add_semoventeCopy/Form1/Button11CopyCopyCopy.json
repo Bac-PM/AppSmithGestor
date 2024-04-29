@@ -24,9 +24,9 @@
     "dynamicTriggerPathList": [{"key": "onClick"}],
     "leftColumn": 40,
     "dynamicBindingPathList": [
+        {"key": "isVisible"},
         {"key": "buttonColor"},
-        {"key": "borderRadius"},
-        {"key": "isVisible"}
+        {"key": "borderRadius"}
     ],
     "text": "Voltar",
     "isDisabled": false,

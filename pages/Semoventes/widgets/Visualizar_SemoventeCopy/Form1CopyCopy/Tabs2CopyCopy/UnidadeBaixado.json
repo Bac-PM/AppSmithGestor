@@ -11,8 +11,8 @@
     "leftColumn": 32,
     "dynamicBindingPathList": [
         {"key": "sourceData"},
-        {"key": "borderRadius"},
-        {"key": "defaultOptionValue"}
+        {"key": "defaultOptionValue"},
+        {"key": "borderRadius"}
     ],
     "placeholderText": "Selecione a localização",
     "isDisabled": true,

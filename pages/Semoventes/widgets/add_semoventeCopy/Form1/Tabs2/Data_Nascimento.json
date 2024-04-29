@@ -1,6 +1,6 @@
 {
     "boxShadow": "none",
-    "dateFormat": "YYYY-MM-DD",
+    "dateFormat": "DD/MM/YYYY",
     "iconSVG": "/static/media/icon.c0c4b770ee1862b73198267331d1611c.svg",
     "topRow": 25,
     "labelWidth": 5,
@@ -8,9 +8,10 @@
     "animateLoading": true,
     "leftColumn": 0,
     "dynamicBindingPathList": [
+        {"key": "defaultDate"},
+        {"key": "maxDate"},
         {"key": "accentColor"},
-        {"key": "borderRadius"},
-        {"key": "maxDate"}
+        {"key": "borderRadius"}
     ],
     "labelTooltip": "",
     "isDisabled": false,
@@ -29,7 +30,10 @@
     "mobileBottomRow": 33,
     "widgetName": "Data_Nascimento",
     "minDate": "1920-12-31T18:30:00.000Z",
-    "dynamicPropertyPathList": [{"key": "maxDate"}],
+    "dynamicPropertyPathList": [
+        {"key": "maxDate"},
+        {"key": "defaultDate"}
+    ],
     "displayName": "DatePicker",
     "searchTags": ["calendar"],
     "bottomRow": 32,
@@ -45,6 +49,7 @@
     "labelTextSize": "0.875rem",
     "isDeprecated": false,
     "rightColumn": 31,
+    "defaultDate": "{{\n(function() {\n  const dataAtual = new Date();\n\treturn dataAtual;\n})();\n}}",
     "widgetId": "8ydpufp74j",
     "minWidth": 450,
     "label": "Data Nascimento",

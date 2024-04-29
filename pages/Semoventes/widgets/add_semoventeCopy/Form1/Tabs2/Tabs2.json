@@ -18,9 +18,9 @@
     "dynamicTriggerPathList": [],
     "leftColumn": 0,
     "dynamicBindingPathList": [
+        {"key": "defaultTab"},
         {"key": "accentColor"},
-        {"key": "borderRadius"},
-        {"key": "defaultTab"}
+        {"key": "borderRadius"}
     ],
     "children": [
         {

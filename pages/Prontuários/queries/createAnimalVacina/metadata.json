@@ -32,7 +32,7 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{\n    \"data_proxima_aplicacao\": {{addDataProximaDose.selectedDate}},\n    \"anotacoes\": {{addAnotacoes.text}},\n    \"lembrete_em_dias\": {{addLembreteDias.selectedOptionValue}},\n    \"dose_atual\": {{addDoseAtual.text}},\n    \"animal\": {{seletor_animal.selectedOptionValue}},\n    \"tipo_vacina\": {{createTipoVacina.data.data.id}}\n}",
+      "body": "{\n    \"data_proxima_aplicacao\": {{addDataProximaDose.selectedDate}},\n    \"anotacoes\": {{addAnotacoes.text}},\n    \"lembrete_em_dias\": {{addLembreteEmDias.selectedOptionValue}},\n    \"dose_atual\": {{addDoseAtual.text}},\n    \"animal\": {{seletor_animal.selectedOptionValue}},\n    \"foto_etiqueta\": \"{{parseInt(FotoIdFrente.text)}}\",\n    \"doses_totais\": \"{{parseInt(addDoseTotal.text)}}\",\n\t\t\"intervalo_entre_doses\": {{addDiaEntreDoses.text}}\n}",
       "bodyFormData": [],
       "httpMethod": "POST",
       "selfReferencingDataPaths": [],
@@ -46,17 +46,23 @@
       }
     },
     "executeOnLoad": false,
-    "dynamicBindingPathList": [],
+    "dynamicBindingPathList": [
+      {
+        "key": "body"
+      }
+    ],
     "isValid": true,
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
       "addAnotacoes.text",
       "addDataProximaDose.selectedDate",
+      "addDiaEntreDoses.text",
       "addDoseAtual.text",
-      "addLembreteDias.selectedOptionValue",
+      "addLembreteEmDias.selectedOptionValue",
       "appsmith.store.jwt",
-      "createTipoVacina.data.data.id",
+      "parseInt(FotoIdFrente.text)",
+      "parseInt(addDoseTotal.text)",
       "seletor_animal.selectedOptionValue"
     ],
     "userSetOnLoad": false,

@@ -32,7 +32,7 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{\n  \"data\": {\n    \"nome_vacina\": {{addNomeVacina.selectedOptionValue}},\n    \"tipo_vacina\": {{addTipoVacina.selectedOptionValue}},\n\t\t\"foto_etiqueta\": {{parseInt(FotoIdFrente.text)}},\n    \"doses_totais\": {{parseInt(addDoseTotal.text)}}\n   \n  }\n}\n",
+      "body": "{\n  \"data\": {\n    \"nome_vacina\": \"{{addNomeVacina.selectedOptionValue}}\",\n    \"tipo_vacina\": \"{{addTipoVacina.selectedOptionValue}}\",\n\t\t\"foto_etiqueta\": \"{{parseInt(FotoIdFrente.text)}}\",\n    \"doses_totais\": \"{{parseInt(addDoseTotal.text)}}\"\n   \n  }\n}\n",
       "bodyFormData": [],
       "httpMethod": "POST",
       "selfReferencingDataPaths": [],
@@ -46,7 +46,11 @@
       }
     },
     "executeOnLoad": false,
-    "dynamicBindingPathList": [],
+    "dynamicBindingPathList": [
+      {
+        "key": "body"
+      }
+    ],
     "isValid": true,
     "invalids": [],
     "messages": [],

@@ -1,7 +1,0 @@
-{
-  "data": {
-    "nome_produto": "{{add_nome.text}}",
-    "duracao_em_dias": {{add_duracao.text}},
-    "tipo_produto_antiparasitario": "2"
-  }
-}

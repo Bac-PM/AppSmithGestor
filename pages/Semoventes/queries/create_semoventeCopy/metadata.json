@@ -32,7 +32,7 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{\n\t\"data\": {\n\t\t\"Nome\": {{Nome.text}},\n\t\t\"Status_operacional\" : {{Status_operacional.selectedOptionValue}},\n\t\t\"Status_geral\" : {{Status_geral.selectedOptionValue}},\n\t\t\"Status_saude\" : {{Status_saude.selectedOptionValue}},\n\t\t\"Sexo\" : {{Sexo.selectedOptionValue}},\n\t\t\"Data_nascimento\" : {{ Data_Nascimento.selectedDate}},\n\t\t\"Box\" : {{Box.text}},\n\t\t\"Alocacao\" : {{ Unidade.selectedOptionValue}},\n\t\t\"Condutor_principal\" : {{Condutor_principal.selectedOptionValue}},\n\t\t\"Condutor_secundario\" : {{ Condutor_secundario.selectedOptionValue}}, \n\t\t\"Foto_frente\" : {{parseInt(FotoIdFrente.text)}},\n\t\t\"Foto_esquerda\" : {{parseInt(FotoIdEsquerda.text)}},\n\t\t\"Foto_direita\" : {{parseInt(FotoIdDireita.text)}},\n\t\t\"numero_patrimonio\" : {{NumeroPatrimonio.text}},\n\t\t\"numero_de_microchip\" : {{NumeroMicrochip.text}},\n\t\t\"raca\" : {{Raca.selectedOptionValue}},\n\t\t\"cor\" : {{Cor.selectedOptionValue}},\n\t\t\"nome_do_proprietario_anterior\" : {{ProprietarioAnterior.text}},\n\t\t\"forma_aquisicao\" : {{Forma_Aquisicao.selectedOptionValue}},\n\t\t\"especializacao\" : {{Especializacao.selectedOptionValue}},\n\t\t\"data_aquisicao\" : {{Data_Aquisicao.selectedDate}},\n\t\t\"data_inclusao_carga\" : {{Data_Inclusao_Carga.selectedDate}},\n\t\t\"valor_compra\" : {{Valor_Compra.text}}\n\t}\n}",
+      "body": "{\n\t\"data\": {\n\t\t\"Nome\": {{Nome.text}},\n\t\t\"status_operacional\" : {{Status_operacional.selectedOptionValue}},\n\t\t\"status_saude\": 1,\n\t\t\"sexo\" : {{Sexo.selectedOptionValue}},\n\t\t\"Data_nascimento\" : {{ Data_Nascimento.selectedDate}},\n\t\t\"Box\" : {{Box.text}},\n\t\t\"Alocacao\" : {{ Unidade.selectedOptionValue}},\n\t\t\"Condutor_principal\" : {{Condutor_principal.selectedOptionValue}},\n\t\t\"Condutor_secundario\" : {{ Condutor_secundario.selectedOptionValue}}, \n\t\t\"Foto_frente\" : {{parseInt(FotoIdFrente.text)}},\n\t\t\"Foto_esquerda\" : {{parseInt(FotoIdEsquerda.text)}},\n\t\t\"Foto_direita\" : {{parseInt(FotoIdDireita.text)}},\n\t\t\"numero_patrimonio\" : {{NumeroPatrimonio.text}},\n\t\t\"numero_de_microchip\" : {{NumeroMicrochip.text}},\n\t\t\"raca\" : {{Raca.selectedOptionValue}},\n\t\t\"cor_animal\" : {{Cor.selectedOptionValue}},\n\t\t\"nome_do_proprietario_anterior\" : {{ProprietarioAnterior.text}},\n\t\t\"forma_aquisicao\" : {{Forma_Aquisicao.selectedOptionValue}},\n\t\t\"especializacao\" : {{Especializacao.selectedOptionValue}},\n\t\t\"data_aquisicao\" : {{Data_Aquisicao.selectedDate}},\n\t\t\"data_inclusao_carga\" : {{Data_Inclusao_Carga.selectedDate}},\n\t\t\"valor_compra\" : {{Valor_Compra.text}}\n\t}\n}",
       "bodyFormData": [],
       "httpMethod": "POST",
       "selfReferencingDataPaths": [],
@@ -46,7 +46,11 @@
       }
     },
     "executeOnLoad": false,
-    "dynamicBindingPathList": [],
+    "dynamicBindingPathList": [
+      {
+        "key": "body"
+      }
+    ],
     "isValid": true,
     "invalids": [],
     "messages": [],
@@ -67,9 +71,7 @@
       "ProprietarioAnterior.text",
       "Raca.selectedOptionValue",
       "Sexo.selectedOptionValue",
-      "Status_geral.selectedOptionValue",
       "Status_operacional.selectedOptionValue",
-      "Status_saude.selectedOptionValue",
       "Valor_Compra.text",
       "appsmith.store.jwt",
       "parseInt(FotoIdDireita.text)",

@@ -10,8 +10,8 @@
     "animateLoading": true,
     "leftColumn": 32,
     "dynamicBindingPathList": [
-        {"key": "borderRadius"},
-        {"key": "defaultOptionValue"}
+        {"key": "defaultOptionValue"},
+        {"key": "borderRadius"}
     ],
     "placeholderText": "Selecione a cor do animal",
     "isDisabled": true,
