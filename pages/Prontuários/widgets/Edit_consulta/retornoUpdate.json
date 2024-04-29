@@ -19,8 +19,8 @@
     "dynamicTriggerPathList": [],
     "leftColumn": 1,
     "dynamicBindingPathList": [
-        {"key": "accentColor"},
-        {"key": "defaultOptionValue"}
+        {"key": "defaultOptionValue"},
+        {"key": "accentColor"}
     ],
     "labelPosition": "Top",
     "options": [

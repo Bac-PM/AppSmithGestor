@@ -6,5 +6,6 @@
     "animal": {{seletor_animal.selectedOptionValue}},
     "foto_etiqueta": "{{parseInt(FotoIdFrente.text)}}",
     "doses_totais": "{{parseInt(addDoseTotal.text)}}",
-		"intervalo_entre_doses": {{addDiaEntreDoses.text}}
+		"intervalo_entre_doses": {{addDiaEntreDoses.text}},
+		"nome_vacina": {{addNomeVacinaCopy.selectedOptionValue}}
 }

@@ -16,8 +16,8 @@
     "imageShape": "RECTANGLE",
     "leftColumn": 47,
     "dynamicBindingPathList": [
-        {"key": "borderRadius"},
-        {"key": "defaultImage"}
+        {"key": "defaultImage"},
+        {"key": "borderRadius"}
     ],
     "defaultImage": "{{ImagemLocal.frente}}",
     "flexVerticalAlignment": "start",

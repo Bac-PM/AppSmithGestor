@@ -10,9 +10,8 @@
     "animateLoading": true,
     "leftColumn": 27,
     "dynamicBindingPathList": [
-        {"key": "accentColor"},
-        {"key": "borderRadius"},
-        {"key": "defaultOptionValue"}
+        {"key": "defaultOptionValue"},
+        {"key": "borderRadius"}
     ],
     "placeholderText": "Selecione uma opção",
     "isDisabled": false,

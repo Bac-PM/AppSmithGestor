@@ -6,11 +6,11 @@
     "type": "INPUT_WIDGET_V2",
     "animateLoading": true,
     "resetOnSubmit": true,
-    "leftColumn": 0,
+    "leftColumn": 1,
     "dynamicBindingPathList": [
+        {"key": "defaultText"},
         {"key": "accentColor"},
-        {"key": "borderRadius"},
-        {"key": "defaultText"}
+        {"key": "borderRadius"}
     ],
     "labelStyle": "",
     "inputType": "NUMBER",
@@ -51,7 +51,7 @@
     "labelTextSize": "0.875rem",
     "onTextChanged": "{{\n(function() {\n  \t\tlet inicio = new Date();\n\t\tinicio.setDate(inicio.getDate()+  addDiaEntreDoses.text)\n\t\taddDataProximaDose.setValue(inicio)\n\t\t\n})();\n}}",
     "isDeprecated": false,
-    "rightColumn": 23,
+    "rightColumn": 24,
     "widgetId": "12mulu0l89",
     "minWidth": 450,
     "label": "Período de tempo entre as doses (Dias)",

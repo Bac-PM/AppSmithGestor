@@ -6,7 +6,7 @@
     "type": "INPUT_WIDGET_V2",
     "animateLoading": true,
     "resetOnSubmit": true,
-    "leftColumn": 0,
+    "leftColumn": 1,
     "dynamicBindingPathList": [
         {"key": "accentColor"},
         {"key": "borderRadius"}
@@ -47,7 +47,7 @@
     "key": "vqy1w8ce77",
     "labelTextSize": "0.875rem",
     "isDeprecated": false,
-    "rightColumn": 23,
+    "rightColumn": 24,
     "widgetId": "ayhws6k3p6",
     "minWidth": 450,
     "label": "Dose atual",

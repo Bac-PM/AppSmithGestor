@@ -8,9 +8,9 @@
     "animateLoading": true,
     "leftColumn": 27,
     "dynamicBindingPathList": [
+        {"key": "defaultDate"},
         {"key": "accentColor"},
-        {"key": "borderRadius"},
-        {"key": "defaultDate"}
+        {"key": "borderRadius"}
     ],
     "labelTooltip": "calculado automáticamente com base no período de tempo entre as doses",
     "isDisabled": false,

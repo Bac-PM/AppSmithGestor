@@ -80,6 +80,18 @@
           ],
           [
             {
+              "id": "Prontuários_getNomeVacinas",
+              "name": "getNomeVacinas",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "appsmith.store.jwt"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
               "id": "Prontuários_getAllColeirasDeUmCao",
               "name": "getAllColeirasDeUmCao",
               "confirmBeforeExecute": false,

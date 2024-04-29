@@ -2,7 +2,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 4,
     "widgetName": "fecharAdicionarConsultaCopyCopy2Copy",
-    "onClick": "{{closeModal('modalAdicionaLembreteVacinaCopy');}}",
+    "onClick": "{{closeModal('modalAtualizaLembreteVacina');}}",
     "buttonColor": "rgb(48, 73, 136)",
     "dynamicPropertyPathList": [],
     "displayName": "Icon button",

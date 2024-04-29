@@ -8,9 +8,9 @@
     "animateLoading": true,
     "leftColumn": 1,
     "dynamicBindingPathList": [
+        {"key": "defaultDate"},
         {"key": "accentColor"},
-        {"key": "borderRadius"},
-        {"key": "defaultDate"}
+        {"key": "borderRadius"}
     ],
     "isDisabled": false,
     "isRequired": false,

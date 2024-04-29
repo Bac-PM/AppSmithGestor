@@ -1,7 +1,7 @@
 {
 	"data": {
 		"Nome": {{NomeUpdate.text}},
-		"Status_operacional" : {{Status_operacionalUpdate.selectedOptionValue}},
+		"status_operacional" : {{Status_operacionalUpdate.selectedOptionValue}},
 		"Status_saude" : {{Status_saudeUpdate.selectedOptionValue}},
 		"Sexo" : {{SexoUpdate.selectedOptionValue}},
 		"Data_nascimento" : {{ Data_NascimentoUpdate.selectedDate}},

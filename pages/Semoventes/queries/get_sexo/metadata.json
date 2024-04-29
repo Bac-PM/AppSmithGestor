@@ -31,7 +31,12 @@
         }
       ],
       "encodeParamsToggle": true,
-      "queryParameters": [],
+      "queryParameters": [
+        {
+          "key": "fields[0]",
+          "value": "Nome"
+        }
+      ],
       "bodyFormData": [],
       "httpMethod": "GET",
       "selfReferencingDataPaths": [],
