@@ -7,7 +7,7 @@ export default {
 	@returns {Roles} : todos os dados das roles, já filtradas
 	@param {Role} - roles: todas as roles cadastradas no sistema
 	*/	
-		
+
 		return roles.filter(  role => role.name !== "Authenticated" && role.name !== "Public")
 	}
 };

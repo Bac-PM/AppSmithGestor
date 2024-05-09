@@ -3,8 +3,9 @@
     "boxShadow": "none",
     "mobileBottomRow": 22,
     "widgetName": "Button14",
-    "onClick": "{{update_status_geral.run().then(() => {\n  resetWidget(\"Justificativa_Baixado\", true);\n  get_animals_ativos.run();\n  get_animals_painel.run();\n  closeModal('Justificativa_Baixado');\n}).catch(() => {\n  showAlert('Erro, insira uma mensagem', 'error');\n});}}",
+    "onClick": "{{update_status_geral.run().then(() => {\n  resetWidget(\"Justificativa_Baixado\", true);\n  get_animals_ativos.run();\n  get_animals_painel.run();\n\tget_animals_desativados.run()\n  closeModal('Justificativa_Baixado');\n}).catch(() => {\n  showAlert('Erro, insira uma mensagem', 'error');\n});}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+    "dynamicPropertyPathList": [{"key": "onClick"}],
     "displayName": "Button",
     "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
     "searchTags": [

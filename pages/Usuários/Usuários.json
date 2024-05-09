@@ -28,6 +28,28 @@
         "layoutOnLoadActions": [
           [
             {
+              "id": "Usuários_getAllUsuario",
+              "name": "getAllUsuario",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "appsmith.store.jwt"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Usuários_getAllUsuariosDesativados",
+              "name": "getAllUsuariosDesativados",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "appsmith.store.jwt"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
               "id": "Usuários_getRoles",
               "name": "getRoles",
               "confirmBeforeExecute": false,

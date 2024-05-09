@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "JSObject1",
+    "pageId": "Medicamentos",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "Medicamentos_JSObject1",
+  "deleted": false,
+  "gitSyncId": "6620198c897a1c105cb9afb5_6639354f575fc970594e766a"
+}

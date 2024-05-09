@@ -28,8 +28,8 @@
       "encodeParamsToggle": true,
       "queryParameters": [
         {
-          "key": "filters[Status_geral]",
-          "value": "Operacional"
+          "key": "filters[status_geral]",
+          "value": "true"
         },
         {
           "key": "fields[0]",

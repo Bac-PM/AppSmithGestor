@@ -1,6 +1,4 @@
 {
-	"data": {
-		"Status_geral" : "Desativado",
-		"Justificativa_baixado" :{{Justificativa_baixado.text}}
-	}
+		"status_geral": false,
+		"Justificativa_baixado": 'asafsf'
 }

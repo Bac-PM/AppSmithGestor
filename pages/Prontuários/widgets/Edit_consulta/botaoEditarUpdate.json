@@ -3,9 +3,9 @@
     "boxShadow": "none",
     "mobileBottomRow": 22,
     "widgetName": "botaoEditarUpdate",
-    "onClick": "{{consultaAtualiza.run().then(() => {\n\tfiltros.consultasDeUmCao(consultas_ativas.triggeredRow.animall.id);\n  closeModal('Edit_consulta');\n});}}",
+    "onClick": "{{consultaAtualiza.run().then(() => {\n\tgetConsultaDeUmCao.run()\n  closeModal('Edit_consulta');\n});}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "dynamicPropertyPathList": [],
+    "dynamicPropertyPathList": [{"key": "onClick"}],
     "displayName": "Button",
     "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
     "searchTags": [

@@ -63,6 +63,10 @@
     {
       "id": "Coleiras",
       "isDefault": false
+    },
+    {
+      "id": "Vacinas",
+      "isDefault": false
     }
   ],
   "viewMode": false,
@@ -88,7 +92,17 @@
   "publishedAppLayout": {
     "type": "DESKTOP"
   },
-  "unpublishedCustomJSLibs": [],
+  "unpublishedCustomJSLibs": [
+    {
+      "uidString": "jspdf_https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"
+    },
+    {
+      "uidString": "jsonpath_https://cdn.jsdelivr.net/npm/jsonpath@1.1.1/jsonpath.min.js"
+    },
+    {
+      "uidString": "service_http://localhost/appsmith-bac/dist/service.umd.js"
+    }
+  ],
   "publishedCustomJSLibs": [],
   "evaluationVersion": 2,
   "applicationVersion": 2,

@@ -1,5 +1,5 @@
 {
-    "boxShadow": "none",
+    "boxShadow": "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
     "mobileBottomRow": 12,
     "widgetName": "img_BaixadoFrente",
     "displayName": "Image",
@@ -15,17 +15,14 @@
     "dynamicTriggerPathList": [],
     "imageShape": "RECTANGLE",
     "leftColumn": 42,
-    "dynamicBindingPathList": [
-        {"key": "defaultImage"},
-        {"key": "borderRadius"}
-    ],
+    "dynamicBindingPathList": [{"key": "defaultImage"}],
     "defaultImage": "{{LinkUrl.url_App_Smith+SemoventesDesativados.triggeredRow.Foto_frente.url}}",
     "flexVerticalAlignment": "start",
     "key": "mhpti1pgdv",
     "image": "",
     "isDeprecated": false,
     "rightColumn": 57,
-    "objectFit": "cover",
+    "objectFit": "contain",
     "widgetId": "701ij3br1w",
     "isVisible": true,
     "version": 1,
@@ -36,7 +33,7 @@
     "mobileTopRow": 0,
     "maxZoomLevel": 1,
     "enableDownload": false,
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "borderRadius": "0.375rem",
     "mobileLeftColumn": 39,
     "enableRotation": false
 }

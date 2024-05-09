@@ -3,7 +3,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 22,
     "widgetName": "confirmarRemocao",
-    "onClick": "{{removeConsulta.run().then(() => {\n  filtros.consultasDeUmCao( consultas_ativas.triggeredRow.animall.id);\n\t    showAlert('Consulta removida com sucesso', 'success');\n    closeModal(\"avisoRemover\");\n});}}",
+    "onClick": "{{removeConsulta.run().then(() => {\n  showAlert('Consulta removida com sucesso', 'success');\n  closeModal(\"avisoRemover\");\n  getConsultaDeUmCao.run();\n});}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "dynamicPropertyPathList": [],
     "displayName": "Button",

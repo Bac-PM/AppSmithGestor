@@ -3,7 +3,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 37,
     "widgetName": "Button2Copy",
-    "onClick": "{{CadastraUsuario.run().then(() => {\n\n\tAtualizaPapelUsuario.run().then(() => {\n    showModal(\"Cadastro_Realizado\");\n    getAllUsuario.run();\n  });\n  showModal('Cadastro_Realizado');\n}).catch(() => {\n\t  \n\tshowAlert(CadastraUsuario.data.error.message, 'error');\n});}}",
+    "onClick": "{{CadastraUsuario.run().then(() => {\n\n\tAtualizaPapelUsuario.run().then(() => {\n    showModal(\"Cadastro_Realizado\");\n    getAllUsuario.run();\n  });\n  showModal('Cadastro_Realizado');\n}).catch(() => {\n\t CadastraUsuario.data.error.details.errors.forEach(element => {\n   showAlert(JSON.stringify(element.message), 'error');\n}); \n});}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "dynamicPropertyPathList": [{"key": "onClick"}],
     "displayName": "Button",

@@ -37,7 +37,7 @@
         },
         {
           "key": "populate",
-          "value": "*,nome_vacina.tipo_vacina"
+          "value": "*,nome_vacina.tipo_vacina,foto_etiqueta"
         }
       ],
       "body": "",

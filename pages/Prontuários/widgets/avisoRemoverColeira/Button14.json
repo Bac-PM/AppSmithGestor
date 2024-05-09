@@ -4,7 +4,7 @@
     "mobileBottomRow": 22,
     "widgetName": "Button14",
     "onClick": "{{removerColeira.run().then(() => {\n\t    showAlert('Coleira removida com sucesso', 'success');\n\tgetAllColeirasDeUmCao.run();\n    closeModal(\"avisoRemoverColeira\");\n});}}",
-    "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+    "buttonColor": "#ef4444",
     "dynamicPropertyPathList": [{"key": "onClick"}],
     "displayName": "Button",
     "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
@@ -20,11 +20,8 @@
     "animateLoading": true,
     "dynamicTriggerPathList": [{"key": "onClick"}],
     "leftColumn": 33,
-    "dynamicBindingPathList": [
-        {"key": "buttonColor"},
-        {"key": "borderRadius"}
-    ],
-    "text": "Confirm",
+    "dynamicBindingPathList": [{"key": "borderRadius"}],
+    "text": "Confirmar",
     "isDisabled": false,
     "key": "d0192kl85l",
     "isDeprecated": false,

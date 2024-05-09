@@ -32,7 +32,7 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{\n\t\t\"data_aplicacao\": {{new Date()}},\n\t\t\"aplicado\": true\n}",
+      "body": "{\n\t\t\"data_aplicacao\": {{\n(function() {\n  const dataAtual = new Date();\n\treturn dataAtual;\n})();\n}},\n\t\t\"aplicado\": true\n}",
       "bodyFormData": [],
       "httpMethod": "PUT",
       "selfReferencingDataPaths": [],
@@ -46,14 +46,18 @@
       }
     },
     "executeOnLoad": false,
-    "dynamicBindingPathList": [],
+    "dynamicBindingPathList": [
+      {
+        "key": "body"
+      }
+    ],
     "isValid": true,
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
+      "\n(function() {\n  const dataAtual = new Date();\n\treturn dataAtual;\n})();\n",
       "Vacinas.triggeredRow.id",
-      "appsmith.store.jwt",
-      "new Date()"
+      "appsmith.store.jwt"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

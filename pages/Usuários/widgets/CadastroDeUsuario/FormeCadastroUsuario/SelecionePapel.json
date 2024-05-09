@@ -16,7 +16,7 @@
     ],
     "placeholderText": "Selecione o Papel do Usuário",
     "isDisabled": false,
-    "isRequired": false,
+    "isRequired": true,
     "dynamicHeight": "FIXED",
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",
     "isVisible": true,

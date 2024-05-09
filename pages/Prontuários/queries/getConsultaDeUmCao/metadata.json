@@ -37,8 +37,12 @@
           "value": "{{seletor_animal.selectedOptionValue}}"
         },
         {
+          "key": "filters[removido]",
+          "value": "false"
+        },
+        {
           "key": "populate",
-          "value": "*\n"
+          "value": "*"
         }
       ],
       "bodyFormData": [],
@@ -54,7 +58,11 @@
       }
     },
     "executeOnLoad": false,
-    "dynamicBindingPathList": [],
+    "dynamicBindingPathList": [
+      {
+        "key": "queryParameters[0].value"
+      }
+    ],
     "isValid": true,
     "invalids": [],
     "messages": [],

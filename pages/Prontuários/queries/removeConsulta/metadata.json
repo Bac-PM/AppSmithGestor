@@ -17,7 +17,7 @@
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
-      "path": "{{LinkUrl.url_api}}/api/consultas/{{consultas_ativas.triggeredRow.id}}",
+      "path": "/api/consultas/{{consultas_ativas.triggeredRow.id}}",
       "headers": [
         {
           "key": "Authorization",
@@ -58,7 +58,6 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "LinkUrl.url_api",
       "appsmith.store.jwt",
       "consultas_ativas.triggeredRow.id"
     ],

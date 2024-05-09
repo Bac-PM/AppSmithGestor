@@ -8,9 +8,9 @@
     "resetOnSubmit": true,
     "leftColumn": 27,
     "dynamicBindingPathList": [
-        {"key": "defaultText"},
         {"key": "accentColor"},
-        {"key": "borderRadius"}
+        {"key": "borderRadius"},
+        {"key": "defaultText"}
     ],
     "labelStyle": "",
     "inputType": "NUMBER",
@@ -62,6 +62,6 @@
     "maxDynamicHeight": 9000,
     "shouldAllowAutofill": false,
     "iconAlign": "left",
-    "defaultText": "{{Vacinas.triggeredRow[\"Doses Totais\"]}}",
+    "defaultText": "{{Vacinas.triggeredRow.doses_totais}}",
     "minDynamicHeight": 4
 }

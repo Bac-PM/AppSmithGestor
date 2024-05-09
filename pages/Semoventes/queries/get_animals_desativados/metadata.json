@@ -53,7 +53,7 @@
         "apiContentType": "text/plain"
       }
     },
-    "executeOnLoad": false,
+    "executeOnLoad": true,
     "dynamicBindingPathList": [
       {
         "key": "headers[0].value"

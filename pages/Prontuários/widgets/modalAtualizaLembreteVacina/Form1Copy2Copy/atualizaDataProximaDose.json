@@ -12,7 +12,7 @@
         {"key": "accentColor"},
         {"key": "borderRadius"}
     ],
-    "labelTooltip": "calculado automáticamente com base no período de tempo entre as doses",
+    "labelTooltip": "Calculado automaticamente com base no período de tempo entre as doses",
     "isDisabled": false,
     "isRequired": false,
     "dynamicHeight": "FIXED",

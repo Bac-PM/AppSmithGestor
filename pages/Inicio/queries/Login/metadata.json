@@ -31,11 +31,13 @@
       "bodyFormData": [
         {
           "key": "identifier",
-          "value": "{{Input1.text}}"
+          "value": "{{Input1.text}}",
+          "type": "Text"
         },
         {
           "key": "password",
-          "value": "{{Input2.text}}"
+          "value": "{{Input2.text}}",
+          "type": "Text"
         }
       ],
       "httpMethod": "POST",

@@ -1,0 +1,67 @@
+{
+    "needsErrorInfo": false,
+    "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+    "mobileBottomRow": 72,
+    "widgetName": "Custom2",
+    "borderColor": "#E0DEDE",
+    "srcDoc": {
+        "css": ".app {\n  width: calc(1px * var(--appsmith-ui-width));\n  justify-content: center;\n  border-radius: 0px;\n  border: none;\n}\n.app .tip-container {\n  margin-bottom: 20px;\n}\n.app .tip-container h2 {\n  margin-bottom: 20px;\n  font-size: 16px;\n  font-weight: 700;\n}\n.app .tip-container .tip-header {\n  display: flex;\n  justify-content: space-between;\n  align-items: baseline;\n}\n.app .tip-container .tip-header div {\n  color: #999;\n}\n.app .button-container {\n  text-align: right;\n}\n.app .button-container button {\n  margin: 0 10px;\n  border-radius: var(--appsmith-theme-borderRadius) !important;\n}\n.app .button-container button.primary {\n  background: var(--appsmith-theme-primaryColor) !important;\n}\n.app .button-container button.reset:not([disabled]) {\n  color: var(--appsmith-theme-primaryColor) !important;\n  border-color: var(--appsmith-theme-primaryColor) !important;\n}",
+        "js": "import React from 'https://cdn.jsdelivr.net/npm/react@18.2.0/+esm';\nimport reactDom from 'https://cdn.jsdelivr.net/npm/react-dom@18.2.0/+esm';\nimport { Button, Card } from 'https://cdn.jsdelivr.net/npm/antd@5.11.1/+esm';\nimport Markdown from 'https://cdn.jsdelivr.net/npm/react-markdown@9.0.1/+esm';\nfunction App() {\n  const handleMyButton = () => {\n    appsmith.triggerEvent('onMyButtonClick');\n  };\n  return /*#__PURE__*/React.createElement(Card, {\n    className: \"app\"\n  }, /*#__PURE__*/React.createElement(\"div\", {\n    className: \"tip-container\"\n  }, /*#__PURE__*/React.createElement(\"div\", {\n    className: \"tip-header\"\n  }, /*#__PURE__*/React.createElement(\"h2\", null, \"Custom Widget\"))), /*#__PURE__*/React.createElement(\"div\", {\n    className: \"button-container\"\n  }, /*#__PURE__*/React.createElement(Button, {\n    className: \"myButton\",\n    onClick: handleMyButton\n  }, \"My Button\")));\n}\nappsmith.onReady(() => {\n  reactDom.render( /*#__PURE__*/React.createElement(App, null), document.getElementById(\"root\"));\n});",
+        "html": "<!-- no need to write html, head, body tags, it is handled by the widget -->\n<div id=\"root\"><\/div>\n"
+    },
+    "isCanvas": false,
+    "dynamicPropertyPathList": [],
+    "displayName": "Custom",
+    "iconSVG": "/static/media/icon.ff37253a5ce2f5284c42ede26ce165f9.svg",
+    "searchTags": ["external"],
+    "topRow": 43,
+    "bottomRow": 73,
+    "onMyButtonClick": "",
+    "parentRowSpace": 10,
+    "type": "CUSTOM_WIDGET",
+    "hideCard": false,
+    "mobileRightColumn": 25,
+    "dynamicTriggerPathList": [
+        {"key": "onMyButtonClick"},
+        {"key": "handleMyButton"}
+    ],
+    "parentColumnSpace": 17.9375,
+    "dynamicBindingPathList": [
+        {"key": "theme"},
+        {"key": "borderRadius"},
+        {"key": "boxShadow"}
+    ],
+    "leftColumn": 4,
+    "defaultModel": "{\n  \"tips\": [\n    \"Pass data to this widget in the default model field\",\n    \"Access data in the javascript file using the appsmith.model variable\",\n    \"Create events in the widget and trigger them in the javascript file using appsmith.triggerEvent('eventName')\",\n    \"Access data in CSS as var(--appsmith-model-{property-name})\"\n  ]\n}",
+    "borderWidth": "1",
+    "theme": "{{appsmith.theme}}",
+    "events": [
+        "onMyButtonClick",
+        "handleMyButton"
+    ],
+    "key": "bsobbgfh0k",
+    "backgroundColor": "#FFFFFF",
+    "isDeprecated": false,
+    "rightColumn": 27,
+    "thumbnailSVG": "/static/media/thumbnail.a7d7cde44fad9a0d4d490def43560a78.svg",
+    "dynamicHeight": "FIXED",
+    "isSearchWildcard": true,
+    "widgetId": "61zk6hghp5",
+    "isVisible": true,
+    "version": 1,
+    "uncompiledSrcDoc": {
+        "css": ".app {\n  width: calc(1px * var(--appsmith-ui-width));\n  justify-content: center;\n  border-radius: 0px;\n  border: none;\n  \n  .tip-container {\n    margin-bottom: 20px;\n\n    h2 {\n      margin-bottom: 20px;\n      font-size: 16px;\n      font-weight: 700;\n    }\n\n    .tip-header {\n      display: flex;\n      justify-content: space-between;\n      align-items: baseline;\n\n      div {\n        color: #999;\n      }\n    }\n  }\n\t\n\t.button-container {\n      text-align: right;\n\n      button {\n        margin: 0 10px;\n        border-radius: var(--appsmith-theme-borderRadius) !important;\n\n        &.primary {\n          background: var(--appsmith-theme-primaryColor) !important;\n        }\n\n        &.reset:not([disabled]) {\n          color: var(--appsmith-theme-primaryColor) !important;\n          border-color: var(--appsmith-theme-primaryColor) !important;\n        }\n      }\n    }\n}\n",
+        "js": "import React from 'https://cdn.jsdelivr.net/npm/react@18.2.0/+esm'\nimport reactDom from 'https://cdn.jsdelivr.net/npm/react-dom@18.2.0/+esm'\nimport { Button, Card } from 'https://cdn.jsdelivr.net/npm/antd@5.11.1/+esm'\nimport Markdown from 'https://cdn.jsdelivr.net/npm/react-markdown@9.0.1/+esm';\n\nfunction App() {\n    const handleMyButton = () => {\n        appsmith.triggerEvent('onMyButtonClick');\n    };\n\n    return (\n        <Card className=\"app\">\n            <div className=\"tip-container\">\n                <div className=\"tip-header\">\n                    <h2>Custom Widget<\/h2>\n                <\/div>\n                {/* Aqui você pode adicionar a lógica para exibir a dica */}\n            <\/div>\n            <div className=\"button-container\">\n                {/* Novo botão adicionado */}\n                <Button className=\"myButton\" onClick={handleMyButton}>My Button<\/Button>\n            <\/div>\n        <\/Card>\n    );\n}\n\nappsmith.onReady(() => {\n    reactDom.render(<App />, document.getElementById(\"root\"));\n});\n",
+        "html": "<!-- no need to write html, head, body tags, it is handled by the widget -->\n<div id=\"root\"><\/div>\n"
+    },
+    "parentId": "0",
+    "tags": ["Display"],
+    "renderMode": "CANVAS",
+    "isLoading": false,
+    "mobileTopRow": 42,
+    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "mobileLeftColumn": 2,
+    "maxDynamicHeight": 9000,
+    "minDynamicHeight": 4,
+    "handleMyButton": ""
+}

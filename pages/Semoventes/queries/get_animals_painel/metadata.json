@@ -33,7 +33,7 @@
         },
         {
           "key": "populate[sexo][fields][0]",
-          "value": "sexo"
+          "value": "Nome"
         },
         {
           "key": "fields[4]",
@@ -49,11 +49,11 @@
         },
         {
           "key": "populate[status_saude][fields][1]",
-          "value": "stt_saude"
+          "value": "Nome"
         },
         {
           "key": "populate[status_operacional][fields][1]",
-          "value": "stt_operacional"
+          "value": "Nome"
         },
         {
           "key": "filters[status_geral]",
@@ -74,7 +74,7 @@
         "apiContentType": "none"
       }
     },
-    "executeOnLoad": false,
+    "executeOnLoad": true,
     "dynamicBindingPathList": [
       {
         "key": "headers[0].value"

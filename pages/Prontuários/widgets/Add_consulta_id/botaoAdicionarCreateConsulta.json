@@ -3,7 +3,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 22,
     "widgetName": "botaoAdicionarCreateConsulta",
-    "onClick": "{{createConsulta.run().then(() => {\n  showAlert('Consulta Cadastrada com Sucesso', 'success');\n  closeModal('Add_consulta_id');\ngetConsultaDeUmCao.run();\n\t\n}).catch(() => {\n createConsulta.data.error.details.errors.forEach(element => {\n   showAlert(element.message, 'error');\n});\n});}}",
+    "onClick": "{{getIdUsuario.run().then(() => {\n  createConsulta.run().then(() => {\n  showAlert('Consulta Cadastrada com Sucesso', 'success');\n  closeModal('Add_consulta_id');\n  getConsultaDeUmCao.run();\n}).catch(() => {\n  createConsulta.data.error.details.errors.forEach(element => {\n    showAlert(element.message, 'error');\n  });\n});\n});\n}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "dynamicPropertyPathList": [{"key": "onClick"}],
     "displayName": "Button",

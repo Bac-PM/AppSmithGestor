@@ -508,7 +508,7 @@
     "widgetId": "gm8899jnk8",
     "allowAddNewRow": false,
     "minWidth": 450,
-    "tableData": "{{getAllUsuario.data.filter( element => element.blocked == false)}}",
+    "tableData": "{{getAllUsuario.data}}",
     "label": "Data",
     "searchKey": "",
     "parentId": "xjmo3466hp",

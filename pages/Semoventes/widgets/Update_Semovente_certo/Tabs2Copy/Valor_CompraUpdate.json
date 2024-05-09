@@ -30,7 +30,7 @@
     ],
     "isLoading": false,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 39,
+    "originalBottomRow": 32,
     "mobileBottomRow": 22,
     "widgetName": "Valor_CompraUpdate",
     "dynamicPropertyPathList": [],
@@ -41,7 +41,7 @@
         "number",
         "textarea"
     ],
-    "bottomRow": 39,
+    "bottomRow": 32,
     "parentRowSpace": 10,
     "autoFocus": false,
     "hideCard": false,

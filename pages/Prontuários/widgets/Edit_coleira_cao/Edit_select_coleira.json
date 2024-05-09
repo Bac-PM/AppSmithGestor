@@ -6,12 +6,13 @@
     "labelWidth": 5,
     "type": "SELECT_WIDGET",
     "serverSideFiltering": false,
-    "defaultOptionValue": "",
+    "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( coleiras_ativas.triggeredRow.id_coleira))(Edit_select_coleira.options, Edit_select_coleira.serverSideFiltering) }}",
     "animateLoading": true,
     "leftColumn": 1,
     "dynamicBindingPathList": [
         {"key": "sourceData"},
-        {"key": "borderRadius"}
+        {"key": "borderRadius"},
+        {"key": "defaultOptionValue"}
     ],
     "placeholderText": "Selecione uma Coleira",
     "isDisabled": false,

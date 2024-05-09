@@ -33,8 +33,12 @@
       "encodeParamsToggle": true,
       "queryParameters": [
         {
-          "key": "populate",
-          "value": "*"
+          "key": "filters[ativo]",
+          "value": "true"
+        },
+        {
+          "key": "fields[0]",
+          "value": "nome"
         }
       ],
       "body": "",

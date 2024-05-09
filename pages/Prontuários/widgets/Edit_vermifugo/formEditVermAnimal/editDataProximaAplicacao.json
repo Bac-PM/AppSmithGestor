@@ -10,7 +10,8 @@
     "dynamicBindingPathList": [
         {"key": "defaultDate"},
         {"key": "accentColor"},
-        {"key": "borderRadius"}
+        {"key": "borderRadius"},
+        {"key": "minDate"}
     ],
     "labelTooltip": "",
     "isDisabled": false,
@@ -28,8 +29,11 @@
     "closeOnSelection": true,
     "mobileBottomRow": 15,
     "widgetName": "editDataProximaAplicacao",
-    "minDate": "1920-12-31T18:30:00.000Z",
-    "dynamicPropertyPathList": [{"key": "defaultDate"}],
+    "minDate": "{{\n(function() {\n  const dataAtual = new Date();\n\treturn dataAtual;\n})();\n}}",
+    "dynamicPropertyPathList": [
+        {"key": "defaultDate"},
+        {"key": "minDate"}
+    ],
     "displayName": "DatePicker",
     "searchTags": ["calendar"],
     "bottomRow": 13,

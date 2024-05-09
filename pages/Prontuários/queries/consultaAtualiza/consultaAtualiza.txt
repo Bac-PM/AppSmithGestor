@@ -1,5 +1,5 @@
 {
-	"data_consulta": {{dataConsultaUpdate.formattedDate}},
+	"data_consulta": {{dataConsultaUpdate.selectedDate}},
 	"anamnese": {{anamneseUpdate.text}},
 	"exame_fisico": {{exameFisicoUpdate.text}},
 	"diagnostico": {{diagnosticoUpdate.text}},
@@ -12,6 +12,7 @@
 	 return(false)
  }
 })()
-}}
+}},
+	"users_permissions_user": {{getIdUsuario.data.id}}
 }
 

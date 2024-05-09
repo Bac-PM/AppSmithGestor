@@ -4,7 +4,7 @@ export default {
 	doseMaxima() {
 		  //getVacinasDeUmCao.run().then(() => {
 			
-				if (parseInt(Vacinas.triggeredRow.dose_atual) < parseInt(Vacinas.triggeredRow["Doses Totais"])) {
+				if (parseInt(Vacinas.triggeredRow.dose_atual) < parseInt(Vacinas.triggeredRow.doses_totais)) {
 					
 					aplicaAnimalVacinaCriaNextDose.run().then(() => { 
 						

@@ -32,7 +32,7 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{\n\t\"data\": {\n\t\t\"Status_geral\" : \"Desativado\",\n\t\t\"Justificativa_baixado\" :{{Justificativa_baixado.text}}\n\t}\n}",
+      "body": "{\n\t\t\"status_geral\": false,\n\t\t\"Justificativa_baixado\": 'asafsf'\n}",
       "bodyFormData": [],
       "httpMethod": "PUT",
       "selfReferencingDataPaths": [],
@@ -42,16 +42,13 @@
         }
       ],
       "formData": {
-        "apiContentType": "none"
+        "apiContentType": "application/json"
       }
     },
     "executeOnLoad": false,
     "dynamicBindingPathList": [
       {
         "key": "headers[0].value"
-      },
-      {
-        "key": "body"
       },
       {
         "key": "path"
@@ -61,7 +58,6 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "Justificativa_baixado.text",
       "Table1.triggeredRow.id",
       "appsmith.store.jwt"
     ],

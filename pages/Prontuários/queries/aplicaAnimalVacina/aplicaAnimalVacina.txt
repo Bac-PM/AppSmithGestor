@@ -1,4 +1,9 @@
 {
-		"data_aplicacao": {{new Date()}},
+		"data_aplicacao": {{
+(function() {
+  const dataAtual = new Date();
+	return dataAtual;
+})();
+}},
 		"aplicado": true
 }

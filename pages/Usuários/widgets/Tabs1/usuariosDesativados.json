@@ -530,7 +530,7 @@
     "widgetId": "crkipslxkz",
     "allowAddNewRow": false,
     "minWidth": 450,
-    "tableData": "{{getAllUsuario.data.filter( element => element.blocked == true)}}",
+    "tableData": "{{getAllUsuariosDesativados.data}}",
     "label": "Data",
     "searchKey": "",
     "parentId": "4zen4jj0ao",
