@@ -1,4 +1,0 @@
-{
-   "id": {{CadastraUsuario.data.user.id}},
-   "role": {{SelecionePapel.selectedOptionValue}}
-}

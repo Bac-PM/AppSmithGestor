@@ -1,7 +1,0 @@
-{
-	"data": {
-		"Nome": "{{nome_edit.text}}",
-		"rg": "{{rg_edit.text}}",
-		"unidade": {{unidade_edit.selectedOptionValue}}
-	}
-}

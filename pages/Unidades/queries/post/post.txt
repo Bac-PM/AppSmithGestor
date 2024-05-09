@@ -1,7 +1,0 @@
-{
-	"data": {
-		"Nome": "{{add_nome.text}}",
-		"Endereco": "{{add_endereco.text}}",
-		"ativo": true
-	}
-}

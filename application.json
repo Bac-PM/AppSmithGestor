@@ -3,50 +3,6 @@
     {
       "id": "Inicio",
       "isDefault": true
-    },
-    {
-      "id": "Treinamento",
-      "isDefault": false
-    },
-    {
-      "id": "Estoque",
-      "isDefault": false
-    },
-    {
-      "id": "Usuários",
-      "isDefault": false
-    },
-    {
-      "id": "Painel de Informações",
-      "isDefault": false
-    },
-    {
-      "id": "Page1",
-      "isDefault": false
-    },
-    {
-      "id": "Medicamentos",
-      "isDefault": false
-    },
-    {
-      "id": "Doenças",
-      "isDefault": false
-    },
-    {
-      "id": "Condutor",
-      "isDefault": false
-    },
-    {
-      "id": "Unidades",
-      "isDefault": false
-    },
-    {
-      "id": "Semoventes",
-      "isDefault": false
-    },
-    {
-      "id": "Prontuarios",
-      "isDefault": false
     }
   ],
   "viewMode": false,
