@@ -1,0 +1,9 @@
+{
+	"aplicado":true,
+	"data_aplicacao":{{
+(function() {
+  const dataAtual = new Date();
+	return dataAtual;
+})();
+}}
+}

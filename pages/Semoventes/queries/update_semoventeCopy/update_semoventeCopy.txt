@@ -1,0 +1,26 @@
+{
+	"data": {
+		"Nome": {{NomeUpdate.text}},
+		"status_operacional" : {{Status_operacionalUpdate.selectedOptionValue}},
+		"Status_saude" : {{Status_saudeUpdate.selectedOptionValue}},
+		"Sexo" : {{SexoUpdate.selectedOptionValue}},
+		"Data_nascimento" : {{ Data_NascimentoUpdate.selectedDate}},
+		"Box" : {{ BoxUpdate.text}},
+		"Alocacao" : {{ UnidadeUpdate.selectedOptionValue}},
+		"Condutor_principal" : {{Condutor_principalUpdate.selectedOptionValue}},
+		"Condutor_secundario" : {{ Condutor_secundarioUpdate.selectedOptionValue}},
+		"Foto_frente" : {{parseInt(FotoIdFrente1Copy.text)}},
+		"Foto_esquerda" : {{parseInt(FotoIdEsquerda1.text)}},
+		"Foto_direita" : {{parseInt(FotoIdDireita1.text)}},
+		"numero_patrimonio" : {{NumeroPatrimonioUpdate.text}},
+		"numero_de_microchip" : {{NumeroMicrochipUpdate.text}},
+		"raca" : {{RacaUpdate.selectedOptionValue}},
+		"cor" : {{CorUpdate.selectedOptionValue}},
+		"nome_do_proprietario_anterior" : {{ProprietarioAnteriorUpdate.text}},
+		"forma_aquisicao" : {{Forma_AquisicaoUpdate.selectedOptionValue}},
+		"especializacao" : {{EspecializacaoUpdate.selectedOptionValue}},
+		"data_aquisicao" : {{Data_AquisicaoUpdate.selectedDate}},
+		"data_inclusao_carga" : {{Data_Inclusao_CargaUpdate.selectedDate}},
+		"valor_compra" : {{Valor_CompraUpdate.text}}
+	}
+}

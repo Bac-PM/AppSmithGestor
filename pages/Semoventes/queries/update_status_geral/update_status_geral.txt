@@ -1,0 +1,4 @@
+{
+		"status_geral": false,
+		"Justificativa_baixado": '{{justificativa_baixa.text}}'
+}

@@ -3,6 +3,70 @@
     {
       "id": "Inicio",
       "isDefault": true
+    },
+    {
+      "id": "Semoventes",
+      "isDefault": false
+    },
+    {
+      "id": "Usuários",
+      "isDefault": false
+    },
+    {
+      "id": "Medicamentos",
+      "isDefault": false
+    },
+    {
+      "id": "Page1",
+      "isDefault": false
+    },
+    {
+      "id": "Doenças",
+      "isDefault": false
+    },
+    {
+      "id": "Condutor",
+      "isDefault": false
+    },
+    {
+      "id": "Unidades",
+      "isDefault": false
+    },
+    {
+      "id": "Prontuários",
+      "isDefault": false
+    },
+    {
+      "id": "Alertas",
+      "isDefault": false
+    },
+    {
+      "id": "Vermífugos",
+      "isDefault": false
+    },
+    {
+      "id": "Ectoparasiticidas",
+      "isDefault": false
+    },
+    {
+      "id": "Coleiras",
+      "isDefault": false
+    },
+    {
+      "id": "Vacinas",
+      "isDefault": false
+    },
+    {
+      "id": "Treinamento",
+      "isDefault": false
+    },
+    {
+      "id": "Estoque",
+      "isDefault": false
+    },
+    {
+      "id": "Painel de Informações",
+      "isDefault": false
     }
   ],
   "viewMode": false,
@@ -28,7 +92,11 @@
   "publishedAppLayout": {
     "type": "DESKTOP"
   },
-  "unpublishedCustomJSLibs": [],
+  "unpublishedCustomJSLibs": [
+    {
+      "uidString": "service_http://localhost/appsmith-bac/dist/service.umd.js"
+    }
+  ],
   "publishedCustomJSLibs": [],
   "evaluationVersion": 2,
   "applicationVersion": 2,

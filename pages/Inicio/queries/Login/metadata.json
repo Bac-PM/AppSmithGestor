@@ -31,11 +31,13 @@
       "bodyFormData": [
         {
           "key": "identifier",
-          "value": "{{Input1.text}}"
+          "value": "{{Input1.text}}",
+          "type": "Text"
         },
         {
           "key": "password",
-          "value": "{{Input2.text}}"
+          "value": "{{Input2.text}}",
+          "type": "Text"
         }
       ],
       "httpMethod": "POST",
@@ -69,7 +71,7 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-04-17T18:47:47Z"
+    "createdAt": "2024-04-17T18:48:47Z"
   },
   "id": "Inicio_Login",
   "deleted": false,

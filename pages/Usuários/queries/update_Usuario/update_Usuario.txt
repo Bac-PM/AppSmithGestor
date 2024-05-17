@@ -1,0 +1,7 @@
+{
+   	"id": {{usuariosAtivos.triggeredRow.id}},
+		"username": {{InsereNomeUpdate.text}},
+		"email": {{InsereEmailUpdate.text}},
+		"cpf": {{insereCpfUpdate.text}},
+   	"role": {{selecionaPapelUpdate.selectedOptionValue}}	
+}

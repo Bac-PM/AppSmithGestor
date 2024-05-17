@@ -1,0 +1,6 @@
+{
+	"data": {
+		"Nome": "{{nome_edit.text}}",
+		"Endereco": "{{endereco_edit.text}}"
+	}
+}

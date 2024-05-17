@@ -1,0 +1,36 @@
+{
+  "unpublishedCollection": {
+    "name": "LinkUrl",
+    "pageId": "Semoventes",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [
+      {
+        "name": "url",
+        "value": "\"http://localhost:2337\""
+      },
+      {
+        "name": "host_docker",
+        "value": "\"http://host.docker.internal:2337\""
+      },
+      {
+        "name": "url_api",
+        "value": "\"http://host.docker.internal:2337\""
+      },
+      {
+        "name": "url_App_Smith",
+        "value": "\"http://172.19.145.29:2337\""
+      },
+      {
+        "name": "url_App_Smithh",
+        "value": "\"http://localhost:2337\""
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "Semoventes_LinkUrl",
+  "deleted": false,
+  "gitSyncId": "663e5c1636f37417d2df3e34_6644e37f36f37417d2df4714"
+}

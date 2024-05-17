@@ -1,0 +1,15 @@
+{
+    "data_proxima_aplicacao": {{(function() {
+		let inicio = new Date(); 
+		inicio.setDate(inicio.getDate()+  Vacinas.triggeredRow.doses_totais) // setando a data pra um tempo depois
+		return inicio    
+})();}},
+    "anotacoes": {{Vacinas.triggeredRow.anotacoes}},
+    "lembrete_em_dias": {{Vacinas.triggeredRow.lembrete_em_dias}},
+    "dose_atual": {{(parseInt(Vacinas.triggeredRow.dose_atual) + 1 )}},
+    "animal": {{seletor_animal.selectedOptionValue}},
+		"foto_etiqueta": {{Vacinas.triggeredRow.foto_etiqueta.id}},
+		"doses_totais": {{Vacinas.triggeredRow.doses_totais}},
+		"nome_vacina": {{Vacinas.triggeredRow.id_vacina}},
+		"intervalo_entre_doses": {{Vacinas.triggeredRow.intervalo_entre_doses}}
+}

@@ -1,0 +1,32 @@
+{
+  "unpublishedCollection": {
+    "name": "LinkUrl",
+    "pageId": "Vermífugos",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [
+      {
+        "name": "url",
+        "value": "\"http://localhost:2337\""
+      },
+      {
+        "name": "host_docker",
+        "value": "\"http://host.docker.internal:2337\""
+      },
+      {
+        "name": "url_api",
+        "value": "\"http://host.docker.internal:2337\""
+      },
+      {
+        "name": "url_App_Smith",
+        "value": "\"http://localhost:2337\""
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "Vermífugos_LinkUrl",
+  "deleted": false,
+  "gitSyncId": "6620198c897a1c105cb9afb5_6622989f3692fb206d2962c2"
+}

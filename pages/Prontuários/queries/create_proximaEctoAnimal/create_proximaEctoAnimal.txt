@@ -1,0 +1,14 @@
+{
+	"animal":{{seletor_animal.selectedOptionValue}},
+	"tipo_aplicacao":{{ectoparasiticidas_ativos.triggeredRow.id_produto}},
+	"lembrete_em_dias":{{ectoparasiticidas_ativos.triggeredRow.lembrete_em_dias}},
+	"data_proxima_aplicacao":{{
+(function() {
+  	let inicio = new Date();
+		inicio.setDate(inicio.getDate()+  ectoparasiticidas_ativos.triggeredRow.Duracao);
+		return inicio
+		})();
+}},
+	"aplicado":"false"
+}
+

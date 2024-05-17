@@ -1,0 +1,8 @@
+{
+	"data": {
+		"nome_produto": "{{nome_ecto.text}}",
+		"duracao_em_dias": "{{duracao_ecto.text}}",
+		"tipo_produto_antiparasitario": "1",
+		"ativo": "true"
+	}
+}

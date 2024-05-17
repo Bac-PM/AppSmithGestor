@@ -1,0 +1,32 @@
+{
+  "unpublishedCollection": {
+    "name": "LinkUrl",
+    "pageId": "Doenças",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [
+      {
+        "name": "url",
+        "value": "\"http://localhost:2337\""
+      },
+      {
+        "name": "host_docker",
+        "value": "\"http://host.docker.internal:2337\""
+      },
+      {
+        "name": "url_api",
+        "value": "\"http://host.docker.internal:2337\""
+      },
+      {
+        "name": "url_App_Smith",
+        "value": "\"http://localhost:2337\""
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "Doenças_LinkUrl",
+  "deleted": false,
+  "gitSyncId": "65c281a7ed663e5cca363ff4_65d64f85c20f0956f327f15a"
+}

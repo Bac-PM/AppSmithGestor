@@ -1,0 +1,36 @@
+{
+  "unpublishedCollection": {
+    "name": "LinkUrl",
+    "pageId": "Prontuários",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [
+      {
+        "name": "url",
+        "value": "\"http://localhost:2337\""
+      },
+      {
+        "name": "host_docker",
+        "value": "\"http://host.docker.internal:2337\""
+      },
+      {
+        "name": "url_api",
+        "value": "\"http://host.docker.internal:2337\""
+      },
+      {
+        "name": "url_App_Smith",
+        "value": "\"http://172.19.145.29:2337\""
+      },
+      {
+        "name": "url_App_Smithh",
+        "value": "\"http://localhost:2337\""
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "Prontuários_LinkUrl",
+  "deleted": false,
+  "gitSyncId": "65f886c00f108844aba2b2b0_6604c683f4be0e623e82dfe5"
+}

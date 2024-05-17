@@ -1,0 +1,8 @@
+{
+	"data": {
+		"Nome": "{{add_nome.text}}",
+		"rg": {{add_matricula.text}},
+		"ativo": "true",
+		"unidade": {{add_unidade.selectedOptionValue}}
+	}
+}

@@ -1,0 +1,125 @@
+{
+  "unpublishedPage": {
+    "name": "Medicamentos",
+    "slug": "medicamentos",
+    "layouts": [
+      {
+        "viewMode": false,
+        "dsl": {
+          "widgetName": "MainContainer",
+          "backgroundColor": "none",
+          "rightColumn": 1224,
+          "snapColumns": 64,
+          "detachFromLayout": true,
+          "widgetId": "0",
+          "topRow": 0,
+          "bottomRow": 670,
+          "containerStyle": "none",
+          "snapRows": 79,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
+          "version": 89,
+          "minHeight": 810,
+          "parentColumnSpace": 1,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0
+        },
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "Medicamentos_getURL.getUrl",
+              "name": "getURL.getUrl",
+              "collectionId": "Medicamentos_getURL",
+              "confirmBeforeExecute": false,
+              "pluginType": "JS",
+              "jsonPathKeys": [
+                "function () {\n  const url = service.getUrlApi();\n  return url;\n}"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "Medicamentos_get_apresentacao_medicamento",
+              "name": "get_apresentacao_medicamento",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "appsmith.store.jwt",
+                "getURL.getUrl.data"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Medicamentos_get_classificacao_medicamento",
+              "name": "get_classificacao_medicamento",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "appsmith.store.jwt",
+                "getURL.getUrl.data"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Medicamentos_get_medicamentos_ativos",
+              "name": "get_medicamentos_ativos",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "appsmith.store.jwt",
+                "getURL.getUrl.data"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Medicamentos_get_medicamentos_desativados",
+              "name": "get_medicamentos_desativados",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "appsmith.store.jwt",
+                "getURL.getUrl.data"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Medicamentos_get_principio_ativo",
+              "name": "get_principio_ativo",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "appsmith.store.jwt",
+                "getURL.getUrl.data"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Medicamentos_get_unidade_dosagens",
+              "name": "get_unidade_dosagens",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "appsmith.store.jwt",
+                "getURL.getUrl.data"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
+        "layoutOnLoadActionErrors": [],
+        "validOnPageLoadActions": true,
+        "id": "Medicamentos",
+        "deleted": false,
+        "policies": [],
+        "userPermissions": []
+      }
+    ],
+    "userPermissions": [],
+    "policies": [],
+    "isHidden": false
+  },
+  "deleted": false,
+  "gitSyncId": "663e5c1636f37417d2df3e34_6644ded836f37417d2df45bf"
+}

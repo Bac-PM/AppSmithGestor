@@ -1,0 +1,4 @@
+{
+   "id": {{usuariosDesativados.triggeredRow.id}},
+   "blocked": "false"
+}

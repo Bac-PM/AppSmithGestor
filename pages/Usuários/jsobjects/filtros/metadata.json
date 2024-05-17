@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "filtros",
+    "pageId": "Usuários",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "Usuários_filtros",
+  "deleted": false,
+  "gitSyncId": "65f886c00f108844aba2b2b0_6604c4e9f4be0e623e82dfd1"
+}

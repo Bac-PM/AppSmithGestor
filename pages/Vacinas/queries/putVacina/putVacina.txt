@@ -1,0 +1,6 @@
+{
+  "data": {
+    "nome": "{{input_edit_nome_vac.text}}",
+	"tipo_vacina": "{{select_edit_tipo_vac.selectedOptionValue}}"
+  }
+}

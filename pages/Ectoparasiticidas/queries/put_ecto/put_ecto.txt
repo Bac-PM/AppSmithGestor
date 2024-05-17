@@ -1,0 +1,6 @@
+{
+	"data": {
+		"nome_produto": "{{edit_nome_ecto.text}}",
+		"duracao_em_dias": "{{edit_duracao_ecto.text}}"
+	}
+}
