@@ -1,5 +1,0 @@
-{
-	"data": {
-		"Nome" : {{nome_principio.text}}
-	}
-}

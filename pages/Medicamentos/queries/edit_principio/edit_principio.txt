@@ -1,5 +1,0 @@
-{
-	"data": {
-		"Nome" : {{edit_nome_principio.text}}
-	}
-}

@@ -1,4 +1,0 @@
-{
-   "id": {{usuariosAtivos.triggeredRow.id}},
-   "blocked": "true"
-}

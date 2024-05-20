@@ -1,6 +1,0 @@
-{
-	"data": {
-		"Nome": "{{unidade_nome.text}}",
-		"Endereco" : {{unidade_endereco.text}}
-	}
-}

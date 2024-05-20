@@ -1,5 +1,0 @@
-{
-  "data": {
-    "tipo": "{{input_edit_tipo_vac.text}}"
-  }
-}

@@ -1,8 +1,0 @@
-{
-	"animal":{{seletor_animal.selectedOptionValue}},
-	"tipo_aplicacao":{{select_ectoAplicar.selectedOptionValue}},
-	"lembrete_em_dias":{{addLembreteDiasEcto.selectedOptionValue}},
-	"data_proxima_aplicacao":{{addDataProximaAplicacaoEcto.selectedDate}},
-	"aplicado":"false"
-}
-
