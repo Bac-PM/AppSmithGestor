@@ -38,16 +38,6 @@
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "Prontuários_getAllConsultas",
-              "name": "getAllConsultas",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "appsmith.store.jwt"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
               "id": "Prontuários_get_Ectoparasiticidas",
               "name": "get_Ectoparasiticidas",
               "confirmBeforeExecute": false,
@@ -103,6 +93,28 @@
               "timeoutInMillisecond": 10000
             },
             {
+              "id": "Prontuários_getConsultaDeUmCao",
+              "name": "getConsultaDeUmCao",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "seletor_animal.selectedOptionValue",
+                "appsmith.store.jwt"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Prontuários_getVacinasDeUmCao",
+              "name": "getVacinasDeUmCao",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "seletor_animal.selectedOptionValue",
+                "appsmith.store.jwt"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
               "id": "Prontuários_get_ectoparasiticidaDeCao",
               "name": "get_ectoparasiticidaDeCao",
               "confirmBeforeExecute": false,
@@ -139,5 +151,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "65f886c00f108844aba2b2b0_6604c672f4be0e623e82dfdb"
+  "gitSyncId": "664b7bb03d0ee46738b298c4_664b81603d0ee46738b29a35"
 }

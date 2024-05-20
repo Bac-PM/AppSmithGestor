@@ -3,6 +3,7 @@
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
     "name": "getTipoVacina",
+    "fullyQualifiedName": "getTipoVacina",
     "datasource": {
       "name": "strApi",
       "pluginId": "restapi-plugin",
@@ -61,9 +62,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-04-17T21:26:41Z"
+    "createdAt": "2024-05-20T16:59:29Z"
   },
   "id": "Prontuários_getTipoVacina",
   "deleted": false,
-  "gitSyncId": "6620198c897a1c105cb9afb5_2024-04-17T21:26:41.247471799Z"
+  "gitSyncId": "664b7bb03d0ee46738b298c4_664b81713d0ee46738b29a62"
 }

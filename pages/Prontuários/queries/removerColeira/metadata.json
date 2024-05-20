@@ -3,6 +3,7 @@
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
     "name": "removerColeira",
+    "fullyQualifiedName": "removerColeira",
     "datasource": {
       "name": "strApi",
       "pluginId": "restapi-plugin",
@@ -66,9 +67,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-04-19T18:03:27Z"
+    "createdAt": "2024-05-20T16:59:29Z"
   },
   "id": "Prontuários_removerColeira",
   "deleted": false,
-  "gitSyncId": "6620198c897a1c105cb9afb5_2024-04-19T18:03:27.262436313Z"
+  "gitSyncId": "664b7bb03d0ee46738b298c4_664b81713d0ee46738b29a5a"
 }

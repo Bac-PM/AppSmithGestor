@@ -3,6 +3,7 @@
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
     "name": "aplicaAnimalVacina",
+    "fullyQualifiedName": "aplicaAnimalVacina",
     "datasource": {
       "name": "strApi",
       "pluginId": "restapi-plugin",
@@ -17,7 +18,7 @@
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
-      "path": "/api/animal-vacinas/{{Vacinas.triggeredRow.id}}",
+      "path": "/api/updateAnimalVacina/{{Vacinas.triggeredRow.id}}",
       "headers": [
         {
           "key": "Authorization",
@@ -32,7 +33,7 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{\n\t\t\"data_aplicacao\": {{\n(function() {\n  const dataAtual = new Date();\n\treturn dataAtual;\n})();\n}},\n\t\t\"aplicado\": true\n}",
+      "body": "{\n\t\t\"aplicado\": true\n}",
       "bodyFormData": [],
       "httpMethod": "PUT",
       "selfReferencingDataPaths": [],
@@ -48,14 +49,13 @@
     "executeOnLoad": false,
     "dynamicBindingPathList": [
       {
-        "key": "body"
+        "key": "path"
       }
     ],
     "isValid": true,
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "\n(function() {\n  const dataAtual = new Date();\n\treturn dataAtual;\n})();\n",
       "Vacinas.triggeredRow.id",
       "appsmith.store.jwt"
     ],
@@ -63,9 +63,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-04-17T21:26:41Z"
+    "createdAt": "2024-05-20T16:59:29Z"
   },
   "id": "Prontuários_aplicaAnimalVacina",
   "deleted": false,
-  "gitSyncId": "6620198c897a1c105cb9afb5_2024-04-17T21:26:41.247617597Z"
+  "gitSyncId": "664b7bb03d0ee46738b298c4_664b81713d0ee46738b29a7c"
 }

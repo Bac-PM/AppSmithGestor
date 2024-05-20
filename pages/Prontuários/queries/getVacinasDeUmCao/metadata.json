@@ -3,6 +3,7 @@
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
     "name": "getVacinasDeUmCao",
+    "fullyQualifiedName": "getVacinasDeUmCao",
     "datasource": {
       "name": "strApi",
       "pluginId": "restapi-plugin",
@@ -37,7 +38,7 @@
         },
         {
           "key": "populate",
-          "value": "*,nome_vacina.tipo_vacina,foto_etiqueta"
+          "value": "*,nome_vacina.tipo_vacina,foto_etiqueta,animal"
         }
       ],
       "body": "",
@@ -54,7 +55,7 @@
         "apiContentType": "none"
       }
     },
-    "executeOnLoad": false,
+    "executeOnLoad": true,
     "dynamicBindingPathList": [
       {
         "key": "path"
@@ -73,13 +74,13 @@
       "appsmith.store.jwt",
       "seletor_animal.selectedOptionValue"
     ],
-    "userSetOnLoad": true,
+    "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-04-17T20:50:19Z"
+    "createdAt": "2024-05-20T16:59:29Z"
   },
   "id": "Prontuários_getVacinasDeUmCao",
   "deleted": false,
-  "gitSyncId": "6620198c897a1c105cb9afb5_6620360b897a1c105cb9b157"
+  "gitSyncId": "664b7bb03d0ee46738b298c4_664b81713d0ee46738b29a50"
 }

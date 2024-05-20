@@ -16,7 +16,7 @@
     "pageId": "Prontuários",
     "collectionId": "Prontuários_Desabilitar_botoes",
     "actionConfiguration": {
-      "timeoutInMillisecond": 10000,
+      "timeoutInMillisecond": 0,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "selfReferencingDataPaths": [],
@@ -35,9 +35,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-04-17T21:23:03Z"
+    "createdAt": "2024-05-20T16:59:32Z"
   },
   "id": "Prontuários_Desabilitar_botoes.habilitaBotoes",
   "deleted": false,
-  "gitSyncId": "6620198c897a1c105cb9afb5_66203db7897a1c105cb9b16e"
+  "gitSyncId": "664b7bb03d0ee46738b298c4_664b81743d0ee46738b29a97"
 }

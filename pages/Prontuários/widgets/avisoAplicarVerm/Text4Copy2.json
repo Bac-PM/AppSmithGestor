@@ -1,6 +1,6 @@
 {
     "mobileBottomRow": 9,
-    "widgetName": "Text4Copy",
+    "widgetName": "Text4Copy2",
     "displayName": "Text",
     "iconSVG": "/static/media/icon.a47d6d5dbbb718c4dc4b2eb4f218c1b7.svg",
     "searchTags": [
@@ -34,13 +34,13 @@
     "rightColumn": 59,
     "textAlign": "CENTER",
     "dynamicHeight": "AUTO_HEIGHT",
-    "widgetId": "5vwm015cis",
+    "widgetId": "fzy552bd8x",
     "minWidth": 450,
     "isVisible": true,
     "fontStyle": "ITALIC",
     "textColor": "#231F20",
     "version": 1,
-    "parentId": "7xhfpdg6kn",
+    "parentId": "ophsjaj83v",
     "tags": [
         "Suggested",
         "Content"

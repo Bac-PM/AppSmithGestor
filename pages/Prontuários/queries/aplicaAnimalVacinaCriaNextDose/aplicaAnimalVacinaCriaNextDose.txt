@@ -1,7 +1,7 @@
 {
     "data_proxima_aplicacao": {{(function() {
 		let inicio = new Date(); 
-		inicio.setDate(inicio.getDate()+  Vacinas.triggeredRow.doses_totais) // setando a data pra um tempo depois
+		inicio.setDate(inicio.getDate()+  Vacinas.triggeredRow.intervalo_entre_doses) // setando a data pra um tempo depois
 		return inicio    
 })();}},
     "anotacoes": {{Vacinas.triggeredRow.anotacoes}},

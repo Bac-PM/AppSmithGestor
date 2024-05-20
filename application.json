@@ -33,10 +33,6 @@
       "isDefault": false
     },
     {
-      "id": "Prontuários",
-      "isDefault": false
-    },
-    {
       "id": "Alertas",
       "isDefault": false
     },
@@ -66,6 +62,10 @@
     },
     {
       "id": "Painel de Informações",
+      "isDefault": false
+    },
+    {
+      "id": "Prontuários",
       "isDefault": false
     }
   ],

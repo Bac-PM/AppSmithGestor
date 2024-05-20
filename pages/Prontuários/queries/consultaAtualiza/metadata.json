@@ -3,6 +3,7 @@
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
     "name": "consultaAtualiza",
+    "fullyQualifiedName": "consultaAtualiza",
     "datasource": {
       "name": "strApi",
       "pluginId": "restapi-plugin",
@@ -75,9 +76,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-04-17T18:48:47Z"
+    "createdAt": "2024-05-20T16:59:29Z"
   },
   "id": "Prontuários_consultaAtualiza",
   "deleted": false,
-  "gitSyncId": "65f886c00f108844aba2b2b0_2024-03-28T01:23:15.103313422Z"
+  "gitSyncId": "664b7bb03d0ee46738b298c4_664b81713d0ee46738b29a54"
 }
