@@ -42,7 +42,7 @@
         },
         {
           "key": "pagination[pageSize]",
-          "value": "4"
+          "value": "6"
         },
         {
           "key": "filters[ativo]",
