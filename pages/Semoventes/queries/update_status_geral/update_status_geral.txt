@@ -1,4 +1,5 @@
 {
 		"status_geral": false,
+		"status_operacional": "Baixado",
 		"Justificativa_baixado": '{{justificativa_baixa.text}}'
 }

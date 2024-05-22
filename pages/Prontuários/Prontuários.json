@@ -58,8 +58,8 @@
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "Prontuários_get_all_animals_someventes",
-              "name": "get_all_animals_someventes",
+              "id": "Prontuários_get_all_animals_semoventes",
+              "name": "get_all_animals_semoventes",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [

@@ -39,7 +39,7 @@
     "parentColumnSpace": 18.26171875,
     "dynamicTriggerPathList": [{"key": "onOptionChange"}],
     "labelPosition": "Auto",
-    "sourceData": "{{get_all_animals_someventes.data.data}}",
+    "sourceData": "{{get_all_animals_semoventes.data.data}}",
     "key": "ld5nbja9ju",
     "labelTextSize": "1rem",
     "isDeprecated": false,

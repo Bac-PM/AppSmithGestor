@@ -2,7 +2,7 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "get_all_animals_someventes",
+    "name": "get_all_animals_semoventes",
     "datasource": {
       "name": "strApi",
       "pluginId": "restapi-plugin",
@@ -71,7 +71,7 @@
     "userPermissions": [],
     "createdAt": "2024-04-17T19:53:40Z"
   },
-  "id": "Prontuários_get_all_animals_someventes",
+  "id": "Prontuários_get_all_animals_semoventes",
   "deleted": false,
   "gitSyncId": "6620198c897a1c105cb9afb5_2024-04-17T19:53:40.310413303Z"
 }

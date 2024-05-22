@@ -33,7 +33,7 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{\n\t\t\"status_geral\": false,\n\t\t\"Justificativa_baixado\": '{{justificativa_baixa.text}}'\n}",
+      "body": "{\n\t\t\"status_geral\": false,\n\t\t\"status_operacional\": \"Baixado\",\n\t\t\"Justificativa_baixado\": '{{justificativa_baixa.text}}'\n}",
       "bodyFormData": [],
       "httpMethod": "PUT",
       "selfReferencingDataPaths": [],

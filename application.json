@@ -94,12 +94,17 @@
   },
   "unpublishedCustomJSLibs": [
     {
-      "uidString": "service_http://localhost/appsmith-bac/dist/service.umd.js"
+      "uidString": "service_https://cdn.jsdelivr.net/gh/felipefo/appsmith-bac@organizando-e-refatorando/dist/service.umd.js"
     }
   ],
   "publishedCustomJSLibs": [],
   "evaluationVersion": 2,
   "applicationVersion": 2,
+  "embedSetting": {
+    "height": "720px",
+    "width": "1024px",
+    "showNavigationBar": true
+  },
   "collapseInvisibleWidgets": true,
   "isManualUpdate": false,
   "deleted": false

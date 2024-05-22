@@ -997,7 +997,7 @@
     "widgetId": "vpo5op05w0",
     "allowAddNewRow": "",
     "minWidth": 450,
-    "tableData": "{{get_all_animals_someventes.data.data.filter( element => element.Status_geral == \"Desativado\")}}",
+    "tableData": "{{get_all_animals_semoventes.data.data.filter( element => element.Status_geral == \"Desativado\")}}",
     "label": "Data",
     "searchKey": "",
     "parentId": "iy9rw7xg0y",
