@@ -8,12 +8,12 @@
     "serverSideFiltering": false,
     "defaultOptionValue": "",
     "animateLoading": true,
-    "leftColumn": 2,
+    "leftColumn": 1,
     "dynamicBindingPathList": [
         {"key": "sourceData"},
         {"key": "borderRadius"}
     ],
-    "placeholderText": "Selecione uma opção",
+    "placeholderText": "Selecione um semovente",
     "isDisabled": false,
     "isRequired": false,
     "dynamicHeight": "FIXED",
@@ -43,7 +43,7 @@
     "key": "ld5nbja9ju",
     "labelTextSize": "1rem",
     "isDeprecated": false,
-    "rightColumn": 20,
+    "rightColumn": 19,
     "widgetId": "s5jfyo84kg",
     "optionValue": "id",
     "minWidth": 450,
@@ -55,6 +55,6 @@
     "responsiveBehavior": "fill",
     "mobileLeftColumn": 1,
     "maxDynamicHeight": 9000,
-    "onOptionChange": "{{get_vermifugosDeCao.run();\ngetConsultaDeUmCao.run();\nget_ectoparasiticidaDeCao.run();\ngetVacinasDeUmCao.run();\ngetAllColeirasDeUmCao.run()}}",
+    "onOptionChange": "{{get_vermifugosDeCao.run();\ngetConsultaDeUmCao.run();\nget_ectoparasiticidaDeCao.run();\ngetVacinasDeUmCao.run();\ngetAllColeirasDeUmCao.run();\nget_medicamento_animal.run()}}",
     "minDynamicHeight": 4
 }

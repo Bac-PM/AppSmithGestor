@@ -3,9 +3,9 @@
     "boxShadow": "none",
     "mobileBottomRow": 22,
     "widgetName": "confirmarRemocaoCopyCopy",
-    "onClick": "{{aplicaAnimalVacina.run().then(() => {\n  getVacinasDeUmCao.run();\n\t\n  closeModal('avisoVacina');\n});}}",
+    "onClick": "{{aplicaAnimalVacina.run().then(() => {\n  getVacinasDeUmCao.run()\n  closeModal('avisoVacina');\n}).catch(error => {\n //aplicaAnimalVacina.data.error.details.errors.forEach(element => {\n   //showAlert(JSON.stringify(element.message), 'error');\n//});\n});}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "dynamicPropertyPathList": [],
+    "dynamicPropertyPathList": [{"key": "onClick"}],
     "displayName": "Button",
     "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
     "searchTags": [

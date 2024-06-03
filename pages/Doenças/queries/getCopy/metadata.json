@@ -33,10 +33,6 @@
       "encodeParamsToggle": true,
       "queryParameters": [
         {
-          "key": "fields[0]",
-          "value": "nome"
-        },
-        {
           "key": "[ativo]",
           "value": "true"
         }

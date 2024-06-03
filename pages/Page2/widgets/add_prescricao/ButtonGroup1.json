@@ -1,0 +1,87 @@
+{
+    "needsErrorInfo": false,
+    "boxShadow": "none",
+    "mobileBottomRow": 32,
+    "widgetName": "ButtonGroup1",
+    "isCanvas": false,
+    "dynamicPropertyPathList": [
+        {"key": "groupButtons.groupButton2.onClick"},
+        {"key": "groupButtons.groupButton1.onClick"}
+    ],
+    "displayName": "Button Group",
+    "iconSVG": "/static/media/icon.ae1401b479d77b1908271bdfed6d12ba.svg",
+    "searchTags": [
+        "click",
+        "submit"
+    ],
+    "topRow": 24,
+    "bottomRow": 28,
+    "parentRowSpace": 10,
+    "type": "BUTTON_GROUP_WIDGET",
+    "groupButtons": {
+        "groupButton1": {
+            "onClick": "{{storeValue('tabPosologia', 'automatica');\n}}",
+            "iconName": "",
+            "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+            "widgetId": "",
+            "menuItems": {},
+            "index": 0,
+            "label": "Automática",
+            "isVisible": true,
+            "buttonType": "SIMPLE",
+            "iconAlign": "left",
+            "id": "groupButton1",
+            "placement": "CENTER",
+            "isDisabled": false
+        },
+        "groupButton2": {
+            "onClick": "{{storeValue('tabPosologia', 'livre');\n}}",
+            "buttonType": "SIMPLE",
+            "iconName": "",
+            "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+            "widgetId": "",
+            "menuItems": {},
+            "index": 1,
+            "label": "Texto Livre",
+            "id": "groupButton2",
+            "placement": "CENTER",
+            "isVisible": true,
+            "isDisabled": false
+        }
+    },
+    "hideCard": false,
+    "mobileRightColumn": 24,
+    "animateLoading": false,
+    "parentColumnSpace": 11.9375,
+    "dynamicTriggerPathList": [
+        {"key": "groupButtons.groupButton1.onClick"},
+        {"key": "groupButtons.groupButton2.onClick"}
+    ],
+    "leftColumn": 1,
+    "dynamicBindingPathList": [
+        {"key": "borderRadius"},
+        {"key": "groupButtons.groupButton2.buttonColor"},
+        {"key": "groupButtons.groupButton1.buttonColor"}
+    ],
+    "key": "ve7rwpzht4",
+    "orientation": "horizontal",
+    "isDeprecated": false,
+    "rightColumn": 25,
+    "thumbnailSVG": "/static/media/thumbnail.eaa22f923be763e8779a46432554f1ed.svg",
+    "widgetId": "j5iq45zx4z",
+    "minWidth": 450,
+    "isVisible": true,
+    "version": 1,
+    "parentId": "wuv9l6sen7",
+    "tags": ["Buttons"],
+    "renderMode": "CANVAS",
+    "isLoading": false,
+    "mobileTopRow": 28,
+    "responsiveBehavior": "fill",
+    "childStylesheet": {"button": {"buttonColor": "{{appsmith.theme.colors.primaryColor}}"}},
+    "originalTopRow": 32,
+    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "mobileLeftColumn": 0,
+    "originalBottomRow": 36,
+    "buttonVariant": "PRIMARY"
+}
