@@ -1,0 +1,16 @@
+{
+  "data": {
+		"medicamento": {{medicamento.selectedOptionValue}},
+		"animal": {{ seletor_animal.selectedOptionValue}},
+		"data_inicio": {{data_ini.selectedDate}},
+		"data_fim":{{data_fim.selectedDate}},
+		"dosagem": {{dosagem.text}},
+		"medida": {{medida.selectedOptionValue}},
+		"num_frequencia": {{num_frequencia.text}},
+		"tipo_frequencia": {{tipo_frequencia.selectedOptionValue}},
+		"num_duracao": {{num_duracao.text}},
+		"tipo_duracao": {{tipo_duracao.selectedOptionValue}},
+		"posologia_livre": {{posologia_automatica.text}}
+		}
+}
+

@@ -1,0 +1,93 @@
+{
+  "unpublishedPage": {
+    "name": "alertas",
+    "slug": "alertas",
+    "layouts": [
+      {
+        "viewMode": false,
+        "dsl": {
+          "widgetName": "MainContainer",
+          "backgroundColor": "none",
+          "rightColumn": 1224,
+          "snapColumns": 64,
+          "detachFromLayout": true,
+          "widgetId": "0",
+          "topRow": 0,
+          "bottomRow": 680,
+          "containerStyle": "none",
+          "snapRows": 79,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
+          "version": 89,
+          "minHeight": 810,
+          "parentColumnSpace": 1,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0
+        },
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "alertas_getURL.getUrl",
+              "name": "getURL.getUrl",
+              "collectionId": "alertas_getURL",
+              "confirmBeforeExecute": false,
+              "pluginType": "JS",
+              "jsonPathKeys": [
+                "function () {\n  const url = service.getUrlApi();\n  return url;\n}"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "alertas_getCaesAtivos",
+              "name": "getCaesAtivos",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "appsmith.store.jwt",
+                "getURL.getUrl.data"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "alertas_get_all_med",
+              "name": "get_all_med",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "appsmith.store.jwt",
+                "getURL.getUrl.data"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "alertas_get_medicamento_animal",
+              "name": "get_medicamento_animal",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "seletor_animal.selectedOptionValue",
+                "appsmith.store.jwt",
+                "getURL.getUrl.data"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
+        "layoutOnLoadActionErrors": [],
+        "validOnPageLoadActions": true,
+        "id": "alertas",
+        "deleted": false,
+        "policies": [],
+        "userPermissions": []
+      }
+    ],
+    "userPermissions": [],
+    "policies": [],
+    "isHidden": false
+  },
+  "deleted": false,
+  "gitSyncId": "665df99a9e04da2c576e9861_665e022f9e04da2c576e988d"
+}

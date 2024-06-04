@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "getDefaultValue",
+    "pageId": "prontuario",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "prontuario_getDefaultValue",
+  "deleted": false,
+  "gitSyncId": "665df99a9e04da2c576e9861_665dfe289e04da2c576e9883"
+}

@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "getURL",
+    "pageId": "alertas",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "alertas_getURL",
+  "deleted": false,
+  "gitSyncId": "665df99a9e04da2c576e9861_665e126d9e04da2c576e98b1"
+}
