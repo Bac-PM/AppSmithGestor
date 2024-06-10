@@ -1,6 +1,6 @@
 {
     "data_proxima_aplicacao": {{addDataProximaDose.selectedDate}},
-    "anotacoes": {{addAnotacoes.text}},
+    "observacao": {{addAnotacoes.text}},
     "lembrete_em_dias": {{addLembreteEmDias.selectedOptionValue}},
     "dose_atual": {{addDoseAtual.text}},
     "animal": {{seletor_animal.selectedOptionValue}},

@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 690,
+          "bottomRow": 710,
           "containerStyle": "none",
           "snapRows": 79,
           "parentRowSpace": 1,
@@ -95,31 +95,6 @@
           ],
           [
             {
-              "id": "Prescrições_get_medicamento_animal",
-              "name": "get_medicamento_animal",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "seletor_animal.selectedOptionValue",
-                "appsmith.store.jwt",
-                "getURL.getUrl.data"
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ],
-          [
-            {
-              "id": "Prescrições_getAllColeirasDeUmCao",
-              "name": "getAllColeirasDeUmCao",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "seletor_animal.selectedOptionValue",
-                "appsmith.store.jwt"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
               "id": "Prescrições_getConsultaDeUmCao",
               "name": "getConsultaDeUmCao",
               "confirmBeforeExecute": false,
@@ -175,6 +150,30 @@
               "timeoutInMillisecond": 10000
             },
             {
+              "id": "Prescrições_get_ectoparasiticidas_aplicado",
+              "name": "get_ectoparasiticidas_aplicado",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "seletor_animal.selectedOptionValue",
+                "appsmith.store.jwt",
+                "getURL.getUrl.data"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Prescrições_get_medicamento_animal",
+              "name": "get_medicamento_animal",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "seletor_animal.selectedOptionValue",
+                "appsmith.store.jwt",
+                "getURL.getUrl.data"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
               "id": "Prescrições_get_vermifugosDeCao",
               "name": "get_vermifugosDeCao",
               "confirmBeforeExecute": false,
@@ -182,6 +181,18 @@
               "jsonPathKeys": [
                 "seletor_animal.selectedOptionValue",
                 "appsmith.store.jwt"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Prescrições_get_vermifugos_aplicados",
+              "name": "get_vermifugos_aplicados",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "seletor_animal.selectedOptionValue",
+                "appsmith.store.jwt",
+                "getURL.getUrl.data"
               ],
               "timeoutInMillisecond": 10000
             }

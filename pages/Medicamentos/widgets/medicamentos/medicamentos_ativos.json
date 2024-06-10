@@ -10,8 +10,6 @@
     "animateLoading": true,
     "dynamicBindingPathList": [
         {"key": "accentColor"},
-        {"key": "borderRadius"},
-        {"key": "boxShadow"},
         {"key": "tableData"},
         {"key": "primaryColumns.id.computedValue"},
         {"key": "primaryColumns.nome.computedValue"},
@@ -30,11 +28,13 @@
         {"key": "primaryColumns.customColumn2.borderRadius"},
         {"key": "primaryColumns.customColumn2.boxShadow"},
         {"key": "primaryColumns.customColumn3.computedValue"},
-        {"key": "primaryColumns.customColumn4.computedValue"}
+        {"key": "primaryColumns.customColumn4.computedValue"},
+        {"key": "boxShadow"}
     ],
     "needsHeightForContent": true,
     "leftColumn": 1,
     "delimiter": ",",
+    "variant": "DEFAULT",
     "defaultSelectedRowIndex": 0,
     "flexVerticalAlignment": "start",
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",

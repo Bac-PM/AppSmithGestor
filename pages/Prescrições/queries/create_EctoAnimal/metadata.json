@@ -33,7 +33,7 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{\n\t\"animal\":{{seletor_animal.selectedOptionValue}},\n\t\"tipo_aplicacao\":{{select_ectoAplicar.selectedOptionValue}},\n\t\"lembrete_em_dias\":{{addLembreteDiasEcto.selectedOptionValue}},\n\t\"data_proxima_aplicacao\":{{addDataProximaAplicacaoEcto.selectedDate}},\n\t\"aplicado\":\"false\"\n}\n\n",
+      "body": "{\n\t\"animal\":{{seletor_animal.selectedOptionValue}},\n\t\"tipo_aplicacao\":{{select_ectoAplicar.selectedOptionValue}},\n\t\"lembrete_em_dias\":{{addLembreteDiasEcto.selectedOptionValue}},\n\t\"data_proxima_aplicacao\":{{addDataProximaAplicacaoEcto.selectedDate}},\n\t\"aplicado\":\"false\",\n\t\"observacao\": {{obs_ecto.text}}\n}\n\n",
       "bodyFormData": [],
       "httpMethod": "POST",
       "httpVersion": "HTTP11",
@@ -63,6 +63,7 @@
       "addDataProximaAplicacaoEcto.selectedDate",
       "addLembreteDiasEcto.selectedOptionValue",
       "appsmith.store.jwt",
+      "obs_ecto.text",
       "select_ectoAplicar.selectedOptionValue",
       "seletor_animal.selectedOptionValue"
     ],

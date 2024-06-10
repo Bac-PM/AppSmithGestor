@@ -5,7 +5,7 @@
     "widgetName": "Button7Copy",
     "onClick": "{{post_medicamento.run().then(() => {\n  closeModal('add_medicamento');\n  showAlert('Medicamento Cadastrado com Sucesso!', 'success');\n  get_medicamentos_ativos.run();\n});}}",
     "buttonColor": "rgb(48, 73, 136)",
-    "dynamicPropertyPathList": [],
+    "dynamicPropertyPathList": [{"key": "onClick"}],
     "displayName": "Button",
     "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
     "searchTags": [

@@ -3,7 +3,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 22,
     "widgetName": "confirmarAplicaVerm",
-    "onClick": "{{put_aplicaVerm.run().then(() => {\n  create_proximaVermAnimal.run().then(() => {\n    // showAlert('sget_vermifugosDeCao.run();uccess');\n    get_vermifugosDeCao.run();\n  });\n  get_vermifugosDeCao.run().then(() => {\n    // showAlert('success');\n    get_vermifugosDeCao.run();\n  });\n  showAlert('Vermífugo Aplicado', 'success');\n  closeModal('avisoAplicarVerm');\n}).catch(() => {\n  closeModal('avisoAplicarVerm');\n  showAlert('Erro ao aplicar', 'error');\n});}}",
+    "onClick": "{{put_aplicaVerm.run().then(() => {\n  get_vermifugosDeCao.run().then(() => {\n    get_vermifugosDeCao.run();\n  });\n  showAlert('Vermífugo Aplicado', 'success');\n  closeModal('avisoAplicarVerm');\n}).catch(() => {\n  closeModal('avisoAplicarVerm');\n  showAlert('Erro ao aplicar', 'error');\n});}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "dynamicPropertyPathList": [],
     "displayName": "Button",

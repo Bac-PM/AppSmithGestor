@@ -2,7 +2,7 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "getAllColeirasDeUmCao",
+    "name": "getAllColeirasDeUmCaoa",
     "fullyQualifiedName": "getAllColeirasDeUmCao",
     "datasource": {
       "name": "strApi",
@@ -59,7 +59,7 @@
         "apiContentType": "none"
       }
     },
-    "executeOnLoad": true,
+    "executeOnLoad": false,
     "dynamicBindingPathList": [
       {
         "key": "path"

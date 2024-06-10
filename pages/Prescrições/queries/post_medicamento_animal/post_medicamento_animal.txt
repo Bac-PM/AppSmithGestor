@@ -13,7 +13,8 @@
 		"posologia": {{posologia.text}},
 		"observacao": {{observacao_med.text}},
 		"lembrete_em_dias": {{addLembreteDiasMed.selectedOptionValue}},
-		"hora": {{horario.text}}
+		"hora": {{horario.text}},
+		"historico_nome": {{medicamento.selectedOptionLabel}}
 		}
 }
 

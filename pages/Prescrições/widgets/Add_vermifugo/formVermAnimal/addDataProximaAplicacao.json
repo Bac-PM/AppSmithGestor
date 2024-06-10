@@ -6,7 +6,7 @@
     "labelWidth": 5,
     "type": "DATE_PICKER_WIDGET2",
     "animateLoading": true,
-    "leftColumn": 36,
+    "leftColumn": 32,
     "dynamicBindingPathList": [
         {"key": "accentColor"},
         {"key": "borderRadius"}
@@ -42,7 +42,7 @@
     "key": "lfy1phzo0t",
     "labelTextSize": "0.875rem",
     "isDeprecated": false,
-    "rightColumn": 62,
+    "rightColumn": 63,
     "widgetId": "bwvh7mrvun",
     "minWidth": 450,
     "label": "Data da Próxima Aplicação",

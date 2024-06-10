@@ -101,7 +101,7 @@
         {"key": "tableData"}
     ],
     "displayName": "Table",
-    "bottomRow": 43,
+    "bottomRow": 56,
     "columnWidthMap": {
         "retorno": 144,
         "animal": 149,

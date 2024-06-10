@@ -3,7 +3,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 22,
     "widgetName": "botaoEditarUpdateCopy1",
-    "onClick": "{{\n\nupdateColeiraCao.run().then(() => {\n  getAllColeirasDeUmCao.run();\n\tcloseModal('Edit_coleira_cao');\n}).catch(() => {\n  updateColeiraCao.data.error.details.errors.forEach(element => {\n    showAlert(element.message, 'error');\n\t\n});\t\n});}}",
+    "onClick": "{{\n\nupdateColeiraCao.run().then(() => {\n  getAllColeirasDeUmCaoa.run();\n\tcloseModal('Edit_coleira_cao');\n}).catch(() => {\n  updateColeiraCao.data.error.details.errors.forEach(element => {\n    showAlert(element.message, 'error');\n\t\n});\t\n});}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "dynamicPropertyPathList": [{"key": "onClick"}],
     "displayName": "Button",

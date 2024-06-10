@@ -3,6 +3,7 @@
 	"tipo_aplicacao":{{select_vermAplicar.selectedOptionValue}},
 	"lembrete_em_dias":{{addLembreteDias.selectedOptionValue}},
 	"data_proxima_aplicacao":{{addDataProximaAplicacao.selectedDate}},
-	"aplicado":"false"
+	"aplicado":"false",
+	"observacao": {{obs_verm.text}}
 }
 
