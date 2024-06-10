@@ -3,8 +3,9 @@
     "boxShadow": "none",
     "mobileBottomRow": 4,
     "widgetName": "IconButton5",
-    "onClick": "{{closeModal('desativar_nome_vac');}}",
+    "onClick": "{{closeModal('remover_agendamento');}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+    "dynamicPropertyPathList": [],
     "displayName": "Icon button",
     "iconSVG": "/static/media/icon.bb5d55ae67fb1687dff78e66ad1faec0.svg",
     "searchTags": [
