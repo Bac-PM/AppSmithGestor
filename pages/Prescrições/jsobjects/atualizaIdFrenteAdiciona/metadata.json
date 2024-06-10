@@ -1,0 +1,20 @@
+{
+  "unpublishedCollection": {
+    "name": "atualizaIdFrenteAdiciona",
+    "pageId": "Prescrições",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [
+      {
+        "name": "idFrente",
+        "value": "\"\""
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "Prescrições_atualizaIdFrenteAdiciona",
+  "deleted": false,
+  "gitSyncId": "664b7bb03d0ee46738b298c4_664b81713d0ee46738b29a8a"
+}

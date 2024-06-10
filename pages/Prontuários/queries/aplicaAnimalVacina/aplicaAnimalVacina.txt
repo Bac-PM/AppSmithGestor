@@ -1,3 +1,0 @@
-{
-		"aplicado": true
-}

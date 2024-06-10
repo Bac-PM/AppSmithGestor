@@ -1,9 +1,0 @@
-{
-  "data": {
-		"medicamento": {{medicamento.selectedOptionValue}},
-		"animal": {{seletor_animal.selectedOptionValue}},
-		"data_inicio": {{data_ini.selectedDate}},
-		"data_fim": {{data_fim.selectedDate}},
-		"posologia_livre": {{posologia_livre.text}}
-		}
-}

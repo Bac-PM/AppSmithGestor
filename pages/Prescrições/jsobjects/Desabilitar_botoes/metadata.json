@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "Desabilitar_botoes",
+    "pageId": "Prescrições",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "Prescrições_Desabilitar_botoes",
+  "deleted": false,
+  "gitSyncId": "664b7bb03d0ee46738b298c4_664b81713d0ee46738b29a80"
+}
