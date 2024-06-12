@@ -33,7 +33,7 @@
     "isVisible": true,
     "enableClientSideSearch": true,
     "version": 2,
-    "totalRecordsCount": "12",
+    "totalRecordsCount": "",
     "tags": [
         "Suggested",
         "Display"
@@ -80,7 +80,7 @@
         {"key": "tableData"}
     ],
     "displayName": "Table",
-    "bottomRow": 35,
+    "bottomRow": 36,
     "columnWidthMap": {},
     "parentRowSpace": 10,
     "hideCard": false,

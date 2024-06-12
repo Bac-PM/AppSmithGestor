@@ -5,6 +5,7 @@
     "iconSVG": "/static/media/icon.e6911f8bb94dc6c4a102a74740c41763.svg",
     "topRow": 0,
     "isSortable": true,
+    "onPageChange": "{{get_vermifugos.run()}}",
     "type": "TABLE_WIDGET_V2",
     "inlineEditingSaveOption": "ROW_LEVEL",
     "animateLoading": true,
@@ -61,17 +62,17 @@
         }
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "columnUpdatedAt": 1713201832502,
+    "columnUpdatedAt": 1718210033193,
     "defaultSelectedRowIndices": [0],
     "mobileBottomRow": 26,
     "widgetName": "verm_ativos",
     "defaultPageSize": 0,
     "columnOrder": [
-        "customColumn2",
-        "customColumn1",
         "id",
         "nome_produto",
-        "duracao_em_dias"
+        "duracao_em_dias",
+        "customColumn1",
+        "customColumn2"
     ],
     "dynamicPropertyPathList": [{"key": "tableData"}],
     "displayName": "Table",
@@ -80,9 +81,10 @@
         "nome_produto": 193,
         "rg": 208,
         "unidade": 235.96484375,
-        "customColumn1": 97,
+        "customColumn1": 94,
         "customColumn2": 125,
         "id": 70,
+        "duracao_em_dias": 657,
         "Nome": 151,
         "customColumn3": 175.638671875,
         "updatedAt": 169
@@ -93,7 +95,8 @@
     "parentColumnSpace": 12.160400390625,
     "dynamicTriggerPathList": [
         {"key": "primaryColumns.customColumn1.onClick"},
-        {"key": "primaryColumns.customColumn2.onClick"}
+        {"key": "primaryColumns.customColumn2.onClick"},
+        {"key": "onPageChange"}
     ],
     "borderWidth": "1",
     "primaryColumns": {
@@ -164,7 +167,7 @@
             "decimals": 0,
             "width": 150,
             "enableFilter": true,
-            "sticky": "",
+            "sticky": "right",
             "originalId": "customColumn1",
             "currencyCode": "USD",
             "customAlias": "",
@@ -234,7 +237,7 @@
             "decimals": 0,
             "width": 150,
             "enableFilter": true,
-            "sticky": "",
+            "sticky": "right",
             "originalId": "customColumn2",
             "currencyCode": "USD",
             "customAlias": "",

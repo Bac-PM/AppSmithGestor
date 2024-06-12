@@ -42,7 +42,7 @@
     "labelPosition": "Top",
     "key": "lfy1phzo0t",
     "labelTextSize": "0.875rem",
-    "defaultDate": "{{Vacinas.triggeredRow.data_proxima_aplicacao}}",
+    "defaultDate": "{{vacinas_ativas.triggeredRow.data_proxima_aplicacao}}",
     "isDeprecated": false,
     "rightColumn": 44,
     "widgetId": "g3k7vhibit",

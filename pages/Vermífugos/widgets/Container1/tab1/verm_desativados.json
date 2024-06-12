@@ -5,6 +5,7 @@
     "iconSVG": "/static/media/icon.e6911f8bb94dc6c4a102a74740c41763.svg",
     "topRow": 0,
     "isSortable": true,
+    "onPageChange": "{{get_vermifugos_desativados.run()}}",
     "type": "TABLE_WIDGET_V2",
     "inlineEditingSaveOption": "ROW_LEVEL",
     "animateLoading": true,
@@ -59,16 +60,16 @@
         }
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "columnUpdatedAt": 1713207651875,
+    "columnUpdatedAt": 1718210087112,
     "defaultSelectedRowIndices": [0],
     "mobileBottomRow": 26,
     "widgetName": "verm_desativados",
     "defaultPageSize": 0,
     "columnOrder": [
-        "customColumn2",
         "id",
         "nome_produto",
-        "duracao_em_dias"
+        "duracao_em_dias",
+        "customColumn2"
     ],
     "dynamicPropertyPathList": [{"key": "tableData"}],
     "displayName": "Table",
@@ -80,6 +81,7 @@
         "customColumn1": 97,
         "customColumn2": 125,
         "id": 70,
+        "duracao_em_dias": 751,
         "Nome": 151,
         "customColumn3": 175.638671875,
         "updatedAt": 169
@@ -88,7 +90,10 @@
     "hideCard": false,
     "mobileRightColumn": 23,
     "parentColumnSpace": 12.160400390625,
-    "dynamicTriggerPathList": [{"key": "primaryColumns.customColumn2.onClick"}],
+    "dynamicTriggerPathList": [
+        {"key": "primaryColumns.customColumn2.onClick"},
+        {"key": "onPageChange"}
+    ],
     "borderWidth": "1",
     "primaryColumns": {
         "nome_produto": {
@@ -189,7 +194,7 @@
             "decimals": 0,
             "width": 150,
             "enableFilter": true,
-            "sticky": "",
+            "sticky": "right",
             "originalId": "customColumn2",
             "currencyCode": "USD",
             "customAlias": "",
@@ -242,6 +247,7 @@
     "label": "Data",
     "searchKey": "",
     "parentId": "3pesbr70zi",
+    "serverSidePaginationEnabled": true,
     "renderMode": "CANVAS",
     "mobileTopRow": 0,
     "horizontalAlignment": "LEFT",

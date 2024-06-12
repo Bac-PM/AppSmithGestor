@@ -5,6 +5,7 @@
     "iconSVG": "/static/media/icon.e6911f8bb94dc6c4a102a74740c41763.svg",
     "topRow": 4,
     "isSortable": true,
+    "onPageChange": "{{getAllTipoVacina.run()}}",
     "type": "TABLE_WIDGET_V2",
     "inlineEditingSaveOption": "ROW_LEVEL",
     "animateLoading": true,
@@ -91,7 +92,8 @@
     "parentColumnSpace": 12.160400390625,
     "dynamicTriggerPathList": [
         {"key": "primaryColumns.customColumn1.onClick"},
-        {"key": "primaryColumns.customColumn2.onClick"}
+        {"key": "primaryColumns.customColumn2.onClick"},
+        {"key": "onPageChange"}
     ],
     "borderWidth": "1",
     "primaryColumns": {
@@ -346,6 +348,7 @@
     "label": "Data",
     "searchKey": "",
     "parentId": "um9w2b69qm",
+    "serverSidePaginationEnabled": true,
     "renderMode": "CANVAS",
     "mobileTopRow": 0,
     "horizontalAlignment": "LEFT",

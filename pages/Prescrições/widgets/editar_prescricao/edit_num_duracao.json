@@ -64,6 +64,6 @@
     "mobileLeftColumn": 0,
     "maxDynamicHeight": 9000,
     "iconAlign": "left",
-    "defaultText": "{{medicamentos_animals.triggeredItem.num_duracao}}",
+    "defaultText": "{{medicamentos_ativos.triggeredItem.num_duracao}}",
     "minDynamicHeight": 4
 }

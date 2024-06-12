@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 670,
+          "bottomRow": 550,
           "containerStyle": "none",
           "snapRows": 79,
           "parentRowSpace": 1,
@@ -69,28 +69,7 @@
               "pluginType": "API",
               "jsonPathKeys": [
                 "appsmith.store.jwt",
-                "getURL.getUrl.data"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Medicamentos_get_medicamentos_desativados",
-              "name": "get_medicamentos_desativados",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "appsmith.store.jwt",
-                "getURL.getUrl.data"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Medicamentos_get_principio_ativo",
-              "name": "get_principio_ativo",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "appsmith.store.jwt",
+                "medicamentos_ativos.pageNo",
                 "getURL.getUrl.data"
               ],
               "timeoutInMillisecond": 10000
@@ -101,6 +80,32 @@
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
+                "appsmith.store.jwt",
+                "getURL.getUrl.data"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "Medicamentos_get_medicamentos_desativados",
+              "name": "get_medicamentos_desativados",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "appsmith.store.jwt",
+                "medicamentos_desativados.pageNo",
+                "getURL.getUrl.data"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Medicamentos_get_principio_ativo",
+              "name": "get_principio_ativo",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "principios_ativos.pageNo",
                 "appsmith.store.jwt",
                 "getURL.getUrl.data"
               ],

@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "getURL",
+    "pageId": "Condutor",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "Condutor_getURL",
+  "deleted": false,
+  "gitSyncId": "664b91393d0ee46738b29c21_6669caa1721e40404f828131"
+}

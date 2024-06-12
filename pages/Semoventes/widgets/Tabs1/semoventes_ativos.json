@@ -5,6 +5,7 @@
     "iconSVG": "/static/media/icon.e6911f8bb94dc6c4a102a74740c41763.svg",
     "topRow": 5,
     "isSortable": true,
+    "onPageChange": "{{get_animals_ativos.run()}}",
     "type": "TABLE_WIDGET_V2",
     "inlineEditingSaveOption": "ROW_LEVEL",
     "animateLoading": true,
@@ -145,7 +146,7 @@
         {"key": "primaryColumns.customColumn2.onClick"}
     ],
     "displayName": "Table",
-    "bottomRow": 53,
+    "bottomRow": 55,
     "columnWidthMap": {
         "Status_operacional": 185,
         "Foto": 102,
@@ -180,7 +181,8 @@
     "dynamicTriggerPathList": [
         {"key": "onRowSelected"},
         {"key": "primaryColumns.customColumn1.onClick"},
-        {"key": "primaryColumns.customColumn2.onClick"}
+        {"key": "primaryColumns.customColumn2.onClick"},
+        {"key": "onPageChange"}
     ],
     "borderWidth": "1",
     "primaryColumns": {
@@ -1477,6 +1479,7 @@
     "label": "Data",
     "searchKey": "",
     "parentId": "5hsi5po2uy",
+    "serverSidePaginationEnabled": true,
     "renderMode": "CANVAS",
     "mobileTopRow": 1,
     "horizontalAlignment": "LEFT",

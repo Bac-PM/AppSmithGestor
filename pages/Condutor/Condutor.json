@@ -28,15 +28,18 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Condutor_get",
-              "name": "get",
+              "id": "Condutor_getURL.getUrl",
+              "name": "getURL.getUrl",
+              "collectionId": "Condutor_getURL",
               "confirmBeforeExecute": false,
-              "pluginType": "API",
+              "pluginType": "JS",
               "jsonPathKeys": [
-                "appsmith.store.jwt"
+                "function () {\n  const url = service.getUrlApi();\n  return url;\n}"
               ],
               "timeoutInMillisecond": 10000
-            },
+            }
+          ],
+          [
             {
               "id": "Condutor_getUnidades",
               "name": "getUnidades",
@@ -44,6 +47,31 @@
               "pluginType": "API",
               "jsonPathKeys": [
                 "appsmith.store.jwt"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "Condutor_get",
+              "name": "get",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "appsmith.store.jwt",
+                "condutores_ativos.pageNo"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Condutor_getDesativados",
+              "name": "getDesativados",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "appsmith.store.jwt",
+                "getURL.getUrl.data",
+                "condutores_desativados.pageNo"
               ],
               "timeoutInMillisecond": 10000
             }

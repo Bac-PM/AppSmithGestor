@@ -18,7 +18,7 @@
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
-      "path": "/api/animal-vacinas/{{Vacinas.triggeredRow.id}} ",
+      "path": "/api/animal-vacinas/{{vacinas_ativas.triggeredRow.id}} ",
       "headers": [
         {
           "key": "Authorization",
@@ -59,7 +59,6 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "Vacinas.triggeredRow.id",
       "appsmith.store.jwt",
       "atualizaAnotacoes.text",
       "atualizaDataProximaDose.selectedDate",
@@ -69,7 +68,8 @@
       "atualizaLembreteDias.selectedOptionValue",
       "atualizaNomeVacina.selectedOptionValue",
       "parseInt(FotoId.text)",
-      "seletor_animal.selectedOptionValue"
+      "seletor_animal.selectedOptionValue",
+      "vacinas_ativas.triggeredRow.id"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

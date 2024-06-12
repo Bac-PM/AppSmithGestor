@@ -38,6 +38,14 @@
         {
           "key": "filters[ativo]",
           "value": "true"
+        },
+        {
+          "key": "pagination[page]",
+          "value": "{{principios_ativos.pageNo}}"
+        },
+        {
+          "key": "pagination[pageSize]",
+          "value": "8"
         }
       ],
       "body": "",
@@ -61,6 +69,9 @@
       },
       {
         "key": "headers[0].value"
+      },
+      {
+        "key": "queryParameters[2].value"
       }
     ],
     "isValid": true,
@@ -68,7 +79,8 @@
     "messages": [],
     "jsonPathKeys": [
       "appsmith.store.jwt",
-      "getURL.getUrl.data"
+      "getURL.getUrl.data",
+      "principios_ativos.pageNo"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

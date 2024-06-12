@@ -5,6 +5,7 @@
     "iconSVG": "/static/media/icon.c4395b694ca4b5a84741345b057b6866.svg",
     "topRow": 1,
     "isSortable": true,
+    "onPageChange": "{{get_medicamentos_desativados.run()}}",
     "type": "TABLE_WIDGET_V2",
     "inlineEditingSaveOption": "ROW_LEVEL",
     "animateLoading": true,
@@ -91,7 +92,7 @@
     ],
     "dynamicPropertyPathList": [{"key": "tableData"}],
     "displayName": "Table",
-    "bottomRow": 56,
+    "bottomRow": 43,
     "columnWidthMap": {
         "classificacao_medicamentos": 623,
         "apresentacao_medicamento": 134,
@@ -103,7 +104,10 @@
     "hideCard": false,
     "mobileRightColumn": 35,
     "parentColumnSpace": 17.419189453125,
-    "dynamicTriggerPathList": [{"key": "primaryColumns.customColumn2.onClick"}],
+    "dynamicTriggerPathList": [
+        {"key": "primaryColumns.customColumn2.onClick"},
+        {"key": "onPageChange"}
+    ],
     "borderWidth": "1",
     "primaryColumns": {
         "createdAt": {
@@ -513,6 +517,7 @@
     "label": "Data",
     "searchKey": "",
     "parentId": "3vw5y5sb23",
+    "serverSidePaginationEnabled": true,
     "renderMode": "CANVAS",
     "mobileTopRow": 3,
     "horizontalAlignment": "LEFT",

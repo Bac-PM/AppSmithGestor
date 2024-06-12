@@ -44,7 +44,7 @@
     "labelTextSize": "0.875rem",
     "isDeprecated": false,
     "rightColumn": 29,
-    "defaultDate": "{{medicamentos_animals.triggeredItem.data_inicio}}",
+    "defaultDate": "{{medicamentos_ativos.triggeredItem.data_inicio}}",
     "thumbnailSVG": "/static/media/thumbnail.6f2ddea04e74f31810326bef3bc239b8.svg",
     "widgetId": "66sqc9o645",
     "minWidth": 450,

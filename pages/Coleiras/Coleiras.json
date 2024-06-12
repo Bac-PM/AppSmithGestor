@@ -28,21 +28,24 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Coleiras_getAllColeiras",
-              "name": "getAllColeiras",
+              "id": "Coleiras_getAllColeirasDesativadas",
+              "name": "getAllColeirasDesativadas",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
                 "appsmith.store.jwt"
               ],
               "timeoutInMillisecond": 10000
-            },
+            }
+          ],
+          [
             {
-              "id": "Coleiras_getAllColeirasDesativadas",
-              "name": "getAllColeirasDesativadas",
+              "id": "Coleiras_getAllColeiras",
+              "name": "getAllColeiras",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
+                "coleiras_ativas.pageNo",
                 "appsmith.store.jwt"
               ],
               "timeoutInMillisecond": 10000

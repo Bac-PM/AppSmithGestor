@@ -6,7 +6,7 @@
     "labelWidth": 5,
     "type": "SELECT_WIDGET",
     "serverSideFiltering": false,
-    "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( medicamentos_animals.triggeredItem.medida.id))(edit_medida.options, edit_medida.serverSideFiltering) }}",
+    "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( medicamentos_ativos.triggeredItem.medida.id))(edit_medida.options, edit_medida.serverSideFiltering) }}",
     "animateLoading": true,
     "leftColumn": 10,
     "dynamicBindingPathList": [

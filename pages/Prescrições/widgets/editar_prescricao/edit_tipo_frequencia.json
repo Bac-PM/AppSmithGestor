@@ -6,7 +6,7 @@
     "labelWidth": 5,
     "type": "SELECT_WIDGET",
     "serverSideFiltering": false,
-    "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( medicamentos_animals.triggeredItem.tipo_frequencia))(edit_tipo_frequencia.options, edit_tipo_frequencia.serverSideFiltering) }}",
+    "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( medicamentos_ativos.triggeredItem.tipo_frequencia))(edit_tipo_frequencia.options, edit_tipo_frequencia.serverSideFiltering) }}",
     "animateLoading": true,
     "leftColumn": 30,
     "dynamicBindingPathList": [

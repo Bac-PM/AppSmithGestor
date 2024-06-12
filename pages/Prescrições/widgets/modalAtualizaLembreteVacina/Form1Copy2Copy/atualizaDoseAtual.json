@@ -62,6 +62,6 @@
     "maxDynamicHeight": 9000,
     "shouldAllowAutofill": false,
     "iconAlign": "left",
-    "defaultText": "{{Vacinas.triggeredRow.dose_atual}}",
+    "defaultText": "{{vacinas_ativas.triggeredRow.dose_atual}}",
     "minDynamicHeight": 4
 }

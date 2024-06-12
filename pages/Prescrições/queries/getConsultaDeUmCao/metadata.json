@@ -58,7 +58,7 @@
         "apiContentType": "text/plain"
       }
     },
-    "executeOnLoad": true,
+    "executeOnLoad": false,
     "dynamicBindingPathList": [
       {
         "key": "queryParameters[0].value"

@@ -21,7 +21,7 @@
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
-      "path": "{{getURL.getUrl.data}}/api/medicamento-animals/{{medicamentos_animals.triggeredItem.id}}",
+      "path": "{{getURL.getUrl.data}}/api/medicamento-animals/{{medicamentos_ativos.triggeredItem.id}}",
       "headers": [
         {
           "key": "Authorization",
@@ -36,7 +36,7 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{\n  \"data\": {\n\t\t\"medicamento\": {{edit_medicamento.selectedOptionValue}},\n\t\t\"animal\": {{seletor_animal.selectedOptionValue}},\n\t\t\"data_inicio\": {{edit_data_ini.selectedDate}},\n\t\t\"data_fim\":{{edit_data_fim.selectedDate}},\n\t\t\"dosagem\": {{edit_dosagem.text}},\n\t\t\"medida\": {{edit_medida.selectedOptionValue}},\n\t\t\"num_frequencia\": {{edit_num_frequencia.text}},\n\t\t\"tipo_frequencia\": {{edit_tipo_frequencia.selectedOptionValue}},\n\t\t\"num_duracao\": {{edit_num_duracao.text}},\n\t\t\"tipo_duracao\": {{edit_tipo_duracao.selectedOptionValue}},\n\t\t\"posologia\": {{edit_posologia.text}},\n\t\t\"observacao\": {{edit_observacao_med.text}},\n\t\t\"lembrete_em_dias\": {{editLembreteDiasMed.selectedOptionValue}},\n\t\t\"hora\": {{edit_hora.text}}\n\t\t}\n}\n\n",
+      "body": "{\n  \"data\": {\n\t\t\"medicamento\": {{edit_medicamento.selectedOptionValue}},\n\t\t\"animal\": {{seletor_animal.selectedOptionValue}},\n\t\t\"data_inicio\": {{edit_data_ini.selectedDate}},\n\t\t\"data_fim\":{{edit_data_fim.selectedDate}},\n\t\t\"dosagem\": {{edit_dosagem.text}},\n\t\t\"medida\": {{edit_medida.selectedOptionValue}},\n\t\t\"num_frequencia\": {{edit_num_frequencia.text}},\n\t\t\"tipo_frequencia\": {{edit_tipo_frequencia.selectedOptionValue}},\n\t\t\"num_duracao\": {{edit_num_duracao.text}},\n\t\t\"tipo_duracao\": {{edit_tipo_duracao.selectedOptionValue}},\n\t\t\"posologia\": {{edit_posologia.text}},\n\t\t\"observacao\": {{edit_observacao_med.text}},\n\t\t\"lembrete_em_dias\": {{editLembreteDiasMed.selectedOptionValue}},\n\t\t\"hora\": {{edit_hora.text}},\n\t\t\"historico_nome\": {{edit_medicamento.selectedOptionLabel}}\n\t\t}\n}\n\n",
       "bodyFormData": [],
       "httpMethod": "PUT",
       "httpVersion": "HTTP11",
@@ -72,6 +72,7 @@
       "edit_data_ini.selectedDate",
       "edit_dosagem.text",
       "edit_hora.text",
+      "edit_medicamento.selectedOptionLabel",
       "edit_medicamento.selectedOptionValue",
       "edit_medida.selectedOptionValue",
       "edit_num_duracao.text",
@@ -81,7 +82,7 @@
       "edit_tipo_duracao.selectedOptionValue",
       "edit_tipo_frequencia.selectedOptionValue",
       "getURL.getUrl.data",
-      "medicamentos_animals.triggeredItem.id",
+      "medicamentos_ativos.triggeredItem.id",
       "seletor_animal.selectedOptionValue"
     ],
     "userSetOnLoad": false,

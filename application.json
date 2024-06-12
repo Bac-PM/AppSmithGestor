@@ -67,6 +67,14 @@
     {
       "id": "Prescrições",
       "isDefault": false
+    },
+    {
+      "id": "Consulta",
+      "isDefault": false
+    },
+    {
+      "id": "Page2",
+      "isDefault": false
     }
   ],
   "viewMode": false,
@@ -93,9 +101,6 @@
     "type": "DESKTOP"
   },
   "unpublishedCustomJSLibs": [
-    {
-      "uidString": "service_https://cdn.jsdelivr.net/gh/felipefo/appsmith-bac@organizando-e-refatorando/dist/service.umd.js"
-    },
     {
       "uidString": "service_http://localhost/appsmith-bac/dist/service.umd.js"
     }

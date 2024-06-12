@@ -42,6 +42,14 @@
         {
           "key": "filters[ativo]",
           "value": "true"
+        },
+        {
+          "key": "pagination[page]",
+          "value": "{{ecto_ativos.pageNo}}"
+        },
+        {
+          "key": "pagination[pageSize]",
+          "value": "8"
         }
       ],
       "bodyFormData": [],
@@ -60,13 +68,17 @@
     "dynamicBindingPathList": [
       {
         "key": "headers[0].value"
+      },
+      {
+        "key": "queryParameters[4].value"
       }
     ],
     "isValid": true,
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "appsmith.store.jwt"
+      "appsmith.store.jwt",
+      "ecto_ativos.pageNo"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

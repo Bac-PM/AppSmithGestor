@@ -38,6 +38,14 @@
         {
           "key": "filters[ativo]",
           "value": "false"
+        },
+        {
+          "key": "pagination[page]",
+          "value": "{{coleiras_desativadas.pageNo}}"
+        },
+        {
+          "key": "pagination[pageSize]",
+          "value": "6"
         }
       ],
       "body": "",
@@ -58,13 +66,17 @@
     "dynamicBindingPathList": [
       {
         "key": "headers[0].value"
+      },
+      {
+        "key": "queryParameters[3].value"
       }
     ],
     "isValid": true,
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "appsmith.store.jwt"
+      "appsmith.store.jwt",
+      "coleiras_desativadas.pageNo"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

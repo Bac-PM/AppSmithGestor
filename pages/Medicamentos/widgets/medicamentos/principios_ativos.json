@@ -5,6 +5,7 @@
     "iconSVG": "/static/media/icon.c4395b694ca4b5a84741345b057b6866.svg",
     "topRow": 4,
     "isSortable": true,
+    "onPageChange": "{{get_principio_ativo.run()}}",
     "type": "TABLE_WIDGET_V2",
     "inlineEditingSaveOption": "ROW_LEVEL",
     "animateLoading": true,
@@ -76,7 +77,7 @@
     ],
     "dynamicPropertyPathList": [{"key": "tableData"}],
     "displayName": "Table",
-    "bottomRow": 59,
+    "bottomRow": 48,
     "columnWidthMap": {
         "customColumn2": 170,
         "Nome": 1029
@@ -87,7 +88,8 @@
     "parentColumnSpace": 18.880859375,
     "dynamicTriggerPathList": [
         {"key": "primaryColumns.customColumn1.onClick"},
-        {"key": "primaryColumns.customColumn2.onClick"}
+        {"key": "primaryColumns.customColumn2.onClick"},
+        {"key": "onPageChange"}
     ],
     "borderWidth": "1",
     "primaryColumns": {
@@ -244,6 +246,7 @@
     "label": "Data",
     "searchKey": "",
     "parentId": "ygxrkhp9oa",
+    "serverSidePaginationEnabled": true,
     "renderMode": "CANVAS",
     "mobileTopRow": 15,
     "horizontalAlignment": "LEFT",

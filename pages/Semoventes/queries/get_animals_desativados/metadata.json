@@ -40,6 +40,14 @@
         {
           "key": "filters[status_geral]",
           "value": "false"
+        },
+        {
+          "key": "pagination[page]",
+          "value": "{{SemoventesDesativados.pageNo}}"
+        },
+        {
+          "key": "pagination[pageSize]",
+          "value": "10"
         }
       ],
       "bodyFormData": [],
@@ -58,12 +66,16 @@
     "dynamicBindingPathList": [
       {
         "key": "headers[0].value"
+      },
+      {
+        "key": "queryParameters[2].value"
       }
     ],
     "isValid": true,
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
+      "SemoventesDesativados.pageNo",
       "appsmith.store.jwt"
     ],
     "userSetOnLoad": false,

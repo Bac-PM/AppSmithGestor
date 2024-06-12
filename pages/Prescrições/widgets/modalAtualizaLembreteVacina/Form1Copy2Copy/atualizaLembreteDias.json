@@ -4,7 +4,7 @@
     "topRow": 30,
     "labelWidth": 5,
     "type": "RADIO_GROUP_WIDGET",
-    "defaultOptionValue": "{{Vacinas.triggeredRow.lembrete_em_dias}}",
+    "defaultOptionValue": "{{vacinas_ativas.triggeredRow.lembrete_em_dias}}",
     "animateLoading": true,
     "leftColumn": 1,
     "dynamicBindingPathList": [

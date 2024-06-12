@@ -31,6 +31,14 @@
         {
           "key": "filters[ativo]",
           "value": "true"
+        },
+        {
+          "key": "pagination[page]",
+          "value": "{{tipos_vacinas_ativos.pageNo}}"
+        },
+        {
+          "key": "pagination[pageSize]",
+          "value": "6"
         }
       ],
       "body": "",
@@ -51,13 +59,17 @@
     "dynamicBindingPathList": [
       {
         "key": "headers[0].value"
+      },
+      {
+        "key": "queryParameters[1].value"
       }
     ],
     "isValid": true,
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "appsmith.store.jwt"
+      "appsmith.store.jwt",
+      "tipos_vacinas_ativos.pageNo"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

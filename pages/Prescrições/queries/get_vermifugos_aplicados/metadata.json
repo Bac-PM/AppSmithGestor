@@ -45,6 +45,14 @@
         {
           "key": "populate",
           "value": "*"
+        },
+        {
+          "key": "pagination[page]",
+          "value": "{{vermifugos_aplicados.pageNo}}"
+        },
+        {
+          "key": "pagination[pageSize]",
+          "value": "6"
         }
       ],
       "body": "",
@@ -67,10 +75,13 @@
         "key": "path"
       },
       {
+        "key": "headers[0].value"
+      },
+      {
         "key": "queryParameters[0].value"
       },
       {
-        "key": "headers[0].value"
+        "key": "queryParameters[4].value"
       }
     ],
     "isValid": true,
@@ -79,7 +90,8 @@
     "jsonPathKeys": [
       "appsmith.store.jwt",
       "getURL.getUrl.data",
-      "seletor_animal.selectedOptionValue"
+      "seletor_animal.selectedOptionValue",
+      "vermifugos_aplicados.pageNo"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

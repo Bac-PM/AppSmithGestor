@@ -42,7 +42,7 @@
     "labelPosition": "Top",
     "key": "epm93ofi1m",
     "labelTextSize": "0.875rem",
-    "defaultDate": "{{medicamentos_animals.triggeredItem.data_fim}}",
+    "defaultDate": "{{medicamentos_ativos.triggeredItem.data_fim}}",
     "isDeprecated": false,
     "rightColumn": 55,
     "thumbnailSVG": "/static/media/thumbnail.6f2ddea04e74f31810326bef3bc239b8.svg",

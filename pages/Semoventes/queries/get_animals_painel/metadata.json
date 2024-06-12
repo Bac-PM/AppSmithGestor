@@ -59,6 +59,14 @@
         {
           "key": "filters[status_geral]",
           "value": "true"
+        },
+        {
+          "key": "pagination[page]",
+          "value": "{{Lista_de_Animais.pageNo}}"
+        },
+        {
+          "key": "pagination[pageSize]",
+          "value": "10"
         }
       ],
       "body": "",
@@ -79,15 +87,19 @@
     "dynamicBindingPathList": [
       {
         "key": "headers[0].value"
+      },
+      {
+        "key": "queryParameters[8].value"
       }
     ],
     "isValid": true,
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
+      "Lista_de_Animais.pageNo",
       "appsmith.store.jwt"
     ],
-    "userSetOnLoad": false,
+    "userSetOnLoad": true,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],

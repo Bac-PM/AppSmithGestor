@@ -5,6 +5,7 @@
     "iconSVG": "/static/media/icon.c4395b694ca4b5a84741345b057b6866.svg",
     "topRow": 4,
     "isSortable": true,
+    "onPageChange": "{{get_medicamentos_ativos.run()}}",
     "type": "TABLE_WIDGET_V2",
     "inlineEditingSaveOption": "ROW_LEVEL",
     "animateLoading": true,
@@ -71,7 +72,7 @@
             "discardButtonColor": "{{appsmith.theme.colors.primaryColor}}"
         }
     },
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "borderRadius": "0.375rem",
     "columnUpdatedAt": 1715708422703,
     "originalBottomRow": 126,
     "defaultSelectedRowIndices": [0],
@@ -97,7 +98,7 @@
     ],
     "dynamicPropertyPathList": [{"key": "tableData"}],
     "displayName": "Table",
-    "bottomRow": 59,
+    "bottomRow": 48,
     "columnWidthMap": {
         "classificacao_medicamentos": 623,
         "apresentacao_medicamento": 134,
@@ -112,7 +113,8 @@
     "parentColumnSpace": 17.419189453125,
     "dynamicTriggerPathList": [
         {"key": "primaryColumns.customColumn1.onClick"},
-        {"key": "primaryColumns.customColumn2.onClick"}
+        {"key": "primaryColumns.customColumn2.onClick"},
+        {"key": "onPageChange"}
     ],
     "borderWidth": "1",
     "primaryColumns": {

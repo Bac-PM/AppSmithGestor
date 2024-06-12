@@ -28,7 +28,7 @@
     "shouldTruncate": false,
     "borderWidth": "",
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "Deseja marcar a Vacina {{Vacinas.triggeredRow.nome_vacina}} - {{Vacinas.triggeredRow[\"Tipo da Vacina\"]}} como aplicada?",
+    "text": "Deseja marcar a Vacina {{vacinas_ativas.triggeredRow.nome_vacina}} - {{vacinas_ativas.triggeredRow[\"Tipo da Vacina\"]}} como aplicada?",
     "key": "1l0folsz2z",
     "isDeprecated": false,
     "rightColumn": 59,

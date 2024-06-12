@@ -4,8 +4,9 @@
     "boxShadow": "none",
     "mobileBottomRow": 22,
     "widgetName": "Button22",
-    "onClick": "{{put_aplicar_med.run().then(() => {\n  closeModal('aplicar_med');\n  get_medicamento_animal.run();\n});}}",
+    "onClick": "{{put_aplicar_med.run().then(() => {\n  closeModal('aplicar_med');\n  get_medicamento_animal.run();\n get_medicamento_animal_aplicad.run()\n});}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+    "dynamicPropertyPathList": [],
     "displayName": "Button",
     "iconSVG": "/static/media/icon.cb7371e9a48acf9db0f2f3ea0a714255.svg",
     "searchTags": [

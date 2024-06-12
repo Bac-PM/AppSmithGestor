@@ -66,6 +66,6 @@
     "maxDynamicHeight": 9000,
     "shouldAllowAutofill": false,
     "iconAlign": "left",
-    "defaultText": "{{medicamentos_animals.triggeredItem.observacao}}",
+    "defaultText": "{{medicamentos_ativos.triggeredItem.observacao}}",
     "minDynamicHeight": 4
 }

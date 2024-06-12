@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 600,
+          "bottomRow": 620,
           "containerStyle": "none",
           "snapRows": 79,
           "parentRowSpace": 1,
@@ -39,36 +39,6 @@
             }
           ],
           [
-            {
-              "id": "Semoventes_get_animals_ativos",
-              "name": "get_animals_ativos",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "appsmith.store.jwt"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Semoventes_get_animals_desativados",
-              "name": "get_animals_desativados",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "appsmith.store.jwt"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Semoventes_get_animals_painel",
-              "name": "get_animals_painel",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "appsmith.store.jwt"
-              ],
-              "timeoutInMillisecond": 10000
-            },
             {
               "id": "Semoventes_get_condutor",
               "name": "get_condutor",
@@ -145,6 +115,43 @@
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
+                "appsmith.store.jwt"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "Semoventes_get_animals_painel",
+              "name": "get_animals_painel",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "appsmith.store.jwt",
+                "Lista_de_Animais.pageNo"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "Semoventes_get_animals_ativos",
+              "name": "get_animals_ativos",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "appsmith.store.jwt",
+                "semoventes_ativos.pageNo"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Semoventes_get_animals_desativados",
+              "name": "get_animals_desativados",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "SemoventesDesativados.pageNo",
                 "appsmith.store.jwt"
               ],
               "timeoutInMillisecond": 10000

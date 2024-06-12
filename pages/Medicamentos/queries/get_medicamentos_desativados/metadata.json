@@ -50,6 +50,14 @@
         {
           "key": "populate[classificacao_medicamentos][fields][0]",
           "value": "Nome"
+        },
+        {
+          "key": "pagination[page]",
+          "value": "{{medicamentos_desativados.pageNo}}"
+        },
+        {
+          "key": "pagination[pageSize]",
+          "value": "8"
         }
       ],
       "body": "",
@@ -73,6 +81,9 @@
       },
       {
         "key": "path"
+      },
+      {
+        "key": "queryParameters[5].value"
       }
     ],
     "isValid": true,
@@ -80,7 +91,8 @@
     "messages": [],
     "jsonPathKeys": [
       "appsmith.store.jwt",
-      "getURL.getUrl.data"
+      "getURL.getUrl.data",
+      "medicamentos_desativados.pageNo"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

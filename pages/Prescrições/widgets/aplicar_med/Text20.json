@@ -30,7 +30,7 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "{{medicamentos_animals.triggeredItem.medicamento.nome}}",
+    "text": "{{medicamentos_ativos.triggeredItem.medicamento.nome}}",
     "key": "z1yw58zsby",
     "isDeprecated": false,
     "rightColumn": 61,

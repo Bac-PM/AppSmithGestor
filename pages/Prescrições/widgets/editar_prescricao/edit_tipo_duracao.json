@@ -6,7 +6,7 @@
     "labelWidth": 5,
     "type": "SELECT_WIDGET",
     "serverSideFiltering": false,
-    "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( medicamentos_animals.triggeredItem.tipo_duracao))(edit_tipo_duracao.options, edit_tipo_duracao.serverSideFiltering) }}",
+    "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( medicamentos_ativos.triggeredItem.tipo_duracao))(edit_tipo_duracao.options, edit_tipo_duracao.serverSideFiltering) }}",
     "animateLoading": true,
     "leftColumn": 50,
     "dynamicBindingPathList": [

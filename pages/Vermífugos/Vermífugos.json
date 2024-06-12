@@ -33,6 +33,7 @@
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
+                "verm_ativos.pageNo",
                 "appsmith.store.jwt"
               ],
               "timeoutInMillisecond": 10000
@@ -43,6 +44,7 @@
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
+                "verm_desativados.pageNo",
                 "appsmith.store.jwt"
               ],
               "timeoutInMillisecond": 10000

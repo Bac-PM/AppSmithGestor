@@ -12,7 +12,7 @@
         "group"
     ],
     "topRow": 1,
-    "bottomRow": 71,
+    "bottomRow": 64,
     "parentRowSpace": 10,
     "type": "CONTAINER_WIDGET",
     "hideCard": false,
@@ -29,7 +29,7 @@
         "widgetName": "Canvas20",
         "displayName": "Canvas",
         "topRow": 0,
-        "bottomRow": 700,
+        "bottomRow": 630,
         "parentRowSpace": 1,
         "type": "CANVAS_WIDGET",
         "canExtend": false,
@@ -69,7 +69,7 @@
     "backgroundColor": "#FFFFFF",
     "isDeprecated": false,
     "rightColumn": 64,
-    "dynamicHeight": "FIXED",
+    "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "nx86zfrgge",
     "containerStyle": "card",
     "minWidth": 450,
@@ -81,8 +81,10 @@
     "isLoading": false,
     "mobileTopRow": 66,
     "responsiveBehavior": "fill",
+    "originalTopRow": 1,
     "borderRadius": "0.375rem",
     "mobileLeftColumn": 5,
     "maxDynamicHeight": 9000,
+    "originalBottomRow": 64,
     "minDynamicHeight": 10
 }

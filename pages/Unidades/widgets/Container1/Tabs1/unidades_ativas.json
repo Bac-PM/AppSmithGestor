@@ -5,6 +5,7 @@
     "iconSVG": "/static/media/icon.e6911f8bb94dc6c4a102a74740c41763.svg",
     "topRow": 0,
     "isSortable": true,
+    "onPageChange": "{{getUnidades.run()}}",
     "type": "TABLE_WIDGET_V2",
     "inlineEditingSaveOption": "ROW_LEVEL",
     "animateLoading": true,
@@ -64,32 +65,33 @@
         }
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "columnUpdatedAt": 1708631916557,
+    "columnUpdatedAt": 1718209491250,
     "originalBottomRow": 74,
     "defaultSelectedRowIndices": [0],
     "mobileBottomRow": 26,
     "widgetName": "unidades_ativas",
     "defaultPageSize": 0,
     "columnOrder": [
-        "customColumn2",
-        "customColumn1",
         "Nome",
         "Endereco",
         "createdAt",
         "updatedAt",
         "id",
-        "ativo"
+        "ativo",
+        "customColumn1",
+        "customColumn2"
     ],
     "dynamicPropertyPathList": [
         {"key": "tableData"},
         {"key": "primaryColumns.customColumn1.onClick"}
     ],
     "displayName": "Table",
-    "bottomRow": 46,
+    "bottomRow": 43,
     "columnWidthMap": {
-        "customColumn1": 92,
+        "customColumn1": 115,
         "customColumn2": 118,
-        "Nome": 313
+        "Nome": 287,
+        "Endereco": 259
     },
     "parentRowSpace": 10,
     "hideCard": false,
@@ -97,7 +99,8 @@
     "parentColumnSpace": 12.160400390625,
     "dynamicTriggerPathList": [
         {"key": "primaryColumns.customColumn1.onClick"},
-        {"key": "primaryColumns.customColumn2.onClick"}
+        {"key": "primaryColumns.customColumn2.onClick"},
+        {"key": "onPageChange"}
     ],
     "borderWidth": "1",
     "primaryColumns": {
@@ -199,7 +202,7 @@
             "decimals": 0,
             "width": 150,
             "enableFilter": true,
-            "sticky": "",
+            "sticky": "right",
             "originalId": "customColumn1",
             "currencyCode": "USD",
             "customAlias": "",
@@ -269,7 +272,7 @@
             "decimals": 0,
             "width": 150,
             "enableFilter": true,
-            "sticky": "",
+            "sticky": "right",
             "originalId": "customColumn2",
             "currencyCode": "USD",
             "customAlias": "",
@@ -379,10 +382,11 @@
     "textSize": "0.875rem",
     "widgetId": "dpf8imp8q5",
     "minWidth": 450,
-    "tableData": "{{getUnidades.data.data.filter( element => element.ativo == true)}}",
+    "tableData": "{{getUnidades.data.data}}",
     "label": "Data",
     "searchKey": "",
     "parentId": "atkws3pgt9",
+    "serverSidePaginationEnabled": true,
     "renderMode": "CANVAS",
     "mobileTopRow": 0,
     "horizontalAlignment": "LEFT",

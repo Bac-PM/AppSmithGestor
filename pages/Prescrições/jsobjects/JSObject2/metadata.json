@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "JSObject2",
+    "pageId": "Prescrições",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "Prescrições_JSObject2",
+  "deleted": false,
+  "gitSyncId": "664b91393d0ee46738b29c21_666880ba18c92d39a8ad311a"
+}

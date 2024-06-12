@@ -18,7 +18,7 @@
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
-      "path": "/api/updateAnimalVacina/{{Vacinas.triggeredRow.id}}",
+      "path": "/api/updateAnimalVacina/{{vacinas_ativas.triggeredRow.id}}",
       "headers": [
         {
           "key": "Authorization",
@@ -56,8 +56,8 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "Vacinas.triggeredRow.id",
-      "appsmith.store.jwt"
+      "appsmith.store.jwt",
+      "vacinas_ativas.triggeredRow.id"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

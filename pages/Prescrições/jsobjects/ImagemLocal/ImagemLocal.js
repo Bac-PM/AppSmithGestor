@@ -5,7 +5,7 @@ export default {
 	},
 	
 	ImagemTabelaFrente () {
-		ImagemLocal.frente = LinkUrl.url_App_Smith + Vacinas.triggeredRow.foto_etiqueta.formats.thumbnail.url
+		ImagemLocal.frente = LinkUrl.url_App_Smith + vacinas_ativas.triggeredRow.foto_etiqueta.formats.thumbnail.url
 	}
 
 }

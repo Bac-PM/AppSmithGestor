@@ -3,9 +3,9 @@
     "boxShadow": "none",
     "mobileBottomRow": 37,
     "widgetName": "addVermifugoAnimal",
-    "onClick": "{{create_vermAnimal.run().then(() => {\n  resetWidget(\"Add_vermifugo\", true);\n  closeModal('Add_vermifugo');\n  get_vermifugosDeCao.run();\n}).catch(() => {\n  create_vermAnimal.data.error.details.errors.forEach(element => {\n    showAlert(element.message, 'error');\n  });\n});}}",
+    "onClick": "{{create_vermAnimal.run().then(() => {\n  resetWidget(\"Add_vermifugo\", true);\n  closeModal('Add_vermifugo');\n  get_vermifugos_animal.run().run();\n}).catch(() => {});}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "dynamicPropertyPathList": [{"key": "onClick"}],
+    "dynamicPropertyPathList": [],
     "displayName": "Button",
     "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
     "searchTags": [
@@ -41,11 +41,11 @@
     "isLoading": false,
     "mobileTopRow": 33,
     "responsiveBehavior": "hug",
-    "originalTopRow": 27,
+    "originalTopRow": 30,
     "disabledWhenInvalid": true,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 46,
-    "originalBottomRow": 31,
+    "originalBottomRow": 34,
     "buttonVariant": "PRIMARY",
     "placement": "CENTER"
 }

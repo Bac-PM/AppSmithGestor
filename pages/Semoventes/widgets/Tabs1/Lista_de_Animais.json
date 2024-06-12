@@ -6,6 +6,7 @@
     "iconSVG": "/static/media/icon.e6911f8bb94dc6c4a102a74740c41763.svg",
     "topRow": 5,
     "isSortable": true,
+    "onPageChange": "{{get_animals_painel.run()}}",
     "type": "TABLE_WIDGET_V2",
     "inlineEditingSaveOption": "ROW_LEVEL",
     "animateLoading": true,
@@ -108,7 +109,10 @@
     "hideCard": false,
     "mobileRightColumn": 47,
     "parentColumnSpace": 14.09375,
-    "dynamicTriggerPathList": [{"key": "onRowSelected"}],
+    "dynamicTriggerPathList": [
+        {"key": "onRowSelected"},
+        {"key": "onPageChange"}
+    ],
     "borderWidth": "1",
     "primaryColumns": {
         "Condutor_principal": {
@@ -431,6 +435,7 @@
     "label": "Data",
     "searchKey": "",
     "parentId": "ly9egg7g63",
+    "serverSidePaginationEnabled": true,
     "renderMode": "CANVAS",
     "mobileTopRow": 31,
     "horizontalAlignment": "LEFT",

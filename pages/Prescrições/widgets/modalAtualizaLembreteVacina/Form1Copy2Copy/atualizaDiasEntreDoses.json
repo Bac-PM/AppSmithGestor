@@ -65,6 +65,6 @@
     "maxDynamicHeight": 9000,
     "shouldAllowAutofill": false,
     "iconAlign": "left",
-    "defaultText": "{{Vacinas.triggeredRow.intervalo_entre_doses}}",
+    "defaultText": "{{vacinas_ativas.triggeredRow.intervalo_entre_doses}}",
     "minDynamicHeight": 4
 }

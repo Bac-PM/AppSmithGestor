@@ -5,6 +5,7 @@
     "iconSVG": "/static/media/icon.e6911f8bb94dc6c4a102a74740c41763.svg",
     "topRow": 4,
     "isSortable": true,
+    "onPageChange": "{{get_vermifugos_animal.run()}}",
     "type": "TABLE_WIDGET_V2",
     "inlineEditingSaveOption": "ROW_LEVEL",
     "animateLoading": true,
@@ -43,7 +44,7 @@
     "isVisible": true,
     "enableClientSideSearch": true,
     "version": 2,
-    "totalRecordsCount": 0,
+    "totalRecordsCount": "",
     "tags": [
         "Suggested",
         "Display"
@@ -97,10 +98,10 @@
     ],
     "dynamicPropertyPathList": [{"key": "tableData"}],
     "displayName": "Table",
-    "bottomRow": 49,
+    "bottomRow": 40,
     "columnWidthMap": {
         "data_aplicacao": 180,
-        "observacao": 680,
+        "observacao": 619,
         "data_proxima_aplicacao": 171,
         "customColumn1": 143,
         "data_consulta": 157,
@@ -122,7 +123,8 @@
     "parentColumnSpace": 19.1904296875,
     "dynamicTriggerPathList": [
         {"key": "primaryColumns.customColumn4.onClick"},
-        {"key": "primaryColumns.customColumn5.onClick"}
+        {"key": "primaryColumns.customColumn5.onClick"},
+        {"key": "onPageChange"}
     ],
     "borderWidth": "1",
     "primaryColumns": {
@@ -620,10 +622,11 @@
     "textSize": "0.875rem",
     "widgetId": "4obpchm5jn",
     "minWidth": 450,
-    "tableData": "{{get_vermifugosDeCao.data.data}}",
+    "tableData": "{{get_vermifugos_animal.data.data}}",
     "label": "Data",
     "searchKey": "",
     "parentId": "g2kr1494qm",
+    "serverSidePaginationEnabled": true,
     "renderMode": "CANVAS",
     "mobileTopRow": 5,
     "horizontalAlignment": "LEFT",
