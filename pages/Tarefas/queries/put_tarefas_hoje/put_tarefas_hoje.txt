@@ -1,0 +1,7 @@
+{
+	"data": {
+		"tarefa": {{edit_tarefa_input2.text}},
+		"data_prevista_execucao": "{{edit_data_prevista2.selectedDate}}",
+		"users_permissions_user": {{getUsuario.data.id}}
+	}
+}

@@ -2,7 +2,6 @@
     "boxShadow": "none",
     "iconSVG": "/static/media/icon.f2c34197dbcf03595098986de898928f.svg",
     "topRow": 18,
-    "labelWidth": 5,
     "type": "INPUT_WIDGET_V2",
     "animateLoading": true,
     "resetOnSubmit": true,
@@ -63,6 +62,7 @@
     "originalTopRow": 19,
     "mobileLeftColumn": 15,
     "maxDynamicHeight": 9000,
+    "labelWIdth": 5,
     "iconAlign": "left",
     "defaultText": "",
     "minDynamicHeight": 4

@@ -21,7 +21,8 @@
         {"key": "primaryColumns.aplicado.computedValue"},
         {"key": "primaryColumns.animal.computedValue"},
         {"key": "primaryColumns.tipo_aplicacao.computedValue"},
-        {"key": "tableData"}
+        {"key": "tableData"},
+        {"key": "primaryColumns.observacao.computedValue"}
     ],
     "needsHeightForContent": true,
     "leftColumn": 0,
@@ -63,7 +64,7 @@
         }
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "columnUpdatedAt": 1714510756839,
+    "columnUpdatedAt": 1718305894972,
     "defaultSelectedRowIndices": [0],
     "mobileBottomRow": 28,
     "widgetName": "alertas_coleira",
@@ -77,14 +78,15 @@
         "data_aplicacao",
         "createdAt",
         "updatedAt",
-        "aplicado"
+        "aplicado",
+        "observacao"
     ],
     "dynamicPropertyPathList": [{"key": "tableData"}],
     "displayName": "Table",
     "bottomRow": 42,
     "columnWidthMap": {
-        "data_proxima_aplicacao": 191,
-        "tipo_aplicacao": 421
+        "data_proxima_aplicacao": 164,
+        "tipo_aplicacao": 381
     },
     "parentRowSpace": 10,
     "hideCard": false,
@@ -157,6 +159,40 @@
             "enableFilter": true,
             "sticky": "",
             "originalId": "data_aplicacao",
+            "currencyCode": "USD",
+            "cellBackground": "",
+            "verticalAlignment": "CENTER"
+        },
+        "observacao": {
+            "computedValue": "{{alertas_coleira.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"observacao\"]))}}",
+            "isEditable": false,
+            "notation": "standard",
+            "alias": "observacao",
+            "enableSort": true,
+            "isSaveVisible": true,
+            "id": "observacao",
+            "isDisabled": false,
+            "allowSameOptionsInNewRow": true,
+            "validation": {},
+            "isCellVisible": true,
+            "isDerived": false,
+            "textSize": "0.875rem",
+            "allowCellWrapping": false,
+            "index": 7,
+            "isDiscardVisible": true,
+            "isVisible": true,
+            "label": "observação",
+            "fontStyle": "",
+            "textColor": "",
+            "columnType": "text",
+            "thousandSeparator": true,
+            "horizontalAlignment": "LEFT",
+            "isCellEditable": false,
+            "decimals": 0,
+            "width": 150,
+            "enableFilter": true,
+            "sticky": "",
+            "originalId": "observacao",
             "currencyCode": "USD",
             "cellBackground": "",
             "verticalAlignment": "CENTER"

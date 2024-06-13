@@ -3,7 +3,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 28,
     "widgetName": "Button1",
-    "onClick": "{{LoginLib.run(() => { \n\t\n\tconst jwt = LoginLib?.data?.jwt;\t\t\t\t \nif(jwt){\n\tstoreValue('jwt' , jwt);\n\tnavigateTo('Semoventes', {});\n  }else{\n\t\tshowModal(\"invalid credentials\");\n\t}\n}, () => {\n  showAlert('Erro de login!', 'error');\n});}}\t\t\t\t\t\t\n)}}",
+    "onClick": "{{LoginLib.run(() => { \n\t\n\tconst jwt = LoginLib?.data?.jwt;\t\t\t\t \nif(jwt){\n\tstoreValue('jwt' , jwt);\n\tstoreValue('url', getURL.getUrl.data)\n\tnavigateTo('Semoventes', {});\n  }else{\n\t\tshowModal(\"invalid credentials\");\n\t}\n}, () => {\n  showAlert('Erro de login!', 'error');\n});}}\t\t\t\t\t\t\n)}}",
     "buttonColor": "rgb(48, 73, 136)",
     "dynamicPropertyPathList": [{"key": "onClick"}],
     "displayName": "Button",

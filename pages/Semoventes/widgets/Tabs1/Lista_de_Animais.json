@@ -87,7 +87,6 @@
         {"key": "onRowSelected"},
         {"key": "primaryColumns.Nome.cellBackground"},
         {"key": "primaryColumns.Idade.cellBackground"},
-        {"key": "cellBackground"},
         {"key": "tableData"}
     ],
     "displayName": "Table",

@@ -1,0 +1,7 @@
+{
+	"data": {
+		"data_de_execucao": "{{data_execucao.selectedDate}}",
+		"executada_por": {{getUsuario.data.id}},
+		"executada": true
+	}
+}

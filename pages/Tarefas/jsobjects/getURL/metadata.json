@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "getURL",
+    "pageId": "Tarefas",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "Tarefas_getURL",
+  "deleted": false,
+  "gitSyncId": "664b91393d0ee46738b29c21_6669fa42721e40404f828172"
+}

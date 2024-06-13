@@ -1,11 +1,12 @@
 {
     "boxShadow": "none",
     "mobileBottomRow": 22,
-    "widgetName": "Tabs1",
     "borderColor": "#E0DEDE",
+    "widgetName": "Tabs1",
     "isCanvas": true,
-    "displayName": "Tabs",
+    "dynamicPropertyPathList": [{"key": "isVisible"}],
     "iconSVG": "/static/media/icon.9e3d67c0af9c0bd092dc56240314e18a.svg",
+    "displayName": "Tabs",
     "topRow": 1,
     "bottomRow": 56,
     "parentRowSpace": 10,
@@ -17,7 +18,7 @@
     "parentColumnSpace": 16.984375,
     "dynamicTriggerPathList": [],
     "leftColumn": 0,
-    "dynamicBindingPathList": [],
+    "dynamicBindingPathList": [{"key": "isVisible"}],
     "children": [
         {
             "tabId": "tab1",
@@ -115,8 +116,8 @@
     "isDeprecated": false,
     "rightColumn": 53,
     "dynamicHeight": "AUTO_HEIGHT",
-    "widgetId": "pkjhpcspeg",
     "accentColor": "rgb(48, 73, 136)",
+    "widgetId": "pkjhpcspeg",
     "defaultTab": "",
     "shouldShowTabs": true,
     "minWidth": 450,
@@ -138,12 +139,12 @@
             "isVisible": true
         }
     },
-    "isVisible": true,
+    "isVisible": "{{\n(function() { if(getIdUsuario.data.role.name == \"veterinario\"){\n\t\treturn false;\n\t}\n\telse{\n\t\treturn true;\n\t}\n})();\n}}",
     "version": 3,
     "parentId": "0",
     "tags": ["Layout"],
-    "renderMode": "CANVAS",
     "isLoading": false,
+    "renderMode": "CANVAS",
     "mobileTopRow": 7,
     "responsiveBehavior": "fill",
     "originalTopRow": 1,

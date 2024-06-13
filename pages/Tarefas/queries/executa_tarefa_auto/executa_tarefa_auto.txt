@@ -1,0 +1,12 @@
+{
+	"data": {
+		"data_de_execucao": {{
+(function() {
+  const dataAtual = new Date();
+	return dataAtual;
+})();
+}},
+		"executada_por": {{getUsuario.data.id}},
+		"executada": true
+	}
+}

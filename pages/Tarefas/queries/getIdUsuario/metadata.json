@@ -2,7 +2,7 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "getIdUsuario",
+    "name": "getUsuario",
     "fullyQualifiedName": "getIdUsuario",
     "datasource": {
       "name": "strApi",
@@ -14,7 +14,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Prescrições",
+    "pageId": "Tarefas",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -29,8 +29,8 @@
       "encodeParamsToggle": true,
       "queryParameters": [
         {
-          "key": "fields[0]",
-          "value": "id"
+          "key": "populate",
+          "value": "*"
         }
       ],
       "bodyFormData": [],
@@ -45,7 +45,7 @@
         "apiContentType": "none"
       }
     },
-    "executeOnLoad": false,
+    "executeOnLoad": true,
     "dynamicBindingPathList": [],
     "isValid": true,
     "invalids": [],
@@ -53,13 +53,13 @@
     "jsonPathKeys": [
       "appsmith.store.jwt"
     ],
-    "userSetOnLoad": false,
+    "userSetOnLoad": true,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-05-20T16:59:29Z"
+    "createdAt": "2024-06-12T20:00:44Z"
   },
-  "id": "Prescrições_getIdUsuario",
+  "id": "Tarefas_getIdUsuario",
   "deleted": false,
-  "gitSyncId": "664b7bb03d0ee46738b298c4_664b81713d0ee46738b29a70"
+  "gitSyncId": "664b91393d0ee46738b29c21_6669fe6c721e40404f82817a"
 }

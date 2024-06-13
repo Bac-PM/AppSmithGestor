@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "medicamentosFiltrados",
+    "pageId": "Alertas",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "Alertas_medicamentosFiltrados",
+  "deleted": false,
+  "gitSyncId": "664b91393d0ee46738b29c21_666b3c0c721e40404f8281b3"
+}

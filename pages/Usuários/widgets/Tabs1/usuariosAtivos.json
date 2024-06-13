@@ -70,6 +70,7 @@
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "columnUpdatedAt": 1711477288232,
+    "originalBottomRow": 49,
     "defaultSelectedRowIndices": [0],
     "mobileBottomRow": 26,
     "widgetName": "usuariosAtivos",
@@ -88,7 +89,10 @@
         "id",
         "cpf"
     ],
-    "dynamicPropertyPathList": [{"key": "tableData"}],
+    "dynamicPropertyPathList": [
+        {"key": "tableData"},
+        {"key": "primaryColumns.customColumn1.onClick"}
+    ],
     "displayName": "Table",
     "bottomRow": 49,
     "columnWidthMap": {
@@ -520,6 +524,7 @@
     "horizontalAlignment": "LEFT",
     "isVisibleSearch": true,
     "responsiveBehavior": "fill",
+    "originalTopRow": 5,
     "mobileLeftColumn": 0,
     "isVisiblePagination": true,
     "verticalAlignment": "CENTER"

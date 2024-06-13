@@ -141,7 +141,8 @@
               "pluginType": "API",
               "jsonPathKeys": [
                 "appsmith.store.jwt",
-                "semoventes_ativos.pageNo"
+                "semoventes_ativos.pageNo",
+                "appsmith.store.url"
               ],
               "timeoutInMillisecond": 10000
             },

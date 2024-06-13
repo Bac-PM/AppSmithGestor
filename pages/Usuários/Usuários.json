@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 560,
+          "bottomRow": 1020,
           "containerStyle": "none",
           "snapRows": 58,
           "parentRowSpace": 1,
@@ -26,6 +26,18 @@
           "leftColumn": 0
         },
         "layoutOnLoadActions": [
+          [
+            {
+              "id": "Usuários_getIdUsuario",
+              "name": "getIdUsuario",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "appsmith.store.jwt"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ],
           [
             {
               "id": "Usuários_getAllUsuariosDesativados",
