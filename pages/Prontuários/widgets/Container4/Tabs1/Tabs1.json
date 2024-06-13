@@ -603,7 +603,7 @@
     "rightColumn": 64,
     "widgetId": "ozpizbsr4v",
     "defaultTab": "Painel",
-    "onTabSelected": "",
+    "onTabSelected": "{{}}",
     "minWidth": 450,
     "tabsObj": {
         "tabu0v4a0pw9d": {

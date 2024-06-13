@@ -17,7 +17,7 @@
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
-      "path": "/api/animal-vacinas/{{Vacinas.triggeredRow.id}}",
+      "path": "/api/updateAnimalVacina/{{Vacinas.triggeredRow.id}}",
       "headers": [
         {
           "key": "Authorization",
@@ -49,6 +49,9 @@
     "dynamicBindingPathList": [
       {
         "key": "body"
+      },
+      {
+        "key": "path"
       }
     ],
     "isValid": true,
