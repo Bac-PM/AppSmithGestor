@@ -21,7 +21,7 @@
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
-      "path": "{{getURL.getUrl.data}}/api/medicamento-animals/{{medicamentos_ativos.triggeredItem.id}}",
+      "path": "{{appsmith.store.url}}/api/medicamento-animals/{{medicamentos_ativos.triggeredItem.id}}",
       "headers": [
         {
           "key": "Authorization",
@@ -67,6 +67,7 @@
     "messages": [],
     "jsonPathKeys": [
       "appsmith.store.jwt",
+      "appsmith.store.url",
       "editLembreteDiasMed.selectedOptionValue",
       "edit_data_fim.selectedDate",
       "edit_data_ini.selectedDate",
@@ -81,7 +82,6 @@
       "edit_posologia.text",
       "edit_tipo_duracao.selectedOptionValue",
       "edit_tipo_frequencia.selectedOptionValue",
-      "getURL.getUrl.data",
       "medicamentos_ativos.triggeredItem.id",
       "seletor_animal.selectedOptionValue"
     ],

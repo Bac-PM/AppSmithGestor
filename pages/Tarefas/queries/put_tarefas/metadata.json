@@ -20,7 +20,7 @@
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
-      "path": "{{getURL.getUrl.data}}/api/tarefas/{{tarefas_ativas.triggeredRow.id}}",
+      "path": "{{appsmith.store.url}}/api/tarefas/{{tarefas_ativas.triggeredRow.id}}",
       "headers": [
         {
           "key": "Authorization",
@@ -66,9 +66,9 @@
     "messages": [],
     "jsonPathKeys": [
       "appsmith.store.jwt",
+      "appsmith.store.url",
       "edit_data_prevista.selectedDate",
       "edit_tarefa_input.text",
-      "getURL.getUrl.data",
       "getUsuario.data.id",
       "tarefas_ativas.triggeredRow.id"
     ],

@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1020,
+          "bottomRow": 1100,
           "containerStyle": "none",
           "snapRows": 58,
           "parentRowSpace": 1,
@@ -28,24 +28,13 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Usuários_getIdUsuario",
-              "name": "getIdUsuario",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "appsmith.store.jwt"
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ],
-          [
-            {
               "id": "Usuários_getAllUsuariosDesativados",
               "name": "getAllUsuariosDesativados",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
-                "appsmith.store.jwt"
+                "appsmith.store.jwt",
+                "appsmith.store.url"
               ],
               "timeoutInMillisecond": 10000
             }
@@ -57,12 +46,83 @@
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
-                "appsmith.store.jwt"
+                "appsmith.store.jwt",
+                "appsmith.store.url"
               ],
               "timeoutInMillisecond": 10000
             }
           ],
           [
+            {
+              "id": "Usuários_getIdUsuario",
+              "name": "getIdUsuario",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "appsmith.store.jwt",
+                "appsmith.store.url"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "Usuários_desativaUsuario",
+              "name": "desativaUsuario",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "usuariosAtivos.triggeredRow.id",
+                "appsmith.store.jwt",
+                "appsmith.store.url"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Usuários_reativaUsuario",
+              "name": "reativaUsuario",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "usuariosDesativados.triggeredRow.id",
+                "appsmith.store.jwt",
+                "appsmith.store.url"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Usuários_update_Usuario",
+              "name": "update_Usuario",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "InsereNomeUpdate.text",
+                "usuariosAtivos.triggeredRow.id",
+                "InsereEmailUpdate.text",
+                "selecionaPapelUpdate.selectedOptionValue",
+                "appsmith.store.jwt",
+                "insereCpfUpdate.text",
+                "appsmith.store.url"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "Usuários_CadastraUsuario",
+              "name": "CadastraUsuario",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "InsereCpf.text",
+                "InsereNome.text",
+                "appsmith.store.jwt",
+                "InsereSenha.text",
+                "InsereEmail.text",
+                "appsmith.store.url"
+              ],
+              "timeoutInMillisecond": 10000
+            },
             {
               "id": "Usuários_getAllUsuario",
               "name": "getAllUsuario",
@@ -70,7 +130,23 @@
               "pluginType": "API",
               "jsonPathKeys": [
                 "usuariosAtivos.pageNo",
-                "appsmith.store.jwt"
+                "appsmith.store.jwt",
+                "appsmith.store.url"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "Usuários_AtualizaPapelUsuario",
+              "name": "AtualizaPapelUsuario",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "CadastraUsuario.data.user.id",
+                "appsmith.store.jwt",
+                "SelecionePapel.selectedOptionValue",
+                "appsmith.store.url"
               ],
               "timeoutInMillisecond": 10000
             }

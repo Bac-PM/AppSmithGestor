@@ -28,29 +28,6 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Tarefas_getIdUsuario",
-              "name": "getIdUsuario",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "appsmith.store.jwt"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Tarefas_getURL.getUrl",
-              "name": "getURL.getUrl",
-              "collectionId": "Tarefas_getURL",
-              "confirmBeforeExecute": false,
-              "pluginType": "JS",
-              "jsonPathKeys": [
-                "function () {\n  const url = service.getUrlApi();\n  return url;\n}"
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ],
-          [
-            {
               "id": "Tarefas_get_tarefas",
               "name": "get_tarefas",
               "confirmBeforeExecute": false,
@@ -58,7 +35,7 @@
               "jsonPathKeys": [
                 "tarefas_ativas.pageNo",
                 "appsmith.store.jwt",
-                "getURL.getUrl.data"
+                "appsmith.store.url"
               ],
               "timeoutInMillisecond": 10000
             },
@@ -70,12 +47,10 @@
               "jsonPathKeys": [
                 "tarefas_executadas.pageNo",
                 "appsmith.store.jwt",
-                "getURL.getUrl.data"
+                "appsmith.store.url"
               ],
               "timeoutInMillisecond": 10000
-            }
-          ],
-          [
+            },
             {
               "id": "Tarefas_get_tarefas_hoje",
               "name": "get_tarefas_hoje",
@@ -84,8 +59,8 @@
               "jsonPathKeys": [
                 "appsmith.store.jwt",
                 "new Date()",
-                "getURL.getUrl.data",
-                "tarefas_hoje.pageNo"
+                "tarefas_hoje.pageNo",
+                "appsmith.store.url"
               ],
               "timeoutInMillisecond": 10000
             }

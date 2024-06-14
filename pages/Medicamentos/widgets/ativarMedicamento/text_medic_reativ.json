@@ -17,7 +17,7 @@
     "overflow": "NONE",
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
     "dynamicTriggerPathList": [],
-    "leftColumn": 6,
+    "leftColumn": 1,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
@@ -28,7 +28,7 @@
     "text": "O Medicamento será Reativado\n",
     "key": "fcmd7s5uhe",
     "isDeprecated": false,
-    "rightColumn": 58,
+    "rightColumn": 51,
     "textAlign": "CENTER",
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "dqw8u6k69f",

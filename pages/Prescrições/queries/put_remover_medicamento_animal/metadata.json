@@ -21,7 +21,7 @@
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
-      "path": "{{getURL.getUrl.data}}/api/medicamento-animals/{{medicamentos_ativos.triggeredItem.id}}",
+      "path": "{{appsmith.store.url}}/api/medicamento-animals/{{medicamentos_ativos.triggeredItem.id}}",
       "headers": [
         {
           "key": "Authorization",
@@ -64,7 +64,7 @@
     "messages": [],
     "jsonPathKeys": [
       "appsmith.store.jwt",
-      "getURL.getUrl.data",
+      "appsmith.store.url",
       "medicamentos_ativos.triggeredItem.id"
     ],
     "userSetOnLoad": false,

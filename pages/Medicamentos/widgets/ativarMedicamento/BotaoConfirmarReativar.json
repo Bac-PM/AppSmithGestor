@@ -3,7 +3,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 22,
     "widgetName": "BotaoConfirmarReativar",
-    "onClick": "{{ativar_medicamento.run().then(() => {\n  showAlert('Medicamento reativado!', 'success');\n  get_medicamentos_desativados.run();\n});\ncloseModal('ativarMedicamento');}}",
+    "onClick": "{{ativar_medicamento.run().then(() => {\n  get_medicamentos_desativados.run();\n  showModal('MedicamentoReativado');\n});}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "dynamicPropertyPathList": [],
     "displayName": "Button",

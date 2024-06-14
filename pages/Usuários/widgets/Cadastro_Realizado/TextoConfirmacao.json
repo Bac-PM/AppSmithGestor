@@ -25,7 +25,7 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "Cadastro do UsuarioRealizado com sucesso\n",
+    "text": "Cadastro Realizado com sucesso\n",
     "key": "7k0xckrtpb",
     "isDeprecated": false,
     "rightColumn": 64,

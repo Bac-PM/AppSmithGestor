@@ -157,7 +157,7 @@
     "tags": ["Layout"],
     "isLoading": false,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 66,
+    "originalBottomRow": 55,
     "needsErrorInfo": false,
     "mobileBottomRow": 16,
     "widgetName": "medicamentos",

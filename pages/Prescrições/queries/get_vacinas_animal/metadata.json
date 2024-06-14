@@ -20,7 +20,7 @@
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
-      "path": "{{getURL.getUrl.data}}/api/animal-vacinas",
+      "path": "{{appsmith.store.url}}/api/animal-vacinas",
       "headers": [
         {
           "key": "Authorization",
@@ -85,7 +85,7 @@
     "messages": [],
     "jsonPathKeys": [
       "appsmith.store.jwt",
-      "getURL.getUrl.data",
+      "appsmith.store.url",
       "seletor_animal.selectedOptionValue",
       "vacinas_ativas.pageNo"
     ],

@@ -1,5 +1,5 @@
 {
 	"data": {
-		"ativo": {{appsmith.store.status}}
+		"ativo": true
 	}
 }

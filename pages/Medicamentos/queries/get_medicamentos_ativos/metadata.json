@@ -21,7 +21,7 @@
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
-      "path": "{{getURL.getUrl.data}}/api/medicamentos",
+      "path": "{{appsmith.store.url}}/api/medicamentos",
       "headers": [
         {
           "key": "Authorization",
@@ -91,7 +91,7 @@
     "messages": [],
     "jsonPathKeys": [
       "appsmith.store.jwt",
-      "getURL.getUrl.data",
+      "appsmith.store.url",
       "medicamentos_ativos.pageNo"
     ],
     "userSetOnLoad": false,

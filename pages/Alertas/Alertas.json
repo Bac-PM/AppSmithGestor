@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 680,
+          "bottomRow": 600,
           "containerStyle": "none",
           "snapRows": 53,
           "parentRowSpace": 1,
@@ -28,19 +28,6 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Alertas_getCaesAtivos",
-              "name": "getCaesAtivos",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "appsmith.store.jwt"
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ],
-          [
-            {
-              "id": "Alertas_getURL.getUrl",
               "name": "getURL.getUrl",
               "collectionId": "Alertas_getURL",
               "confirmBeforeExecute": false,
@@ -53,62 +40,6 @@
           ],
           [
             {
-              "id": "Alertas_getTodosAlertaColeira",
-              "name": "getTodosAlertaColeira",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "appsmith.store.jwt"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Alertas_getTodosAlertaVacina",
-              "name": "getTodosAlertaVacina",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "appsmith.store.jwt"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Alertas_getTodosEctoparasiticida",
-              "name": "getTodosEctoparasiticida",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "appsmith.store.jwt"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Alertas_getTodosVermifugos",
-              "name": "getTodosVermifugos",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "appsmith.store.jwt"
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ],
-          [
-            {
-              "id": "Alertas_getAlertaColeiraUmCao",
-              "name": "getAlertaColeiraUmCao",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "seletor_animal.selectedOptionValue",
-                "appsmith.store.jwt"
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ],
-          [
-            {
-              "id": "Alertas_get_all_med",
               "name": "get_all_med",
               "confirmBeforeExecute": false,
               "pluginType": "API",
@@ -119,7 +50,17 @@
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "Alertas_medicamentosFiltrados.getTodosMedicamentosAnimal",
+              "name": "get_medicamento_animal",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "seletor_animal.selectedOptionValue",
+                "appsmith.store.jwt",
+                "getURL.getUrl.data"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
               "name": "medicamentosFiltrados.getTodosMedicamentosAnimal",
               "collectionId": "Alertas_medicamentosFiltrados",
               "confirmBeforeExecute": false,
@@ -130,27 +71,12 @@
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "Alertas_medicamentosFiltrados.getUmMedicamentosAnimal",
               "name": "medicamentosFiltrados.getUmMedicamentosAnimal",
               "collectionId": "Alertas_medicamentosFiltrados",
               "confirmBeforeExecute": false,
               "pluginType": "JS",
               "jsonPathKeys": [
                 "async function () {\n  await get_medicamento_animal.run();\n  const hoje = moment();\n  return get_medicamento_animal.data.data.filter(tarefa => medicamentosFiltrados.isTarefaValida(tarefa, hoje));\n}"
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ],
-          [
-            {
-              "id": "Alertas_get_medicamento_animal",
-              "name": "get_medicamento_animal",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "seletor_animal.selectedOptionValue",
-                "appsmith.store.jwt",
-                "getURL.getUrl.data"
               ],
               "timeoutInMillisecond": 10000
             }

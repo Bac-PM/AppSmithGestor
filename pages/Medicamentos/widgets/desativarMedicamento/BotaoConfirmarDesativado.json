@@ -3,7 +3,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 22,
     "widgetName": "BotaoConfirmarDesativado",
-    "onClick": "{{remover_medicamento.run().then(() => {\n  showAlert('Medicamento removido!', 'success');\n  get_medicamentos_ativos.run();\n});\ncloseModal('desativarMedicamento');}}",
+    "onClick": "{{remover_medicamento.run().then(() => {\n  get_medicamentos_ativos.run();\n  showModal('MedicamentoDesativado');\n});}}",
     "buttonColor": "#ef4444",
     "dynamicPropertyPathList": [],
     "displayName": "Button",

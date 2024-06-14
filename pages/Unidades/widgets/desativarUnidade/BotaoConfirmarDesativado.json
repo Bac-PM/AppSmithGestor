@@ -3,7 +3,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 22,
     "widgetName": "BotaoConfirmarDesativado",
-    "onClick": "{{put_ativoUnidades.run().then(() => {\n  getUnidades.run();\n  showAlert('Desativado com sucesso', 'success');\n}).catch(() => {\n  postUnidades.data.error.details.errors.forEach(element => {\n    showAlert(element.message, 'error');\n\t\n});\t\n});}}",
+    "onClick": "{{put_ativoUnidades.run().then(() => {\n  getUnidades.run();\n  showAlert(put_ativoUnidades.data.data.Nome + ' Desativado com sucesso', 'success');\n  closeModal('desativarUnidade');\n}).catch(() => {\n  postUnidades.data.error.details.errors.forEach(element => {\n    showAlert(element.message, 'error');\n  });\n});}}",
     "buttonColor": "#ef4444",
     "dynamicPropertyPathList": [],
     "displayName": "Button",

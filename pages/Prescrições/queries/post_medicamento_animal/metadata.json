@@ -21,7 +21,7 @@
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
-      "path": "{{getURL.getUrl.data}}/api/medicamento-animals/",
+      "path": "{{appsmith.store.url}}/api/medicamento-animals/",
       "headers": [
         {
           "key": "Authorization",
@@ -69,10 +69,10 @@
       " seletor_animal.selectedOptionValue",
       "addLembreteDiasMed.selectedOptionValue",
       "appsmith.store.jwt",
+      "appsmith.store.url",
       "data_fim.selectedDate",
       "data_ini.selectedDate",
       "dosagem.text",
-      "getURL.getUrl.data",
       "horario.text",
       "medicamento.selectedOptionLabel",
       "medicamento.selectedOptionValue",

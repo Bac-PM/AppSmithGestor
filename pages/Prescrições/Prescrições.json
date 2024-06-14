@@ -40,25 +40,13 @@
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "Prescrições_getURL.getUrl",
-              "name": "getURL.getUrl",
-              "collectionId": "Prescrições_getURL",
-              "confirmBeforeExecute": false,
-              "pluginType": "JS",
-              "jsonPathKeys": [
-                "function () {\n  const url = service.getUrlApi();\n  return url;\n}"
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ],
-          [
-            {
               "id": "Prescrições_getAllColeiras",
               "name": "getAllColeiras",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
-                "appsmith.store.jwt"
+                "appsmith.store.jwt",
+                "appsmith.store.url"
               ],
               "timeoutInMillisecond": 10000
             },
@@ -68,7 +56,8 @@
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
-                "appsmith.store.jwt"
+                "appsmith.store.jwt",
+                "appsmith.store.url"
               ],
               "timeoutInMillisecond": 10000
             },
@@ -78,7 +67,8 @@
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
-                "appsmith.store.jwt"
+                "appsmith.store.jwt",
+                "appsmith.store.url"
               ],
               "timeoutInMillisecond": 10000
             },
@@ -91,7 +81,7 @@
                 "seletor_animal.selectedOptionValue",
                 "appsmith.store.jwt",
                 "medicamentos_aplicados.pageNo",
-                "getURL.getUrl.data"
+                "appsmith.store.url"
               ],
               "timeoutInMillisecond": 10000
             },
@@ -101,7 +91,8 @@
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
-                "appsmith.store.jwt"
+                "appsmith.store.jwt",
+                "appsmith.store.url"
               ],
               "timeoutInMillisecond": 10000
             }
@@ -113,12 +104,11 @@
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
-                "appsmith.store.jwt"
+                "appsmith.store.jwt",
+                "appsmith.store.url"
               ],
               "timeoutInMillisecond": 10000
-            }
-          ],
-          [
+            },
             {
               "id": "Prescrições_get_NomeMedicamentos",
               "name": "get_NomeMedicamentos",
@@ -126,7 +116,7 @@
               "pluginType": "API",
               "jsonPathKeys": [
                 "appsmith.store.jwt",
-                "getURL.getUrl.data"
+                "appsmith.store.url"
               ],
               "timeoutInMillisecond": 10000
             },
@@ -137,7 +127,21 @@
               "pluginType": "API",
               "jsonPathKeys": [
                 "appsmith.store.jwt",
-                "getURL.getUrl.data"
+                "appsmith.store.url"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "Prescrições_getAllColeirasDeUmCaoa",
+              "name": "getAllColeirasDeUmCaoa",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "seletor_animal.selectedOptionValue",
+                "appsmith.store.jwt",
+                "appsmith.store.url"
               ],
               "timeoutInMillisecond": 10000
             },
@@ -149,8 +153,8 @@
               "jsonPathKeys": [
                 "seletor_animal.selectedOptionValue",
                 "appsmith.store.jwt",
-                "getURL.getUrl.data",
-                "ectoparasiticidas_ativos.pageNo"
+                "ectoparasiticidas_ativos.pageNo",
+                "appsmith.store.url"
               ],
               "timeoutInMillisecond": 10000
             },
@@ -162,8 +166,8 @@
               "jsonPathKeys": [
                 "seletor_animal.selectedOptionValue",
                 "appsmith.store.jwt",
-                "getURL.getUrl.data",
-                "ectoparasiticidas_aplicados.pageNo"
+                "ectoparasiticidas_aplicados.pageNo",
+                "appsmith.store.url"
               ],
               "timeoutInMillisecond": 10000
             },
@@ -175,7 +179,7 @@
               "jsonPathKeys": [
                 "seletor_animal.selectedOptionValue",
                 "appsmith.store.jwt",
-                "getURL.getUrl.data",
+                "appsmith.store.url",
                 "vacinas_ativas.pageNo"
               ],
               "timeoutInMillisecond": 10000
@@ -188,8 +192,8 @@
               "jsonPathKeys": [
                 "seletor_animal.selectedOptionValue",
                 "appsmith.store.jwt",
-                "getURL.getUrl.data",
-                "vacinas_aplicadas.pageNo"
+                "vacinas_aplicadas.pageNo",
+                "appsmith.store.url"
               ],
               "timeoutInMillisecond": 10000
             },
@@ -201,8 +205,8 @@
               "jsonPathKeys": [
                 "seletor_animal.selectedOptionValue",
                 "appsmith.store.jwt",
-                "getURL.getUrl.data",
-                "vermifugos_ativos.pageNo"
+                "vermifugos_ativos.pageNo",
+                "appsmith.store.url"
               ],
               "timeoutInMillisecond": 10000
             },
@@ -215,7 +219,7 @@
                 "seletor_animal.selectedOptionValue",
                 "appsmith.store.jwt",
                 "vermifugos_aplicados.pageNo",
-                "getURL.getUrl.data"
+                "appsmith.store.url"
               ],
               "timeoutInMillisecond": 10000
             }

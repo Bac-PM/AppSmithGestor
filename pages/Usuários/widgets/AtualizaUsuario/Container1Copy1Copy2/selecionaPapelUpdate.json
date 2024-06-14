@@ -28,6 +28,7 @@
     ],
     "isLoading": false,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "originalBottomRow": 37,
     "mobileBottomRow": 29,
     "widgetName": "selecionaPapelUpdate",
     "isFilterable": true,
@@ -55,6 +56,7 @@
     "mobileTopRow": 22,
     "optionLabel": "name",
     "responsiveBehavior": "fill",
+    "originalTopRow": 30,
     "mobileLeftColumn": 2,
     "maxDynamicHeight": 9000,
     "minDynamicHeight": 4

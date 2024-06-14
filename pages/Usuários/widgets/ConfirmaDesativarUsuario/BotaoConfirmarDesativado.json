@@ -3,8 +3,9 @@
     "boxShadow": "none",
     "mobileBottomRow": 22,
     "widgetName": "BotaoConfirmarDesativado",
-    "onClick": "{{desativaUsuario.run().then(() => {\n  closeModal('ConfirmaDesativarUsuario');\n  showAlert('Usuário Desativado', 'success');\n  getAllUsuario.run();\n  getAllUsuariosDesativados.run();\n});}}",
+    "onClick": "{{desativaUsuario.run().then(() => {\n  showModal('ConfirmaUsuarioDesativado');\n  \n  getAllUsuario.run();\n  getAllUsuariosDesativados.run();\n});}}",
     "buttonColor": "#ef4444",
+    "dynamicPropertyPathList": [{"key": "onClick"}],
     "displayName": "Button",
     "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
     "searchTags": [

@@ -25,33 +25,7 @@
           "dynamicBindingPathList": [],
           "leftColumn": 0
         },
-        "layoutOnLoadActions": [
-          [
-            {
-              "id": "Ectoparasiticidas_get_ectoparasiticida_desativad",
-              "name": "get_ectoparasiticida_desativad",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "appsmith.store.jwt"
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ],
-          [
-            {
-              "id": "Ectoparasiticidas_get_ectoparasiticida",
-              "name": "get_ectoparasiticida",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "appsmith.store.jwt",
-                "ecto_ativos.pageNo"
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ]
-        ],
+        "layoutOnLoadActions": [],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
         "id": "Ectoparasiticidas",

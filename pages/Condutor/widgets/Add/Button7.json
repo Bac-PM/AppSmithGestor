@@ -3,7 +3,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 22,
     "widgetName": "Button7",
-    "onClick": "{{post.run().then(() => {\n  showAlert('Adicionado com sucesso', 'success');\n  closeModal('Add');\n  get.run();\n}).catch(() => {\n\t\npost.data.error.details.errors.forEach(element => {\n    showAlert(element.message, 'error');\n\t\n});\t\n});}}",
+    "onClick": "{{criaCondutor.run().then(() => {\n  showAlert('Adicionado com sucesso', 'success');\n  closeModal('Add');\n  getTodosCondutores.run();\n}).catch(() => {\n\t\ncriaCondutor.data.error.details.errors.forEach(element => {\n    showAlert(element.message, 'error');\n\t\n});\t\n});}}",
     "buttonColor": "rgb(48, 73, 136)",
     "dynamicPropertyPathList": [],
     "displayName": "Button",

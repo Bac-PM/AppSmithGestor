@@ -34,7 +34,8 @@
               "pluginType": "API",
               "jsonPathKeys": [
                 "appsmith.store.jwt",
-                "unidades_ativas.pageNo"
+                "unidades_ativas.pageNo",
+                "appsmith.store.url"
               ],
               "timeoutInMillisecond": 10000
             }

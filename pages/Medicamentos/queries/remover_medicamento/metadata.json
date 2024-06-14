@@ -21,7 +21,7 @@
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
-      "path": "{{getURL.getUrl.data}}/api/medicamentos/{{medicamentos_ativos.triggeredRow.id}}",
+      "path": "{{appsmith.store.url}}/api/medicamentos/{{medicamentos_ativos.triggeredRow.id}}",
       "headers": [
         {
           "key": "Authorization",
@@ -61,10 +61,10 @@
     "messages": [],
     "jsonPathKeys": [
       "appsmith.store.jwt",
-      "getURL.getUrl.data",
+      "appsmith.store.url",
       "medicamentos_ativos.triggeredRow.id"
     ],
-    "userSetOnLoad": false,
+    "userSetOnLoad": true,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],

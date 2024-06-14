@@ -20,7 +20,7 @@
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
-      "path": "{{getURL.getUrl.data}}/api/principio-ativos/{{principios_ativos.triggeredRow.id}}",
+      "path": "{{appsmith.store.url}}/api/principio-ativos/{{principios_ativos.triggeredRow.id}}",
       "headers": [
         {
           "key": "Authorization",
@@ -63,7 +63,7 @@
     "messages": [],
     "jsonPathKeys": [
       "appsmith.store.jwt",
-      "getURL.getUrl.data",
+      "appsmith.store.url",
       "principios_ativos.triggeredRow.id"
     ],
     "userSetOnLoad": false,

@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 590,
+          "bottomRow": 610,
           "containerStyle": "none",
           "snapRows": 79,
           "parentRowSpace": 1,
@@ -25,7 +25,35 @@
           "dynamicBindingPathList": [],
           "leftColumn": 0
         },
-        "layoutOnLoadActions": [],
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "Consulta_get_all_animals_someventes",
+              "name": "get_all_animals_someventes",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "appsmith.store.jwt",
+                "appsmith.store.url"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "Consulta_getConsultaDeUmCao",
+              "name": "getConsultaDeUmCao",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "seletor_animal.selectedOptionValue",
+                "appsmith.store.jwt",
+                "appsmith.store.url"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
         "id": "Consulta",

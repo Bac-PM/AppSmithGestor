@@ -25,33 +25,7 @@
           "dynamicBindingPathList": [],
           "leftColumn": 0
         },
-        "layoutOnLoadActions": [
-          [
-            {
-              "id": "Vacinas_getAllTipoVacina",
-              "name": "getAllTipoVacina",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "appsmith.store.jwt"
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ],
-          [
-            {
-              "id": "Vacinas_getAllVacina",
-              "name": "getAllVacina",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "appsmith.store.jwt",
-                "nomes_vacinas_ativos.pageNo"
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ]
-        ],
+        "layoutOnLoadActions": [],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
         "id": "Vacinas",

@@ -20,7 +20,7 @@
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
-      "path": "{{getURL.getUrl.data}}/api/tarefas",
+      "path": "{{appsmith.store.url}}/api/tarefas",
       "headers": [
         {
           "key": "Authorization",
@@ -66,8 +66,8 @@
     "messages": [],
     "jsonPathKeys": [
       "appsmith.store.jwt",
+      "appsmith.store.url",
       "data_prevista.selectedDate",
-      "getURL.getUrl.data",
       "getUsuario.data.id",
       "tarefa_input.text"
     ],
