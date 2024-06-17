@@ -6,10 +6,11 @@
     "type": "INPUT_WIDGET_V2",
     "animateLoading": true,
     "resetOnSubmit": true,
-    "leftColumn": 0,
+    "leftColumn": 2,
     "dynamicBindingPathList": [
         {"key": "accentColor"},
-        {"key": "borderRadius"}
+        {"key": "borderRadius"},
+        {"key": "defaultText"}
     ],
     "labelStyle": "",
     "inputType": "TEXT",
@@ -46,7 +47,7 @@
     "key": "z7s444rg17",
     "labelTextSize": "0.875rem",
     "isDeprecated": false,
-    "rightColumn": 41,
+    "rightColumn": 61,
     "widgetId": "r8lpw0sc2h",
     "minWidth": 450,
     "label": "Duração",
@@ -58,6 +59,6 @@
     "mobileLeftColumn": 0,
     "maxDynamicHeight": 9000,
     "iconAlign": "left",
-    "defaultText": "",
+    "defaultText": "{{coleiras_ativas.triggeredRow.duracao_em_dias}}",
     "minDynamicHeight": 4
 }

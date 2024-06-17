@@ -11,8 +11,8 @@
     "leftColumn": 0,
     "dynamicBindingPathList": [
         {"key": "sourceData"},
-        {"key": "borderRadius"},
-        {"key": "defaultOptionValue"}
+        {"key": "defaultOptionValue"},
+        {"key": "borderRadius"}
     ],
     "placeholderText": "Selecione um semovente",
     "isDisabled": false,

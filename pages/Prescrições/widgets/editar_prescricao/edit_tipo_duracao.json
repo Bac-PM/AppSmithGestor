@@ -9,10 +9,7 @@
     "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( medicamentos_ativos.triggeredItem.tipo_duracao))(edit_tipo_duracao.options, edit_tipo_duracao.serverSideFiltering) }}",
     "animateLoading": true,
     "leftColumn": 50,
-    "dynamicBindingPathList": [
-        {"key": "accentColor"},
-        {"key": "defaultOptionValue"}
-    ],
+    "dynamicBindingPathList": [{"key": "defaultOptionValue"}],
     "placeholderText": "Ex.: Hora",
     "isDisabled": false,
     "isRequired": false,

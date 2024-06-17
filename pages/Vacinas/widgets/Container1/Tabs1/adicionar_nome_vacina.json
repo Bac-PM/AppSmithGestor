@@ -3,8 +3,9 @@
     "boxShadow": "none",
     "mobileBottomRow": 4,
     "widgetName": "adicionar_nome_vacina",
-    "onClick": "{{showModal('add_nome_vacina');}}",
+    "onClick": "{{erroPost.setText(\"\");\nresetWidget(\"add_nome_vacina\", true);\nshowModal('add_nome_vacina');\n}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+    "dynamicPropertyPathList": [{"key": "onClick"}],
     "displayName": "Button",
     "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
     "searchTags": [
@@ -19,7 +20,7 @@
     "animateLoading": true,
     "parentColumnSpace": 13.9814453125,
     "dynamicTriggerPathList": [{"key": "onClick"}],
-    "leftColumn": 48,
+    "leftColumn": 47,
     "dynamicBindingPathList": [
         {"key": "buttonColor"},
         {"key": "borderRadius"}

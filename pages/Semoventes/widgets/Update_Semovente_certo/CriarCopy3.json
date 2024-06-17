@@ -3,7 +3,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 37,
     "widgetName": "CriarCopy3",
-    "onClick": "{{update_semoventeCopy.run().then(response => {  \n get_animals_ativos.run();\nget_animals_painel.run();\n  showAlert('Atualizado com sucesso', 'success');\n\t\n\nresetWidget(\"Foto_direitaUpdate\", true);\nresetWidget(\"Foto_frenteUpdate\", true);\nresetWidget(\"Foto_esquerdaUpdate\", true);\n\tshowModal('Update_Realizado');\n}).catch(error => {\n  console.error('API Error:', error);\n  showAlert(JSON.stringify(update_semoventeCopy.data.error.details.errors), 'error');\n});}}",
+    "onClick": "{{update_semoventeCopy.run().then(response => {  \n get_animals_ativos.run();\nget_animals_painel.run();\n  showAlert('Atualizado com sucesso', 'success');\n\t\n\nresetWidget(\"Foto_direitaUpdate\", true);\nresetWidget(\"Foto_frenteUpdate\", true);\nresetWidget(\"Foto_esquerdaUpdate\", true);\n\tshowModal('Update_Realizado');\n}).catch(error => {\n  console.error('API Error:', error);\n  //showAlert(JSON.stringify(update_semoventeCopy.data.error.details.errors), 'error');\n});}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "dynamicPropertyPathList": [{"key": "onClick"}],
     "displayName": "Button",
@@ -43,11 +43,11 @@
     "isLoading": false,
     "mobileTopRow": 33,
     "responsiveBehavior": "hug",
-    "originalTopRow": 51,
+    "originalTopRow": 73,
     "disabledWhenInvalid": true,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 46,
-    "originalBottomRow": 55,
+    "originalBottomRow": 77,
     "buttonVariant": "PRIMARY",
     "placement": "CENTER"
 }

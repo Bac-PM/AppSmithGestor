@@ -3,17 +3,17 @@
     "boxShadow": "none",
     "mobileBottomRow": 22,
     "widgetName": "atualizar_nome_button",
-    "onClick": "{{\n\nputVacina.run().then(() => {\n  getAllVacina.run();\n\t\nresetWidget('edit_nome_vacina');\n\tcloseModal('edit_nome_vacina');\n})\n}}",
+    "onClick": "\n{{putVacina.run().then(() => {\n  getAllVacina.run();\n\t\nresetWidget('edit_nome_vacina');\n\tcloseModal('edit_nome_vacina');\n}).catch(() => {\n\t\t\t\n\t\t\tlet erroApi = service.getErrorApi(putVacina.data);\n\t\t\t\n\t\t\terroPut.setText(erroApi); \n  });\n;}}\n\n",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "dynamicPropertyPathList": [],
+    "dynamicPropertyPathList": [{"key": "onClick"}],
     "displayName": "Button",
     "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
     "searchTags": [
         "click",
         "submit"
     ],
-    "topRow": 22,
-    "bottomRow": 26,
+    "topRow": 26,
+    "bottomRow": 30,
     "type": "BUTTON_WIDGET",
     "hideCard": false,
     "mobileRightColumn": 63,
@@ -42,9 +42,11 @@
     "isLoading": false,
     "mobileTopRow": 18,
     "responsiveBehavior": "hug",
+    "originalTopRow": 25,
     "disabledWhenInvalid": false,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 47,
+    "originalBottomRow": 29,
     "buttonVariant": "PRIMARY",
     "placement": "CENTER"
 }

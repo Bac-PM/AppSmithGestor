@@ -25,7 +25,34 @@
           "dynamicBindingPathList": [],
           "leftColumn": 0
         },
-        "layoutOnLoadActions": [],
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "Vermífugos_get_vermifugos",
+              "name": "get_vermifugos",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "verm_ativos.pageNo",
+                "appsmith.store.jwt",
+                "appsmith.store.url"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Vermífugos_get_vermifugos_desativados",
+              "name": "get_vermifugos_desativados",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "verm_desativados.pageNo",
+                "appsmith.store.jwt",
+                "appsmith.store.url"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
         "id": "Vermífugos",

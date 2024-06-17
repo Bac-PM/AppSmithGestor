@@ -11,12 +11,8 @@
     "itemSpacing": 8,
     "animateLoading": false,
     "dynamicBindingPathList": [
-        {"key": "currentItemsView"},
-        {"key": "selectedItemView"},
-        {"key": "triggeredItemView"},
-        {"key": "primaryKeys"},
-        {"key": "accentColor"},
         {"key": "listData"},
+        {"key": "primaryKeys"},
         {"key": "borderRadius"}
     ],
     "leftColumn": 0,

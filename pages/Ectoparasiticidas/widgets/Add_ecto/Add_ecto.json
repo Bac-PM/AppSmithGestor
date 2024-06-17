@@ -18,7 +18,7 @@
     "hideCard": false,
     "shouldScrollContents": true,
     "mobileRightColumn": 43,
-    "minHeight": 280,
+    "minHeight": 260,
     "animateLoading": true,
     "parentColumnSpace": 12.09375,
     "dynamicTriggerPathList": [{"key": "onClose"}],

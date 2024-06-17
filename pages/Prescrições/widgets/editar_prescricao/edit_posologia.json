@@ -23,11 +23,9 @@
     "dynamicTriggerPathList": [],
     "leftColumn": 8,
     "dynamicBindingPathList": [
-        {"key": "truncateButtonColor"},
-        {"key": "fontFamily"},
-        {"key": "borderRadius"},
         {"key": "text"},
-        {"key": "isVisible"}
+        {"key": "isVisible"},
+        {"key": "fontFamily"}
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",

@@ -3,8 +3,9 @@
     "boxShadow": "none",
     "mobileBottomRow": 4,
     "widgetName": "btn_add",
-    "onClick": "{{showModal('Add_ecto');}}",
+    "onClick": "{{erroPost.setText(\"\")\nshowModal('Add_ecto');}}",
     "buttonColor": "rgb(48, 73, 136)",
+    "dynamicPropertyPathList": [{"key": "onClick"}],
     "displayName": "Button",
     "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
     "searchTags": [

@@ -73,7 +73,7 @@
         }
     },
     "borderRadius": "0.375rem",
-    "columnUpdatedAt": 1715708422703,
+    "columnUpdatedAt": 1718392692908,
     "originalBottomRow": 126,
     "defaultSelectedRowIndices": [0],
     "needsErrorInfo": false,
@@ -96,7 +96,10 @@
         "customColumn2",
         "customColumn1"
     ],
-    "dynamicPropertyPathList": [{"key": "tableData"}],
+    "dynamicPropertyPathList": [
+        {"key": "tableData"},
+        {"key": "primaryColumns.customColumn1.onClick"}
+    ],
     "displayName": "Table",
     "bottomRow": 48,
     "columnWidthMap": {
@@ -183,7 +186,7 @@
         "customColumn1": {
             "boxShadow": "{{medicamentos_ativos.processedTableData.map((currentRow, currentIndex) => ( \"none\"))}}",
             "computedValue": "",
-            "onClick": "{{showModal('edit_medicamento');\nresetWidget(\"edit_apresentacao\", true);}}",
+            "onClick": "{{erroPutMed.setText(\"\");\nshowModal('edit_medicamento');\nresetWidget(\"edit_apresentacao\", true);}}\n",
             "buttonColor": "{{medicamentos_ativos.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.colors.primaryColor)))}}",
             "isEditable": false,
             "notation": "standard",

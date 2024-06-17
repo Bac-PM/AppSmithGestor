@@ -8,9 +8,9 @@
     "resetOnSubmit": true,
     "leftColumn": 27,
     "dynamicBindingPathList": [
+        {"key": "defaultText"},
         {"key": "accentColor"},
-        {"key": "borderRadius"},
-        {"key": "defaultText"}
+        {"key": "borderRadius"}
     ],
     "labelStyle": "",
     "inputType": "NUMBER",
@@ -48,7 +48,7 @@
     "key": "vqy1w8ce77",
     "labelTextSize": "0.875rem",
     "isDeprecated": false,
-    "rightColumn": 44,
+    "rightColumn": 45,
     "widgetId": "kh17p2i8r5",
     "minWidth": 450,
     "label": "Doses totais",

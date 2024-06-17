@@ -3,9 +3,9 @@
     "boxShadow": "none",
     "mobileBottomRow": 4,
     "widgetName": "Button12Copy1",
-    "onClick": "{{resetWidget(\"Add_ectoparasiticida\", true);\nshowModal('Add_ectoparasiticida');}}",
+    "onClick": "{{erroPostEcto.setText(\"\");\nresetWidget(\"Add_ectoparasiticida\", true);\nshowModal('Add_ectoparasiticida');\n}}",
     "buttonColor": "rgb(48, 73, 136)",
-    "dynamicPropertyPathList": [],
+    "dynamicPropertyPathList": [{"key": "onClick"}],
     "displayName": "Button",
     "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
     "searchTags": [

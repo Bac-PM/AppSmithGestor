@@ -75,7 +75,10 @@
         "customColumn2",
         "customColumn1"
     ],
-    "dynamicPropertyPathList": [{"key": "tableData"}],
+    "dynamicPropertyPathList": [
+        {"key": "tableData"},
+        {"key": "primaryColumns.customColumn2.onClick"}
+    ],
     "displayName": "Table",
     "bottomRow": 48,
     "columnWidthMap": {
@@ -166,7 +169,7 @@
         "customColumn2": {
             "boxShadow": "{{principios_ativos.processedTableData.map((currentRow, currentIndex) => ( \"none\"))}}",
             "computedValue": "",
-            "onClick": "{{resetWidget(\"edit_principio_ativo_modal\", true);\nshowModal('edit_principio_ativo_modal');}}",
+            "onClick": "{{erroPutPrin.setText(\"\");\nresetWidget(\"edit_principio_ativo_modal\", true);\nshowModal('edit_principio_ativo_modal');}}",
             "buttonColor": "{{principios_ativos.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.colors.primaryColor)))}}",
             "isEditable": false,
             "notation": "standard",

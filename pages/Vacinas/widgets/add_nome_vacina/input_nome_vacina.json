@@ -6,7 +6,7 @@
     "type": "INPUT_WIDGET_V2",
     "animateLoading": true,
     "resetOnSubmit": true,
-    "leftColumn": 1,
+    "leftColumn": 2,
     "dynamicBindingPathList": [
         {"key": "accentColor"},
         {"key": "borderRadius"}
@@ -47,7 +47,7 @@
     "key": "y60y674y03",
     "labelTextSize": "0.875rem",
     "isDeprecated": false,
-    "rightColumn": 40,
+    "rightColumn": 61,
     "widgetId": "4konxliw32",
     "minWidth": 450,
     "label": "Nome da Vacina",

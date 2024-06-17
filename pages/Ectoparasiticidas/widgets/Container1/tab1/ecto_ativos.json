@@ -62,19 +62,22 @@
         }
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "columnUpdatedAt": 1713201832502,
+    "columnUpdatedAt": 1718644216316,
     "defaultSelectedRowIndices": [0],
     "mobileBottomRow": 26,
     "widgetName": "ecto_ativos",
     "defaultPageSize": 0,
     "columnOrder": [
-        "customColumn2",
-        "customColumn1",
         "id",
         "nome_produto",
-        "duracao_em_dias"
+        "duracao_em_dias",
+        "customColumn1",
+        "customColumn2"
     ],
-    "dynamicPropertyPathList": [{"key": "tableData"}],
+    "dynamicPropertyPathList": [
+        {"key": "tableData"},
+        {"key": "primaryColumns.customColumn1.onClick"}
+    ],
     "displayName": "Table",
     "bottomRow": 44,
     "columnWidthMap": {
@@ -84,6 +87,7 @@
         "customColumn1": 97,
         "customColumn2": 125,
         "id": 70,
+        "duracao_em_dias": 603,
         "Nome": 151,
         "customColumn3": 175.638671875,
         "updatedAt": 169
@@ -136,7 +140,7 @@
         "customColumn1": {
             "boxShadow": "{{ecto_ativos.processedTableData.map((currentRow, currentIndex) => ( \"none\"))}}",
             "computedValue": "",
-            "onClick": "{{showModal('Edit_ecto');}}",
+            "onClick": "{{erroPut.setText(\"\");\nresetWidget(\"Edit_ecto\", true);\nshowModal('Edit_ecto');\n}}",
             "buttonColor": "rgb(48, 73, 136)",
             "isEditable": false,
             "notation": "standard",
@@ -166,7 +170,7 @@
             "decimals": 0,
             "width": 150,
             "enableFilter": true,
-            "sticky": "",
+            "sticky": "right",
             "originalId": "customColumn1",
             "currencyCode": "USD",
             "customAlias": "",
@@ -236,7 +240,7 @@
             "decimals": 0,
             "width": 150,
             "enableFilter": true,
-            "sticky": "",
+            "sticky": "right",
             "originalId": "customColumn2",
             "currencyCode": "USD",
             "customAlias": "",

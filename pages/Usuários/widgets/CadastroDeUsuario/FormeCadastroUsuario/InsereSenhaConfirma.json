@@ -13,7 +13,7 @@
         {"key": "validation"}
     ],
     "labelStyle": "",
-    "inputType": "TEXT",
+    "inputType": "PASSWORD",
     "placeholderText": "Confirme a Senha do Usuário",
     "isDisabled": false,
     "validation": "{{InsereSenhaConfirma.text == InsereSenha.text}}",
@@ -64,6 +64,7 @@
     "mobileLeftColumn": 3,
     "maxDynamicHeight": 9000,
     "isSpellCheck": true,
+    "shouldAllowAutofill": true,
     "iconAlign": "left",
     "defaultText": "",
     "minDynamicHeight": 4

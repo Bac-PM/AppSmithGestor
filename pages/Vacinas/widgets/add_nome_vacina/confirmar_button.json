@@ -3,7 +3,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 22,
     "widgetName": "confirmar_button",
-    "onClick": "{{adicionarVacina.addVac();\n}}",
+    "onClick": "{{postVacina.run().then(() => {\n  showAlert('Adicionado com sucesso', '');\ncloseModal('add_nome_vacina');\tgetAllVacina.run();\n\t\t\t\n}).catch(() => {\n\t\t\t\n\t\t\tlet erroApi = service.getErrorApi(postVacina.data);\nerroPost.setText(erroApi); \n  });\n;}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "dynamicPropertyPathList": [{"key": "onClick"}],
     "displayName": "Button",
@@ -12,8 +12,8 @@
         "click",
         "submit"
     ],
-    "topRow": 28,
-    "bottomRow": 32,
+    "topRow": 32,
+    "bottomRow": 36,
     "type": "BUTTON_WIDGET",
     "hideCard": false,
     "mobileRightColumn": 63,
@@ -42,11 +42,11 @@
     "isLoading": false,
     "mobileTopRow": 18,
     "responsiveBehavior": "hug",
-    "originalTopRow": 30,
+    "originalTopRow": 28,
     "disabledWhenInvalid": false,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 47,
-    "originalBottomRow": 34,
+    "originalBottomRow": 32,
     "buttonVariant": "PRIMARY",
     "placement": "CENTER"
 }

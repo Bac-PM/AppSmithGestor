@@ -85,7 +85,10 @@
         "customColumn2",
         "customColumn1"
     ],
-    "dynamicPropertyPathList": [{"key": "tableData"}],
+    "dynamicPropertyPathList": [
+        {"key": "tableData"},
+        {"key": "primaryColumns.customColumn2.onClick"}
+    ],
     "displayName": "Table",
     "bottomRow": 42,
     "columnWidthMap": {
@@ -303,7 +306,7 @@
         "customColumn2": {
             "boxShadow": "{{tarefas_ativas.processedTableData.map((currentRow, currentIndex) => ( \"none\"))}}",
             "computedValue": "",
-            "onClick": "{{resetWidget(\"edit_tarefa\", true);\nshowModal('edit_tarefa');}}",
+            "onClick": "{{erroPut.setText(\"\");\nresetWidget(\"edit_tarefa\", true);\nshowModal('edit_tarefa');\n}}\n",
             "buttonColor": "{{tarefas_ativas.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.colors.primaryColor)))}}",
             "isEditable": false,
             "notation": "standard",

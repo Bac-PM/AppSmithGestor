@@ -31,10 +31,6 @@
       "encodeParamsToggle": true,
       "queryParameters": [
         {
-          "key": "populate",
-          "value": "*"
-        },
-        {
           "key": "filters[status_geral]",
           "value": "true"
         },
@@ -45,6 +41,118 @@
         {
           "key": "pagination[pageSize]",
           "value": "10"
+        },
+        {
+          "key": "fields[0]",
+          "value": "Nome"
+        },
+        {
+          "key": "fields[2]",
+          "value": "Data_nascimento"
+        },
+        {
+          "key": "fields[3]",
+          "value": "Idade"
+        },
+        {
+          "key": "fields[4]",
+          "value": "Box"
+        },
+        {
+          "key": "fields[6]",
+          "value": "numero_patrimonio"
+        },
+        {
+          "key": "fields[7]",
+          "value": "numero_de_microchip"
+        },
+        {
+          "key": "fields[8]",
+          "value": "nome_do_proprietario_anterior"
+        },
+        {
+          "key": "fields[9]",
+          "value": "data_aquisicao"
+        },
+        {
+          "key": "fields[10]",
+          "value": "data_inclusao_carga"
+        },
+        {
+          "key": "fields[11]",
+          "value": "valor_compra"
+        },
+        {
+          "key": "fields[12]",
+          "value": "status_geral"
+        },
+        {
+          "key": "populate[Alocacao][fields][0]",
+          "value": "Nome"
+        },
+        {
+          "key": "populate[Alocacao][fields][1]",
+          "value": "Endereco"
+        },
+        {
+          "key": "populate[Condutor_principal][fields][0]",
+          "value": "Nome"
+        },
+        {
+          "key": "populate[Condutor_principal][fields][1]",
+          "value": "rg"
+        },
+        {
+          "key": "populate[Condutor_secundario][fields][0]",
+          "value": "Nome"
+        },
+        {
+          "key": "populate[Condutor_secundario][fields][1]",
+          "value": "rg"
+        },
+        {
+          "key": "populate[cor_animal][fields][0]",
+          "value": "Nome"
+        },
+        {
+          "key": "populate[forma_aquisicao][fields][0]",
+          "value": "Nome"
+        },
+        {
+          "key": "populate[sexo][fields][0]",
+          "value": "Nome"
+        },
+        {
+          "key": "populate[status_saude][fields][0]",
+          "value": "Nome"
+        },
+        {
+          "key": "populate[status_operacional][fields][0]",
+          "value": "Nome"
+        },
+        {
+          "key": "populate[raca][fields][0]",
+          "value": "Nome"
+        },
+        {
+          "key": "populate[especializacao][fields][0]",
+          "value": "Nome\n"
+        },
+        {
+          "key": "populate[Foto_frente]",
+          "value": "Foto_frente"
+        },
+        {
+          "key": "populate[Foto_esquerda]",
+          "value": "Foto_esquerda"
+        },
+        {
+          "key": "populate[Foto_direita]",
+          "value": "Foto_direita"
+        },
+        {
+          "key": "fields[1]",
+          "value": "vuid"
         }
       ],
       "body": "",
@@ -70,7 +178,7 @@
         "key": "headers[0].value"
       },
       {
-        "key": "queryParameters[2].value"
+        "key": "queryParameters[1].value"
       }
     ],
     "isValid": true,
@@ -85,9 +193,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-06-14T16:28:02Z"
+    "createdAt": "2024-06-17T17:08:53Z"
   },
   "id": "Semoventes_get_animals_ativos",
   "deleted": false,
-  "gitSyncId": "664b91393d0ee46738b29c21_666c6f92721e40404f828295"
+  "gitSyncId": "664b91393d0ee46738b29c21_66706da5721e40404f8283fc"
 }

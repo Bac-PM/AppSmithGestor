@@ -148,8 +148,8 @@
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
-                "SemoventesDesativados.pageNo",
                 "appsmith.store.jwt",
+                "semoventes_ativos.pageNo",
                 "appsmith.store.url"
               ],
               "timeoutInMillisecond": 10000

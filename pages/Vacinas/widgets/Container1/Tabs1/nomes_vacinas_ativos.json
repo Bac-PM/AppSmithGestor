@@ -66,30 +66,34 @@
         }
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "columnUpdatedAt": 1715019738235,
+    "columnUpdatedAt": 1718645318934,
     "originalBottomRow": 45,
     "defaultSelectedRowIndices": [0],
     "mobileBottomRow": 26,
     "widgetName": "nomes_vacinas_ativos",
     "defaultPageSize": 0,
     "columnOrder": [
-        "customColumn2",
-        "customColumn1",
         "nome",
         "tipo_vacina",
         "id",
         "createdAt",
         "updatedAt",
         "ativo",
-        "publishedAt"
+        "publishedAt",
+        "customColumn1",
+        "customColumn2"
     ],
-    "dynamicPropertyPathList": [{"key": "tableData"}],
+    "dynamicPropertyPathList": [
+        {"key": "tableData"},
+        {"key": "primaryColumns.customColumn1.onClick"}
+    ],
     "displayName": "Table",
     "bottomRow": 40,
     "columnWidthMap": {
-        "customColumn1": 142,
+        "customColumn1": 92,
         "nome": 287,
         "customColumn2": 105,
+        "tipo_vacina": 475,
         "customColumn3": 275
     },
     "parentRowSpace": 10,
@@ -205,7 +209,7 @@
         "customColumn1": {
             "boxShadow": "{{nomes_vacinas_ativos.processedTableData.map((currentRow, currentIndex) => ( \"none\"))}}",
             "computedValue": "",
-            "onClick": "{{showModal('edit_nome_vacina');}}",
+            "onClick": "{{erroPut.setText(\"\");\nresetWidget(\"edit_nome_vacina\", true);\nshowModal('edit_nome_vacina');\n}}",
             "buttonColor": "rgb(48, 73, 136)",
             "isEditable": false,
             "notation": "standard",
@@ -235,7 +239,7 @@
             "decimals": 0,
             "width": 150,
             "enableFilter": true,
-            "sticky": "",
+            "sticky": "right",
             "originalId": "customColumn1",
             "currencyCode": "USD",
             "customAlias": "",
@@ -339,7 +343,7 @@
             "decimals": 0,
             "width": 150,
             "enableFilter": true,
-            "sticky": "",
+            "sticky": "right",
             "originalId": "customColumn2",
             "currencyCode": "USD",
             "customAlias": "",

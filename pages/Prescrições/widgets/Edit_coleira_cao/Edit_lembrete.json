@@ -19,8 +19,8 @@
     "dynamicTriggerPathList": [],
     "leftColumn": 1,
     "dynamicBindingPathList": [
-        {"key": "accentColor"},
-        {"key": "defaultOptionValue"}
+        {"key": "defaultOptionValue"},
+        {"key": "accentColor"}
     ],
     "labelPosition": "Top",
     "options": "[\n  {\n    \"label\": \"NO DIA\",\n    \"value\": 0\n  },\n  {\n    \"label\": \"3 DIAS ANTES\",\n    \"value\": 3\n  },\n  {\n    \"label\": \"5 DIAS ANTES\",\n    \"value\": 5\n  },\n  {\n    \"label\": \"7 DIAS ANTES\",\n    \"value\": 7\n  },\n  {\n    \"label\": \"15 DIAS ANTES\",\n    \"value\": 15\n  }\n]",

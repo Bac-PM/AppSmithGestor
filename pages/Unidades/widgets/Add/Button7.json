@@ -3,17 +3,17 @@
     "boxShadow": "none",
     "mobileBottomRow": 22,
     "widgetName": "Button7",
-    "onClick": "{{postUnidades.run().then(() => {\n\tgetUnidades.run();\n  showAlert('Adicionado com sucesso', 'success');\n  closeModal('Add');\n}).catch(() => {\n postUnidades.data.error.details.errors.forEach(element => {\n    showAlert(element.message, 'error');\n\t\n});\t\n\t\n});}}",
+    "onClick": "{{postUnidades.run().then(() => {\n\tgetUnidadesAtivas.run();\n  showAlert('Adicionado com sucesso', 'success');\n  closeModal('Add');\n}).catch(() => {\n\tlet erroApi = service.getErrorApi(postUnidades.data);\n\t\t\terroPost.setText(erroApi);\n\t\n});}}",
     "buttonColor": "rgb(48, 73, 136)",
-    "dynamicPropertyPathList": [],
+    "dynamicPropertyPathList": [{"key": "onClick"}],
     "displayName": "Button",
     "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
     "searchTags": [
         "click",
         "submit"
     ],
-    "topRow": 27,
-    "bottomRow": 31,
+    "topRow": 25,
+    "bottomRow": 29,
     "type": "BUTTON_WIDGET",
     "hideCard": false,
     "mobileRightColumn": 63,
@@ -39,9 +39,11 @@
     "isLoading": false,
     "mobileTopRow": 18,
     "responsiveBehavior": "hug",
+    "originalTopRow": 29,
     "disabledWhenInvalid": false,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 47,
+    "originalBottomRow": 33,
     "buttonVariant": "PRIMARY",
     "placement": "CENTER"
 }

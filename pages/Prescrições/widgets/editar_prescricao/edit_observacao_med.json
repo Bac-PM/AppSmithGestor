@@ -9,9 +9,9 @@
     "resetOnSubmit": true,
     "leftColumn": 1,
     "dynamicBindingPathList": [
+        {"key": "defaultText"},
         {"key": "accentColor"},
-        {"key": "borderRadius"},
-        {"key": "defaultText"}
+        {"key": "borderRadius"}
     ],
     "labelStyle": "",
     "inputType": "MULTI_LINE_TEXT",

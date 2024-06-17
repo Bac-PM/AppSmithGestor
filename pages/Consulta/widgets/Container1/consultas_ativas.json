@@ -103,12 +103,12 @@
     "displayName": "Table",
     "bottomRow": 58,
     "columnWidthMap": {
-        "retorno": 144,
+        "retorno": 274,
         "animal": 149,
         "customColumn1": 143,
         "data_consulta": 157,
         "customColumn2": 173,
-        "anamnese": 171,
+        "anamnese": 194,
         "customColumn3": 152.99999999999997,
         "customColumn4": 87,
         "exame_fisico": 196,
@@ -231,7 +231,7 @@
         "customColumn4": {
             "boxShadow": "{{consultas_ativas.processedTableData.map((currentRow, currentIndex) => ( \"none\"))}}",
             "computedValue": "",
-            "onClick": "{{showModal('Edit_consulta');}}",
+            "onClick": "{{erroPut.setText(\"\");\nresetWidget(\"Edit_consulta\", true);\nshowModal('Edit_consulta');\n}}",
             "buttonColor": "{{consultas_ativas.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.colors.primaryColor)))}}",
             "isEditable": false,
             "notation": "standard",

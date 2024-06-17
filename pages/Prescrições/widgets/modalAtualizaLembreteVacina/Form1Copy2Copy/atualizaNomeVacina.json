@@ -10,9 +10,9 @@
     "animateLoading": true,
     "leftColumn": 1,
     "dynamicBindingPathList": [
-        {"key": "borderRadius"},
         {"key": "sourceData"},
-        {"key": "defaultOptionValue"}
+        {"key": "defaultOptionValue"},
+        {"key": "borderRadius"}
     ],
     "placeholderText": "Selecione uma opção",
     "isDisabled": false,
@@ -44,7 +44,7 @@
     "key": "ep5msy4sgw",
     "labelTextSize": "0.875rem",
     "isDeprecated": false,
-    "rightColumn": 25,
+    "rightColumn": 45,
     "widgetId": "5yaks1fhob",
     "optionValue": "value",
     "minWidth": 450,

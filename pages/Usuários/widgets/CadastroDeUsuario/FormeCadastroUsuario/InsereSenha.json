@@ -12,7 +12,7 @@
         {"key": "borderRadius"}
     ],
     "labelStyle": "",
-    "inputType": "TEXT",
+    "inputType": "PASSWORD",
     "placeholderText": "Insira a Senha do Usuário",
     "isDisabled": false,
     "isRequired": false,
@@ -60,6 +60,7 @@
     "originalTopRow": 31,
     "mobileLeftColumn": 6,
     "maxDynamicHeight": 9000,
+    "shouldAllowAutofill": true,
     "iconAlign": "left",
     "defaultText": "",
     "minDynamicHeight": 4

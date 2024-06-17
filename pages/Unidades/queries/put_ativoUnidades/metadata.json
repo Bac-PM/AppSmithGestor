@@ -2,7 +2,7 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "put_ativoUnidades",
+    "name": "desativaUnidades",
     "fullyQualifiedName": "put_ativoUnidades",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
@@ -21,7 +21,7 @@
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
-      "path": "{{appsmith.store.url}}/api/unidades/{{unidades_ativas.triggeredRow.id}}",
+      "path": "{{appsmith.store.url}}/api/unidades/{{unidades_desativadas.triggeredRow.id}}",
       "headers": [
         {
           "key": "Authorization",
@@ -36,7 +36,7 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{\n\t\"data\": {\n\t\t\"ativo\": {{appsmith.store.status}}\n\t}\n}",
+      "body": "{\n\t\"data\": {\n\t\t\"ativo\": false\n\t}\n}",
       "bodyFormData": [],
       "httpMethod": "PUT",
       "httpVersion": "HTTP11",
@@ -56,9 +56,6 @@
         "key": "headers[0].value"
       },
       {
-        "key": "body"
-      },
-      {
         "key": "path"
       }
     ],
@@ -67,9 +64,8 @@
     "messages": [],
     "jsonPathKeys": [
       "appsmith.store.jwt",
-      "appsmith.store.status",
       "appsmith.store.url",
-      "unidades_ativas.triggeredRow.id"
+      "unidades_desativadas.triggeredRow.id"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

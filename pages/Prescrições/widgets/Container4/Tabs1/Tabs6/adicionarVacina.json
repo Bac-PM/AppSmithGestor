@@ -3,7 +3,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 4,
     "widgetName": "adicionarVacina",
-    "onClick": "{{\nresetWidget('modalAdicionaLembreteVacina');\nresetWidget('addFotoEtiqueta');\nImagemLocal.frente = \"\";\natualizaIdFrenteAdiciona.idFrente= \"\";\nshowModal('modalAdicionaLembreteVacina');}}",
+    "onClick": "{{\nerroPostVac.setText(\"\");\nresetWidget('modalAdicionaLembreteVacina');\nresetWidget('addFotoEtiqueta');\nImagemLocal.frente = \"\";\natualizaIdFrenteAdiciona.idFrente= \"\";\nshowModal('modalAdicionaLembreteVacina');}}\n\n",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "dynamicPropertyPathList": [{"key": "onClick"}],
     "displayName": "Button",

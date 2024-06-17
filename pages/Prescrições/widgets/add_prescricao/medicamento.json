@@ -10,9 +10,8 @@
     "animateLoading": true,
     "leftColumn": 1,
     "dynamicBindingPathList": [
-        {"key": "accentColor"},
-        {"key": "borderRadius"},
-        {"key": "sourceData"}
+        {"key": "sourceData"},
+        {"key": "borderRadius"}
     ],
     "placeholderText": "Selecione o medicamento",
     "isDisabled": false,

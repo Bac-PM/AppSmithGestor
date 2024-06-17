@@ -212,7 +212,7 @@
         "customColumn1": {
             "boxShadow": "{{condutores_ativos.processedTableData.map((currentRow, currentIndex) => ( \"none\"))}}",
             "computedValue": "",
-            "onClick": "{{showModal('Edit');\nnome_edit.setValue(condutores_ativos.triggeredRow.Nome);\nrg_edit.setValue(condutores_ativos.triggeredRow.rg);\nstoreValue('id', condutores_ativos.triggeredRow.id);\nunidade_edit.setSelectedOption(condutores_ativos.triggeredRow.unidade_id)\n}}",
+            "onClick": "{{showModal('Edit');\nerroPutCond.setText(\"\")\nnome_edit.setValue(condutores_ativos.triggeredRow.Nome);\nrg_edit.setValue(condutores_ativos.triggeredRow.rg);\nstoreValue('id', condutores_ativos.triggeredRow.id);\nunidade_edit.setSelectedOption(condutores_ativos.triggeredRow.unidade_id)\n}}",
             "buttonColor": "rgb(48, 73, 136)",
             "isEditable": false,
             "notation": "standard",

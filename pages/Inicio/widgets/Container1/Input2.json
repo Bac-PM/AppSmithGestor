@@ -12,7 +12,7 @@
         {"key": "borderRadius"}
     ],
     "labelStyle": "",
-    "inputType": "TEXT",
+    "inputType": "PASSWORD",
     "isDisabled": false,
     "isRequired": false,
     "dynamicHeight": "FIXED",
@@ -59,6 +59,7 @@
     "originalTopRow": 10,
     "mobileLeftColumn": 6,
     "maxDynamicHeight": 9000,
+    "shouldAllowAutofill": true,
     "iconAlign": "left",
     "defaultText": "123456Aa",
     "minDynamicHeight": 4

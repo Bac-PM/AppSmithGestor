@@ -64,24 +64,28 @@
         }
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "columnUpdatedAt": 1714654221534,
+    "columnUpdatedAt": 1718646851569,
     "defaultSelectedRowIndices": [0],
     "mobileBottomRow": 26,
     "widgetName": "tipos_vacinas_ativos",
     "defaultPageSize": 0,
     "columnOrder": [
         "customColumn2",
-        "customColumn1",
         "tipo",
         "id",
         "createdAt",
         "updatedAt",
-        "ativo"
+        "ativo",
+        "customColumn1"
     ],
-    "dynamicPropertyPathList": [{"key": "tableData"}],
+    "dynamicPropertyPathList": [
+        {"key": "tableData"},
+        {"key": "primaryColumns.customColumn1.onClick"}
+    ],
     "displayName": "Table",
     "bottomRow": 40,
     "columnWidthMap": {
+        "tipo": 840.9999999999999,
         "customColumn1": 127,
         "customColumn2": 105,
         "customColumn3": 275
@@ -199,7 +203,7 @@
         "customColumn1": {
             "boxShadow": "{{tipos_vacinas_ativos.processedTableData.map((currentRow, currentIndex) => ( \"none\"))}}",
             "computedValue": "",
-            "onClick": "{{showModal('edit_tipo_vacina');}}",
+            "onClick": "{{erroPutTipo.setText(\"\");\nresetWidget(\"edit_tipo_vacina\", true);\nshowModal('edit_tipo_vacina');\n}}",
             "buttonColor": "rgb(48, 73, 136)",
             "isEditable": false,
             "notation": "standard",
@@ -229,7 +233,7 @@
             "decimals": 0,
             "width": 150,
             "enableFilter": true,
-            "sticky": "",
+            "sticky": "right",
             "originalId": "customColumn1",
             "currencyCode": "USD",
             "customAlias": "",
@@ -280,7 +284,7 @@
             "isDisabled": false,
             "allowSameOptionsInNewRow": true,
             "validation": {},
-            "isCellVisible": true,
+            "isCellVisible": false,
             "isDerived": true,
             "textSize": "0.875rem",
             "iconName": "minus",

@@ -3,9 +3,9 @@
     "boxShadow": "none",
     "mobileBottomRow": 4,
     "widgetName": "Button1Copy",
-    "onClick": "{{resetWidget(\"Add_consulta_id\", true);\nshowModal('Add_consulta_id');\n}}",
+    "onClick": "{{erroPost.setText(\"\");\nresetWidget(\"Add_consulta_id\", true);\nshowModal('Add_consulta_id');\n}}",
     "buttonColor": "rgb(48, 73, 136)",
-    "dynamicPropertyPathList": [],
+    "dynamicPropertyPathList": [{"key": "onClick"}],
     "displayName": "Button",
     "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
     "searchTags": [

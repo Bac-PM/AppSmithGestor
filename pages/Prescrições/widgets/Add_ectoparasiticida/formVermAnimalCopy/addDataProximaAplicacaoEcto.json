@@ -8,9 +8,9 @@
     "animateLoading": true,
     "leftColumn": 31,
     "dynamicBindingPathList": [
+        {"key": "minDate"},
         {"key": "accentColor"},
-        {"key": "borderRadius"},
-        {"key": "minDate"}
+        {"key": "borderRadius"}
     ],
     "labelTooltip": "",
     "isDisabled": false,

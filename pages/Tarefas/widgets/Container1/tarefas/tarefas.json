@@ -157,7 +157,7 @@
     "tags": ["Layout"],
     "isLoading": false,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 50,
+    "originalBottomRow": 52,
     "needsErrorInfo": false,
     "mobileBottomRow": 19,
     "widgetName": "tarefas",

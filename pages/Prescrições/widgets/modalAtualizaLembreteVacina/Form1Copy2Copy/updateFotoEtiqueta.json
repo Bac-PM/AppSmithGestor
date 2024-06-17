@@ -47,7 +47,7 @@
     "originalTopRow": 24,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 4,
-    "originalBottomRow": 29,
+    "originalBottomRow": 28,
     "files": [],
     "maxNumFiles": 1
 }

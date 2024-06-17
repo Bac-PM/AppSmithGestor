@@ -25,7 +25,46 @@
           "dynamicBindingPathList": [],
           "leftColumn": 0
         },
-        "layoutOnLoadActions": [],
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "Vacinas_getAllTipoVacina",
+              "name": "getAllTipoVacina",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "appsmith.store.jwt",
+                "tipos_vacinas_ativos.pageNo",
+                "appsmith.store.url"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Vacinas_getAllVacina",
+              "name": "getAllVacina",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "appsmith.store.jwt",
+                "nomes_vacinas_ativos.pageNo",
+                "appsmith.store.url"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Vacinas_get_vacina_desativadas",
+              "name": "get_vacina_desativadas",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "appsmith.store.jwt",
+                "nomes_vacinas_ativos.pageNo",
+                "appsmith.store.url"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
         "id": "Vacinas",

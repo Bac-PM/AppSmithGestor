@@ -3,7 +3,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 22,
     "widgetName": "Button7Copy",
-    "onClick": "{{put_vermifugo.run().then(() => {\n  showAlert('Editado com sucesso', 'success');\n  get_vermifugos.run();\n  closeModal('Edit_verm');\n}).catch(() => {\n\t\nput_vermifugo.data.error.details.errors.forEach(element => {\n    showAlert(element.message, 'error');\n\t\n});\t\n});}}",
+    "onClick": "{{put_vermifugo.run().then(() => {\n  showAlert('Editado com sucesso', 'success');\n  get_vermifugos.run();\n  closeModal('Edit_verm');\n}).catch(() => {\n\t\nlet erroApi = service.getErrorApi(put_vermifugo.data);\n\t\t\t\n\t\t\terroPut.setText(erroApi); \n});\t\n}}",
     "buttonColor": "rgb(48, 73, 136)",
     "dynamicPropertyPathList": [{"key": "onClick"}],
     "displayName": "Button",
@@ -12,8 +12,8 @@
         "click",
         "submit"
     ],
-    "topRow": 19,
-    "bottomRow": 23,
+    "topRow": 22,
+    "bottomRow": 26,
     "type": "BUTTON_WIDGET",
     "hideCard": false,
     "mobileRightColumn": 63,
@@ -39,9 +39,11 @@
     "isLoading": false,
     "mobileTopRow": 18,
     "responsiveBehavior": "hug",
+    "originalTopRow": 21,
     "disabledWhenInvalid": false,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 47,
+    "originalBottomRow": 25,
     "buttonVariant": "PRIMARY",
     "placement": "CENTER"
 }

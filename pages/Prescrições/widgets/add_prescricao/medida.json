@@ -10,9 +10,8 @@
     "animateLoading": true,
     "leftColumn": 10,
     "dynamicBindingPathList": [
-        {"key": "accentColor"},
-        {"key": "borderRadius"},
-        {"key": "sourceData"}
+        {"key": "sourceData"},
+        {"key": "borderRadius"}
     ],
     "placeholderText": "Ex.: Comprimido",
     "isDisabled": false,

@@ -3,7 +3,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 22,
     "widgetName": "botaoEditarUpdate",
-    "onClick": "{{consultaAtualiza.run().then(() => {\n\tgetConsultaDeUmCao.run()\n  closeModal('Edit_consulta');\n});}}",
+    "onClick": "{{getIdUsuario.run().then(() => {\n  consultaAtualiza.run().then(() => {\n  showAlert('Consulta Atualizada com Sucesso', 'success');\n  closeModal('Edit_consulta');\n  getConsultaDeUmCao.run();\n}).catch(() => {\n let erroApi = service.getErrorApi(consultaAtualiza.data);\n\t\t\terroPut.setText(erroApi);\n});\n});\n}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "dynamicPropertyPathList": [{"key": "onClick"}],
     "displayName": "Button",
@@ -12,8 +12,8 @@
         "click",
         "submit"
     ],
-    "topRow": 47,
-    "bottomRow": 51,
+    "topRow": 48,
+    "bottomRow": 52,
     "type": "BUTTON_WIDGET",
     "hideCard": false,
     "mobileRightColumn": 63,
@@ -42,11 +42,11 @@
     "isLoading": false,
     "mobileTopRow": 18,
     "responsiveBehavior": "hug",
-    "originalTopRow": 47,
+    "originalTopRow": 48,
     "disabledWhenInvalid": false,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 47,
-    "originalBottomRow": 51,
+    "originalBottomRow": 52,
     "buttonVariant": "PRIMARY",
     "placement": "CENTER"
 }

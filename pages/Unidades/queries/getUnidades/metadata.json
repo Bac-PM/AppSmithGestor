@@ -2,7 +2,7 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "getUnidades",
+    "name": "getUnidadesAtivas",
     "fullyQualifiedName": "getUnidades",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
@@ -47,6 +47,18 @@
         {
           "key": "pagination[pageSize]",
           "value": "8"
+        },
+        {
+          "key": "fields[0]",
+          "value": "Nome"
+        },
+        {
+          "key": "fields[1]",
+          "value": "Endereco"
+        },
+        {
+          "key": "fields[2]",
+          "value": "ativo"
         }
       ],
       "body": "",
@@ -63,7 +75,7 @@
         "apiContentType": "none"
       }
     },
-    "executeOnLoad": true,
+    "executeOnLoad": false,
     "dynamicBindingPathList": [
       {
         "key": "headers[0].value"

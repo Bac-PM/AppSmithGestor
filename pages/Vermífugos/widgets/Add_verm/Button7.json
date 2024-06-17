@@ -3,7 +3,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 22,
     "widgetName": "Button7",
-    "onClick": "{{post_vermifugo.run().then(() => {\n  showAlert('Adicionado com sucesso', 'success');\n  closeModal('Add_verm');\n  get_vermifugos.run();\n}).catch(() => {\n\t\npost_vermifugo.data.error.details.errors.forEach(element => {\n    showAlert(element.message, 'error');\n\t\n});\t\n});}}",
+    "onClick": "{{post_vermifugo.run().then(() => {\n  showAlert('Adicionado com sucesso', 'success');\n  closeModal('Add_verm');\n  get_vermifugos.run();\n}).catch(() => {\n\t\nlet erroApi = service.getErrorApi(post_vermifugo.data);\n\t\t\t\n\t\t\terroPost.setText(erroApi); \n\t\n});\t\n}}",
     "buttonColor": "rgb(48, 73, 136)",
     "dynamicPropertyPathList": [{"key": "onClick"}],
     "displayName": "Button",
@@ -12,8 +12,8 @@
         "click",
         "submit"
     ],
-    "topRow": 18,
-    "bottomRow": 22,
+    "topRow": 20,
+    "bottomRow": 24,
     "type": "BUTTON_WIDGET",
     "hideCard": false,
     "mobileRightColumn": 63,
@@ -39,9 +39,11 @@
     "isLoading": false,
     "mobileTopRow": 18,
     "responsiveBehavior": "hug",
+    "originalTopRow": 20,
     "disabledWhenInvalid": false,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 47,
+    "originalBottomRow": 24,
     "buttonVariant": "PRIMARY",
     "placement": "CENTER"
 }

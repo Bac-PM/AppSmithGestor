@@ -6,10 +6,11 @@
     "type": "INPUT_WIDGET_V2",
     "animateLoading": true,
     "resetOnSubmit": true,
-    "leftColumn": 0,
+    "leftColumn": 2,
     "dynamicBindingPathList": [
         {"key": "accentColor"},
-        {"key": "borderRadius"}
+        {"key": "borderRadius"},
+        {"key": "defaultText"}
     ],
     "labelStyle": "",
     "inputType": "TEXT",
@@ -46,7 +47,7 @@
     "key": "bq7m2yz8a2",
     "labelTextSize": "0.875rem",
     "isDeprecated": false,
-    "rightColumn": 41,
+    "rightColumn": 61,
     "widgetId": "33noq5daaw",
     "minWidth": 450,
     "label": "Nome",
@@ -58,6 +59,6 @@
     "mobileLeftColumn": 18,
     "maxDynamicHeight": 9000,
     "iconAlign": "left",
-    "defaultText": "",
+    "defaultText": "{{coleiras_ativas.triggeredRow.nome_produto}}",
     "minDynamicHeight": 4
 }

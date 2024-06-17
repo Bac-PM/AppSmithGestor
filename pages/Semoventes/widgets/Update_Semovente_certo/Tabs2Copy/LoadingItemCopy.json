@@ -23,7 +23,7 @@
     "isLoading": false,
     "disabledWhenInvalid": false,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 57,
+    "originalBottomRow": 61,
     "placement": "CENTER",
     "mobileBottomRow": 22,
     "widgetName": "LoadingItemCopy",
@@ -34,7 +34,7 @@
         "click",
         "submit"
     ],
-    "bottomRow": 57,
+    "bottomRow": 61,
     "parentRowSpace": 10,
     "hideCard": false,
     "mobileRightColumn": 63,

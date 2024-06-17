@@ -4,8 +4,9 @@
     "boxShadow": "none",
     "mobileBottomRow": 4,
     "widgetName": "Button1",
-    "onClick": "{{resetWidget(\"add_medicamento\", true);\nshowModal('add_medicamento');}}",
+    "onClick": "{{erroPostMed.setText(\"\");\nshowModal('add_medicamento');}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+    "dynamicPropertyPathList": [{"key": "onClick"}],
     "displayName": "Button",
     "iconSVG": "/static/media/icon.cb7371e9a48acf9db0f2f3ea0a714255.svg",
     "searchTags": [

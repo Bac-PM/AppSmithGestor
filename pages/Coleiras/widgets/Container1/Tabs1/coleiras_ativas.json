@@ -66,21 +66,21 @@
         }
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "columnUpdatedAt": 1714417199697,
+    "columnUpdatedAt": 1718644551693,
     "defaultSelectedRowIndices": [0],
     "mobileBottomRow": 26,
     "widgetName": "coleiras_ativas",
     "defaultPageSize": 0,
     "columnOrder": [
-        "customColumn2",
-        "customColumn1",
         "nome_produto",
         "duracao_em_dias",
         "id",
         "createdAt",
         "updatedAt",
         "tipo_produto_antiparasitario",
-        "ativo"
+        "ativo",
+        "customColumn1",
+        "customColumn2"
     ],
     "dynamicPropertyPathList": [
         {"key": "tableData"},
@@ -89,8 +89,9 @@
     "displayName": "Table",
     "bottomRow": 36,
     "columnWidthMap": {
-        "customColumn1": 175,
-        "customColumn2": 105
+        "customColumn1": 94,
+        "customColumn2": 105,
+        "duracao_em_dias": 486
     },
     "parentRowSpace": 10,
     "hideCard": false,
@@ -239,7 +240,7 @@
         "customColumn1": {
             "boxShadow": "{{coleiras_ativas.processedTableData.map((currentRow, currentIndex) => ( \"none\"))}}",
             "computedValue": "",
-            "onClick": "{{showModal('Edit');\nnome_edit.setValue(coleiras_ativas.triggeredRow.nome);\nstoreValue('id', coleiras_ativas.triggeredRow.id);\n}}",
+            "onClick": "{{erroPut.setText(\"\");\nresetWidget(\"Edit\", true);\nshowModal('Edit');\n}}",
             "buttonColor": "rgb(48, 73, 136)",
             "isEditable": false,
             "notation": "standard",
@@ -269,7 +270,7 @@
             "decimals": 0,
             "width": 150,
             "enableFilter": true,
-            "sticky": "",
+            "sticky": "right",
             "originalId": "customColumn1",
             "currencyCode": "USD",
             "customAlias": "",
@@ -339,7 +340,7 @@
             "decimals": 0,
             "width": 150,
             "enableFilter": true,
-            "sticky": "",
+            "sticky": "right",
             "originalId": "customColumn2",
             "currencyCode": "USD",
             "customAlias": "",

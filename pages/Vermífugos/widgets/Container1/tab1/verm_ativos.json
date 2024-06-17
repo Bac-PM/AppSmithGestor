@@ -74,7 +74,10 @@
         "customColumn1",
         "customColumn2"
     ],
-    "dynamicPropertyPathList": [{"key": "tableData"}],
+    "dynamicPropertyPathList": [
+        {"key": "tableData"},
+        {"key": "primaryColumns.customColumn1.onClick"}
+    ],
     "displayName": "Table",
     "bottomRow": 44,
     "columnWidthMap": {
@@ -137,7 +140,7 @@
         "customColumn1": {
             "boxShadow": "{{verm_ativos.processedTableData.map((currentRow, currentIndex) => ( \"none\"))}}",
             "computedValue": "",
-            "onClick": "{{showModal('Edit_verm');}}",
+            "onClick": "{{erroPut.setText(\"\");\nresetWidget(\"Edit_verm\", true);\nshowModal('Edit_verm');\n}}",
             "buttonColor": "rgb(48, 73, 136)",
             "isEditable": false,
             "notation": "standard",

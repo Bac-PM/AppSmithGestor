@@ -4,9 +4,9 @@
     "boxShadow": "none",
     "mobileBottomRow": 4,
     "widgetName": "Button16",
-    "onClick": "{{resetWidget(\"add_prescricao\", true);\nshowModal('add_prescricao');\n}}",
+    "onClick": "{{erroPostMed.setText(\"\");\nresetWidget(\"add_prescricao\", true);\nshowModal('add_prescricao');\n}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "dynamicPropertyPathList": [],
+    "dynamicPropertyPathList": [{"key": "onClick"}],
     "displayName": "Button",
     "iconSVG": "/static/media/icon.cb7371e9a48acf9db0f2f3ea0a714255.svg",
     "searchTags": [

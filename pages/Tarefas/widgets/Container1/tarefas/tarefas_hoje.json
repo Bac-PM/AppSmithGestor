@@ -82,7 +82,10 @@
         "customColumn1",
         "customColumn2"
     ],
-    "dynamicPropertyPathList": [{"key": "tableData"}],
+    "dynamicPropertyPathList": [
+        {"key": "tableData"},
+        {"key": "primaryColumns.customColumn1.onClick"}
+    ],
     "displayName": "Table",
     "bottomRow": 42,
     "columnWidthMap": {
@@ -230,7 +233,7 @@
         },
         "customColumn1": {
             "computedValue": "",
-            "onClick": "{{showModal('edit_tarefa2');}}",
+            "onClick": "{{erroPut2.setText(\"\");\nresetWidget(\"edit_tarefa2\", true);\nshowModal('edit_tarefa2');\n}}\n\n",
             "isEditable": false,
             "notation": "standard",
             "alias": "Editar",

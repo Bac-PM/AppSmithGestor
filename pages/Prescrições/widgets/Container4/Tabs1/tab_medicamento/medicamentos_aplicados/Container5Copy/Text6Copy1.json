@@ -20,10 +20,8 @@
     "dynamicTriggerPathList": [],
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
     "dynamicBindingPathList": [
-        {"key": "truncateButtonColor"},
-        {"key": "fontFamily"},
-        {"key": "borderRadius"},
-        {"key": "text"}
+        {"key": "text"},
+        {"key": "fontFamily"}
     ],
     "leftColumn": 1,
     "shouldTruncate": false,

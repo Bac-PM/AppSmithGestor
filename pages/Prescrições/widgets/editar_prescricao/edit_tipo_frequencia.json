@@ -9,10 +9,7 @@
     "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( medicamentos_ativos.triggeredItem.tipo_frequencia))(edit_tipo_frequencia.options, edit_tipo_frequencia.serverSideFiltering) }}",
     "animateLoading": true,
     "leftColumn": 30,
-    "dynamicBindingPathList": [
-        {"key": "accentColor"},
-        {"key": "defaultOptionValue"}
-    ],
+    "dynamicBindingPathList": [{"key": "defaultOptionValue"}],
     "placeholderText": "Ex.: Hora",
     "isDisabled": false,
     "isRequired": false,

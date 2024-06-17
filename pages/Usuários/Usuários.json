@@ -109,21 +109,6 @@
           ],
           [
             {
-              "id": "Usuários_CadastraUsuario",
-              "name": "CadastraUsuario",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "InsereCpf.text",
-                "InsereNome.text",
-                "appsmith.store.jwt",
-                "InsereSenha.text",
-                "InsereEmail.text",
-                "appsmith.store.url"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
               "id": "Usuários_getAllUsuario",
               "name": "getAllUsuario",
               "confirmBeforeExecute": false,
@@ -131,6 +116,23 @@
               "jsonPathKeys": [
                 "usuariosAtivos.pageNo",
                 "appsmith.store.jwt",
+                "appsmith.store.url"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "Usuários_CadastraUsuario",
+              "name": "CadastraUsuario",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "FormeCadastroUsuario.data.InsereSenha",
+                "appsmith.store.jwt",
+                "FormeCadastroUsuario.data.InsereEmail",
+                "FormeCadastroUsuario.data.InsereCpf",
+                "FormeCadastroUsuario.data.InsereNome",
                 "appsmith.store.url"
               ],
               "timeoutInMillisecond": 10000

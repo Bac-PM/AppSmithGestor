@@ -44,7 +44,7 @@
     "labelTextSize": "0.875rem",
     "defaultDate": "{{vacinas_ativas.triggeredRow.data_proxima_aplicacao}}",
     "isDeprecated": false,
-    "rightColumn": 44,
+    "rightColumn": 45,
     "widgetId": "g3k7vhibit",
     "minWidth": 450,
     "label": "Data da Próxima Dose",

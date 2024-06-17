@@ -4,7 +4,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 22,
     "widgetName": "Button3Copy4",
-    "onClick": "{{post_medicamento_animal.run().then(() => {\n  closeModal('add_prescricao');\n  get_medicamento_animal.run();\n});}}",
+    "onClick": "{{post_medicamento_animal.run().then(() => {\n closeModal('add_prescricao');\n get_medicamento_animal.run();\n}).catch(() => {\n\t\t\t\n\t\t\tlet erroApi = service.getErrorApi(post_medicamento_animal.data);\n\t\t\t\n\t\t\terroPostMed.setText(erroApi); \n  });\n;}}\n",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "dynamicPropertyPathList": [{"key": "onClick"}],
     "displayName": "Button",
@@ -13,8 +13,8 @@
         "click",
         "submit"
     ],
-    "topRow": 54,
-    "bottomRow": 58,
+    "topRow": 58,
+    "bottomRow": 62,
     "type": "BUTTON_WIDGET",
     "hideCard": false,
     "mobileRightColumn": 63,
@@ -44,11 +44,11 @@
     "isLoading": false,
     "mobileTopRow": 18,
     "responsiveBehavior": "hug",
-    "originalTopRow": 54,
+    "originalTopRow": 58,
     "disabledWhenInvalid": false,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 47,
-    "originalBottomRow": 58,
+    "originalBottomRow": 62,
     "buttonVariant": "PRIMARY",
     "placement": "CENTER"
 }

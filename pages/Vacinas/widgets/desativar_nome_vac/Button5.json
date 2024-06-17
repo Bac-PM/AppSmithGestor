@@ -19,7 +19,7 @@
     "mobileRightColumn": 47,
     "animateLoading": true,
     "dynamicTriggerPathList": [{"key": "onClick"}],
-    "leftColumn": 29,
+    "leftColumn": 31,
     "dynamicBindingPathList": [
         {"key": "buttonColor"},
         {"key": "borderRadius"}
@@ -28,7 +28,7 @@
     "isDisabled": false,
     "key": "22schyyie6",
     "isDeprecated": false,
-    "rightColumn": 45,
+    "rightColumn": 47,
     "thumbnailSVG": "/static/media/thumbnail.a348658e996feaad96cadc30d99374ff.svg",
     "isDefaultClickDisabled": true,
     "widgetId": "mrd9ap1pjh",

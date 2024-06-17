@@ -28,8 +28,8 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Unidades_getUnidades",
-              "name": "getUnidades",
+              "id": "Unidades_getUnidadesDesativadas",
+              "name": "getUnidadesDesativadas",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [

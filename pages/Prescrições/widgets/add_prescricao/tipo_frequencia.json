@@ -9,7 +9,7 @@
     "defaultOptionValue": "",
     "animateLoading": true,
     "leftColumn": 30,
-    "dynamicBindingPathList": [{"key": "accentColor"}],
+    "dynamicBindingPathList": [],
     "placeholderText": "Ex.: Hora",
     "isDisabled": false,
     "isRequired": false,
