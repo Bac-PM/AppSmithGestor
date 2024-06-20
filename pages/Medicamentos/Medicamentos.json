@@ -63,20 +63,6 @@
           ],
           [
             {
-              "id": "Medicamentos_ativar_medicamento",
-              "name": "ativar_medicamento",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "medicamentos_desativados.triggeredRow.id",
-                "appsmith.store.jwt",
-                "appsmith.store.url"
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ],
-          [
-            {
               "id": "Medicamentos_get_medicamentos_ativos",
               "name": "get_medicamentos_ativos",
               "confirmBeforeExecute": false,
@@ -95,7 +81,7 @@
               "pluginType": "API",
               "jsonPathKeys": [
                 "appsmith.store.jwt",
-                "medicamentos_desativados.pageNo",
+                "medicamentos_ativos.pageNo",
                 "appsmith.store.url"
               ],
               "timeoutInMillisecond": 10000

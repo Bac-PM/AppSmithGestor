@@ -3,7 +3,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 22,
     "widgetName": "Button9",
-    "onClick": "{{\nativarColeira.run().then(() => {\n  showAlert('Ativado com sucesso!', 'success');\n}).catch(() => {\n  showAlert('Um erro ocorreu', 'error');\n});\ngetAllColeirasDesativadas.run();\ngetAllColeiras.run()\ncloseModal(\"ConfirmarReativarColeira\")}}",
+    "onClick": "{{\nativarColeira.run().then(() => {\n  showAlert(ativarColeira.data.data.nome_produto +' Ativado com sucesso!', 'success');\n}).catch(() => {\n  showAlert('Um erro ocorreu', 'error');\n});\ngetAllColeirasDesativadas.run();\ngetAllColeiras.run()\ncloseModal(\"ConfirmarReativarColeira\")}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "dynamicPropertyPathList": [{"key": "onClick"}],
     "displayName": "Button",

@@ -2,7 +2,7 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "getAllTipoVacina",
+    "name": "getAllTipoVacinaDesativados",
     "fullyQualifiedName": "getAllTipoVacina",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
@@ -33,15 +33,19 @@
       "queryParameters": [
         {
           "key": "filters[ativo]",
-          "value": "true"
+          "value": "false"
         },
         {
           "key": "pagination[page]",
-          "value": "{{tipos_vacinas_ativos.pageNo}}"
+          "value": "{{tipos_vacinas_desativados.pageNo}}"
         },
         {
           "key": "pagination[pageSize]",
           "value": "6"
+        },
+        {
+          "key": "fields[1]",
+          "value": "tipo"
         }
       ],
       "body": "",
@@ -76,15 +80,15 @@
     "jsonPathKeys": [
       "appsmith.store.jwt",
       "appsmith.store.url",
-      "tipos_vacinas_ativos.pageNo"
+      "tipos_vacinas_desativados.pageNo"
     ],
-    "userSetOnLoad": false,
+    "userSetOnLoad": true,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-06-14T16:59:50Z"
+    "createdAt": "2024-06-20T17:39:43Z"
   },
   "id": "Vacinas_getAllTipoVacina",
   "deleted": false,
-  "gitSyncId": "664b91393d0ee46738b29c21_666c7706721e40404f828330"
+  "gitSyncId": "664b91393d0ee46738b29c21_6674695f65939119781038e4"
 }

@@ -53,11 +53,23 @@
         },
         {
           "key": "pagination[page]",
-          "value": "{{medicamentos_desativados.pageNo}}"
+          "value": "{{medicamentos_ativos.pageNo}}"
         },
         {
           "key": "pagination[pageSize]",
           "value": "8"
+        },
+        {
+          "key": "fields[0]",
+          "value": "nome"
+        },
+        {
+          "key": "fields[1]",
+          "value": "ativo"
+        },
+        {
+          "key": "fields[2]",
+          "value": "dosagem"
         }
       ],
       "body": "",
@@ -92,7 +104,7 @@
     "jsonPathKeys": [
       "appsmith.store.jwt",
       "appsmith.store.url",
-      "medicamentos_desativados.pageNo"
+      "medicamentos_ativos.pageNo"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

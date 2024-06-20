@@ -3,9 +3,9 @@
     "boxShadow": "none",
     "mobileBottomRow": 4,
     "widgetName": "IconButton3",
-    "onClick": "{{\nresetWidget('add_tipo_vacina');\nerrorTipoVac.setText(\"\");\ncloseModal('add_tipo_vacina');\n}}",
+    "onClick": "{{\ncloseModal('add_tipo_vacina');\n}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "dynamicPropertyPathList": [{"key": "onClick"}],
+    "dynamicPropertyPathList": [],
     "displayName": "Icon button",
     "iconSVG": "/static/media/icon.bb5d55ae67fb1687dff78e66ad1faec0.svg",
     "searchTags": [

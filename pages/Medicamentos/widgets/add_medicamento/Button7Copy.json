@@ -3,7 +3,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 22,
     "widgetName": "Button7Copy",
-    "onClick": "{{post_medicamento.run().then(() => { closeModal('add_medicamento');\n\tshowAlert('Medicamento Cadastrado com Sucesso!', 'success');\n\tget_medicamentos_ativos.run();\n\terroPostMed.setText(\"\");\n}).catch(() => {\n\t\t\tlet erroApi = service.getErrorApi(post_medicamento.data);\nerroPostMed.setText(erroApi); \n  });\n//});}}",
+    "onClick": "{{post_medicamento.run().then(() => { closeModal('add_medicamento');\n\tshowAlert('Medicamento Cadastrado com Sucesso!', 'success');\n\tget_medicamentos_ativos.run();\n\terroPostMed.setText(\"\");\n}).catch(() => {\n\t\t\tlet erroApi = service.getErrorApi(post_medicamento.data);\nerroPostMed.setText(erroApi); \n  });\n}}",
     "buttonColor": "rgb(48, 73, 136)",
     "dynamicPropertyPathList": [{"key": "onClick"}],
     "displayName": "Button",

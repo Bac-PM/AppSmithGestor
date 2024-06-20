@@ -20,6 +20,7 @@
     "minHeight": 240,
     "animateLoading": true,
     "parentColumnSpace": 18.5,
+    "dynamicTriggerPathList": [],
     "leftColumn": 0,
     "dynamicBindingPathList": [{"key": "borderRadius"}],
     "children": [{

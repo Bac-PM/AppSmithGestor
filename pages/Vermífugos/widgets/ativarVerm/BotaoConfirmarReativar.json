@@ -3,9 +3,9 @@
     "boxShadow": "none",
     "mobileBottomRow": 22,
     "widgetName": "BotaoConfirmarReativar",
-    "onClick": "{{put_ativar.run().then(() => {\n  showAlert('Reativado com sucesso', 'success');\n  get_vermifugos_desativados.run();\n  get_vermifugos.run();\n  closeModal('ativarVerm');\n}).catch(() => {\n  put_ativar.data.error.details.errors.forEach(element => {\n    showAlert(element.message, 'error');\n  });\n});}}",
+    "onClick": "{{put_ativar.run().then(() => {\n  showAlert(put_ativar.data.data.nome_produto +' Reativado com sucesso', 'success');\n  get_vermifugos_desativados.run();\n  get_vermifugos.run();\n  closeModal('ativarVerm');\n}).catch(() => {\n  put_ativar.data.error.details.errors.forEach(element => {\n    showAlert(element.message, 'error');\n  });\n});}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "dynamicPropertyPathList": [],
+    "dynamicPropertyPathList": [{"key": "onClick"}],
     "displayName": "Button",
     "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
     "searchTags": [

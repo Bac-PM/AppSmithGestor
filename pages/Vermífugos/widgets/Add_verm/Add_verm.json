@@ -3,7 +3,7 @@
     "mobileBottomRow": 34,
     "widgetName": "Add_verm",
     "isCanvas": true,
-    "dynamicPropertyPathList": [{"key": "onClose"}],
+    "dynamicPropertyPathList": [],
     "displayName": "Modal",
     "iconSVG": "/static/media/icon.b374721fa8e1aeab7cf326c2d865506f.svg",
     "searchTags": [
@@ -80,7 +80,7 @@
     "renderMode": "CANVAS",
     "isLoading": false,
     "mobileTopRow": 10,
-    "onClose": "{{\nnome_vermifugo.setValue(\"\");\nduracao_vermifugo.setValue(\"\");\n}}",
+    "onClose": "{{resetWidget(\"Add_verm\");}}",
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 19,
     "maxDynamicHeight": 9000,

@@ -32,8 +32,36 @@
       "encodeParamsToggle": true,
       "queryParameters": [
         {
-          "key": "populate",
-          "value": "*"
+          "key": "fields[0]",
+          "value": "username"
+        },
+        {
+          "key": "fields[1]",
+          "value": "email"
+        },
+        {
+          "key": "fields[2]",
+          "value": "confirmed"
+        },
+        {
+          "key": "fields[3]",
+          "value": "blocked"
+        },
+        {
+          "key": "fields[4]",
+          "value": "cpf"
+        },
+        {
+          "key": "populate[role][fields][0]",
+          "value": "name"
+        },
+        {
+          "key": "populate[role][fields][1]",
+          "value": "description"
+        },
+        {
+          "key": "populate[role][fields][2]",
+          "value": "type"
         }
       ],
       "bodyFormData": [],

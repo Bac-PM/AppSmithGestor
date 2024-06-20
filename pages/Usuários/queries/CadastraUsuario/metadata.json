@@ -66,10 +66,13 @@
         "apiContentType": "application/x-www-form-urlencoded"
       }
     },
-    "executeOnLoad": true,
+    "executeOnLoad": false,
     "dynamicBindingPathList": [
       {
         "key": "headers[0].value"
+      },
+      {
+        "key": "path"
       },
       {
         "key": "bodyFormData[0].value"
@@ -82,9 +85,6 @@
       },
       {
         "key": "bodyFormData[3].value"
-      },
-      {
-        "key": "path"
       }
     ],
     "isValid": true,
@@ -98,7 +98,7 @@
       "appsmith.store.jwt",
       "appsmith.store.url"
     ],
-    "userSetOnLoad": false,
+    "userSetOnLoad": true,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],

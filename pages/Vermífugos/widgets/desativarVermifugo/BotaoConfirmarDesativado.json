@@ -3,9 +3,9 @@
     "boxShadow": "none",
     "mobileBottomRow": 22,
     "widgetName": "BotaoConfirmarDesativado",
-    "onClick": "{{put_desativar.run().then(() => {\n  showAlert('Desativado com sucesso', 'success');\n  get_vermifugos.run();\n  get_vermifugos_desativados.run();\n  closeModal('desativarVermifugo');\n}).catch(() => {\n  put_desativar.data.error.details.errors.forEach(element => {\n    showAlert(element.message, 'error');\n  });\n});}}",
+    "onClick": "{{put_desativar.run().then(() => {\n  showAlert( put_desativar.data.data.nome_produto + ' Desativado com sucesso', 'success');\n  get_vermifugos.run();\n  get_vermifugos_desativados.run();\n  closeModal('desativarVermifugo');\n}).catch(() => {\n  put_desativar.data.error.details.errors.forEach(element => {\n    showAlert(element.message, 'error');\n  });\n});}}",
     "buttonColor": "#ef4444",
-    "dynamicPropertyPathList": [],
+    "dynamicPropertyPathList": [{"key": "onClick"}],
     "displayName": "Button",
     "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
     "searchTags": [

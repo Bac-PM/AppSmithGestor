@@ -2,7 +2,7 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "putTipoVacina",
+    "name": "editaTipoVacina",
     "fullyQualifiedName": "putTipoVacina",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",

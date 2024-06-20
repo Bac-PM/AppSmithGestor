@@ -58,6 +58,18 @@
         {
           "key": "pagination[pageSize]",
           "value": "8"
+        },
+        {
+          "key": "fields[0]",
+          "value": "nome"
+        },
+        {
+          "key": "fields[1]",
+          "value": "ativo"
+        },
+        {
+          "key": "fields[2]",
+          "value": "dosagem"
         }
       ],
       "body": "",

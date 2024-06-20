@@ -3,9 +3,9 @@
     "boxShadow": "none",
     "mobileBottomRow": 22,
     "widgetName": "BotaoConfirmarReativar",
-    "onClick": "{{put_ativa.run();\nget_vacina_desativadas.run();\ncloseModal('ativar_vacina');}}",
+    "onClick": "{{\nativaVacina.run().then(() => {\n  showAlert(ativaVacina.data.data.nome+' Ativado com sucesso', 'success');\n\tgetAllVacinaDesativadas.run();\n\t\n}).catch(() => {\n  showAlert('Um erro ocorreu', 'error');\n});\n\ncloseModal('ativar_vacina');}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "dynamicPropertyPathList": [],
+    "dynamicPropertyPathList": [{"key": "onClick"}],
     "displayName": "Button",
     "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
     "searchTags": [

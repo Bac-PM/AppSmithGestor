@@ -3,7 +3,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 22,
     "widgetName": "atualizar_nome_button",
-    "onClick": "\n{{putVacina.run().then(() => {\n  getAllVacina.run();\n\t\nresetWidget('edit_nome_vacina');\n\tcloseModal('edit_nome_vacina');\n}).catch(() => {\n\t\t\t\n\t\t\tlet erroApi = service.getErrorApi(putVacina.data);\n\t\t\t\n\t\t\terroPut.setText(erroApi); \n  });\n;}}\n\n",
+    "onClick": "\n{{editaVacina.run().then(() => {\n  getAllVacina.run();\n\t\nresetWidget('edit_nome_vacina');\n\tcloseModal('edit_nome_vacina');\n}).catch(() => {\n\t\t\t\n\t\t\tlet erroApi = service.getErrorApi(editaVacina.data);\n\t\t\t\n\t\t\terroPut.setText(erroApi); \n  });\n;}}\n\n",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "dynamicPropertyPathList": [{"key": "onClick"}],
     "displayName": "Button",

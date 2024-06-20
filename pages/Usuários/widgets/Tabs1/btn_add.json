@@ -3,11 +3,12 @@
     "boxShadow": "none",
     "mobileBottomRow": 4,
     "widgetName": "btn_add",
-    "onClick": "{{\nresetWidget(\"FormeCadastroUsuario\", true);\nshowModal('CadastroDeUsuario');\n}}",
+    "onClick": "{{\nresetWidget(\"CadastroDeUsuario\", true)\nshowModal('CadastroDeUsuario');\nerroNome.setText(\"\");\nerroEmail.setText(\"\");\nerroCpf.setText(\"\");\nerroSenha.setText(\"\");\nerroSenha2.setText(\"\");\n}}",
     "buttonColor": "rgb(48, 73, 136)",
     "dynamicPropertyPathList": [
-        {"key": "isDisabled"},
-        {"key": "isVisible"}
+        {"key": "onClick"},
+        {"key": "isVisible"},
+        {"key": "isDisabled"}
     ],
     "displayName": "Button",
     "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
@@ -25,17 +26,17 @@
     "animateLoading": true,
     "parentColumnSpace": 12.01953125,
     "dynamicTriggerPathList": [{"key": "onClick"}],
-    "leftColumn": 47,
+    "leftColumn": 48,
     "dynamicBindingPathList": [
         {"key": "borderRadius"},
-        {"key": "isDisabled"},
-        {"key": "isVisible"}
+        {"key": "isVisible"},
+        {"key": "isDisabled"}
     ],
     "text": "Cadastrar Usuário",
     "isDisabled": "{{\n(function() { if(getIdUsuario.data.role.name == \"veterinario\"){\n\t\treturn true;\n\t}\n\telse{\n\t\treturn false;\n\t}\n})();\n}}",
     "key": "dvahh65z9g",
     "isDeprecated": false,
-    "rightColumn": 63,
+    "rightColumn": 64,
     "isDefaultClickDisabled": true,
     "widgetId": "hkuew4kult",
     "bottomRowBeforeCollapse": 5,

@@ -18,7 +18,10 @@
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
     "dynamicTriggerPathList": [],
     "leftColumn": 0,
-    "dynamicBindingPathList": [{"key": "fontFamily"}],
+    "dynamicBindingPathList": [
+        {"key": "fontFamily"},
+        {"key": "textColor"}
+    ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
     "text": "O Condutor será Reativado\n",
@@ -31,7 +34,7 @@
     "minWidth": 450,
     "isVisible": true,
     "fontStyle": "BOLD",
-    "textColor": "#ef4444",
+    "textColor": "{{appsmith.theme.colors.primaryColor}}",
     "version": 1,
     "parentId": "xz37r3kswk",
     "tags": [

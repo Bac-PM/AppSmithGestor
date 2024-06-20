@@ -60,7 +60,7 @@
         }
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "columnUpdatedAt": 1718644979572,
+    "columnUpdatedAt": 1718899328073,
     "defaultSelectedRowIndices": [0],
     "mobileBottomRow": 26,
     "widgetName": "unidades_desativadas",
@@ -77,8 +77,9 @@
     "bottomRow": 46,
     "columnWidthMap": {
         "customColumn1": 85,
-        "Nome": 234,
-        "Endereco": 420
+        "customColumn2": 77.1943359375,
+        "Nome": 271,
+        "Endereco": 376
     },
     "parentRowSpace": 10,
     "hideCard": false,
@@ -155,7 +156,7 @@
         "customColumn2": {
             "boxShadow": "{{unidades_desativadas.processedTableData.map((currentRow, currentIndex) => ( \"none\"))}}",
             "computedValue": "",
-            "onClick": "{{desativaUnidades.run().then(() => {\n  showAlert('Reativado com sucesso', 'success');\n});\ngetUnidadesAtivas.run();}}",
+            "onClick": "{{showModal('ReativarUnidade');}}",
             "buttonColor": "rgb(48, 73, 136)",
             "isEditable": false,
             "notation": "standard",
@@ -260,7 +261,7 @@
     "key": "ke6yyhqxi1",
     "canFreezeColumn": true,
     "isDeprecated": false,
-    "rightColumn": 61,
+    "rightColumn": 64,
     "textSize": "0.875rem",
     "widgetId": "tdkz2podxp",
     "minWidth": 450,

@@ -2,7 +2,7 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "desativarVacina",
+    "name": "reativarTipoVacina",
     "fullyQualifiedName": "desativarVacina",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
@@ -21,7 +21,7 @@
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
-      "path": "{{appsmith.store.url}}/api/marca-vacinas/{{nomes_vacinas_ativos.triggeredRow.id}}",
+      "path": "{{appsmith.store.url}}/api/marca-vacinas/{{tipos_vacinas_desativados.triggeredRow.id}}",
       "headers": [
         {
           "key": "Authorization",
@@ -36,7 +36,7 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{\n  \"data\": {\n    \"ativo\": false\n  }\n}",
+      "body": "{\n  \"data\": {\n    \"ativo\": true\n  }\n}",
       "bodyFormData": [],
       "httpMethod": "PUT",
       "httpVersion": "HTTP11",
@@ -65,15 +65,15 @@
     "jsonPathKeys": [
       "appsmith.store.jwt",
       "appsmith.store.url",
-      "nomes_vacinas_ativos.triggeredRow.id"
+      "tipos_vacinas_desativados.triggeredRow.id"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-06-14T16:59:50Z"
+    "createdAt": "2024-06-20T18:43:54Z"
   },
   "id": "Vacinas_desativarVacina",
   "deleted": false,
-  "gitSyncId": "664b91393d0ee46738b29c21_666c7706721e40404f82832c"
+  "gitSyncId": "664b91393d0ee46738b29c21_6674786a65939119781038f1"
 }

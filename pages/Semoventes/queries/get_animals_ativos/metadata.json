@@ -149,10 +149,6 @@
         {
           "key": "populate[Foto_direita]",
           "value": "Foto_direita"
-        },
-        {
-          "key": "fields[1]",
-          "value": "vuid"
         }
       ],
       "body": "",

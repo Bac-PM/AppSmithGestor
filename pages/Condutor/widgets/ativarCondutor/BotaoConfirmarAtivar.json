@@ -4,7 +4,7 @@
     "mobileBottomRow": 22,
     "widgetName": "BotaoConfirmarAtivar",
     "onClick": "{{ativaCondutor.run().then(() => {\n  showAlert(ativaCondutor.data.data.Nome + ' foi Reativado', 'success');\n  closeModal('desativarCondutorCopy');\n  getTodosCondutores.run();\n  getCondutoresDesativados.run();\n  closeModal('ativarCondutor');\n});}}",
-    "buttonColor": "#ef4444",
+    "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "dynamicPropertyPathList": [],
     "displayName": "Button",
     "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
@@ -20,7 +20,10 @@
     "animateLoading": true,
     "dynamicTriggerPathList": [{"key": "onClick"}],
     "leftColumn": 47,
-    "dynamicBindingPathList": [{"key": "borderRadius"}],
+    "dynamicBindingPathList": [
+        {"key": "borderRadius"},
+        {"key": "buttonColor"}
+    ],
     "text": "Confirmar",
     "isDisabled": false,
     "key": "xj7nkl9hhc",

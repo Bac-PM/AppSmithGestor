@@ -3,7 +3,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 22,
     "widgetName": "BotaoConfirmarDesativado",
-    "onClick": "{{\ndesativarColeira.run().then(() => {\n  showAlert('Desativado com sucesso', 'success');\n}).catch(() => {\n  showAlert('Um erro ocorreu', 'error');\n});\ngetAllColeiras.run();\ngetAllColeirasDesativadas.run()\ncloseModal(\"ConfirmaDesativarColeira\")}}",
+    "onClick": "{{\ndesativarColeira.run().then(() => {\n  showAlert(desativarColeira.data.data.nome_produto +' Desativado com sucesso', 'success');\n}).catch(() => {\n  showAlert('Um erro ocorreu', 'error');\n});\ngetAllColeiras.run();\ngetAllColeirasDesativadas.run()\ncloseModal(\"ConfirmaDesativarColeira\")}}",
     "buttonColor": "#ef4444",
     "dynamicPropertyPathList": [{"key": "onClick"}],
     "displayName": "Button",

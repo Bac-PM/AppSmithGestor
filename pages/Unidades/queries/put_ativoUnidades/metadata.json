@@ -21,7 +21,7 @@
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
-      "path": "{{appsmith.store.url}}/api/unidades/{{unidades_desativadas.triggeredRow.id}}",
+      "path": "{{appsmith.store.url}}/api/unidades/{{unidades_ativas.triggeredRow.id}}",
       "headers": [
         {
           "key": "Authorization",
@@ -65,7 +65,7 @@
     "jsonPathKeys": [
       "appsmith.store.jwt",
       "appsmith.store.url",
-      "unidades_desativadas.triggeredRow.id"
+      "unidades_ativas.triggeredRow.id"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

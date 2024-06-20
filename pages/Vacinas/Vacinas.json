@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 490,
+          "bottomRow": 460,
           "containerStyle": "none",
           "snapRows": 79,
           "parentRowSpace": 1,
@@ -33,12 +33,14 @@
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
+                "tipos_vacinas_desativados.pageNo",
                 "appsmith.store.jwt",
-                "tipos_vacinas_ativos.pageNo",
                 "appsmith.store.url"
               ],
               "timeoutInMillisecond": 10000
-            },
+            }
+          ],
+          [
             {
               "id": "Vacinas_getAllVacina",
               "name": "getAllVacina",
@@ -52,13 +54,13 @@
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "Vacinas_get_vacina_desativadas",
-              "name": "get_vacina_desativadas",
+              "id": "Vacinas_getAllVacinaDesativadas",
+              "name": "getAllVacinaDesativadas",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
+                "nomes_vacinas_desativa.pageNo",
                 "appsmith.store.jwt",
-                "nomes_vacinas_ativos.pageNo",
                 "appsmith.store.url"
               ],
               "timeoutInMillisecond": 10000
