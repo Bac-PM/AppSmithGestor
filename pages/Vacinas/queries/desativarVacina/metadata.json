@@ -2,7 +2,7 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "reativarTipoVacina",
+    "name": "ativaTipoVacina",
     "fullyQualifiedName": "desativarVacina",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",

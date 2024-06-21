@@ -1,7 +1,7 @@
 {
   "unpublishedCollection": {
-    "name": "getURL",
-    "pageId": "Condutor",
+    "name": "set_store_role",
+    "pageId": "Inicio",
     "pluginId": "js-plugin",
     "pluginType": "JS",
     "actions": [],
@@ -9,7 +9,7 @@
     "variables": [],
     "userPermissions": []
   },
-  "id": "Condutor_getURL",
+  "id": "Inicio_set_store_role",
   "deleted": false,
-  "gitSyncId": "664b91393d0ee46738b29c21_6669caa1721e40404f828131"
+  "gitSyncId": "664b91393d0ee46738b29c21_6675aa286593911978103925"
 }

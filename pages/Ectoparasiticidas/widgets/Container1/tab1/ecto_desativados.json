@@ -17,7 +17,9 @@
         {"key": "primaryColumns.id.computedValue"},
         {"key": "accentColor"},
         {"key": "borderRadius"},
-        {"key": "boxShadow"}
+        {"key": "boxShadow"},
+        {"key": "primaryColumns.customColumn2.isCellVisible"},
+        {"key": "primaryColumns.customColumn2.isDisabled"}
     ],
     "needsHeightForContent": true,
     "leftColumn": 0,
@@ -71,7 +73,11 @@
         "duracao_em_dias",
         "customColumn2"
     ],
-    "dynamicPropertyPathList": [{"key": "tableData"}],
+    "dynamicPropertyPathList": [
+        {"key": "tableData"},
+        {"key": "primaryColumns.customColumn2.isCellVisible"},
+        {"key": "primaryColumns.customColumn2.isDisabled"}
+    ],
     "displayName": "Table",
     "bottomRow": 44,
     "columnWidthMap": {
@@ -172,10 +178,10 @@
             "enableSort": true,
             "isSaveVisible": true,
             "id": "customColumn2",
-            "isDisabled": false,
+            "isDisabled": "{{ecto_desativados.processedTableData.map((currentRow, currentIndex) => ( \n(function() {if(appsmith.store.roleAtual == \"Tratador\"){\n\t\treturn true;\n\t}\n\telse{\n\t\treturn false;\n\t}\t\t\t \n})()\n))}}",
             "allowSameOptionsInNewRow": true,
             "validation": {},
-            "isCellVisible": true,
+            "isCellVisible": "{{ecto_desativados.processedTableData.map((currentRow, currentIndex) => ( \n(function() {if(appsmith.store.roleAtual == \"Tratador\"){\n\t\treturn false;\n\t}\n\telse{\n\t\treturn true;\n\t}\t\t\t \n})()\n))}}",
             "isDerived": true,
             "textSize": "0.875rem",
             "iconName": "plus",

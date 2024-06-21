@@ -38,10 +38,6 @@
         {
           "key": "fields[0]",
           "value": "Nome"
-        },
-        {
-          "key": "fields[1]",
-          "value": "id"
         }
       ],
       "body": "",

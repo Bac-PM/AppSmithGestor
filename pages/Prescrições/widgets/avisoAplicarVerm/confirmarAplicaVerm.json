@@ -5,15 +5,15 @@
     "widgetName": "confirmarAplicaVerm",
     "onClick": "{{put_aplicaVerm.run().then(() => {\n  get_vermifugosDeCao.run().then(() => {\n    get_vermifugosDeCao.run();\n  });\n  showAlert('Vermífugo Aplicado', 'success');\n  closeModal('avisoAplicarVerm');\n}).catch(() => {\n  closeModal('avisoAplicarVerm');\n  showAlert('Erro ao aplicar', 'error');\n});}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "dynamicPropertyPathList": [],
+    "dynamicPropertyPathList": [{"key": "onClick"}],
     "displayName": "Button",
     "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
     "searchTags": [
         "click",
         "submit"
     ],
-    "topRow": 13,
-    "bottomRow": 17,
+    "topRow": 14,
+    "bottomRow": 18,
     "type": "BUTTON_WIDGET",
     "hideCard": false,
     "mobileRightColumn": 63,
@@ -42,11 +42,11 @@
     "isLoading": false,
     "mobileTopRow": 18,
     "responsiveBehavior": "hug",
-    "originalTopRow": 14,
+    "originalTopRow": 13,
     "disabledWhenInvalid": false,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 47,
-    "originalBottomRow": 18,
+    "originalBottomRow": 17,
     "buttonVariant": "PRIMARY",
     "placement": "CENTER"
 }

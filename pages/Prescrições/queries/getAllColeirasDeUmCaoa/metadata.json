@@ -44,8 +44,32 @@
           "value": "true"
         },
         {
-          "key": "populate",
-          "value": "*"
+          "key": "fields[0]",
+          "value": "lembrete_em_dias"
+        },
+        {
+          "key": "fields[1]",
+          "value": "data_aplicacao"
+        },
+        {
+          "key": "fields[2]",
+          "value": "data_proxima_aplicacao"
+        },
+        {
+          "key": "fields[3]",
+          "value": "observacao"
+        },
+        {
+          "key": "populate[animal][fields][0]",
+          "value": "Nome"
+        },
+        {
+          "key": "populate[tipo_aplicacao][fields][0]",
+          "value": "nome_produto"
+        },
+        {
+          "key": "populate[tipo_aplicacao][fields][1]",
+          "value": "duracao_em_dias"
         }
       ],
       "body": "",

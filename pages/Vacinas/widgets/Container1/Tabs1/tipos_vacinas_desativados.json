@@ -18,7 +18,9 @@
         {"key": "primaryColumns.tipo.computedValue"},
         {"key": "primaryColumns.customColumn1.boxShadow"},
         {"key": "primaryColumns.customColumn1.borderRadius"},
-        {"key": "primaryColumns.customColumn1.buttonColor"}
+        {"key": "primaryColumns.customColumn1.buttonColor"},
+        {"key": "primaryColumns.customColumn1.isCellVisible"},
+        {"key": "primaryColumns.customColumn1.isDisabled"}
     ],
     "needsHeightForContent": true,
     "leftColumn": 0,
@@ -70,7 +72,11 @@
         "id",
         "customColumn1"
     ],
-    "dynamicPropertyPathList": [{"key": "tableData"}],
+    "dynamicPropertyPathList": [
+        {"key": "tableData"},
+        {"key": "primaryColumns.customColumn1.isCellVisible"},
+        {"key": "primaryColumns.customColumn1.isDisabled"}
+    ],
     "displayName": "Table",
     "bottomRow": 37,
     "columnWidthMap": {
@@ -134,10 +140,10 @@
             "enableSort": true,
             "isSaveVisible": true,
             "id": "customColumn1",
-            "isDisabled": false,
+            "isDisabled": "{{tipos_vacinas_desativados.processedTableData.map((currentRow, currentIndex) => ( \n(function() {if(appsmith.store.roleAtual == \"Tratador\"){\n\t\treturn true;\n\t}\n\telse{\n\t\treturn false;\n\t}\t\t\t \n})()\n))}}",
             "allowSameOptionsInNewRow": true,
             "validation": {},
-            "isCellVisible": true,
+            "isCellVisible": "{{tipos_vacinas_desativados.processedTableData.map((currentRow, currentIndex) => ( \n(function() {if(appsmith.store.roleAtual == \"Tratador\"){\n\t\treturn false;\n\t}\n\telse{\n\t\treturn true;\n\t}\t\t\t \n})()\n))}}",
             "isDerived": true,
             "textSize": "0.875rem",
             "iconName": "plus",

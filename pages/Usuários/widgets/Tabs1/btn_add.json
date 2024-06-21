@@ -33,7 +33,7 @@
         {"key": "isDisabled"}
     ],
     "text": "Cadastrar Usuário",
-    "isDisabled": "{{\n(function() { if(getIdUsuario.data.role.name == \"veterinario\"){\n\t\treturn true;\n\t}\n\telse{\n\t\treturn false;\n\t}\n})();\n}}",
+    "isDisabled": "{{\n(function() { if(appsmith.store.roleAtual != \"Super Administrador\"){\n\t\treturn true;\n\t}\n\telse{\n\t\treturn false;\n\t}\n})();\n}}",
     "key": "dvahh65z9g",
     "isDeprecated": false,
     "rightColumn": 64,
@@ -41,7 +41,7 @@
     "widgetId": "hkuew4kult",
     "bottomRowBeforeCollapse": 5,
     "minWidth": 120,
-    "isVisible": "{{\n(function() { if(getIdUsuario.data.role.name == \"veterinario\"){\n\t\treturn false;\n\t}\n\telse{\n\t\treturn true;\n\t}\n})();\n}}",
+    "isVisible": "{{\n(function() { if(appsmith.store.roleAtual != \"Super Administrador\"){\n\t\treturn false;\n\t}\n\telse{\n\t\treturn true;\n\t}\n})();\n}}",
     "recaptchaType": "V3",
     "version": 1,
     "parentId": "xjmo3466hp",

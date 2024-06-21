@@ -4,6 +4,7 @@
     "widgetName": "Container1",
     "borderColor": "#E0DEDE",
     "isCanvas": true,
+    "dynamicPropertyPathList": [{"key": "isVisible"}],
     "displayName": "Container",
     "iconSVG": "/static/media/icon.daebf68875b6c8e909e9e8ac8bee0c02.svg",
     "searchTags": [
@@ -12,7 +13,7 @@
         "group"
     ],
     "topRow": 1,
-    "bottomRow": 60,
+    "bottomRow": 59,
     "parentRowSpace": 10,
     "type": "CONTAINER_WIDGET",
     "hideCard": false,
@@ -20,10 +21,12 @@
     "mobileRightColumn": 32,
     "animateLoading": true,
     "parentColumnSpace": 17.9375,
+    "dynamicTriggerPathList": [],
     "leftColumn": 8,
     "dynamicBindingPathList": [
         {"key": "borderRadius"},
-        {"key": "boxShadow"}
+        {"key": "boxShadow"},
+        {"key": "isVisible"}
     ],
     "children": [{
         "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
@@ -31,7 +34,7 @@
         "widgetName": "Canvas8",
         "displayName": "Canvas",
         "topRow": 0,
-        "bottomRow": 590,
+        "bottomRow": 580,
         "parentRowSpace": 1,
         "type": "CANVAS_WIDGET",
         "canExtend": false,
@@ -75,7 +78,7 @@
     "widgetId": "nxk4r3880q",
     "containerStyle": "card",
     "minWidth": 450,
-    "isVisible": true,
+    "isVisible": "{{\n(function() {if(appsmith.store.roleAtual != \"Super Administrador\"){\n\t\treturn false;\n\t}\n\telse{\n\t\treturn true;\n\t}\t\t\t \n})()\n}}",
     "version": 1,
     "parentId": "0",
     "tags": ["Layout"],
@@ -87,6 +90,6 @@
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 8,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 60,
+    "originalBottomRow": 57,
     "minDynamicHeight": 10
 }

@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "getUrl",
-    "fullyQualifiedName": "getURL.getUrl",
+    "name": "myFun1",
+    "fullyQualifiedName": "set_store_role.myFun1",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -13,8 +13,8 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Condutor",
-    "collectionId": "Condutor_getURL",
+    "pageId": "Inicio",
+    "collectionId": "Inicio_set_store_role",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -22,7 +22,8 @@
       "selfReferencingDataPaths": [],
       "jsArguments": []
     },
-    "executeOnLoad": false,
+    "executeOnLoad": true,
+    "clientSideExecution": true,
     "dynamicBindingPathList": [
       {
         "key": "body"
@@ -31,13 +32,13 @@
     "isValid": true,
     "invalids": [],
     "messages": [],
-    "userSetOnLoad": false,
+    "userSetOnLoad": true,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-06-12T16:19:45Z"
+    "createdAt": "2024-06-21T16:28:24Z"
   },
-  "id": "Condutor_getURL.getUrl",
+  "id": "Inicio_set_store_role.myFun1",
   "deleted": false,
-  "gitSyncId": "664b91393d0ee46738b29c21_6669caa1721e40404f82812f"
+  "gitSyncId": "664b91393d0ee46738b29c21_6675aa286593911978103921"
 }

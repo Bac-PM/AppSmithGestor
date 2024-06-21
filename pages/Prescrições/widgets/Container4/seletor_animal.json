@@ -30,10 +30,7 @@
     "mobileBottomRow": 8,
     "widgetName": "seletor_animal",
     "isFilterable": true,
-    "dynamicPropertyPathList": [
-        {"key": "sourceData"},
-        {"key": "onOptionChange"}
-    ],
+    "dynamicPropertyPathList": [{"key": "sourceData"}],
     "displayName": "Select",
     "searchTags": ["dropdown"],
     "bottomRow": 8,
@@ -59,6 +56,6 @@
     "responsiveBehavior": "fill",
     "mobileLeftColumn": 1,
     "maxDynamicHeight": 9000,
-    "onOptionChange": "",
+    "onOptionChange": "{{}}",
     "minDynamicHeight": 4
 }

@@ -41,8 +41,8 @@
           "value": "true"
         },
         {
-          "key": "populate",
-          "value": "*"
+          "key": "fields[0]",
+          "value": "Nome"
         }
       ],
       "bodyFormData": [],

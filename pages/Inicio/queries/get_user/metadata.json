@@ -2,8 +2,7 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "getVacinasDeUmCao",
-    "fullyQualifiedName": "getVacinasDeUmCao",
+    "name": "get_user",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
@@ -17,11 +16,11 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Prescrições",
+    "pageId": "Inicio",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
-      "path": "{{appsmith.store.url}}/api/animal-vacinas",
+      "path": "{{appsmith.store.url}}/api/users/me",
       "headers": [
         {
           "key": "Authorization",
@@ -32,16 +31,16 @@
       "encodeParamsToggle": true,
       "queryParameters": [
         {
-          "key": "filters[animal][id]",
-          "value": "{{seletor_animal.selectedOptionValue}}"
+          "key": "populate[role][fields][0]",
+          "value": "name"
         },
         {
-          "key": "filters[aplicado]",
-          "value": "false"
+          "key": "fields[0]",
+          "value": "username"
         },
         {
-          "key": "populate",
-          "value": "*,nome_vacina.tipo_vacina,foto_etiqueta,animal"
+          "key": "fields[1]",
+          "value": "email"
         }
       ],
       "body": "",
@@ -58,16 +57,13 @@
         "apiContentType": "none"
       }
     },
-    "executeOnLoad": false,
+    "executeOnLoad": true,
     "dynamicBindingPathList": [
-      {
-        "key": "headers[0].value"
-      },
       {
         "key": "path"
       },
       {
-        "key": "queryParameters[0].value"
+        "key": "headers[0].value"
       }
     ],
     "isValid": true,
@@ -75,16 +71,15 @@
     "messages": [],
     "jsonPathKeys": [
       "appsmith.store.jwt",
-      "appsmith.store.url",
-      "seletor_animal.selectedOptionValue"
+      "appsmith.store.url"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-06-14T17:02:35Z"
+    "createdAt": "2024-06-21T16:19:40Z"
   },
-  "id": "Prescrições_getVacinasDeUmCao",
+  "id": "Inicio_get_user",
   "deleted": false,
-  "gitSyncId": "664b91393d0ee46738b29c21_666c77ab721e40404f82835e"
+  "gitSyncId": "664b91393d0ee46738b29c21_6675a81c659391197810391f"
 }

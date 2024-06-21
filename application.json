@@ -86,7 +86,7 @@
       "colorStyle": "light",
       "logoAssetId": "",
       "logoConfiguration": "logoAndApplicationTitle",
-      "showSignIn": true
+      "showSignIn": false
     }
   },
   "color": "#EAEDFB",

@@ -20,7 +20,9 @@
         {"key": "primaryColumns.confirmed.computedValue"},
         {"key": "primaryColumns.blocked.computedValue"},
         {"key": "primaryColumns.cpf.computedValue"},
-        {"key": "primaryColumns.role.computedValue"}
+        {"key": "primaryColumns.role.computedValue"},
+        {"key": "primaryColumns.customColumn2.isDisabled"},
+        {"key": "primaryColumns.customColumn2.isCellVisible"}
     ],
     "needsHeightForContent": true,
     "leftColumn": 0,
@@ -78,7 +80,11 @@
         "role",
         "customColumn2"
     ],
-    "dynamicPropertyPathList": [{"key": "tableData"}],
+    "dynamicPropertyPathList": [
+        {"key": "tableData"},
+        {"key": "primaryColumns.customColumn2.isDisabled"},
+        {"key": "primaryColumns.customColumn2.isCellVisible"}
+    ],
     "displayName": "Table",
     "bottomRow": 44,
     "columnWidthMap": {
@@ -246,10 +252,10 @@
             "enableSort": true,
             "isSaveVisible": true,
             "id": "customColumn2",
-            "isDisabled": false,
+            "isDisabled": "{{usuariosDesativados.processedTableData.map((currentRow, currentIndex) => ( \n(function() { if(appsmith.store.roleAtual != \"Super Administrador\"){\n\t\treturn true;\n\t}\n\telse{\n\t\treturn false;\n\t}\n})()\n))}}",
             "allowSameOptionsInNewRow": true,
             "validation": {},
-            "isCellVisible": true,
+            "isCellVisible": "{{usuariosDesativados.processedTableData.map((currentRow, currentIndex) => ( \n(function() { if(appsmith.store.roleAtual != \"Super Administrador\"){\n\t\treturn false;\n\t}\n\telse{\n\t\treturn true;\n\t}\n})()\n))}}",
             "isDerived": true,
             "textSize": "0.875rem",
             "iconName": "plus",

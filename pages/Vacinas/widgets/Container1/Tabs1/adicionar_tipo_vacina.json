@@ -5,7 +5,11 @@
     "widgetName": "adicionar_tipo_vacina",
     "onClick": "{{errorTipoVac.setText(\"\");\nresetWidget(\"add_tipo_vacina\", true);\nshowModal('add_tipo_vacina');\n}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "dynamicPropertyPathList": [{"key": "onClick"}],
+    "dynamicPropertyPathList": [
+        {"key": "onClick"},
+        {"key": "isVisible"},
+        {"key": "isDisabled"}
+    ],
     "displayName": "Button",
     "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
     "searchTags": [
@@ -21,20 +25,22 @@
     "animateLoading": true,
     "parentColumnSpace": 13.9814453125,
     "dynamicTriggerPathList": [{"key": "onClick"}],
-    "leftColumn": 48,
+    "leftColumn": 46,
     "dynamicBindingPathList": [
         {"key": "buttonColor"},
-        {"key": "borderRadius"}
+        {"key": "borderRadius"},
+        {"key": "isVisible"},
+        {"key": "isDisabled"}
     ],
     "text": "Adicionar Tipo da Vacina",
-    "isDisabled": false,
+    "isDisabled": "{{\n(function() {if(appsmith.store.roleAtual == \"Tratador\"){\n\t\treturn true;\n\t}\n\telse{\n\t\treturn false;\n\t}\t\t\t \n})()\n}}",
     "key": "qfjj9b2oq9",
     "isDeprecated": false,
     "rightColumn": 64,
     "isDefaultClickDisabled": true,
     "widgetId": "nznh5laqho",
     "minWidth": 120,
-    "isVisible": true,
+    "isVisible": "{{\n(function() {if(appsmith.store.roleAtual == \"Tratador\"){\n\t\treturn false;\n\t}\n\telse{\n\t\treturn true;\n\t}\t\t\t \n})()\n}}",
     "recaptchaType": "V3",
     "version": 1,
     "parentId": "um9w2b69qm",

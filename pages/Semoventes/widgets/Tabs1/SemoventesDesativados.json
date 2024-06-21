@@ -3,7 +3,7 @@
     "borderColor": "#E0DEDE",
     "isVisibleDownload": true,
     "iconSVG": "/static/media/icon.e6911f8bb94dc6c4a102a74740c41763.svg",
-    "topRow": 5,
+    "topRow": 0,
     "isSortable": true,
     "onPageChange": "{{get_animals_desativados.run()}}",
     "type": "TABLE_WIDGET_V2",
@@ -122,7 +122,7 @@
         {"key": "primaryColumns.customColumn1.onClick"}
     ],
     "displayName": "Table",
-    "bottomRow": 55,
+    "bottomRow": 50,
     "columnWidthMap": {
         "Status": 192,
         "Condutor_principal": 175,
@@ -1032,7 +1032,7 @@
     "key": "nsinawswcp",
     "canFreezeColumn": true,
     "isDeprecated": false,
-    "rightColumn": 63,
+    "rightColumn": 64,
     "textSize": "0.875rem",
     "widgetId": "9dzej6mkad",
     "allowAddNewRow": "",

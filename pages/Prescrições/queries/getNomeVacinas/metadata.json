@@ -32,8 +32,16 @@
       "encodeParamsToggle": true,
       "queryParameters": [
         {
-          "key": "populate",
-          "value": "*,tipo_vacina"
+          "key": "fields[0]",
+          "value": "nome"
+        },
+        {
+          "key": "fields[1]",
+          "value": "ativo"
+        },
+        {
+          "key": "populate[tipo_vacina][fields][0]",
+          "value": "tipo"
         }
       ],
       "bodyFormData": [],

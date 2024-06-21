@@ -19,7 +19,9 @@
         {"key": "primaryColumns.ativo.computedValue"},
         {"key": "tableData"},
         {"key": "primaryColumns.nome.computedValue"},
-        {"key": "primaryColumns.tipo_vacina.computedValue"}
+        {"key": "primaryColumns.tipo_vacina.computedValue"},
+        {"key": "primaryColumns.customColumn1.isCellVisible"},
+        {"key": "primaryColumns.customColumn1.isDisabled"}
     ],
     "needsHeightForContent": true,
     "leftColumn": 0,
@@ -74,7 +76,11 @@
         "ativo",
         "customColumn1"
     ],
-    "dynamicPropertyPathList": [{"key": "tableData"}],
+    "dynamicPropertyPathList": [
+        {"key": "tableData"},
+        {"key": "primaryColumns.customColumn1.isCellVisible"},
+        {"key": "primaryColumns.customColumn1.isDisabled"}
+    ],
     "displayName": "Table",
     "bottomRow": 36,
     "columnWidthMap": {
@@ -139,10 +145,10 @@
             "enableSort": true,
             "isSaveVisible": true,
             "id": "customColumn1",
-            "isDisabled": false,
+            "isDisabled": "{{nomes_vacinas_desativa.processedTableData.map((currentRow, currentIndex) => ( \n(function() {if(appsmith.store.roleAtual == \"Tratador\"){\n\t\treturn true;\n\t}\n\telse{\n\t\treturn false;\n\t}\t\t\t \n})()\n))}}",
             "allowSameOptionsInNewRow": true,
             "validation": {},
-            "isCellVisible": true,
+            "isCellVisible": "{{nomes_vacinas_desativa.processedTableData.map((currentRow, currentIndex) => ( \n(function() {if(appsmith.store.roleAtual == \"Tratador\"){\n\t\treturn false;\n\t}\n\telse{\n\t\treturn true;\n\t}\t\t\t \n})()\n))}}",
             "isDerived": true,
             "textSize": "0.875rem",
             "iconName": "plus",

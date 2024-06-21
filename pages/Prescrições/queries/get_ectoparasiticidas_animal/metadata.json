@@ -43,16 +43,40 @@
           "value": "1"
         },
         {
-          "key": "populate",
-          "value": "*"
-        },
-        {
           "key": "pagination[page]",
           "value": "{{ectoparasiticidas_ativos.pageNo}}"
         },
         {
           "key": "paginarion[pageSize]",
           "value": "6"
+        },
+        {
+          "key": "fields[0]",
+          "value": "lembrete_em_dias"
+        },
+        {
+          "key": "fields[1]",
+          "value": "data_aplicacao"
+        },
+        {
+          "key": "fields[2]",
+          "value": "data_proxima_aplicacao"
+        },
+        {
+          "key": "fields[3]",
+          "value": "observacao"
+        },
+        {
+          "key": "populate[animal][fields][0]",
+          "value": "Nome"
+        },
+        {
+          "key": "populate[tipo_aplicacao][fields][0]",
+          "value": "nome_produto"
+        },
+        {
+          "key": "populate[tipo_aplicacao][fields][1]",
+          "value": "duracao_em_dias"
         }
       ],
       "body": "",
@@ -81,7 +105,7 @@
         "key": "queryParameters[0].value"
       },
       {
-        "key": "queryParameters[4].value"
+        "key": "queryParameters[3].value"
       }
     ],
     "isValid": true,

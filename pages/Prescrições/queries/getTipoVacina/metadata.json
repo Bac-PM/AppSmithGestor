@@ -37,8 +37,8 @@
       "encodeParamsToggle": true,
       "queryParameters": [
         {
-          "key": "populate",
-          "value": "*"
+          "key": "fields[0]",
+          "value": "tipo"
         }
       ],
       "bodyFormData": [],

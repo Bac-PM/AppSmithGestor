@@ -5,7 +5,11 @@
     "widgetName": "Button12",
     "onClick": "{{\natualizaIdFrenteAdiciona.idDireita= \"\";\n\tatualizaIdFrenteAdiciona.idFrente= \"\";\n\tatualizaIdFrenteAdiciona.idEsquerda= \"\";\nresetWidget(\"add_semoventeCopy\", true);\n\nstoreValue('tabSemovente', '1 - Informações do Semovente');\n\nshowModal('add_semoventeCopy');\n}}",
     "buttonColor": "rgb(48, 73, 136)",
-    "dynamicPropertyPathList": [{"key": "onClick"}],
+    "dynamicPropertyPathList": [
+        {"key": "onClick"},
+        {"key": "isVisible"},
+        {"key": "isDisabled"}
+    ],
     "displayName": "Button",
     "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
     "searchTags": [
@@ -22,16 +26,20 @@
     "parentColumnSpace": 13.140625,
     "dynamicTriggerPathList": [{"key": "onClick"}],
     "leftColumn": 48,
-    "dynamicBindingPathList": [{"key": "borderRadius"}],
+    "dynamicBindingPathList": [
+        {"key": "borderRadius"},
+        {"key": "isVisible"},
+        {"key": "isDisabled"}
+    ],
     "text": "Adicionar Semovente",
-    "isDisabled": false,
+    "isDisabled": "{{\n(function() { if(appsmith.store.roleAtual == \"Tratador\"){\n\t\treturn true;\n\t}\n\telse{\n\t\treturn false;\n\t}\n})();\n}}",
     "key": "e4oy1f923y",
     "isDeprecated": false,
     "rightColumn": 64,
     "isDefaultClickDisabled": true,
     "widgetId": "lksfes90mg",
     "minWidth": 120,
-    "isVisible": true,
+    "isVisible": "{{\n(function() {if(appsmith.store.roleAtual == \"Tratador\"){\n\t\treturn false;\n\t}\n\telse{\n\t\treturn true;\n\t}\t\t\t \n})();\n}}",
     "recaptchaType": "V3",
     "version": 1,
     "parentId": "5hsi5po2uy",

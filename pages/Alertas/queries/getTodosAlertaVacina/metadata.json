@@ -40,7 +40,47 @@
           "value": "false"
         },
         {
-          "key": "populate",
+          "key": "fields[0]",
+          "value": "data_proxima_aplicacao"
+        },
+        {
+          "key": "fields[1]",
+          "value": "lembrete_em_dias"
+        },
+        {
+          "key": "fields[2]",
+          "value": "data_aplicacao"
+        },
+        {
+          "key": "fields[3]",
+          "value": "dose_atual"
+        },
+        {
+          "key": "fields[4]",
+          "value": "aplicado"
+        },
+        {
+          "key": "fields[5]",
+          "value": "doses_totais"
+        },
+        {
+          "key": "fields[6]",
+          "value": "intervalo_entre_doses"
+        },
+        {
+          "key": "fields[7]",
+          "value": "observacao"
+        },
+        {
+          "key": "populate[animal][fields][0]",
+          "value": "Nome"
+        },
+        {
+          "key": "populate[nome_vacina][fields][0]",
+          "value": "nome"
+        },
+        {
+          "key": "populate[foto_etiqueta][fields][0]",
           "value": "*"
         }
       ],

@@ -31,7 +31,11 @@
         {"key": "primaryColumns.observacao.computedValue"},
         {"key": "accentColor"},
         {"key": "borderRadius"},
-        {"key": "boxShadow"}
+        {"key": "boxShadow"},
+        {"key": "primaryColumns.customColumn10.isDisabled"},
+        {"key": "primaryColumns.customColumn10.isCellVisible"},
+        {"key": "primaryColumns.customColumn9.isCellVisible"},
+        {"key": "primaryColumns.customColumn9.isDisabled"}
     ],
     "needsHeightForContent": true,
     "leftColumn": 0,
@@ -97,7 +101,13 @@
         "customColumn10",
         "customColumn9"
     ],
-    "dynamicPropertyPathList": [{"key": "tableData"}],
+    "dynamicPropertyPathList": [
+        {"key": "tableData"},
+        {"key": "primaryColumns.customColumn10.isDisabled"},
+        {"key": "primaryColumns.customColumn10.isCellVisible"},
+        {"key": "primaryColumns.customColumn9.isCellVisible"},
+        {"key": "primaryColumns.customColumn9.isDisabled"}
+    ],
     "displayName": "Table",
     "bottomRow": 47,
     "columnWidthMap": {
@@ -207,10 +217,10 @@
             "enableSort": true,
             "isSaveVisible": true,
             "id": "customColumn10",
-            "isDisabled": false,
+            "isDisabled": "{{coleiras_ativas.processedTableData.map((currentRow, currentIndex) => ( \n(function() {if(appsmith.store.roleAtual == \"Tratador\"){\n\t\treturn true;\n\t}\n\telse{\n\t\treturn false;\n\t}\t\t\t \n})()\n))}}",
             "allowSameOptionsInNewRow": true,
             "validation": {},
-            "isCellVisible": true,
+            "isCellVisible": "{{coleiras_ativas.processedTableData.map((currentRow, currentIndex) => ( \n(function() {if(appsmith.store.roleAtual == \"Tratador\"){\n\t\treturn false;\n\t}\n\telse{\n\t\treturn true;\n\t}\t\t\t \n})()\n))}}",
             "isDerived": true,
             "textSize": "0.875rem",
             "iconName": "minus",
@@ -411,10 +421,10 @@
             "enableSort": true,
             "isSaveVisible": true,
             "id": "customColumn9",
-            "isDisabled": false,
+            "isDisabled": "{{coleiras_ativas.processedTableData.map((currentRow, currentIndex) => ( \n(function() {if(appsmith.store.roleAtual == \"Tratador\"){\n\t\treturn true;\n\t}\n\telse{\n\t\treturn false;\n\t}\t\t\t \n})()\n))}}",
             "allowSameOptionsInNewRow": true,
             "validation": {},
-            "isCellVisible": true,
+            "isCellVisible": "{{coleiras_ativas.processedTableData.map((currentRow, currentIndex) => ( \n(function() {if(appsmith.store.roleAtual == \"Tratador\"){\n\t\treturn false;\n\t}\n\telse{\n\t\treturn true;\n\t}\t\t\t \n})()\n))}}",
             "isDerived": true,
             "textSize": "0.875rem",
             "iconName": "edit",
