@@ -23,7 +23,7 @@
     "version": 2,
     "tags": ["Inputs"],
     "isLoading": false,
-    "timePrecision": "minute",
+    "timePrecision": "None",
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "originalBottomRow": 41,
     "closeOnSelection": true,

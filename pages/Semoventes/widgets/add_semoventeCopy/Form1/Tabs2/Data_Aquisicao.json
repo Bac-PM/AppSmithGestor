@@ -8,7 +8,6 @@
     "animateLoading": true,
     "leftColumn": 32,
     "dynamicBindingPathList": [
-        {"key": "defaultDate"},
         {"key": "maxDate"},
         {"key": "accentColor"},
         {"key": "borderRadius"}
@@ -23,17 +22,14 @@
     "version": 2,
     "tags": ["Inputs"],
     "isLoading": false,
-    "timePrecision": "minute",
+    "timePrecision": "None",
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "originalBottomRow": 25,
     "closeOnSelection": true,
     "mobileBottomRow": 33,
     "widgetName": "Data_Aquisicao",
     "minDate": "1920-12-31T18:30:00.000Z",
-    "dynamicPropertyPathList": [
-        {"key": "maxDate"},
-        {"key": "defaultDate"}
-    ],
+    "dynamicPropertyPathList": [{"key": "maxDate"}],
     "displayName": "DatePicker",
     "searchTags": ["calendar"],
     "bottomRow": 25,
@@ -50,7 +46,6 @@
     "labelTextSize": "0.875rem",
     "isDeprecated": false,
     "rightColumn": 64,
-    "defaultDate": "{{\n(function() {\n  const dataAtual = new Date();\n\treturn dataAtual;\n})();\n}}",
     "widgetId": "cd4mnvxdlo",
     "minWidth": 450,
     "label": "Data de Aquisição",

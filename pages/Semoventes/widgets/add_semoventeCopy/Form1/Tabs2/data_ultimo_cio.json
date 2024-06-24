@@ -16,7 +16,7 @@
     "isRequired": false,
     "dynamicHeight": "FIXED",
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-    "isVisible": "{{\n(function() {\n  if(Sexo.selectedOptionLabel === \"Fêmea\"){\n\t\treturn true;\n\t} else {\n\t\treturn false;\n\t}\n})();}}",
+    "isVisible": "{{/*\n(function() {\n  if(Sexo.selectedOptionLabel === \"Fêmea\"){\n\t\treturn true;\n\t} else {\n\t\treturn false;\n\t}\n})();*/\nfalse}}",
     "datePickerType": "DATE_PICKER",
     "version": 2,
     "tags": ["Inputs"],

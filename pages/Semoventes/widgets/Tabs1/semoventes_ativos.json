@@ -90,7 +90,7 @@
         }
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "columnUpdatedAt": 1718998056896,
+    "columnUpdatedAt": 1719259017198,
     "defaultSelectedRowIndices": [0],
     "mobileBottomRow": 29,
     "widgetName": "semoventes_ativos",
@@ -121,8 +121,8 @@
         "status_operacional",
         "raca",
         "especializacao",
-        "customColumn3",
-        "customColumn2"
+        "customColumn2",
+        "customColumn3"
     ],
     "dynamicPropertyPathList": [
         {"key": "tableData"},
@@ -544,7 +544,7 @@
             "verticalAlignment": "CENTER"
         },
         "Condutor_principal": {
-            "computedValue": "{{semoventes_ativos.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Condutor_principal\"]))}}",
+            "computedValue": "{{semoventes_ativos.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Condutor_principal\"].Nome))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "Condutor_principal",
@@ -561,7 +561,7 @@
             "index": 13,
             "isDiscardVisible": true,
             "isVisible": true,
-            "label": "Condutor_principal",
+            "label": "Condutor Principal",
             "fontStyle": "",
             "textColor": "",
             "columnType": "text",
@@ -612,7 +612,7 @@
             "verticalAlignment": "CENTER"
         },
         "status_operacional": {
-            "computedValue": "{{semoventes_ativos.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"status_operacional\"]))}}",
+            "computedValue": "{{semoventes_ativos.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"status_operacional\"].Nome))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "status_operacional",
@@ -629,7 +629,7 @@
             "index": 19,
             "isDiscardVisible": true,
             "isVisible": true,
-            "label": "status_operacional",
+            "label": "Status Operacional",
             "fontStyle": "",
             "textColor": "",
             "columnType": "text",
@@ -789,7 +789,7 @@
             "verticalAlignment": "CENTER"
         },
         "forma_aquisicao": {
-            "computedValue": "{{semoventes_ativos.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"forma_aquisicao\"]))}}",
+            "computedValue": "{{semoventes_ativos.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"forma_aquisicao\"].Nome))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "forma_aquisicao",
@@ -806,7 +806,7 @@
             "index": 16,
             "isDiscardVisible": true,
             "isVisible": true,
-            "label": "forma_aquisicao",
+            "label": "Forma de Aquisicao",
             "fontStyle": "",
             "textColor": "",
             "columnType": "text",
@@ -888,7 +888,7 @@
             "verticalAlignment": "CENTER"
         },
         "Alocacao": {
-            "computedValue": "{{semoventes_ativos.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Alocacao\"]))}}",
+            "computedValue": "{{semoventes_ativos.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Alocacao\"].Nome))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "Alocacao",
@@ -905,7 +905,7 @@
             "index": 12,
             "isDiscardVisible": true,
             "isVisible": true,
-            "label": "Alocacao",
+            "label": "Alocação",
             "fontStyle": "",
             "textColor": "",
             "columnType": "text",
@@ -922,7 +922,7 @@
             "verticalAlignment": "CENTER"
         },
         "raca": {
-            "computedValue": "{{semoventes_ativos.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"raca\"]))}}",
+            "computedValue": "{{semoventes_ativos.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"raca\"].Nome))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "raca",
@@ -939,7 +939,7 @@
             "index": 20,
             "isDiscardVisible": true,
             "isVisible": true,
-            "label": "raca",
+            "label": "Raça",
             "fontStyle": "",
             "textColor": "",
             "columnType": "text",
@@ -956,7 +956,7 @@
             "verticalAlignment": "CENTER"
         },
         "especializacao": {
-            "computedValue": "{{semoventes_ativos.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"especializacao\"]))}}",
+            "computedValue": "{{semoventes_ativos.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"especializacao\"].Nome))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "especializacao",
@@ -973,7 +973,7 @@
             "index": 21,
             "isDiscardVisible": true,
             "isVisible": true,
-            "label": "especializacao",
+            "label": "Especialização",
             "fontStyle": "",
             "textColor": "",
             "columnType": "text",
@@ -990,7 +990,7 @@
             "verticalAlignment": "CENTER"
         },
         "Condutor_secundario": {
-            "computedValue": "{{semoventes_ativos.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Condutor_secundario\"]))}}",
+            "computedValue": "{{semoventes_ativos.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Condutor_secundario\"].Nome))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "Condutor_secundario",
@@ -1007,7 +1007,7 @@
             "index": 14,
             "isDiscardVisible": true,
             "isVisible": true,
-            "label": "Condutor_secundario",
+            "label": "Condutor Secundário",
             "fontStyle": "",
             "textColor": "",
             "columnType": "text",
@@ -1024,7 +1024,7 @@
             "verticalAlignment": "CENTER"
         },
         "sexo": {
-            "computedValue": "{{semoventes_ativos.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"sexo\"]))}}",
+            "computedValue": "{{semoventes_ativos.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"sexo\"].Nome))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "sexo",
@@ -1041,7 +1041,7 @@
             "index": 17,
             "isDiscardVisible": true,
             "isVisible": true,
-            "label": "sexo",
+            "label": "Sexo",
             "fontStyle": "",
             "textColor": "",
             "columnType": "text",
