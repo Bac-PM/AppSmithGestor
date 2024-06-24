@@ -115,7 +115,7 @@
     "borderWidth": "1",
     "primaryColumns": {
         "Condutor_principal": {
-            "computedValue": "{{Lista_de_Animais.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Condutor_principal\"]))}}",
+            "computedValue": "{{Lista_de_Animais.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Condutor_principal\"].Nome))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "Condutor_principal",
@@ -132,7 +132,7 @@
             "index": 5,
             "isDiscardVisible": true,
             "isVisible": true,
-            "label": "Condutor_principal",
+            "label": "Condutor Principal",
             "fontStyle": "",
             "textColor": "",
             "columnType": "text",
@@ -217,7 +217,7 @@
             "verticalAlignment": "CENTER"
         },
         "status_operacional": {
-            "computedValue": "{{Lista_de_Animais.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"status_operacional\"]))}}",
+            "computedValue": "{{Lista_de_Animais.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"status_operacional\"].Nome))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "status_operacional",
@@ -234,7 +234,7 @@
             "index": 7,
             "isDiscardVisible": true,
             "isVisible": true,
-            "label": "status_operacional",
+            "label": "Status Operacional",
             "fontStyle": "",
             "textColor": "",
             "columnType": "text",
@@ -387,7 +387,7 @@
             "verticalAlignment": "CENTER"
         },
         "sexo": {
-            "computedValue": "{{Lista_de_Animais.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"sexo\"]))}}",
+            "computedValue": "{{Lista_de_Animais.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"sexo\"].Nome))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "sexo",
@@ -404,7 +404,7 @@
             "index": 4,
             "isDiscardVisible": true,
             "isVisible": true,
-            "label": "sexo",
+            "label": "Sexo",
             "fontStyle": "",
             "textColor": "",
             "columnType": "text",
