@@ -79,16 +79,16 @@
           "value": "nome"
         },
         {
-          "key": "populate[nome][populate][0]",
-          "value": "second-level-relation-to-populate"
-        },
-        {
-          "key": "populate[foto_etiqueta][fields][0]",
-          "value": "*"
+          "key": "populate[nome_vacina][populate][tipo_vacina][fields][0]",
+          "value": "tipo"
         },
         {
           "key": "populate[animal][fields][0]",
           "value": "Nome"
+        },
+        {
+          "key": "populate[foto_etiqueta][fields][0]",
+          "value": "*"
         }
       ],
       "body": "",

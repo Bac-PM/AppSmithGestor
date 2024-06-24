@@ -75,6 +75,7 @@
     "hideCard": false,
     "shouldScrollContents": false,
     "mobileRightColumn": 64,
+    "dynamicTriggerPathList": [],
     "borderWidth": "1",
     "positioning": "fixed",
     "key": "4kksldwsrp",

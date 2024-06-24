@@ -12,7 +12,7 @@
         "notification"
     ],
     "topRow": 70,
-    "bottomRow": 720,
+    "bottomRow": 65,
     "parentRowSpace": 10,
     "type": "MODAL_WIDGET",
     "hideCard": false,
@@ -37,7 +37,7 @@
         "canExtend": true,
         "hideCard": true,
         "shouldScrollContents": false,
-        "minHeight": 376,
+        "minHeight": 650,
         "mobileRightColumn": 192.34375,
         "parentColumnSpace": 1,
         "leftColumn": 0,

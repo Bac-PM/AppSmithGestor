@@ -37,8 +37,32 @@
       "encodeParamsToggle": true,
       "queryParameters": [
         {
-          "key": "populate",
-          "value": "*"
+          "key": "fields[1]",
+          "value": "data_consulta"
+        },
+        {
+          "key": "fields[2]",
+          "value": "anamnese"
+        },
+        {
+          "key": "fields[3]",
+          "value": "exame_fisico"
+        },
+        {
+          "key": "fields[4]",
+          "value": "diagnostico"
+        },
+        {
+          "key": "fields[5]",
+          "value": "retorno"
+        },
+        {
+          "key": "fields[6]",
+          "value": "removido"
+        },
+        {
+          "key": "populate[animal][fields][0]",
+          "value": "Nome"
         }
       ],
       "bodyFormData": [],
