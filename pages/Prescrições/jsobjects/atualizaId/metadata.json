@@ -9,7 +9,7 @@
     "variables": [
       {
         "name": "idFrente",
-        "value": "Vacinas.triggeredRow.fotoEtiqueta.id"
+        "value": "vacinas_ativas.triggeredRow.fotoEtiqueta.id"
       }
     ],
     "userPermissions": []

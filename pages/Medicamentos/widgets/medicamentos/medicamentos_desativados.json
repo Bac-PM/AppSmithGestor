@@ -30,7 +30,7 @@
         {"key": "primaryColumns.customColumn2.isDisabled"}
     ],
     "needsHeightForContent": true,
-    "leftColumn": 1,
+    "leftColumn": 0,
     "delimiter": ",",
     "defaultSelectedRowIndex": 0,
     "flexVerticalAlignment": "start",
@@ -448,7 +448,7 @@
     "key": "4qpgo4zpfr",
     "canFreezeColumn": true,
     "isDeprecated": false,
-    "rightColumn": 63,
+    "rightColumn": 64,
     "textSize": "0.875rem",
     "thumbnailSVG": "/static/media/thumbnail.d0492f06681daa69baf92b07d3829dfc.svg",
     "widgetId": "t0slh8hpiv",

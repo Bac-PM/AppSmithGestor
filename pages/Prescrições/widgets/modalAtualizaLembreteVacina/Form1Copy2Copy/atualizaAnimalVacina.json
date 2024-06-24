@@ -3,7 +3,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 37,
     "widgetName": "atualizaAnimalVacina",
-    "onClick": "{{updateTipoVacina.run().then(() => {\n  updateAnimalVacina.run().then(() => {\n    getVacinasDeUmCao.run();\n     closeModal('modalAtualizaLembreteVacina');\n  resetWidget(\"updateFotoEtiqueta\", true);\n}).catch(() => {\n\t\t\t\n\t\t\tlet erroApi = service.getErrorApi(updateAnimalVacina.data);\n\t\t\t\n\t\t\terroPutVac.setText(erroApi); \n  });\n});\n}}\n\n",
+    "onClick": "{{updateTipoVacina.run().then(() => {\n  updateAnimalVacina.run().then(() => {\n    get_vacinas_animal.run();\n     closeModal('modalAtualizaLembreteVacina');\n  resetWidget(\"updateFotoEtiqueta\", true);\n}).catch(() => {\n\t\t\t\n\t\t\tlet erroApi = service.getErrorApi(updateAnimalVacina.data);\n\t\t\t\n\t\t\terroPutVac.setText(erroApi); \n  });\n});\n}}\n\n",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "dynamicPropertyPathList": [{"key": "onClick"}],
     "displayName": "Button",

@@ -56,6 +56,6 @@
     "responsiveBehavior": "fill",
     "mobileLeftColumn": 1,
     "maxDynamicHeight": 9000,
-    "onOptionChange": "{{}}",
+    "onOptionChange": "{{resetWidget(\"vacinas_ativas\", true);}}",
     "minDynamicHeight": 4
 }

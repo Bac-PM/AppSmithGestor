@@ -1,5 +1,5 @@
 export default {
-	idFrente: Vacinas.triggeredRow.fotoEtiqueta.id,
+	idFrente: vacinas_ativas.triggeredRow.fotoEtiqueta.id,
 	frente (id) {
 		atualizaId.idFrente = id;
 	}

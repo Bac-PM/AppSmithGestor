@@ -409,7 +409,7 @@
         "customColumn6": {
             "boxShadow": "{{vacinas_ativas.processedTableData.map((currentRow, currentIndex) => ( \"none\"))}}",
             "computedValue": "",
-            "onClick": "{{erroPutVac.setText(\"\");\nresetWidget(\"modalAtualizaLembreteVacina\", true);\nshowModal('Edit_vmodalAtualizaLembreteVacinaerm');\n}}",
+            "onClick": "{{erroPutVac.setText(\"\");\nresetWidget(\"modalAtualizaLembreteVacina\", true);\natualizaId.idFrente = vacinas_ativas.triggeredRow.foto_etiqueta.id;\nImagemLocal.ImagemTabelaFrente();\nshowModal('modalAtualizaLembreteVacina');\n}}",
             "buttonColor": "{{vacinas_ativas.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.colors.primaryColor)))}}",
             "isEditable": false,
             "notation": "standard",

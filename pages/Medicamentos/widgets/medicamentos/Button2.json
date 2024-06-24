@@ -26,7 +26,7 @@
     "animateLoading": true,
     "parentColumnSpace": 18.880859375,
     "dynamicTriggerPathList": [{"key": "onClick"}],
-    "leftColumn": 47,
+    "leftColumn": 48,
     "dynamicBindingPathList": [
         {"key": "buttonColor"},
         {"key": "borderRadius"},
@@ -37,7 +37,7 @@
     "isDisabled": "{{\n(function() {if(appsmith.store.roleAtual == \"Tratador\"){\n\t\treturn true;\n\t}\n\telse{\n\t\treturn false;\n\t}\t\t\t \n})();\n}}",
     "key": "dz8bs4hics",
     "isDeprecated": false,
-    "rightColumn": 63,
+    "rightColumn": 64,
     "thumbnailSVG": "/static/media/thumbnail.a348658e996feaad96cadc30d99374ff.svg",
     "isDefaultClickDisabled": true,
     "widgetId": "a2jjg9s6i6",
