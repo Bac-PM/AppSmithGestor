@@ -60,6 +60,6 @@
     "originalTopRow": 21,
     "mobileLeftColumn": 2,
     "maxDynamicHeight": 9000,
-    "onOptionChange": "{{\n(function() {\n  if (Forma_Aquisicao.selectedOptionLabel == 'Compra'){\n\tValor_Compra.setVisibility(true)\n\tProprietarioAnterior.setValue('')\n\tProprietarioAnterior.setDisabled(false)\n\t} else if (Forma_Aquisicao.selectedOptionLabel == 'Nascimento no Canil PMES'){\n\tProprietarioAnterior.setDisabled(true)\n\tValor_Compra.setVisibility(false)\n\tProprietarioAnterior.setValue('Nascimento no Canil PMES')\n\t} else {\n\t\tProprietarioAnterior.setValue('')\n\t\tProprietarioAnterior.setDisabled(false)\n\t\tValor_Compra.setVisibility(false)\n\t\t}\n})();\n}}",
+    "onOptionChange": "{{\n(function() {\n\tif (Forma_Aquisicao.selectedOptionLabel == 'Compra'){\nProprietarioAnterior.setDisabled(false)\n\t} else if (Forma_Aquisicao.selectedOptionLabel == 'Nascimento no Canil PMES'){\n\t\tProprietarioAnterior.setDisabled(true)\n\t\t\t\tProprietarioAnterior.setValue('Nascimento no Canil PMES')\n\t} else {\n\t\tProprietarioAnterior.setValue('')\n\t\tProprietarioAnterior.setDisabled(false)\n\t\n\t}\n})();\n}}",
     "minDynamicHeight": 4
 }

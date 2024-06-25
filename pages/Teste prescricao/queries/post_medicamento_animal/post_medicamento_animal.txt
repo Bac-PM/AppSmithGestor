@@ -1,0 +1,20 @@
+{
+  "data": {
+		"medicamento": {{medicamento.selectedOptionValue}},
+		"animal": {{ seletor_animal.selectedOptionValue}},
+		"data_inicio": {{data_ini.selectedDate}},
+		"data_fim":{{data_fim.selectedDate}},
+		"dosagem": {{dosagem.text}},
+		"medida": {{medida.selectedOptionValue}},
+		"num_frequencia": {{num_frequencia.text}},
+		"tipo_frequencia": {{tipo_frequencia.selectedOptionValue}},
+		"num_duracao": {{num_duracao.text}},
+		"tipo_duracao": {{tipo_duracao.selectedOptionValue}},
+		"posologia": {{posologia.text}},
+		"observacao": {{observacao_med.text}},
+		"lembrete_em_dias": {{addLembreteDiasMed.selectedOptionValue}},
+		"hora": {{horario.text}},
+		"historico_nome": {{medicamento.selectedOptionLabel}}
+		}
+}
+

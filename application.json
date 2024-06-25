@@ -71,6 +71,10 @@
     {
       "id": "Tarefas",
       "isDefault": false
+    },
+    {
+      "id": "Teste prescricao",
+      "isDefault": false
     }
   ],
   "viewMode": false,

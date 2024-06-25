@@ -9,7 +9,8 @@
     "leftColumn": 32,
     "dynamicBindingPathList": [
         {"key": "accentColor"},
-        {"key": "borderRadius"}
+        {"key": "borderRadius"},
+        {"key": "isVisible"}
     ],
     "labelStyle": "",
     "inputType": "NUMBER",
@@ -19,7 +20,7 @@
     "dynamicHeight": "FIXED",
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",
     "showStepArrows": false,
-    "isVisible": false,
+    "isVisible": "{{\n(function() {\n  if (Forma_Aquisicao.selectedOptionLabel == 'Compra'){\n\t\treturn true;\n\t\t} else {\n\t\t\treturn false;\n\t\t}\n})();\n}}",
     "version": 2,
     "tags": [
         "Suggested",
@@ -30,7 +31,7 @@
     "originalBottomRow": 39,
     "mobileBottomRow": 22,
     "widgetName": "Valor_Compra",
-    "dynamicPropertyPathList": [],
+    "dynamicPropertyPathList": [{"key": "isVisible"}],
     "displayName": "Input",
     "searchTags": [
         "form",

@@ -1,0 +1,13 @@
+{
+  "data": {
+    "data_proxima_aplicacao": {{atualizaDataProximaDose.selectedDate}},
+		"anotacoes" : {{atualizaAnotacoes.text}},
+		"lembrete_em_dias" : {{atualizaLembreteDias.selectedOptionValue}},
+		"dose_atual" : {{atualizaDoseAtual.text}},
+		"animal": {{seletor_animal.selectedOptionValue}},
+		"foto_etiqueta": {{parseInt(FotoId.text)}},
+		"doses_totais": {{atualizaDoseTotal.text}},
+		"nome_vacina": {{atualizaNomeVacina.selectedOptionValue}},
+		"intervalo_entre_doses": {{atualizaDiasEntreDoses.text}}
+  }
+}

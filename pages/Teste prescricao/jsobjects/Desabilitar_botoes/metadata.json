@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "Desabilitar_botoes",
+    "pageId": "Teste prescricao",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "Teste prescricao_Desabilitar_botoes",
+  "deleted": false,
+  "gitSyncId": "664b91393d0ee46738b29c21_667b04ac1c28de346a553468"
+}

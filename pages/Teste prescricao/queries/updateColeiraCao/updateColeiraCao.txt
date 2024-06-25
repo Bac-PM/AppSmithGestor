@@ -1,0 +1,12 @@
+{
+  "data": {
+    "animal": "{{seletor_animal.selectedOptionValue}}",
+    "tipo_aplicacao": "{{Edit_select_coleira.selectedOptionValue}}",
+    "lembrete_em_dias": {{Edit_lembrete.selectedOptionValue}},
+		"data_proxima_aplicacao": {{(function(){
+			let date = new Date(coleiras_ativas.triggeredRow.data_aplicacao)
+			date.setDate(date.getDate() + parseInt(Edit_duracao_coleira.text))
+			return date
+		})()}}
+  }
+}

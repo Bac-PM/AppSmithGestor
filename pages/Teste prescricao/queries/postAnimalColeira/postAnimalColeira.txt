@@ -1,0 +1,13 @@
+{
+  "data": {
+    "animal": "{{seletor_animal.selectedOptionValue}}",
+    "tipo_aplicacao": "{{Select_coleira.selectedOptionValue}}",
+    "lembrete_em_dias": {{Radio_lembrete.selectedOptionValue}},
+    "data_aplicacao": {{moment()}},
+    "data_proxima_aplicacao": {{(function() {
+			let proxAplicacao = moment().add(parseInt(Duracao_coleira.text), 'days')
+			return proxAplicacao
+		})()}},
+		"aplicado": true
+  }
+}

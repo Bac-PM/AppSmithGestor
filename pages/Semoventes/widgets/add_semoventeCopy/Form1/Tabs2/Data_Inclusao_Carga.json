@@ -14,7 +14,7 @@
     ],
     "labelTooltip": "",
     "isDisabled": false,
-    "isRequired": true,
+    "isRequired": false,
     "dynamicHeight": "AUTO_HEIGHT",
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",
     "isVisible": true,

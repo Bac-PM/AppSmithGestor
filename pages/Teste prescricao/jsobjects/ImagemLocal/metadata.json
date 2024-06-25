@@ -1,0 +1,20 @@
+{
+  "unpublishedCollection": {
+    "name": "ImagemLocal",
+    "pageId": "Teste prescricao",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [
+      {
+        "name": "frente",
+        "value": "\"\""
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "Teste prescricao_ImagemLocal",
+  "deleted": false,
+  "gitSyncId": "664b91393d0ee46738b29c21_667b04ac1c28de346a55346a"
+}
