@@ -21,7 +21,7 @@
     "dynamicBindingPathList": [{"key": "borderRadius"}],
     "isDisabled": false,
     "key": "u6pj0jq3wv",
-    "onFilesSelected": "{{UpLoadImageFrente.sendImage('popUpAdicionar');}}",
+    "onFilesSelected": "{{UpLoadImageFrente.sendImage('popUpAdicionar');\n}}",
     "isRequired": false,
     "isDeprecated": false,
     "rightColumn": 35,

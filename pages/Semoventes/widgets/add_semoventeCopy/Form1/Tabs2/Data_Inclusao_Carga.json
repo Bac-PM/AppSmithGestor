@@ -10,7 +10,8 @@
     "dynamicBindingPathList": [
         {"key": "maxDate"},
         {"key": "accentColor"},
-        {"key": "borderRadius"}
+        {"key": "borderRadius"},
+        {"key": "minDate"}
     ],
     "labelTooltip": "",
     "isDisabled": false,
@@ -28,8 +29,11 @@
     "closeOnSelection": true,
     "mobileBottomRow": 33,
     "widgetName": "Data_Inclusao_Carga",
-    "minDate": "1920-12-31T18:30:00.000Z",
-    "dynamicPropertyPathList": [{"key": "maxDate"}],
+    "minDate": "{{ \n(function() {\nreturn new Date(new Date().setFullYear(new Date().getFullYear() - 20));\n})();}}",
+    "dynamicPropertyPathList": [
+        {"key": "maxDate"},
+        {"key": "minDate"}
+    ],
     "displayName": "DatePicker",
     "searchTags": ["calendar"],
     "bottomRow": 18,
@@ -58,6 +62,6 @@
     "mobileLeftColumn": 3,
     "maxDynamicHeight": 9000,
     "firstDayOfWeek": 0,
-    "maxDate": "{{\n(function() {\n  const dataAtual = new Date();\n\treturn dataAtual;\n})();\n}}",
+    "maxDate": "{{new Date()}}",
     "minDynamicHeight": 4
 }

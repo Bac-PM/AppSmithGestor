@@ -8,9 +8,10 @@
     "animateLoading": true,
     "leftColumn": 32,
     "dynamicBindingPathList": [
-        {"key": "maxDate"},
         {"key": "accentColor"},
-        {"key": "borderRadius"}
+        {"key": "borderRadius"},
+        {"key": "minDate"},
+        {"key": "maxDate"}
     ],
     "labelTooltip": "",
     "isDisabled": false,
@@ -28,8 +29,11 @@
     "closeOnSelection": true,
     "mobileBottomRow": 33,
     "widgetName": "Data_Aquisicao",
-    "minDate": "1920-12-31T18:30:00.000Z",
-    "dynamicPropertyPathList": [{"key": "maxDate"}],
+    "minDate": "{{ \n(function() {\nreturn new Date(new Date().setFullYear(new Date().getFullYear() - 20));\n})();}}",
+    "dynamicPropertyPathList": [
+        {"key": "minDate"},
+        {"key": "maxDate"}
+    ],
     "displayName": "DatePicker",
     "searchTags": ["calendar"],
     "bottomRow": 25,
@@ -58,6 +62,6 @@
     "mobileLeftColumn": 3,
     "maxDynamicHeight": 9000,
     "firstDayOfWeek": "0",
-    "maxDate": "{{\n(function() {\n  const dataAtual = new Date();\n\treturn dataAtual;\n})();\n}}",
+    "maxDate": "{{new Date()}}",
     "minDynamicHeight": 4
 }

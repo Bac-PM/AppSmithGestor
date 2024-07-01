@@ -73,7 +73,7 @@
             "mobileBottomRow": 150,
             "widgetName": "Canvas14",
             "displayName": "Canvas",
-            "bottomRow": 450,
+            "bottomRow": 520,
             "topRow": 0,
             "parentRowSpace": 1,
             "type": "CANVAS_WIDGET",

@@ -8,9 +8,9 @@
     "resetOnSubmit": true,
     "leftColumn": 32,
     "dynamicBindingPathList": [
+        {"key": "isVisible"},
         {"key": "accentColor"},
-        {"key": "borderRadius"},
-        {"key": "isVisible"}
+        {"key": "borderRadius"}
     ],
     "labelStyle": "",
     "inputType": "NUMBER",

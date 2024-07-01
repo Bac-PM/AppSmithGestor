@@ -10,9 +10,9 @@
     "animateLoading": true,
     "leftColumn": 32,
     "dynamicBindingPathList": [
+        {"key": "sourceData"},
         {"key": "defaultOptionValue"},
-        {"key": "borderRadius"},
-        {"key": "sourceData"}
+        {"key": "borderRadius"}
     ],
     "placeholderText": "Selecione a raça do animal",
     "isDisabled": true,

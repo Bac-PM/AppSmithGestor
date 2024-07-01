@@ -1,0 +1,28 @@
+{
+  "unpublishedCollection": {
+    "name": "ImagensAdiciona",
+    "pageId": "Semoventes",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [
+      {
+        "name": "frente",
+        "value": "\"\""
+      },
+      {
+        "name": "direita",
+        "value": "\"\""
+      },
+      {
+        "name": "esquerda",
+        "value": "\"\""
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "Semoventes_ImagensAdiciona",
+  "deleted": false,
+  "gitSyncId": "664b91393d0ee46738b29c21_667ee8ff1c28de346a553576"
+}

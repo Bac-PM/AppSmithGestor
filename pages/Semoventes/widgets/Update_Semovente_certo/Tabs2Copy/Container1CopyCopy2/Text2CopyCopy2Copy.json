@@ -23,6 +23,7 @@
     "dynamicBindingPathList": [{"key": "fontFamily"}],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+    "textCOlor": "#231F20",
     "text": "Foto da Esquerda",
     "key": "cl8hykwvhy",
     "isDeprecated": false,
@@ -33,7 +34,6 @@
     "minWidth": 450,
     "isVisible": true,
     "fontStyle": "BOLD",
-    "textColor": "#231F20",
     "version": 1,
     "parentId": "tt75w83633",
     "tags": [

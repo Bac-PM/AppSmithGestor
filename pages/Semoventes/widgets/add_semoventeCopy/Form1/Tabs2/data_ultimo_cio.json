@@ -8,9 +8,9 @@
     "animateLoading": true,
     "leftColumn": 0,
     "dynamicBindingPathList": [
+        {"key": "isVisible"},
         {"key": "accentColor"},
-        {"key": "borderRadius"},
-        {"key": "isVisible"}
+        {"key": "borderRadius"}
     ],
     "isDisabled": false,
     "isRequired": false,

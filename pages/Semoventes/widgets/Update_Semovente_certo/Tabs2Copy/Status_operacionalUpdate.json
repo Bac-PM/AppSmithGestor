@@ -7,13 +7,13 @@
     "type": "SELECT_WIDGET",
     "serverSideFiltering": false,
     "iSLoading": false,
-    "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( getDefaultValue.getDefaultValue(semoventes_ativos.triggeredRow?.status_operacional, get_stt_operacional.data.data)))(Status_operacionalUpdate.options, Status_operacionalUpdate.serverSideFiltering) }}",
+    "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( getDefaultValue.getDefaultValue(semoventes_ativos.triggeredRow.status_operacional, get_stt_operacional.data.data)))(Status_operacionalUpdate.options, Status_operacionalUpdate.serverSideFiltering) }}",
     "animateLoading": true,
     "leftColumn": 32,
     "dynamicBindingPathList": [
-        {"key": "borderRadius"},
+        {"key": "sourceData"},
         {"key": "defaultOptionValue"},
-        {"key": "sourceData"}
+        {"key": "borderRadius"}
     ],
     "placeholderText": "Selecione o status do animal",
     "isDisabled": false,

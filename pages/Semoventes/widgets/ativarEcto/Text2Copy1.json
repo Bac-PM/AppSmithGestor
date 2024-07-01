@@ -8,10 +8,8 @@
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
     "leftColumn": 0,
     "dynamicBindingPathList": [
-        {"key": "truncateButtonColor"},
-        {"key": "fontFamily"},
-        {"key": "borderRadius"},
-        {"key": "text"}
+        {"key": "text"},
+        {"key": "fontFamily"}
     ],
     "text": "Deseja reativar o ectoparasiticida {{ecto_desativados.triggeredRow.nome_produto}}?",
     "textAlign": "CENTER",

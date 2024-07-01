@@ -3,7 +3,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 4,
     "widgetName": "Button12",
-    "onClick": "{{\natualizaIdFrenteAdiciona.idDireita= \"\";\n\tatualizaIdFrenteAdiciona.idFrente= \"\";\n\tatualizaIdFrenteAdiciona.idEsquerda= \"\";\nresetWidget(\"add_semoventeCopy\", true);\n\nstoreValue('tabSemovente', '1 - Informações do Semovente');\n\nshowModal('add_semoventeCopy');\n}}",
+    "onClick": "{{\natualizaIdFrenteAdiciona.idDireita= \"\";\n\tatualizaIdFrenteAdiciona.idFrente= \"\";\n\tatualizaIdFrenteAdiciona.idEsquerda= \"\";\nImagensAdiciona.frente= \"\";\nImagensAdiciona.direita= \"\";\nImagensAdiciona.esquerda= \"\";\nresetWidget(\"add_semoventeCopy\", true);\n\nstoreValue('tabSemovente', '1 - Informações do Semovente');\n\nshowModal('add_semoventeCopy');\n}}",
     "buttonColor": "rgb(48, 73, 136)",
     "dynamicPropertyPathList": [
         {"key": "onClick"},
@@ -27,9 +27,9 @@
     "dynamicTriggerPathList": [{"key": "onClick"}],
     "leftColumn": 48,
     "dynamicBindingPathList": [
-        {"key": "borderRadius"},
         {"key": "isVisible"},
-        {"key": "isDisabled"}
+        {"key": "isDisabled"},
+        {"key": "borderRadius"}
     ],
     "text": "Adicionar Semovente",
     "isDisabled": "{{\n(function() { if(appsmith.store.roleAtual == \"Tratador\"){\n\t\treturn true;\n\t}\n\telse{\n\t\treturn false;\n\t}\n})();\n}}",

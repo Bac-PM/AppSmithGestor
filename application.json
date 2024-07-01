@@ -13,14 +13,6 @@
       "isDefault": false
     },
     {
-      "id": "Medicamentos",
-      "isDefault": false
-    },
-    {
-      "id": "Page1",
-      "isDefault": false
-    },
-    {
       "id": "Condutor",
       "isDefault": false
     },
@@ -30,6 +22,22 @@
     },
     {
       "id": "Alertas",
+      "isDefault": false
+    },
+    {
+      "id": "Prescrições",
+      "isDefault": false
+    },
+    {
+      "id": "Consulta",
+      "isDefault": false
+    },
+    {
+      "id": "Tarefas",
+      "isDefault": false
+    },
+    {
+      "id": "Medicamentos",
       "isDefault": false
     },
     {
@@ -61,19 +69,7 @@
       "isDefault": false
     },
     {
-      "id": "Prescrições",
-      "isDefault": false
-    },
-    {
-      "id": "Consulta",
-      "isDefault": false
-    },
-    {
-      "id": "Tarefas",
-      "isDefault": false
-    },
-    {
-      "id": "Teste prescricao",
+      "id": "Page1",
       "isDefault": false
     }
   ],
