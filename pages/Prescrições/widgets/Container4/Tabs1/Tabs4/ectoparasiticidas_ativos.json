@@ -106,7 +106,7 @@
     "displayName": "Table",
     "bottomRow": 40,
     "columnWidthMap": {
-        "observacao": 550,
+        "observacao": 488,
         "data_proxima_aplicacao": 204,
         "customColumn1": 143,
         "data_consulta": 157,

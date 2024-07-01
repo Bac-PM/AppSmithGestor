@@ -3,7 +3,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 22,
     "widgetName": "Button14",
-    "onClick": "{{removerColeira.run().then(() => {\n\t    showAlert('Coleira removida com sucesso', 'success');\n\tgetAllColeirasDeUmCaoa.run();\n    closeModal(\"avisoRemoverColeira\");\n});}}",
+    "onClick": "{{removerColeira.run().then(() => {\n\t    showAlert('Coleira removida com sucesso', 'success');\n\tget_coleiras_animal.run();\n    closeModal(\"avisoRemoverColeira\");\n});}}",
     "buttonColor": "#ef4444",
     "dynamicPropertyPathList": [{"key": "onClick"}],
     "displayName": "Button",

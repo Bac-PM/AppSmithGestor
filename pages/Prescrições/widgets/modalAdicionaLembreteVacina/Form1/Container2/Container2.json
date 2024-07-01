@@ -12,8 +12,8 @@
         "parent",
         "group"
     ],
-    "topRow": 59,
-    "bottomRow": 69,
+    "topRow": 62,
+    "bottomRow": 72,
     "parentRowSpace": 10,
     "type": "CONTAINER_WIDGET",
     "hideCard": false,
@@ -67,9 +67,9 @@
     "renderMode": "CANVAS",
     "isLoading": false,
     "responsiveBehavior": "fill",
-    "originalTopRow": 59,
+    "originalTopRow": 62,
     "borderRadius": "1.5rem",
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 69,
+    "originalBottomRow": 72,
     "minDynamicHeight": 10
 }

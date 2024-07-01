@@ -41,7 +41,7 @@
     "parentColumnSpace": 6.9375,
     "dynamicTriggerPathList": [],
     "labelPosition": "Top",
-    "sourceData": "{{getAllTipoVacina.data.data}}",
+    "sourceData": "{{getTipoVacina.data.data}}",
     "key": "uooomwd25l",
     "labelTextSize": "0.875rem",
     "isDeprecated": false,

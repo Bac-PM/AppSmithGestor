@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "produtosFiltrados",
+    "pageId": "Alertas",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "Alertas_produtosFiltrados",
+  "deleted": false,
+  "gitSyncId": "664b91393d0ee46738b29c21_667c5dfd1c28de346a553531"
+}

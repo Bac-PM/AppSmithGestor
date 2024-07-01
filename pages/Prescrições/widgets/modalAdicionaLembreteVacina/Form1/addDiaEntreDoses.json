@@ -8,7 +8,6 @@
     "resetOnSubmit": true,
     "leftColumn": 1,
     "dynamicBindingPathList": [
-        {"key": "defaultText"},
         {"key": "accentColor"},
         {"key": "borderRadius"}
     ],
@@ -31,7 +30,7 @@
     "originalBottomRow": 36,
     "mobileBottomRow": 33,
     "widgetName": "addDiaEntreDoses",
-    "dynamicPropertyPathList": [{"key": "onTextChanged"}],
+    "dynamicPropertyPathList": [],
     "displayName": "Input",
     "searchTags": [
         "form",
@@ -49,7 +48,7 @@
     "labelPosition": "Top",
     "key": "vqy1w8ce77",
     "labelTextSize": "0.875rem",
-    "onTextChanged": "{{\n(function() {\n  \t\tlet inicio = new Date();\n\t\tinicio.setDate(inicio.getDate()+  addDiaEntreDoses.text)\n\t\taddDataProximaDose.setValue(inicio)\n\t\t\n})();\n}}",
+    "onTextChanged": "",
     "isDeprecated": false,
     "rightColumn": 24,
     "widgetId": "ey3skbsaaz",
@@ -65,6 +64,6 @@
     "maxDynamicHeight": 9000,
     "shouldAllowAutofill": false,
     "iconAlign": "left",
-    "defaultText": "{{vacinas_ativas.triggeredRow[\"Doses Totais\"]}}",
+    "defaultText": "",
     "minDynamicHeight": 4
 }

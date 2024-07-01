@@ -2,7 +2,7 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "getAllColeirasDeUmCaoa",
+    "name": "get_coleiras_animal",
     "fullyQualifiedName": "getAllColeirasDeUmCaoa",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
@@ -86,7 +86,7 @@
         "apiContentType": "none"
       }
     },
-    "executeOnLoad": true,
+    "executeOnLoad": false,
     "dynamicBindingPathList": [
       {
         "key": "headers[0].value"

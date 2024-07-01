@@ -4,7 +4,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 22,
     "widgetName": "Button8Copy",
-    "onClick": "{{\nati.run().then(() => {\n\t\n  showAlert( desativarTipoVacina.data.data.tipo + ' Desativado com sucesso', 'success');\n\tgetAllTipoVacina.run();\n}).catch(() => {\n  showAlert('Um erro ocorreu', 'error');\n});\n\ncloseModal(\"desativar_tipo_vacCopy\")}}",
+    "onClick": "{{\nati.run().then(() => {\n\t\n  showAlert( desativarTipoVacina.data.data.tipo + ' Desativado com sucesso', 'success');\n\tgetTipoVacinaTable.run();\n}).catch(() => {\n  showAlert('Um erro ocorreu', 'error');\n});\n\ncloseModal(\"desativar_tipo_vacCopy\")}}",
     "buttonColor": "#ef4444",
     "dynamicPropertyPathList": [{"key": "onClick"}],
     "displayName": "Button",

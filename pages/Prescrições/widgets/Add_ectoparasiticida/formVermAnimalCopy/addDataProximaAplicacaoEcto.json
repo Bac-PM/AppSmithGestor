@@ -46,7 +46,7 @@
     "rightColumn": 62,
     "widgetId": "jb7ireodlq",
     "minWidth": 450,
-    "label": "Data da Próxima Aplicação",
+    "label": "Data de Aplicação",
     "parentId": "z67rrdyup5",
     "labelAlignment": "left",
     "renderMode": "CANVAS",

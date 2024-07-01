@@ -6,7 +6,7 @@
     "labelWidth": 5,
     "type": "SELECT_WIDGET",
     "serverSideFiltering": false,
-    "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( getDefaultValue.getDefaultValue(medicamentos_ativos.triggeredRow?.principio_ativo, get_principio_ativo.data.data)))(edit_principio_ativo.options, edit_principio_ativo.serverSideFiltering) }}",
+    "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( getDefaultValue.getDefaultValue(medicamentos_ativos.triggeredRow.principio_ativo, get_all_principios.data.data)))(edit_principio_ativo.options, edit_principio_ativo.serverSideFiltering) }}",
     "animateLoading": true,
     "leftColumn": 2,
     "dynamicBindingPathList": [
@@ -43,7 +43,7 @@
     "parentColumnSpace": 6.9375,
     "dynamicTriggerPathList": [],
     "labelPosition": "Top",
-    "sourceData": "{{get_principio_ativo.data.data.map( (obj) =>{ return  {'label': obj.Nome, 'value': obj.id } })}}",
+    "sourceData": "{{get_all_principios.data.data.map( (obj) =>{ return  {'label': obj.Nome, 'value': obj.id } })}}",
     "key": "whjgulqdif",
     "labelTextSize": "0.875rem",
     "isDeprecated": false,

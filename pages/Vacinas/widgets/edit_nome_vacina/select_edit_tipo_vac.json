@@ -6,7 +6,7 @@
     "labelWidth": 5,
     "type": "SELECT_WIDGET",
     "serverSideFiltering": false,
-    "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( getDefaultValue.getDefaultValue(nomes_vacinas_ativos.triggeredRow?.tipo_vacina, getAllTipoVacina.data.data)))(select_edit_tipo_vac.options, select_edit_tipo_vac.serverSideFiltering) }}",
+    "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( getDefaultValue.getDefaultValue(nomes_vacinas_ativos.triggeredRow.tipo_vacina, getTipoVacina.data.data)))(select_edit_tipo_vac.options, select_edit_tipo_vac.serverSideFiltering) }}",
     "animateLoading": true,
     "leftColumn": 2,
     "dynamicBindingPathList": [
@@ -42,7 +42,7 @@
     "parentColumnSpace": 6.9375,
     "dynamicTriggerPathList": [],
     "labelPosition": "Top",
-    "sourceData": "{{getAllTipoVacina.data.data}}",
+    "sourceData": "{{getTipoVacina.data.data}}",
     "key": "uooomwd25l",
     "labelTextSize": "0.875rem",
     "isDeprecated": false,

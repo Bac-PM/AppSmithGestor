@@ -5,6 +5,7 @@
     "iconSVG": "/static/media/icon.e6911f8bb94dc6c4a102a74740c41763.svg",
     "topRow": 0,
     "isSortable": true,
+    "onPageChange": "{{\n(function() {\n    if(seletor_animal.selectedOptionValue === -1) {\nprodutosFiltrados.getTodosColeiraAnimal();\n} else {\nprodutosFiltrados.getUmColeiraAnimal();\n\t\t};\n}\n)();\n}}",
     "type": "TABLE_WIDGET_V2",
     "inlineEditingSaveOption": "ROW_LEVEL",
     "animateLoading": true,
@@ -20,9 +21,9 @@
         {"key": "primaryColumns.updatedAt.computedValue"},
         {"key": "primaryColumns.aplicado.computedValue"},
         {"key": "primaryColumns.animal.computedValue"},
-        {"key": "primaryColumns.tipo_aplicacao.computedValue"},
         {"key": "tableData"},
-        {"key": "primaryColumns.observacao.computedValue"}
+        {"key": "primaryColumns.observacao.computedValue"},
+        {"key": "primaryColumns.tipo_aplicacao.computedValue"}
     ],
     "needsHeightForContent": true,
     "leftColumn": 0,
@@ -64,7 +65,7 @@
         }
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "columnUpdatedAt": 1718305894972,
+    "columnUpdatedAt": 1719431183898,
     "defaultSelectedRowIndices": [0],
     "mobileBottomRow": 28,
     "widgetName": "alertas_coleira",
@@ -81,18 +82,22 @@
         "aplicado",
         "observacao"
     ],
-    "dynamicPropertyPathList": [{"key": "tableData"}],
+    "dynamicPropertyPathList": [
+        {"key": "tableData"},
+        {"key": "onPageChange"}
+    ],
     "displayName": "Table",
-    "bottomRow": 42,
+    "bottomRow": 57,
     "columnWidthMap": {
+        "observacao": 343,
         "data_proxima_aplicacao": 164,
-        "tipo_aplicacao": 381
+        "tipo_aplicacao": 199
     },
     "parentRowSpace": 10,
     "hideCard": false,
     "mobileRightColumn": 34,
     "parentColumnSpace": 13.6689453125,
-    "dynamicTriggerPathList": [],
+    "dynamicTriggerPathList": [{"key": "onPageChange"}],
     "borderWidth": "1",
     "primaryColumns": {
         "createdAt": {
@@ -181,7 +186,7 @@
             "index": 7,
             "isDiscardVisible": true,
             "isVisible": true,
-            "label": "observação",
+            "label": "Observação",
             "fontStyle": "",
             "textColor": "",
             "columnType": "text",
@@ -335,7 +340,7 @@
             "verticalAlignment": "CENTER"
         },
         "tipo_aplicacao": {
-            "computedValue": "{{alertas_coleira.processedTableData.map((currentRow, currentIndex) => ( currentRow.tipo_aplicacao.nome_produto))}}",
+            "computedValue": "{{alertas_coleira.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"tipo_aplicacao\"].nome_produto))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "tipo_aplicacao",
@@ -444,10 +449,11 @@
     "textSize": "0.875rem",
     "widgetId": "dgufydq9jh",
     "minWidth": 450,
-    "tableData": "{{getTodosAlertaColeira.data.data.filter((a) => {\n\tlet dataProximaAplcacao = new Date(a.data_proxima_aplicacao);\n\tlet dataComLembrete = new Date(dataProximaAplcacao);\n\tdataComLembrete.setDate(dataComLembrete.getDate() - a.lembrete_em_dias);\n\t\n\treturn moment() >= dataComLembrete && moment() < dataProximaAplcacao\n}\n)}}",
+    "tableData": "{{\n(function() {\n    if(seletor_animal.selectedOptionValue === -1) {\n\t\t\treturn produtosFiltrados.getTodosColeiraAnimal.data\n\t\n} else {\n\t\t\treturn produtosFiltrados.getUmColeiraAnimal.data\n\t\t};\n}\n)();\n}}",
     "label": "Data",
     "searchKey": "",
     "parentId": "0lj8qfgh52",
+    "serverSidePaginationEnabled": true,
     "renderMode": "CANVAS",
     "mobileTopRow": 0,
     "horizontalAlignment": "LEFT",

@@ -302,7 +302,7 @@
             "verticalAlignment": "CENTER"
         },
         "customColumn1": {
-            "computedValue": "{{vacinas_ativas.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"nome_vacina\"][\"tipo_vacina\"].tipo))}}",
+            "computedValue": "{{vacinas_ativas.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"nome_vacina\"][\"tipo_vacina\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "Tipo da Vacina",
@@ -409,7 +409,7 @@
         "customColumn6": {
             "boxShadow": "{{vacinas_ativas.processedTableData.map((currentRow, currentIndex) => ( \"none\"))}}",
             "computedValue": "",
-            "onClick": "{{erroPutVac.setText(\"\");\nresetWidget(\"modalAtualizaLembreteVacina\", true);\natualizaId.idFrente = vacinas_ativas.triggeredRow.foto_etiqueta.id;\nImagemLocal.ImagemTabelaFrente();\nshowModal('modalAtualizaLembreteVacina');\n}}",
+            "onClick": "{{\n\nerroPutVac.setText(\"\");\n//resetWidget(\"modalAtualizaLembreteVacina\", true);\n\n\n\nif(vacinas_ativas.triggeredRow.foto_etiqueta != null){\n\tatualizaId.idFrente = vacinas_ativas.triggeredRow.foto_etiqueta.id;\nImagemLocal.ImagemTabelaFrente();\n}else{\natualizaId.idFrente = \"\";\n\tImagemLocal.frente = \"\";\n}\nshowModal('modalAtualizaLembreteVacina');\n\n}}",
             "buttonColor": "{{vacinas_ativas.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.colors.primaryColor)))}}",
             "isEditable": false,
             "notation": "standard",

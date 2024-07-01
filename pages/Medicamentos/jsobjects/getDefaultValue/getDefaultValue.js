@@ -22,4 +22,20 @@ export default {
 		
 		return selectedValue;
 	},
+	getDefaultValues(nomesSelecionados, data) {
+        let selectedValues = [];
+
+        if (nomesSelecionados && data) {
+            const nomesArray = nomesSelecionados.split(',').map(nome => nome.trim());
+
+            for (const nome of nomesArray) {
+                const elemento = data.find(e => e.Nome === nome);
+                if (elemento) {
+                    selectedValues.push({ label: elemento.Nome, value: elemento.id });
+                }
+            }
+        }
+
+        return selectedValues;
+    },
 }

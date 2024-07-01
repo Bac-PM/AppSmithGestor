@@ -21,7 +21,7 @@
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
-      "path": "{{appsmith.store.url}}/api/animal-vacinas/{{Vacinas.triggeredRow.id}}",
+      "path": "{{appsmith.store.url}}/api/animal-vacinas/{{vacinas_ativas.triggeredRow.id}}",
       "headers": [
         {
           "key": "Authorization",
@@ -36,7 +36,7 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{\n    \"data_proxima_aplicacao\": {{atualizaDataProximaDose.selectedDate}},\n    \"anotacoes\": {{atualizaAnotacoes.text}},\n    \"lembrete_em_dias\": {{atualizaLembreteDias.selectedOptionValue}},\n    \"dose_atual\": {{atualizaDoseAtual.text}},\n    \"animal\": {{seletor_animal.selectedOptionValue}},\n    \"tipo_vacina\": {{updateTipoVacina.data.data.id}}\n}\n\n\n\n",
+      "body": "{\n    \"data_proxima_aplicacao\": {{atualizaDataProximaDose.selectedDate}},\n    \"lembrete_em_dias\": {{atualizaLembreteDias.selectedOptionValue}},\n    \"dose_atual\": {{atualizaDoseAtual.text}},\n    \"animal\": {{seletor_animal.selectedOptionValue}},\n    \"tipo_vacina\": {{updateTipoVacina.data.data.id}},\n\t\t\"observacao\": {{atualizaObservacao.text}}\n}\n\n\n\n",
       "bodyFormData": [],
       "httpMethod": "PUT",
       "selfReferencingDataPaths": [],
@@ -53,21 +53,24 @@
     "dynamicBindingPathList": [
       {
         "key": "path"
+      },
+      {
+        "key": "body"
       }
     ],
     "isValid": true,
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "Vacinas.triggeredRow.id",
       "appsmith.store.jwt",
       "appsmith.store.url",
-      "atualizaAnotacoes.text",
       "atualizaDataProximaDose.selectedDate",
       "atualizaDoseAtual.text",
       "atualizaLembreteDias.selectedOptionValue",
+      "atualizaObservacao.text",
       "seletor_animal.selectedOptionValue",
-      "updateTipoVacina.data.data.id"
+      "updateTipoVacina.data.data.id",
+      "vacinas_ativas.triggeredRow.id"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

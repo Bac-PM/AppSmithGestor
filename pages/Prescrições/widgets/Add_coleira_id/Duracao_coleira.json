@@ -14,7 +14,7 @@
     "labelStyle": "",
     "inputType": "TEXT",
     "placeholderText": "Duração da Coleira",
-    "isDisabled": true,
+    "isDisabled": false,
     "isRequired": false,
     "dynamicHeight": "AUTO_HEIGHT",
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",

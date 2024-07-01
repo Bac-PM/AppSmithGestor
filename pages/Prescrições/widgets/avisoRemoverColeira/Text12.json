@@ -26,7 +26,7 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "Deseja remover a coleira {{coleiras_ativas.triggeredRow.tipo_aplicacao}}",
+    "text": "Deseja desabilitar a coleira {{coleiras_ativas.triggeredRow.tipo_aplicacao}}",
     "key": "bpbel32c29",
     "isDeprecated": false,
     "rightColumn": 54,

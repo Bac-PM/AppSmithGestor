@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 790,
+          "bottomRow": 640,
           "containerStyle": "none",
           "snapRows": 79,
           "parentRowSpace": 1,
@@ -36,6 +36,17 @@
               "pluginType": "JS",
               "jsonPathKeys": [
                 "function () {\n  showModal('Modal1');\n}"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Prescrições_getAllColeiras",
+              "name": "getAllColeiras",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "appsmith.store.jwt",
+                "appsmith.store.url"
               ],
               "timeoutInMillisecond": 10000
             },
@@ -123,20 +134,8 @@
           ],
           [
             {
-              "id": "Prescrições_getAllColeiras",
-              "name": "getAllColeiras",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "coleiras_ativas.pageNo",
-                "appsmith.store.jwt",
-                "appsmith.store.url"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Prescrições_getAllColeirasDeUmCaoa",
-              "name": "getAllColeirasDeUmCaoa",
+              "id": "Prescrições_get_coleiras_desativadas",
+              "name": "get_coleiras_desativadas",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [

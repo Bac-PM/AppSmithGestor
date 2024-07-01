@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 810,
+          "bottomRow": 540,
           "containerStyle": "none",
           "snapRows": 79,
           "parentRowSpace": 1,
@@ -27,6 +27,17 @@
         },
         "layoutOnLoadActions": [
           [
+            {
+              "id": "Medicamentos_get_all_principios",
+              "name": "get_all_principios",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "appsmith.store.jwt",
+                "appsmith.store.url"
+              ],
+              "timeoutInMillisecond": 10000
+            },
             {
               "id": "Medicamentos_get_apresentacao_medicamento",
               "name": "get_apresentacao_medicamento",

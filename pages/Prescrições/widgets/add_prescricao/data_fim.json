@@ -9,7 +9,8 @@
     "leftColumn": 28,
     "dynamicBindingPathList": [
         {"key": "accentColor"},
-        {"key": "borderRadius"}
+        {"key": "borderRadius"},
+        {"key": "minDate"}
     ],
     "isDisabled": false,
     "isRequired": false,
@@ -26,8 +27,8 @@
     "needsErrorInfo": false,
     "mobileBottomRow": 28,
     "widgetName": "data_fim",
-    "minDate": "1920-12-31T18:30:00.000Z",
-    "dynamicPropertyPathList": [],
+    "minDate": "{{data_ini.selectedDate}}",
+    "dynamicPropertyPathList": [{"key": "minDate"}],
     "displayName": "DatePicker",
     "searchTags": ["calendar"],
     "bottomRow": 20,

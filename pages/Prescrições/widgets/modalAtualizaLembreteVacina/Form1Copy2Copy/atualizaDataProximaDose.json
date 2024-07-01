@@ -12,7 +12,7 @@
         {"key": "accentColor"},
         {"key": "borderRadius"}
     ],
-    "labelTooltip": "Calculado automaticamente com base no período de tempo entre as doses",
+    "labelTooltip": "",
     "isDisabled": false,
     "isRequired": false,
     "dynamicHeight": "FIXED",
@@ -47,7 +47,7 @@
     "rightColumn": 45,
     "widgetId": "g3k7vhibit",
     "minWidth": 450,
-    "label": "Data da Próxima Dose",
+    "label": "Data de Aplicação",
     "parentId": "xzh4441uyy",
     "labelAlignment": "left",
     "renderMode": "CANVAS",

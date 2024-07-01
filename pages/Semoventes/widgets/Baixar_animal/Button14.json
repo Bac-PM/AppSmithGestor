@@ -6,7 +6,7 @@
     "widgetName": "Button14",
     "onClick": "{{update_status_geral.run().then(() => {\n  closeModal('Baixar_animal');\n  get_animals_ativos.run();\n  showAlert('Semovente Baixado!', 'success');\n});}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "dynamicPropertyPathList": [],
+    "dynamicPropertyPathList": [{"key": "onClick"}],
     "displayName": "Button",
     "iconSVG": "/static/media/icon.cb7371e9a48acf9db0f2f3ea0a714255.svg",
     "searchTags": [

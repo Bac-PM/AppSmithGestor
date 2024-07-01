@@ -3,7 +3,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 22,
     "widgetName": "botaoAdicionarCreateColeira",
-    "onClick": "{{postAnimalColeira.run().then(() => {\n\tgetAllColeirasDeUmCaoa.run();\n  showAlert('Coleira Adicionada com Sucesso', 'success');\n  closeModal('Add_coleira_id');\n\t\n}).catch(() => {\n postAnimalColeira.data.error.details.errors.forEach(element => {\n   showAlert(element.message, 'error');\n});\n});}}",
+    "onClick": "{{postAnimalColeira.run().then(() => {\n\tget_coleiras_animal.run();\n  showAlert('Coleira Adicionada com Sucesso', 'success');\n  closeModal('Add_coleira_id');\n\t\n}).catch(() => {\n postAnimalColeira.data.error.details.errors.forEach(element => {\n   showAlert(element.message, 'error');\n});\n});}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "dynamicPropertyPathList": [{"key": "onClick"}],
     "displayName": "Button",

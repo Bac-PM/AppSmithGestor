@@ -1,10 +1,10 @@
 {
     "data_proxima_aplicacao": {{atualizaDataProximaDose.selectedDate}},
-    "anotacoes": {{atualizaAnotacoes.text}},
     "lembrete_em_dias": {{atualizaLembreteDias.selectedOptionValue}},
     "dose_atual": {{atualizaDoseAtual.text}},
     "animal": {{seletor_animal.selectedOptionValue}},
-    "tipo_vacina": {{updateTipoVacina.data.data.id}}
+    "tipo_vacina": {{updateTipoVacina.data.data.id}},
+		"observacao": {{atualizaObservacao.text}}
 }
 
 

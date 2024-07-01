@@ -96,8 +96,8 @@
     "displayName": "Table",
     "bottomRow": 43,
     "columnWidthMap": {
-        "classificacao_medicamentos": 623,
-        "apresentacao_medicamento": 134,
+        "classificacao_medicamentos": 533,
+        "apresentacao_medicamento": 163,
         "principio_ativo": 157,
         "nome": 125,
         "dosagem": 157

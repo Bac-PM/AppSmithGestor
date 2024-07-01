@@ -4,7 +4,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 22,
     "widgetName": "Button4",
-    "onClick": "{{post_principio_ativo.run().then(() => {\n  showAlert('Princípio ativo cadastrado com sucesso!', 'success');\n\t\t\tget_principio_ativo.run();\n\t\t\tcloseModal('add_principio_ativo');\n\n}).catch(() => {\n\t\t\t\n\t\t\tlet erroApi = service.getErrorApi(post_principio_ativo.data);\n\t\t\t\n\t\t\terroPostPrin.setText(erroApi); \n  });\n}}\n\n\n",
+    "onClick": "{{post_principio_ativo.run().then(() => {\n  showAlert('Princípio ativo cadastrado com sucesso!', 'success');\n\t\tget_principio_ativo.run();\n\t\tget_all_principios.run();\n\t\t\tcloseModal('add_principio_ativo');\n\n}).catch(() => {\n\t\t\t\n\t\t\tlet erroApi = service.getErrorApi(post_principio_ativo.data);\n\t\t\t\n\t\t\terroPostPrin.setText(erroApi); \n  });\n}}\n\n\n",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "dynamicPropertyPathList": [{"key": "onClick"}],
     "displayName": "Button",

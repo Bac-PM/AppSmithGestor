@@ -30,7 +30,10 @@
     "mobileBottomRow": 8,
     "widgetName": "seletor_animal",
     "isFilterable": true,
-    "dynamicPropertyPathList": [{"key": "sourceData"}],
+    "dynamicPropertyPathList": [
+        {"key": "sourceData"},
+        {"key": "onOptionChange"}
+    ],
     "displayName": "Select",
     "searchTags": ["dropdown"],
     "bottomRow": 8,
@@ -56,6 +59,6 @@
     "responsiveBehavior": "fill",
     "mobileLeftColumn": 1,
     "maxDynamicHeight": 9000,
-    "onOptionChange": "{{resetWidget(\"vacinas_ativas\", true);}}",
+    "onOptionChange": "{{\n(function() {\n  if(Tabs1.selectedTab === 'Medicamentos'){\nget_medicamento_animal.run();\nget_medicamento_animal_aplicad.run();\n\t} if (Tabs1.selectedTab === 'Ectoparasiticidas'){\nget_ectoparasiticidas_animal.run();\nget_ectoparasiticidas_aplicado.run()\n\t} if (Tabs1.selectedTab === 'Vermífugos'){\nget_vermifugos_animal.run();\nget_vermifugos_aplicados.run()\n\t} if (Tabs1.selectedTab === 'Vacinas'){\n\tget_vacinas_animal.run();\n\tget_vacinas_aplicadas.run()\n\t}\n})();\n}}",
     "minDynamicHeight": 4
 }

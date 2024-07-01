@@ -34,7 +34,7 @@
         "canExtend": true,
         "hideCard": true,
         "shouldScrollContents": false,
-        "minHeight": 950,
+        "minHeight": 450,
         "mobileRightColumn": 396.25,
         "parentColumnSpace": 1,
         "leftColumn": 0,

@@ -41,7 +41,7 @@
     "parentColumnSpace": 6.9375,
     "dynamicTriggerPathList": [],
     "labelPosition": "Top",
-    "sourceData": "{{get_principio_ativo.data.data.map( (obj) =>{ return  {'label': obj.Nome, 'value': obj.id } })}}",
+    "sourceData": "{{get_all_principios.data.data.map( (obj) =>{ return  {'label': obj.Nome, 'value': obj.id } })}}",
     "key": "whjgulqdif",
     "labelTextSize": "0.875rem",
     "isDeprecated": false,

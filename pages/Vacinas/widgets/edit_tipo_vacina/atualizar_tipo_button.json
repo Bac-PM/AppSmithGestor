@@ -4,7 +4,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 22,
     "widgetName": "atualizar_tipo_button",
-    "onClick": "{{editaTipoVacina.run().then(() => {\n  showAlert('Atualizado com sucesso', 'success');\n  closeModal('edit_tipo_vacina');\n  getAllTipoVacina.run().run();\n}).catch(() => {\n\t\t\t\n\t\t\tlet erroApi = service.getErrorApi(editaTipoVacina.data);\n\t\t\t\n\t\t\terroPutTipo.setText(erroApi); \n  });\n;}}",
+    "onClick": "{{editaTipoVacina.run().then(() => {\n  showAlert('Atualizado com sucesso', 'success');\n  closeModal('edit_tipo_vacina');\n  getTipoVacinaTable.run().run();\n}).catch(() => {\n\t\t\t\n\t\t\tlet erroApi = service.getErrorApi(editaTipoVacina.data);\n\t\t\t\n\t\t\terroPutTipo.setText(erroApi); \n  });\n;}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "dynamicPropertyPathList": [{"key": "onClick"}],
     "displayName": "Button",

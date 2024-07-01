@@ -39,7 +39,7 @@
     "parentColumnSpace": 10.0625,
     "dynamicTriggerPathList": [],
     "labelPosition": "Top",
-    "sourceData": "{{ getNomeVacinas.data.data.map((obj) => {\n    const tipoVacina = obj.tipo_vacina ? obj.tipo_vacina.Nome : '';\n    return { \n        'label': `${obj.nome} - ${tipoVacina}`, \n        'value': obj.id \n    } \n}) }}",
+    "sourceData": "{{ getNomeVacinas.data.data.map((obj) => {\n    const tipoVacina = obj.tipo_vacina ? obj.tipo_vacina.tipo : '';\n    return { \n        'label': `${obj.nome} - ${tipoVacina}`, \n        'value': obj.id \n    } \n}) }}",
     "key": "ep5msy4sgw",
     "labelTextSize": "0.875rem",
     "isDeprecated": false,
