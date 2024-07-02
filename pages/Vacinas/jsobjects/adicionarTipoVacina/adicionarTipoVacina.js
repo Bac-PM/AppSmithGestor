@@ -1,8 +1,7 @@
 export default {
 	myVar1: [],
 	myVar2: {},
-	
-	
+
 	async addTipoVac () {
 		let data = await postTipoVacina.run().then(() => {
 			showAlert('Adicionado com sucesso', '');

@@ -16,11 +16,11 @@
         {"key": "primaryColumns.Box.computedValue"},
         {"key": "primaryColumns.Data_nascimento.computedValue"},
         {"key": "primaryColumns.Idade.computedValue"},
-        {"key": "primaryColumns.Condutor_principal.computedValue"},
         {"key": "accentColor"},
         {"key": "borderRadius"},
         {"key": "boxShadow"},
         {"key": "primaryColumns.sexo.computedValue"},
+        {"key": "primaryColumns.Condutor_principal.computedValue"},
         {"key": "primaryColumns.status_saude.computedValue"},
         {"key": "primaryColumns.status_operacional.computedValue"}
     ],
@@ -65,7 +65,7 @@
         }
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "columnUpdatedAt": 1715107712305,
+    "columnUpdatedAt": 1718390497379,
     "primaryColumnId": "id",
     "defaultSelectedRowIndices": [0],
     "mobileBottomRow": 59,
@@ -75,10 +75,10 @@
         "Nome",
         "Idade",
         "Box",
-        "Condutor_principal",
         "id",
         "Data_nascimento",
         "sexo",
+        "Condutor_principal",
         "status_saude",
         "status_operacional"
     ],
@@ -112,7 +112,7 @@
     "borderWidth": "1",
     "primaryColumns": {
         "Condutor_principal": {
-            "computedValue": "{{Lista_de_Animais.processedTableData.map((currentRow, currentIndex) => ( currentRow?.Condutor_principal?.Nome))}}",
+            "computedValue": "{{Lista_de_Animais.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Condutor_principal\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "Condutor_principal",
@@ -126,10 +126,10 @@
             "isDerived": false,
             "textSize": "0.875rem",
             "allowCellWrapping": false,
-            "index": 8,
+            "index": 5,
             "isDiscardVisible": true,
             "isVisible": true,
-            "label": "Condutor principal",
+            "label": "Condutor_principal",
             "fontStyle": "",
             "textColor": "",
             "columnType": "text",
@@ -146,7 +146,7 @@
             "verticalAlignment": "CENTER"
         },
         "status_saude": {
-            "computedValue": "{{Lista_de_Animais.processedTableData.map((currentRow, currentIndex) => ( currentRow.status_saude.Nome))}}",
+            "computedValue": "{{Lista_de_Animais.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"status_saude\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "status_saude",
@@ -163,7 +163,7 @@
             "index": 6,
             "isDiscardVisible": true,
             "isVisible": true,
-            "label": "Status saúde",
+            "label": "status_saude",
             "fontStyle": "",
             "textColor": "",
             "columnType": "text",
@@ -214,7 +214,7 @@
             "verticalAlignment": "CENTER"
         },
         "status_operacional": {
-            "computedValue": "{{Lista_de_Animais.processedTableData.map((currentRow, currentIndex) => ( currentRow.status_operacional.Nome))}}",
+            "computedValue": "{{Lista_de_Animais.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"status_operacional\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "status_operacional",
@@ -231,7 +231,7 @@
             "index": 7,
             "isDiscardVisible": true,
             "isVisible": true,
-            "label": "Status operacional",
+            "label": "status_operacional",
             "fontStyle": "",
             "textColor": "",
             "columnType": "text",
@@ -384,7 +384,7 @@
             "verticalAlignment": "CENTER"
         },
         "sexo": {
-            "computedValue": "{{Lista_de_Animais.processedTableData.map((currentRow, currentIndex) => ( currentRow.sexo.Nome))}}",
+            "computedValue": "{{Lista_de_Animais.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"sexo\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "sexo",
@@ -401,7 +401,7 @@
             "index": 4,
             "isDiscardVisible": true,
             "isVisible": true,
-            "label": "sexo",
+            "label": "Sexo",
             "fontStyle": "",
             "textColor": "",
             "columnType": "text",

@@ -28,16 +28,24 @@
       "encodeParamsToggle": true,
       "queryParameters": [
         {
-          "key": "populate",
-          "value": "*"
-        },
-        {
           "key": "filters[tipo_produto_antiparasitario][id]",
           "value": "2"
         },
         {
           "key": "filters[ativo]",
           "value": "true"
+        },
+        {
+          "key": "fields[0]",
+          "value": "nome_produto"
+        },
+        {
+          "key": "fields[1]",
+          "value": "duracao_em_dias"
+        },
+        {
+          "key": "populate[tipo_produto_antiparasitario][fields][0]",
+          "value": "descricao"
         }
       ],
       "body": "",

@@ -2,7 +2,7 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "getAllVacina",
+    "name": "getAllVacinaDesativadas",
     "fullyQualifiedName": "getAllVacina",
     "datasource": {
       "name": "strApi",
@@ -29,12 +29,16 @@
       "encodeParamsToggle": true,
       "queryParameters": [
         {
-          "key": "populate",
-          "value": "*"
+          "key": "filters[ativo]",
+          "value": "false"
         },
         {
-          "key": "filters[ativo]",
-          "value": "true"
+          "key": "fields[0]",
+          "value": "nome"
+        },
+        {
+          "key": "populate[tipo_vacina][fields][0]",
+          "value": "tipo"
         }
       ],
       "body": "",
@@ -67,9 +71,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-05-03T19:15:25Z"
+    "createdAt": "2024-06-25T16:21:03Z"
   },
   "id": "Vacinas_getAllVacina",
   "deleted": false,
-  "gitSyncId": "6620198c897a1c105cb9afb5_663537cd575fc970594e75ee"
+  "gitSyncId": "664b8fc73d0ee46738b29b20_667aee6f1c28de346a5533e8"
 }

@@ -28,16 +28,24 @@
       "encodeParamsToggle": true,
       "queryParameters": [
         {
-          "key": "populate",
-          "value": "*"
-        },
-        {
           "key": "filters[tipo_produto_antiparasitario][id]",
           "value": "2"
         },
         {
           "key": "filters[ativo]",
           "value": "false"
+        },
+        {
+          "key": "fields[0]",
+          "value": "nome_produto"
+        },
+        {
+          "key": "fields[1]",
+          "value": "duracao_em_dias"
+        },
+        {
+          "key": "populate[tipo_produto_antiparasitario][fields][0]",
+          "value": "descricao"
         }
       ],
       "body": "",
@@ -70,9 +78,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-04-19T17:59:58Z"
+    "createdAt": "2024-06-25T15:55:53Z"
   },
   "id": "Coleiras_getAllColeirasDesativadas",
   "deleted": false,
-  "gitSyncId": "6620198c897a1c105cb9afb5_2024-04-19T17:59:58.663086691Z"
+  "gitSyncId": "664b8fc73d0ee46738b29b20_667ae8891c28de346a5533e2"
 }
