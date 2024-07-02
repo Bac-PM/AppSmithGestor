@@ -60,6 +60,6 @@
     "mobileLeftColumn": 6,
     "maxDynamicHeight": 9000,
     "iconAlign": "left",
-    "defaultText": "veterinario@gmail.com",
+    "defaultText": "",
     "minDynamicHeight": 4
 }

@@ -339,7 +339,7 @@
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "qg3txv5q88",
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-    "defaultTab": "Coleiras",
+    "defaultTab": "De Hoje",
     "shouldShowTabs": true,
     "minWidth": 450,
     "tabsObj": {

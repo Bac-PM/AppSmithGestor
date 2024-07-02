@@ -61,6 +61,6 @@
     "maxDynamicHeight": 9000,
     "shouldAllowAutofill": true,
     "iconAlign": "left",
-    "defaultText": "123456Aa",
+    "defaultText": "",
     "minDynamicHeight": 4
 }

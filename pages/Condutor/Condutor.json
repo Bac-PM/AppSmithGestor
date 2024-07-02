@@ -28,8 +28,8 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Condutor_get",
-              "name": "get",
+              "id": "Condutor_getCondutoresDesativados",
+              "name": "getCondutoresDesativados",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
@@ -39,8 +39,8 @@
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "Condutor_getCondutoresDesativados",
-              "name": "getCondutoresDesativados",
+              "id": "Condutor_getTodosCondutores",
+              "name": "getTodosCondutores",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
