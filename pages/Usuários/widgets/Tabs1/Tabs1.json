@@ -8,7 +8,7 @@
     "iconSVG": "/static/media/icon.9e3d67c0af9c0bd092dc56240314e18a.svg",
     "displayName": "Tabs",
     "topRow": 1,
-    "bottomRow": 51,
+    "bottomRow": 56,
     "parentRowSpace": 10,
     "type": "TABS_WIDGET",
     "hideCard": false,
@@ -26,7 +26,7 @@
             "mobileBottomRow": 150,
             "widgetName": "Canvas1Copy",
             "displayName": "Canvas",
-            "bottomRow": 490,
+            "bottomRow": 510,
             "topRow": 0,
             "parentRowSpace": 1,
             "type": "CANVAS_WIDGET",
@@ -70,7 +70,7 @@
             "mobileBottomRow": 150,
             "widgetName": "Canvas2Copy",
             "displayName": "Canvas",
-            "bottomRow": 460,
+            "bottomRow": 510,
             "topRow": 0,
             "parentRowSpace": 1,
             "type": "CANVAS_WIDGET",
@@ -139,7 +139,7 @@
             "isVisible": true
         }
     },
-    "isVisible": "{{\n(function() { if(getIdUsuario.data.role.name != \"Super Administrador\"){\n\t\treturn false;\n\t}\n\telse{\n\t\treturn true;\n\t}\n})();\n}}",
+    "isVisible": "{{\n(function() {if(appsmith.store.roleAtual != \"Super Administrador\"){\n\t\treturn false;\n\t}\n\telse{\n\t\treturn true;\n\t}\t\t\t \n})();\n}}",
     "version": 3,
     "parentId": "0",
     "tags": ["Layout"],
@@ -151,6 +151,6 @@
     "borderRadius": "0.375rem",
     "mobileLeftColumn": 12,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 51,
+    "originalBottomRow": 56,
     "minDynamicHeight": 15
 }

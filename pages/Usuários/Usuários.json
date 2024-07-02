@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 970,
+          "bottomRow": 1070,
           "containerStyle": "none",
           "snapRows": 58,
           "parentRowSpace": 1,
@@ -62,19 +62,6 @@
               ],
               "timeoutInMillisecond": 10000
             }
-          ],
-          [
-            {
-              "id": "Usuários_getIdUsuario",
-              "name": "getIdUsuario",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "appsmith.store.jwt",
-                "appsmith.store.url"
-              ],
-              "timeoutInMillisecond": 10000
-            }
           ]
         ],
         "layoutOnLoadActionErrors": [],
@@ -87,7 +74,7 @@
     ],
     "userPermissions": [],
     "policies": [],
-    "isHidden": true
+    "isHidden": false
   },
   "deleted": false,
   "gitSyncId": "65840affee8e4a451ee14f66_658c92afb958b305ad022a2a"

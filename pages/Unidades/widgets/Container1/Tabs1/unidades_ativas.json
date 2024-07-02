@@ -328,7 +328,7 @@
     "label": "Data",
     "searchKey": "",
     "parentId": "atkws3pgt9",
-    "serverSidePaginationEnabled": true,
+    "serverSidePaginationEnabled": false,
     "renderMode": "CANVAS",
     "mobileTopRow": 0,
     "horizontalAlignment": "LEFT",
