@@ -77,7 +77,7 @@
       "appsmith.store.jwt",
       "appsmith.store.url"
     ],
-    "userSetOnLoad": false,
+    "userSetOnLoad": true,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
