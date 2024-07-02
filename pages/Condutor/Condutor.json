@@ -28,8 +28,8 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Condutor_getTodosCondutores",
-              "name": "getTodosCondutores",
+              "id": "Condutor_getCondutoresDesativados",
+              "name": "getCondutoresDesativados",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
@@ -37,12 +37,10 @@
                 "appsmith.store.url"
               ],
               "timeoutInMillisecond": 10000
-            }
-          ],
-          [
+            },
             {
-              "id": "Condutor_getCondutoresDesativados",
-              "name": "getCondutoresDesativados",
+              "id": "Condutor_getTodosCondutores",
+              "name": "getTodosCondutores",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [

@@ -3,7 +3,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 37,
     "widgetName": "Criar",
-    "onClick": "{{create_semovente.run().then(response => {\n\natualizaIdFrenteAdiciona.idDireita= \"\";\n\tatualizaIdFrenteAdiciona.idFrente= \"\";\n\natualizaIdFrenteAdiciona.idEsquerda= \"\"; \n\t\n//resetWidget(\"add_semoventeCopy\", true);\n\tget_animals_ativos.run();\nget_animals_painel.run();\n   \ncloseModal('add_semoventeCopy'); showModal('Cadastro_Realizado');\n\n}).catch(error => {\n create_semovente.data.error.details.errors.forEach(element => {\n   showAlert(JSON.stringify(element.message), 'error');\n});\n});}}\n",
+    "onClick": "{{create_semovente.run().then(response => {\n\natualizaIdFrenteAdiciona.idDireita= \"\";\n\tatualizaIdFrenteAdiciona.idFrente= \"\";\n\natualizaIdFrenteAdiciona.idEsquerda= \"\"; \n\t\n//resetWidget(\"add_semoventeCopy\", true);\n\tget_animals_ativos.run();\nget_animals_painel.run();\n   \ncloseModal(add_semoventeCopy.name); showModal(Cadastro_Realizado.name);\n\n}).catch(error => {\n create_semovente.data.error.details.errors.forEach(element => {\n   showAlert(JSON.stringify(element.message), 'error');\n});\n});}}\n",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "dynamicPropertyPathList": [
         {"key": "onClick"},
