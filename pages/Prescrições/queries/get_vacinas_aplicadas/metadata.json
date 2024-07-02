@@ -39,14 +39,6 @@
           "value": "true"
         },
         {
-          "key": "pagination[page]",
-          "value": "{{vacinas_aplicadas.pageNo}}"
-        },
-        {
-          "key": "pagination[pageSize]",
-          "value": "6"
-        },
-        {
           "key": "fields[0]",
           "value": "data_proxima_aplicacao"
         },
@@ -115,9 +107,6 @@
       },
       {
         "key": "queryParameters[0].value"
-      },
-      {
-        "key": "queryParameters[2].value"
       }
     ],
     "isValid": true,
@@ -126,8 +115,7 @@
     "jsonPathKeys": [
       "appsmith.store.jwt",
       "appsmith.store.url",
-      "seletor_animal.selectedOptionValue",
-      "vacinas_aplicadas.pageNo"
+      "seletor_animal.selectedOptionValue"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

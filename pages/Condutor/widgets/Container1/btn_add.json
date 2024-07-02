@@ -25,7 +25,7 @@
     "animateLoading": true,
     "parentColumnSpace": 12.8603515625,
     "dynamicTriggerPathList": [{"key": "onClick"}],
-    "leftColumn": 47,
+    "leftColumn": 48,
     "dynamicBindingPathList": [
         {"key": "borderRadius"},
         {"key": "isVisible"},
@@ -35,7 +35,7 @@
     "isDisabled": "{{\n(function() {if(appsmith.store.roleAtual != \"Super Administrador\"){\n\t\treturn true;\n\t}\n\telse{\n\t\treturn false;\n\t}\t\t\t \n})();\n}}",
     "key": "dvahh65z9g",
     "isDeprecated": false,
-    "rightColumn": 63,
+    "rightColumn": 64,
     "isDefaultClickDisabled": true,
     "widgetId": "u23af1aey4",
     "minWidth": 120,

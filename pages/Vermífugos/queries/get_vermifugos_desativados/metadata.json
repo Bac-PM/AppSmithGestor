@@ -46,14 +46,6 @@
         {
           "key": "filters[ativo]",
           "value": "false"
-        },
-        {
-          "key": "pagination[page]",
-          "value": "{{verm_desativados.pageNo}}"
-        },
-        {
-          "key": "pagination[pageSize]",
-          "value": "8"
         }
       ],
       "bodyFormData": [],
@@ -75,9 +67,6 @@
       },
       {
         "key": "path"
-      },
-      {
-        "key": "queryParameters[4].value"
       }
     ],
     "isValid": true,
@@ -85,8 +74,7 @@
     "messages": [],
     "jsonPathKeys": [
       "appsmith.store.jwt",
-      "appsmith.store.url",
-      "verm_desativados.pageNo"
+      "appsmith.store.url"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

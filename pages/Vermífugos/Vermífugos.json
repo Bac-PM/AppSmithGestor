@@ -33,7 +33,6 @@
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
-                "verm_ativos.pageNo",
                 "appsmith.store.jwt",
                 "appsmith.store.url"
               ],
@@ -45,7 +44,6 @@
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
-                "verm_desativados.pageNo",
                 "appsmith.store.jwt",
                 "appsmith.store.url"
               ],

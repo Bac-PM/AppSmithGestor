@@ -3,7 +3,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 4,
     "widgetName": "IconButton2",
-    "onClick": "{{closeModal('Modal1')}}",
+    "onClick": "{{closeModal('realizar_tarefa');}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "displayName": "Icon button",
     "iconSVG": "/static/media/icon.bb5d55ae67fb1687dff78e66ad1faec0.svg",
@@ -17,6 +17,7 @@
     "hideCard": false,
     "mobileRightColumn": 64,
     "animateLoading": true,
+    "dynamicTriggerPathList": [{"key": "onClick"}],
     "leftColumn": 58,
     "dynamicBindingPathList": [
         {"key": "buttonColor"},

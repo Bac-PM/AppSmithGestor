@@ -28,6 +28,30 @@
         "layoutOnLoadActions": [
           [
             {
+              "id": "Usuários_getAllUsuario",
+              "name": "getAllUsuario",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "appsmith.store.jwt",
+                "appsmith.store.url"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Usuários_getAllUsuariosDesativados",
+              "name": "getAllUsuariosDesativados",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "appsmith.store.jwt",
+                "appsmith.store.url"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
               "id": "Usuários_getRoles",
               "name": "getRoles",
               "confirmBeforeExecute": false,
@@ -46,32 +70,6 @@
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
-                "appsmith.store.jwt",
-                "appsmith.store.url"
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ],
-          [
-            {
-              "id": "Usuários_getAllUsuario",
-              "name": "getAllUsuario",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "usuariosAtivos.pageNo",
-                "appsmith.store.jwt",
-                "appsmith.store.url"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Usuários_getAllUsuariosDesativados",
-              "name": "getAllUsuariosDesativados",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "usuariosAtivos.pageNo",
                 "appsmith.store.jwt",
                 "appsmith.store.url"
               ],

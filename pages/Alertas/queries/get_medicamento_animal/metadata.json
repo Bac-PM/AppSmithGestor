@@ -65,14 +65,6 @@
         {
           "key": "filters[aplicado]",
           "value": "false"
-        },
-        {
-          "key": "pagination[page]",
-          "value": "{{lista_med.pageNo}}"
-        },
-        {
-          "key": "pagination[pageSize]",
-          "value": "3"
         }
       ],
       "body": "",
@@ -99,9 +91,6 @@
       },
       {
         "key": "queryParameters[0].value"
-      },
-      {
-        "key": "queryParameters[9].value"
       }
     ],
     "isValid": true,
@@ -110,7 +99,6 @@
     "jsonPathKeys": [
       "appsmith.store.jwt",
       "appsmith.store.url",
-      "lista_med.pageNo",
       "seletor_animal.selectedOptionValue"
     ],
     "userSetOnLoad": false,

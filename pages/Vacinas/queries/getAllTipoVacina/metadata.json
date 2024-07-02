@@ -36,14 +36,6 @@
           "value": "false"
         },
         {
-          "key": "pagination[page]",
-          "value": "{{tipos_vacinas_desativados.pageNo}}"
-        },
-        {
-          "key": "pagination[pageSize]",
-          "value": "6"
-        },
-        {
           "key": "fields[1]",
           "value": "tipo"
         }
@@ -69,9 +61,6 @@
       },
       {
         "key": "path"
-      },
-      {
-        "key": "queryParameters[1].value"
       }
     ],
     "isValid": true,
@@ -79,8 +68,7 @@
     "messages": [],
     "jsonPathKeys": [
       "appsmith.store.jwt",
-      "appsmith.store.url",
-      "tipos_vacinas_desativados.pageNo"
+      "appsmith.store.url"
     ],
     "userSetOnLoad": true,
     "confirmBeforeExecute": false,

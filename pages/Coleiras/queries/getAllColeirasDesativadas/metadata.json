@@ -40,14 +40,6 @@
           "value": "false"
         },
         {
-          "key": "pagination[page]",
-          "value": "{{coleiras_desativadas.pageNo}}"
-        },
-        {
-          "key": "pagination[pageSize]",
-          "value": "6"
-        },
-        {
           "key": "fields[0]",
           "value": "nome_produto"
         },
@@ -81,9 +73,6 @@
       },
       {
         "key": "path"
-      },
-      {
-        "key": "queryParameters[2].value"
       }
     ],
     "isValid": true,
@@ -91,8 +80,7 @@
     "messages": [],
     "jsonPathKeys": [
       "appsmith.store.jwt",
-      "appsmith.store.url",
-      "coleiras_desativadas.pageNo"
+      "appsmith.store.url"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

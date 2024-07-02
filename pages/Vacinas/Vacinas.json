@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 490,
+          "bottomRow": 460,
           "containerStyle": "none",
           "snapRows": 79,
           "parentRowSpace": 1,
@@ -28,32 +28,16 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Vacinas_getTipoVacina",
-              "name": "getTipoVacina",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "appsmith.store.jwt",
-                "appsmith.store.url"
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ],
-          [
-            {
               "id": "Vacinas_getAllTipoVacina",
               "name": "getAllTipoVacina",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
-                "tipos_vacinas_desativados.pageNo",
                 "appsmith.store.jwt",
                 "appsmith.store.url"
               ],
               "timeoutInMillisecond": 10000
-            }
-          ],
-          [
+            },
             {
               "id": "Vacinas_getAllVacina",
               "name": "getAllVacina",
@@ -61,7 +45,6 @@
               "pluginType": "API",
               "jsonPathKeys": [
                 "appsmith.store.jwt",
-                "nomes_vacinas_ativos.pageNo",
                 "appsmith.store.url"
               ],
               "timeoutInMillisecond": 10000
@@ -72,7 +55,17 @@
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
-                "nomes_vacinas_desativa.pageNo",
+                "appsmith.store.jwt",
+                "appsmith.store.url"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Vacinas_getTipoVacina",
+              "name": "getTipoVacina",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
                 "appsmith.store.jwt",
                 "appsmith.store.url"
               ],

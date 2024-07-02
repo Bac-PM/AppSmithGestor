@@ -43,14 +43,6 @@
         {
           "key": "filters[ativo]",
           "value": "true"
-        },
-        {
-          "key": "pagination[page]",
-          "value": "{{condutores_ativos.pageNo}}"
-        },
-        {
-          "key": "pagination[pageSize]",
-          "value": "8"
         }
       ],
       "body": "",
@@ -74,9 +66,6 @@
       },
       {
         "key": "path"
-      },
-      {
-        "key": "queryParameters[2].value"
       }
     ],
     "isValid": true,
@@ -84,8 +73,7 @@
     "messages": [],
     "jsonPathKeys": [
       "appsmith.store.jwt",
-      "appsmith.store.url",
-      "condutores_ativos.pageNo"
+      "appsmith.store.url"
     ],
     "userSetOnLoad": true,
     "confirmBeforeExecute": false,

@@ -34,7 +34,6 @@
               "pluginType": "API",
               "jsonPathKeys": [
                 "appsmith.store.jwt",
-                "ecto_ativos.pageNo",
                 "appsmith.store.url"
               ],
               "timeoutInMillisecond": 10000
@@ -45,7 +44,6 @@
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
-                "ecto_desativados.pageNo",
                 "appsmith.store.jwt",
                 "appsmith.store.url"
               ],

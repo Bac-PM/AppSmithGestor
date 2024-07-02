@@ -46,14 +46,6 @@
         {
           "key": "populate",
           "value": "*"
-        },
-        {
-          "key": "pagination[page]",
-          "value": "{{alertas_vacina.pageNo}}"
-        },
-        {
-          "key": "pagination[pageSize]",
-          "value": "8"
         }
       ],
       "body": "",
@@ -80,16 +72,12 @@
       },
       {
         "key": "queryParameters[1].value"
-      },
-      {
-        "key": "queryParameters[4].value"
       }
     ],
     "isValid": true,
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "alertas_vacina.pageNo",
       "appsmith.store.jwt",
       "appsmith.store.url",
       "seletor_animal.selectedOptionValue"

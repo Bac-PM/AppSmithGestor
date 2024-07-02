@@ -41,14 +41,6 @@
         {
           "key": "populate",
           "value": "*,nome_vacina.tipo_vacina,foto_etiqueta,animal"
-        },
-        {
-          "key": "pagination[page]",
-          "value": "{{vacinas_ativas.pageNo}}"
-        },
-        {
-          "key": "pagination[pageSize]",
-          "value": "6"
         }
       ],
       "body": "",
@@ -75,9 +67,6 @@
       },
       {
         "key": "queryParameters[0].value"
-      },
-      {
-        "key": "queryParameters[3].value"
       }
     ],
     "isValid": true,
@@ -86,8 +75,7 @@
     "jsonPathKeys": [
       "appsmith.store.jwt",
       "appsmith.store.url",
-      "seletor_animal.selectedOptionValue",
-      "vacinas_ativas.pageNo"
+      "seletor_animal.selectedOptionValue"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

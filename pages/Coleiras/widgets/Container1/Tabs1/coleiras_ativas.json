@@ -33,7 +33,7 @@
     "defaultSelectedRowIndex": 0,
     "flexVerticalAlignment": "start",
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-    "isVisibleFilters": true,
+    "isVisibleFilters": false,
     "isVisible": true,
     "enableClientSideSearch": true,
     "version": 2,
@@ -93,7 +93,7 @@
     "columnWidthMap": {
         "customColumn1": 94,
         "customColumn2": 105,
-        "duracao_em_dias": 486
+        "duracao_em_dias": 349
     },
     "parentRowSpace": 10,
     "hideCard": false,
@@ -329,7 +329,7 @@
     "label": "Data",
     "searchKey": "",
     "parentId": "oa4ctxmvvq",
-    "serverSidePaginationEnabled": true,
+    "serverSidePaginationEnabled": false,
     "renderMode": "CANVAS",
     "mobileTopRow": 0,
     "horizontalAlignment": "LEFT",

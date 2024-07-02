@@ -43,14 +43,6 @@
           "value": "1"
         },
         {
-          "key": "pagination[page]",
-          "value": "{{ectoparasiticidas_ativos.pageNo}}"
-        },
-        {
-          "key": "paginarion[pageSize]",
-          "value": "6"
-        },
-        {
           "key": "fields[0]",
           "value": "lembrete_em_dias"
         },
@@ -103,9 +95,6 @@
       },
       {
         "key": "queryParameters[0].value"
-      },
-      {
-        "key": "queryParameters[3].value"
       }
     ],
     "isValid": true,
@@ -114,7 +103,6 @@
     "jsonPathKeys": [
       "appsmith.store.jwt",
       "appsmith.store.url",
-      "ectoparasiticidas_ativos.pageNo",
       "seletor_animal.selectedOptionValue"
     ],
     "userSetOnLoad": false,

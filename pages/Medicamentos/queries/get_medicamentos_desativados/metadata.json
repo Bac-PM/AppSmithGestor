@@ -52,14 +52,6 @@
           "value": "Nome"
         },
         {
-          "key": "pagination[page]",
-          "value": "{{medicamentos_ativos.pageNo}}"
-        },
-        {
-          "key": "pagination[pageSize]",
-          "value": "8"
-        },
-        {
           "key": "fields[0]",
           "value": "nome"
         },
@@ -93,9 +85,6 @@
       },
       {
         "key": "path"
-      },
-      {
-        "key": "queryParameters[5].value"
       }
     ],
     "isValid": true,
@@ -103,8 +92,7 @@
     "messages": [],
     "jsonPathKeys": [
       "appsmith.store.jwt",
-      "appsmith.store.url",
-      "medicamentos_ativos.pageNo"
+      "appsmith.store.url"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

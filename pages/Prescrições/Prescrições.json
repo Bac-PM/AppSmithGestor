@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 640,
+          "bottomRow": 720,
           "containerStyle": "none",
           "snapRows": 79,
           "parentRowSpace": 1,
@@ -73,19 +73,6 @@
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "Prescrições_get_medicamento_animal",
-              "name": "get_medicamento_animal",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "seletor_animal.selectedOptionValue",
-                "appsmith.store.jwt",
-                "medicamentos_aplicados.pageNo",
-                "appsmith.store.url"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
               "id": "Prescrições_get_vermifugos",
               "name": "get_vermifugos",
               "confirmBeforeExecute": false,
@@ -134,6 +121,20 @@
           ],
           [
             {
+              "id": "Prescrições_get_medicamento_animal",
+              "name": "get_medicamento_animal",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "seletor_animal.selectedOptionValue",
+                "appsmith.store.jwt",
+                "appsmith.store.url"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
               "id": "Prescrições_get_coleiras_desativadas",
               "name": "get_coleiras_desativadas",
               "confirmBeforeExecute": false,
@@ -153,7 +154,6 @@
               "jsonPathKeys": [
                 "seletor_animal.selectedOptionValue",
                 "appsmith.store.jwt",
-                "ectoparasiticidas_ativos.pageNo",
                 "appsmith.store.url"
               ],
               "timeoutInMillisecond": 10000
@@ -166,7 +166,6 @@
               "jsonPathKeys": [
                 "seletor_animal.selectedOptionValue",
                 "appsmith.store.jwt",
-                "ectoparasiticidas_aplicados.pageNo",
                 "appsmith.store.url"
               ],
               "timeoutInMillisecond": 10000
@@ -179,8 +178,7 @@
               "jsonPathKeys": [
                 "seletor_animal.selectedOptionValue",
                 "appsmith.store.jwt",
-                "appsmith.store.url",
-                "vacinas_ativas.pageNo"
+                "appsmith.store.url"
               ],
               "timeoutInMillisecond": 10000
             },
@@ -192,7 +190,6 @@
               "jsonPathKeys": [
                 "seletor_animal.selectedOptionValue",
                 "appsmith.store.jwt",
-                "vacinas_aplicadas.pageNo",
                 "appsmith.store.url"
               ],
               "timeoutInMillisecond": 10000
@@ -205,7 +202,6 @@
               "jsonPathKeys": [
                 "seletor_animal.selectedOptionValue",
                 "appsmith.store.jwt",
-                "vermifugos_ativos.pageNo",
                 "appsmith.store.url"
               ],
               "timeoutInMillisecond": 10000
@@ -218,7 +214,6 @@
               "jsonPathKeys": [
                 "seletor_animal.selectedOptionValue",
                 "appsmith.store.jwt",
-                "vermifugos_aplicados.pageNo",
                 "appsmith.store.url"
               ],
               "timeoutInMillisecond": 10000

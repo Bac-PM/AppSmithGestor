@@ -33,7 +33,6 @@
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
-                "coleiras_ativas.pageNo",
                 "appsmith.store.jwt",
                 "appsmith.store.url"
               ],
@@ -45,7 +44,6 @@
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
-                "coleiras_desativadas.pageNo",
                 "appsmith.store.jwt",
                 "appsmith.store.url"
               ],

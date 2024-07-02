@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 540,
+          "bottomRow": 530,
           "containerStyle": "none",
           "snapRows": 79,
           "parentRowSpace": 1,
@@ -61,26 +61,12 @@
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "Medicamentos_get_unidade_dosagens",
-              "name": "get_unidade_dosagens",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "appsmith.store.jwt",
-                "appsmith.store.url"
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ],
-          [
-            {
               "id": "Medicamentos_get_medicamentos_ativos",
               "name": "get_medicamentos_ativos",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
                 "appsmith.store.jwt",
-                "medicamentos_ativos.pageNo",
                 "appsmith.store.url"
               ],
               "timeoutInMillisecond": 10000
@@ -92,7 +78,6 @@
               "pluginType": "API",
               "jsonPathKeys": [
                 "appsmith.store.jwt",
-                "medicamentos_ativos.pageNo",
                 "appsmith.store.url"
               ],
               "timeoutInMillisecond": 10000
@@ -103,7 +88,17 @@
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
-                "principios_ativos.pageNo",
+                "appsmith.store.jwt",
+                "appsmith.store.url"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Medicamentos_get_unidade_dosagens",
+              "name": "get_unidade_dosagens",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
                 "appsmith.store.jwt",
                 "appsmith.store.url"
               ],

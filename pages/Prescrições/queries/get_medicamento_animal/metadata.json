@@ -62,14 +62,6 @@
         {
           "key": "filters[aplicado]",
           "value": "true"
-        },
-        {
-          "key": "pagination[page]",
-          "value": "{{medicamentos_aplicados.pageNo}}"
-        },
-        {
-          "key": "pagination[pageSize]",
-          "value": "2"
         }
       ],
       "body": "",
@@ -96,9 +88,6 @@
       },
       {
         "key": "queryParameters[0].value"
-      },
-      {
-        "key": "queryParameters[8].value"
       }
     ],
     "isValid": true,
@@ -107,7 +96,6 @@
     "jsonPathKeys": [
       "appsmith.store.jwt",
       "appsmith.store.url",
-      "medicamentos_aplicados.pageNo",
       "seletor_animal.selectedOptionValue"
     ],
     "userSetOnLoad": true,

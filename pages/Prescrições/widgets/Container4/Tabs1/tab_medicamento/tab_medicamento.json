@@ -112,7 +112,7 @@
     "tags": ["Layout"],
     "isLoading": false,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 61,
+    "originalBottomRow": 53,
     "needsErrorInfo": false,
     "mobileBottomRow": 15,
     "widgetName": "tab_medicamento",

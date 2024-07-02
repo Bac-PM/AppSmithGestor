@@ -43,14 +43,6 @@
           "value": "3\n"
         },
         {
-          "key": "pagination[page]",
-          "value": "{{vermifugos_aplicados.pageNo}}"
-        },
-        {
-          "key": "pagination[pageSize]",
-          "value": "6"
-        },
-        {
           "key": "fields[0]",
           "value": "lembrete_em_dias"
         },
@@ -99,9 +91,6 @@
       },
       {
         "key": "queryParameters[0].value"
-      },
-      {
-        "key": "queryParameters[3].value"
       }
     ],
     "isValid": true,
@@ -110,8 +99,7 @@
     "jsonPathKeys": [
       "appsmith.store.jwt",
       "appsmith.store.url",
-      "seletor_animal.selectedOptionValue",
-      "vermifugos_aplicados.pageNo"
+      "seletor_animal.selectedOptionValue"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

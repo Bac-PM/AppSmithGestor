@@ -28,12 +28,22 @@
         "layoutOnLoadActions": [
           [
             {
+              "id": "Tarefas_getUsuario",
+              "name": "getUsuario",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "appsmith.store.jwt",
+                "appsmith.store.url"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
               "id": "Tarefas_get_tarefas",
               "name": "get_tarefas",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
-                "tarefas_ativas.pageNo",
                 "appsmith.store.jwt",
                 "appsmith.store.url"
               ],
@@ -45,7 +55,6 @@
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
-                "tarefas_executadas.pageNo",
                 "appsmith.store.jwt",
                 "appsmith.store.url"
               ],
@@ -59,7 +68,6 @@
               "jsonPathKeys": [
                 "appsmith.store.jwt",
                 "new Date()",
-                "tarefas_hoje.pageNo",
                 "appsmith.store.url"
               ],
               "timeoutInMillisecond": 10000

@@ -82,14 +82,6 @@
         {
           "key": "populate[foto_etiqueta][fields][0]",
           "value": "*"
-        },
-        {
-          "key": "pagination[page]",
-          "value": "{{alertas_vacina.pageNo}}"
-        },
-        {
-          "key": "pagination[pageSize]",
-          "value": "8"
         }
       ],
       "body": "",
@@ -113,16 +105,12 @@
       },
       {
         "key": "path"
-      },
-      {
-        "key": "queryParameters[13].value"
       }
     ],
     "isValid": true,
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "alertas_vacina.pageNo",
       "appsmith.store.jwt",
       "appsmith.store.url"
     ],

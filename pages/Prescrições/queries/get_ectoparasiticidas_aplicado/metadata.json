@@ -45,14 +45,6 @@
         {
           "key": "populate",
           "value": "*"
-        },
-        {
-          "key": "pagination[page]",
-          "value": "{{ectoparasiticidas_aplicados.pageNo}}"
-        },
-        {
-          "key": "pagination[pageSize]",
-          "value": "6"
         }
       ],
       "body": "",
@@ -79,9 +71,6 @@
       },
       {
         "key": "queryParameters[0].value"
-      },
-      {
-        "key": "queryParameters[4].value"
       }
     ],
     "isValid": true,
@@ -90,7 +79,6 @@
     "jsonPathKeys": [
       "appsmith.store.jwt",
       "appsmith.store.url",
-      "ectoparasiticidas_aplicados.pageNo",
       "seletor_animal.selectedOptionValue"
     ],
     "userSetOnLoad": false,

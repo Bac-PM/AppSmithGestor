@@ -34,7 +34,7 @@
     "defaultSelectedRowIndex": 0,
     "flexVerticalAlignment": "start",
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-    "isVisibleFilters": true,
+    "isVisibleFilters": false,
     "isVisible": true,
     "enableClientSideSearch": true,
     "version": 2,
@@ -44,6 +44,7 @@
         "Display"
     ],
     "isLoading": false,
+    "onSearchTextChanged": "{{get_tarefas.run()}}",
     "childStylesheet": {
         "button": {
             "boxShadow": "none",
@@ -98,12 +99,15 @@
     },
     "parentRowSpace": 10,
     "hideCard": false,
+    "onPageSizeChange": "",
     "mobileRightColumn": 34,
     "parentColumnSpace": 17.6396484375,
     "dynamicTriggerPathList": [
         {"key": "onPageChange"},
         {"key": "primaryColumns.customColumn2.onClick"},
-        {"key": "primaryColumns.customColumn1.onClick"}
+        {"key": "primaryColumns.customColumn1.onClick"},
+        {"key": "onPageSizeChange"},
+        {"key": "onSearchTextChanged"}
     ],
     "borderWidth": "1",
     "primaryColumns": {
@@ -405,6 +409,7 @@
             "verticalAlignment": "CENTER"
         }
     },
+    "defaultSearchText": "",
     "key": "0ah343w5iu",
     "canFreezeColumn": true,
     "isDeprecated": false,
@@ -417,7 +422,7 @@
     "label": "Data",
     "searchKey": "",
     "parentId": "5awaonjx3i",
-    "serverSidePaginationEnabled": true,
+    "serverSidePaginationEnabled": false,
     "renderMode": "CANVAS",
     "mobileTopRow": 0,
     "horizontalAlignment": "LEFT",

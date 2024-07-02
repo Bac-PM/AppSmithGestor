@@ -3,15 +3,15 @@
     "mobileBottomRow": 35,
     "widgetName": "erroPut",
     "dynamicPropertyPathList": [{"key": "isVisible"}],
-    "displayName": "Text",
     "iconSVG": "/static/media/icon.a55b701a2ae86aa2c6718ecb7b4083f0.svg",
+    "displayName": "Text",
+    "topRow": 31,
     "searchTags": [
         "typography",
         "paragraph",
         "label"
     ],
-    "topRow": 31,
-    "bottomRow": 35,
+    "bottomRow": 31,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -48,13 +48,15 @@
         "Suggested",
         "Content"
     ],
-    "renderMode": "CANVAS",
     "isLoading": false,
+    "renderMode": "CANVAS",
     "mobileTopRow": 31,
     "responsiveBehavior": "fill",
+    "originalTopRow": 31,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 37,
     "maxDynamicHeight": 9000,
+    "originalBottomRow": 35,
     "fontSize": "0.875rem",
     "minDynamicHeight": 4
 }

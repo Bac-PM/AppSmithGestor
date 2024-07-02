@@ -35,14 +35,6 @@
           "value": "true"
         },
         {
-          "key": "pagination[page]",
-          "value": "{{semoventes_ativos.pageNo}}"
-        },
-        {
-          "key": "pagination[pageSize]",
-          "value": "10"
-        },
-        {
           "key": "fields[0]",
           "value": "Nome"
         },
@@ -172,9 +164,6 @@
       },
       {
         "key": "headers[0].value"
-      },
-      {
-        "key": "queryParameters[1].value"
       }
     ],
     "isValid": true,
@@ -182,8 +171,7 @@
     "messages": [],
     "jsonPathKeys": [
       "appsmith.store.jwt",
-      "appsmith.store.url",
-      "semoventes_ativos.pageNo"
+      "appsmith.store.url"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

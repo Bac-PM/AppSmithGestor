@@ -28,32 +28,16 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Condutor_getUnidades",
-              "name": "getUnidades",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "appsmith.store.jwt",
-                "appsmith.store.url"
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ],
-          [
-            {
               "id": "Condutor_get",
               "name": "get",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
                 "appsmith.store.jwt",
-                "condutores_ativos.pageNo",
                 "appsmith.store.url"
               ],
               "timeoutInMillisecond": 10000
-            }
-          ],
-          [
+            },
             {
               "id": "Condutor_getCondutoresDesativados",
               "name": "getCondutoresDesativados",
@@ -61,7 +45,19 @@
               "pluginType": "API",
               "jsonPathKeys": [
                 "appsmith.store.jwt",
-                "condutores_desativados.pageNo",
+                "appsmith.store.url"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "Condutor_getUnidades",
+              "name": "getUnidades",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "appsmith.store.jwt",
                 "appsmith.store.url"
               ],
               "timeoutInMillisecond": 10000

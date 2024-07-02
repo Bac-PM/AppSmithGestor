@@ -34,13 +34,10 @@
               "pluginType": "API",
               "jsonPathKeys": [
                 "appsmith.store.jwt",
-                "unidades_ativas.pageNo",
                 "appsmith.store.url"
               ],
               "timeoutInMillisecond": 10000
-            }
-          ],
-          [
+            },
             {
               "id": "Unidades_getUnidadesDesativadas",
               "name": "getUnidadesDesativadas",
@@ -48,7 +45,6 @@
               "pluginType": "API",
               "jsonPathKeys": [
                 "appsmith.store.jwt",
-                "unidades_ativas.pageNo",
                 "appsmith.store.url"
               ],
               "timeoutInMillisecond": 10000

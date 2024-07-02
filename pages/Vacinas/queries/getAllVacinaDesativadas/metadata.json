@@ -35,14 +35,6 @@
           "value": "false"
         },
         {
-          "key": "pagination[page]",
-          "value": "{{nomes_vacinas_desativa.pageNo}}"
-        },
-        {
-          "key": "pagination[pageSize]",
-          "value": "6"
-        },
-        {
           "key": "fields[0]",
           "value": "nome"
         },
@@ -76,9 +68,6 @@
       },
       {
         "key": "headers[0].value"
-      },
-      {
-        "key": "queryParameters[1].value"
       }
     ],
     "isValid": true,
@@ -86,8 +75,7 @@
     "messages": [],
     "jsonPathKeys": [
       "appsmith.store.jwt",
-      "appsmith.store.url",
-      "nomes_vacinas_desativa.pageNo"
+      "appsmith.store.url"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
