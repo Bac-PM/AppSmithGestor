@@ -69,6 +69,10 @@
         {
           "key": "populate[tipo_aplicacao][fields][1]",
           "value": "duracao_em_dias"
+        },
+        {
+          "key": "populate[aplicado_por][fields][0]",
+          "value": "username"
         }
       ],
       "body": "",

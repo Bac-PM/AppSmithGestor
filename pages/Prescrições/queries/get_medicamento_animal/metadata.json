@@ -62,6 +62,10 @@
         {
           "key": "filters[aplicado]",
           "value": "true"
+        },
+        {
+          "key": "populate[aplicado_por][fields][0]",
+          "value": "username"
         }
       ],
       "body": "",

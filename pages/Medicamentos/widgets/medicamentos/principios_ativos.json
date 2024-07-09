@@ -80,7 +80,7 @@
         {"key": "primaryColumns.customColumn2.isDisabled"}
     ],
     "displayName": "Table",
-    "bottomRow": 47,
+    "bottomRow": 55,
     "columnWidthMap": {
         "customColumn2": 170,
         "Nome": 1029
@@ -205,7 +205,7 @@
     "thumbnailSVG": "/static/media/thumbnail.d0492f06681daa69baf92b07d3829dfc.svg",
     "widgetId": "bx2uc03h36",
     "minWidth": 450,
-    "tableData": "{{get_principio_ativo.data.data}}",
+    "tableData": "{{get_all_principios.data.data}}",
     "label": "Data",
     "searchKey": "",
     "parentId": "ygxrkhp9oa",

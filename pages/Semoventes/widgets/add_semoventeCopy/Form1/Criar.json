@@ -26,14 +26,14 @@
     "leftColumn": 52,
     "dynamicBindingPathList": [
         {"key": "isVisible"},
-        {"key": "buttonColor"},
-        {"key": "borderRadius"}
+        {"key": "buttonColor"}
     ],
     "text": "Criar",
     "isDisabled": false,
     "key": "r43kcp0fjx",
     "isDeprecated": false,
     "rightColumn": 64,
+    "borDerRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "isDefaultClickDisabled": true,
     "widgetId": "ahzhpjuy44",
     "bottomRowBeforeCollapse": 49,
@@ -49,7 +49,6 @@
     "responsiveBehavior": "hug",
     "originalTopRow": 45,
     "disabledWhenInvalid": true,
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 46,
     "originalBottomRow": 45,
     "buttonVariant": "PRIMARY",

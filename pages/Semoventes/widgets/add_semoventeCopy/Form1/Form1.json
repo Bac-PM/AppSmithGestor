@@ -30,12 +30,12 @@
         "topRow": 0,
         "bottomRow": 510,
         "parentRowSpace": 1,
+        "parentColUmnSpace": 1,
         "type": "CANVAS_WIDGET",
         "canExtend": false,
         "hideCard": true,
         "minHeight": 400,
         "mobileRightColumn": 417,
-        "parentColumnSpace": 1,
         "leftColumn": 0,
         "dynamicBindingPathList": [
             {"key": "borderRadius"},

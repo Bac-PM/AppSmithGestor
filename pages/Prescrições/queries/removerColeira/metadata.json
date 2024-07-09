@@ -36,7 +36,7 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{\n  \"data\": {\n    \"aplicado\": false\n  }\n}",
+      "body": "{\n  \"data\": {\n    \"aplicado\": false,\n\t\t\"aplicado_por\": {{appsmith.store.idUsuario}},\n\t\t\"data_proxima_aplicacao\": {{\n(function() {\n  const dataAtual = new Date();\n\treturn dataAtual;\n})();\n}}\n  }\n}",
       "bodyFormData": [],
       "httpMethod": "PUT",
       "httpVersion": "HTTP11",
@@ -57,12 +57,17 @@
       },
       {
         "key": "path"
+      },
+      {
+        "key": "body"
       }
     ],
     "isValid": true,
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
+      "\n(function() {\n  const dataAtual = new Date();\n\treturn dataAtual;\n})();\n",
+      "appsmith.store.idUsuario",
       "appsmith.store.jwt",
       "appsmith.store.url",
       "coleiras_ativas.triggeredRow.id"

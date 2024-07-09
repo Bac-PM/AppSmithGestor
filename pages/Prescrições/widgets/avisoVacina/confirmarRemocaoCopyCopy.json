@@ -3,7 +3,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 22,
     "widgetName": "confirmarRemocaoCopyCopy",
-    "onClick": "{{aplicaAnimalVacina.run().then(() => {\n\tget_vacinas_animal.run();\n  closeModal('avisoVacina');\n}).catch(error => {\n //aplicaAnimalVacina.data.error.details.errors.forEach(element => {\n   //showAlert(JSON.stringify(element.message), 'error');\n//});\n});}}",
+    "onClick": "{{aplicaAnimalVacina.run().then(() => {\n\tget_vacinas_animal.run();\n\tget_vacinas_aplicadas.run();\n  closeModal('avisoVacina');\n}).catch(error => {\n //aplicaAnimalVacina.data.error.details.errors.forEach(element => {\n   //showAlert(JSON.stringify(element.message), 'error');\n//});\n});}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "dynamicPropertyPathList": [{"key": "onClick"}],
     "displayName": "Button",

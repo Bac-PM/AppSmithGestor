@@ -29,8 +29,6 @@
         {"key": "accentColor"},
         {"key": "borderRadius"},
         {"key": "boxShadow"},
-        {"key": "primaryColumns.customColumn5.isCellVisible"},
-        {"key": "primaryColumns.customColumn5.isDisabled"},
         {"key": "primaryColumns.customColumn4.isCellVisible"},
         {"key": "primaryColumns.customColumn4.isDisabled"}
     ],
@@ -97,8 +95,6 @@
     "dynamicPropertyPathList": [
         {"key": "tableData"},
         {"key": "primaryColumns.customColumn4.onClick"},
-        {"key": "primaryColumns.customColumn5.isCellVisible"},
-        {"key": "primaryColumns.customColumn5.isDisabled"},
         {"key": "primaryColumns.customColumn4.isCellVisible"},
         {"key": "primaryColumns.customColumn4.isDisabled"}
     ],
@@ -422,10 +418,10 @@
             "enableSort": true,
             "isSaveVisible": true,
             "id": "customColumn5",
-            "isDisabled": "{{vermifugos_ativos.processedTableData.map((currentRow, currentIndex) => ( \n(function() {if(appsmith.store.roleAtual == \"Tratador\"){\n\t\treturn true;\n\t}\n\telse{\n\t\treturn false;\n\t}\t\t\t \n})()\n))}}",
+            "isDisabled": false,
             "allowSameOptionsInNewRow": true,
             "validation": {},
-            "isCellVisible": "{{vermifugos_ativos.processedTableData.map((currentRow, currentIndex) => ( \n(function() {if(appsmith.store.roleAtual == \"Tratador\"){\n\t\treturn false;\n\t}\n\telse{\n\t\treturn true;\n\t}\t\t\t \n})()\n))}}",
+            "isCellVisible": true,
             "isDerived": true,
             "textSize": "0.875rem",
             "iconName": "tick",

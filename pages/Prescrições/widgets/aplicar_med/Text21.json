@@ -20,7 +20,7 @@
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
     "parentColumnSpace": 6.9375,
     "dynamicTriggerPathList": [],
-    "leftColumn": 8,
+    "leftColumn": 9,
     "dynamicBindingPathList": [
         {"key": "text"},
         {"key": "fontFamily"}
@@ -30,7 +30,7 @@
     "text": "{{(function() {\n\tconst data_ini = medicamentos_ativos.triggeredItem.data_inicio;\n    // Divide a data pelo caractere '-'\n  const partes_inicio = data_ini.split('-');\n    // Rearranja as partes no formato dia/mes/ano\n  const data_ini_formatada = `${partes_inicio[2]}/${partes_inicio[1]}/${partes_inicio[0]}`;\n\treturn data_ini_formatada;\n})()\n}} - {{(function() {\n\tconst data_fim = medicamentos_ativos.triggeredItem.data_fim;\n    // Divide a data pelo caractere '-'\n  const partes_fim = data_fim.split('-');\n    // Rearranja as partes no formato dia/mes/ano\n  const data_fim_formatada = `${partes_fim[2]}/${partes_fim[1]}/${partes_fim[0]}`;\n\treturn data_fim_formatada;\n})()\n}}",
     "key": "z1yw58zsby",
     "isDeprecated": false,
-    "rightColumn": 44,
+    "rightColumn": 45,
     "thumbnailSVG": "/static/media/thumbnail.0c129b82c9b3e4cd4920563b289659ab.svg",
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",

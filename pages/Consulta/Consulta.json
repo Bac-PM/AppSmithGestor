@@ -28,6 +28,18 @@
         "layoutOnLoadActions": [
           [
             {
+              "id": "Consulta_JSObject2.myFun1",
+              "name": "JSObject2.myFun1",
+              "collectionId": "Consulta_JSObject2",
+              "clientSideExecution": true,
+              "confirmBeforeExecute": false,
+              "pluginType": "JS",
+              "jsonPathKeys": [
+                "function () {\n  showModal('Modal1');\n}"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
               "id": "Consulta_get_all_animals_someventes",
               "name": "get_all_animals_someventes",
               "confirmBeforeExecute": false,

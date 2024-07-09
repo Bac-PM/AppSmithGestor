@@ -70,7 +70,7 @@
         }
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "columnUpdatedAt": 1719859592804,
+    "columnUpdatedAt": 1720020009628,
     "defaultSelectedRowIndices": [0],
     "mobileBottomRow": 28,
     "widgetName": "alertas_vacina",

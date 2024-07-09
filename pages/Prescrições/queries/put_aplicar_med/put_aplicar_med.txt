@@ -1,5 +1,6 @@
 {
   "data": {
-		"aplicado": true
+		"aplicado": true,
+		"aplicado_por": {{appsmith.store.idUsuario}}
 		}
 }

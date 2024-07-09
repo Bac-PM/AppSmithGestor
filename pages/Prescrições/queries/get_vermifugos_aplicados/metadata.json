@@ -65,6 +65,10 @@
         {
           "key": "populate[tipo_aplicacao][fields][0]",
           "value": "nome_produto"
+        },
+        {
+          "key": "populate[aplicado_por][fields][0]",
+          "value": "username"
         }
       ],
       "body": "",

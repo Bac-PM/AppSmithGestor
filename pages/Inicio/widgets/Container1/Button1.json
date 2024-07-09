@@ -3,7 +3,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 28,
     "widgetName": "Button1",
-    "onClick": "{{LoginLib.run(() => { \n\t\n\tconst jwt = LoginLib?.data?.jwt;\t\t\t\t \nif(jwt){\n\tstoreValue('jwt' , jwt);\n\tstoreValue('url', getURL.getUrl.data);\n\tget_user.run().then(() => {\n  storeValue('roleAtual', get_user.data.role.name);\n\t\tset_store_role.myFun1();\n\tnavigateTo(\"Semoventes\")\n\t\t});\n  }else{\n\t\tshowModal(\"Credenciais invalidas\");\n\t}\n}).catch(() =>{\terrorWidget.setText(\"Email ou senha inválidos\"); \n})}}\n",
+    "onClick": "{{LoginLib.run(() => { \n\t\n\tconst jwt = LoginLib?.data?.jwt;\t\t\t\t \nif(jwt){\n\tstoreValue('jwt' , jwt);\n\tstoreValue('url', getURL.getUrl.data);\n\tget_user.run().then(() => {\n  storeValue('roleAtual', get_user.data.role.name);\n\t\tstoreValue('idUsuario', get_user.data.id);\n\t\tset_store_role.myFun1();\n\tnavigateTo(\"Semoventes\")\n\t\t});\n  }else{\n\t\tshowModal(\"Credenciais invalidas\");\n\t}\n}).catch(() =>{\terrorWidget.setText(\"Email ou senha inválidos\"); \n})}}\n",
     "buttonColor": "rgb(48, 73, 136)",
     "dynamicPropertyPathList": [{"key": "onClick"}],
     "displayName": "Button",

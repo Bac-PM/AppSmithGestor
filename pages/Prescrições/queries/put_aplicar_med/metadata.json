@@ -36,7 +36,7 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{\n  \"data\": {\n\t\t\"aplicado\": true\n\t\t}\n}\n",
+      "body": "{\n  \"data\": {\n\t\t\"aplicado\": true,\n\t\t\"aplicado_por\": {{appsmith.store.idUsuario}}\n\t\t}\n}\n",
       "bodyFormData": [],
       "httpMethod": "PUT",
       "httpVersion": "HTTP11",
@@ -57,12 +57,16 @@
       },
       {
         "key": "path"
+      },
+      {
+        "key": "body"
       }
     ],
     "isValid": true,
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
+      "appsmith.store.idUsuario",
       "appsmith.store.jwt",
       "appsmith.store.url",
       "medicamentos_ativos.triggeredItem.id"

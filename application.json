@@ -9,22 +9,6 @@
       "isDefault": false
     },
     {
-      "id": "Usuários",
-      "isDefault": false
-    },
-    {
-      "id": "Condutor",
-      "isDefault": false
-    },
-    {
-      "id": "Unidades",
-      "isDefault": false
-    },
-    {
-      "id": "Alertas",
-      "isDefault": false
-    },
-    {
       "id": "Prescrições",
       "isDefault": false
     },
@@ -33,15 +17,11 @@
       "isDefault": false
     },
     {
-      "id": "Tarefas",
+      "id": "Vacinas",
       "isDefault": false
     },
     {
       "id": "Medicamentos",
-      "isDefault": false
-    },
-    {
-      "id": "Vermífugos",
       "isDefault": false
     },
     {
@@ -53,7 +33,27 @@
       "isDefault": false
     },
     {
-      "id": "Vacinas",
+      "id": "Vermífugos",
+      "isDefault": false
+    },
+    {
+      "id": "Alertas",
+      "isDefault": false
+    },
+    {
+      "id": "Unidades",
+      "isDefault": false
+    },
+    {
+      "id": "Condutor",
+      "isDefault": false
+    },
+    {
+      "id": "Usuários",
+      "isDefault": false
+    },
+    {
+      "id": "Tarefas",
       "isDefault": false
     },
     {
@@ -85,7 +85,7 @@
       "itemStyle": "text",
       "colorStyle": "light",
       "logoAssetId": "",
-      "logoConfiguration": "logoAndApplicationTitle",
+      "logoConfiguration": "logoOnly",
       "showSignIn": false
     }
   },
@@ -104,6 +104,11 @@
   "publishedCustomJSLibs": [],
   "evaluationVersion": 2,
   "applicationVersion": 2,
+  "embedSetting": {
+    "height": "720px",
+    "width": "1024px",
+    "showNavigationBar": true
+  },
   "collapseInvisibleWidgets": true,
   "isManualUpdate": false,
   "deleted": false

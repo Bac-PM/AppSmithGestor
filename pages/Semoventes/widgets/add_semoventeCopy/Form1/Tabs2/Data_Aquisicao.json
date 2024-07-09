@@ -8,10 +8,10 @@
     "animateLoading": true,
     "leftColumn": 32,
     "dynamicBindingPathList": [
-        {"key": "accentColor"},
-        {"key": "borderRadius"},
         {"key": "minDate"},
-        {"key": "maxDate"}
+        {"key": "maxDate"},
+        {"key": "accentColor"},
+        {"key": "borderRadius"}
     ],
     "labelTooltip": "",
     "isDisabled": false,

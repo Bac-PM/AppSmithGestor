@@ -6,12 +6,13 @@
     "labelWidth": 5,
     "type": "SELECT_WIDGET",
     "serverSideFiltering": false,
-    "defaultOptionValue": "",
+    "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( seletor_animalCopy.selectedOptionValue))(seletor_animal.options, seletor_animal.serverSideFiltering) }}",
     "animateLoading": true,
     "leftColumn": 0,
     "dynamicBindingPathList": [
         {"key": "sourceData"},
-        {"key": "borderRadius"}
+        {"key": "borderRadius"},
+        {"key": "defaultOptionValue"}
     ],
     "placeholderText": "Selecione um semovente",
     "isDisabled": false,

@@ -81,6 +81,10 @@
         {
           "key": "populate[foto_etiqueta][fields][0]",
           "value": "*"
+        },
+        {
+          "key": "populate[aplicado_por][fields][0]",
+          "value": "username"
         }
       ],
       "body": "",

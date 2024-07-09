@@ -1,5 +1,12 @@
 {
   "data": {
-    "aplicado": false
+    "aplicado": false,
+		"aplicado_por": {{appsmith.store.idUsuario}},
+		"data_proxima_aplicacao": {{
+(function() {
+  const dataAtual = new Date();
+	return dataAtual;
+})();
+}}
   }
 }

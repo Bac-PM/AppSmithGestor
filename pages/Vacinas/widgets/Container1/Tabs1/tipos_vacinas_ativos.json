@@ -156,7 +156,7 @@
     "thumbnailSVG": "/static/media/thumbnail.d0492f06681daa69baf92b07d3829dfc.svg",
     "widgetId": "xhclewcymo",
     "minWidth": 450,
-    "tableData": "{{getTipoVacinaTable.data.data}}",
+    "tableData": "{{getTipoVacina.data.data}}",
     "label": "Data",
     "searchKey": "",
     "parentId": "um9w2b69qm",

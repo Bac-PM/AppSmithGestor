@@ -94,7 +94,7 @@
         {"key": "primaryColumns.customColumn2.isDisabled"}
     ],
     "displayName": "Table",
-    "bottomRow": 43,
+    "bottomRow": 55,
     "columnWidthMap": {
         "classificacao_medicamentos": 533,
         "apresentacao_medicamento": 163,

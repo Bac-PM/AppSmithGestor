@@ -1,5 +1,6 @@
 {
 	"aplicado":true,
+	"aplicado_por": {{appsmith.store.idUsuario}},
 	"data_aplicacao":{{
 (function() {
   const dataAtual = new Date();

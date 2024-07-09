@@ -37,6 +37,10 @@
         {
           "key": "fields[1]",
           "value": "id"
+        },
+        {
+          "key": "filters[ativo]",
+          "value": "true"
         }
       ],
       "body": "",

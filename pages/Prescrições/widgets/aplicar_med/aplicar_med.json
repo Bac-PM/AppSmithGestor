@@ -17,7 +17,7 @@
     "type": "MODAL_WIDGET",
     "hideCard": false,
     "shouldScrollContents": true,
-    "minHeight": 240,
+    "minHeight": 230,
     "mobileRightColumn": 28,
     "animateLoading": true,
     "parentColumnSpace": 19.234375,
