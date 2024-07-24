@@ -28,6 +28,91 @@
         "layoutOnLoadActions": [
           [
             {
+              "id": "Alertas_medicamentosFiltrados.getTodosMedicamentosAnimal",
+              "name": "medicamentosFiltrados.getTodosMedicamentosAnimal",
+              "collectionId": "Alertas_medicamentosFiltrados",
+              "confirmBeforeExecute": false,
+              "pluginType": "JS",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "Alertas_produtosFiltrados.getTodosColeiraAnimal",
+              "name": "produtosFiltrados.getTodosColeiraAnimal",
+              "collectionId": "Alertas_produtosFiltrados",
+              "confirmBeforeExecute": false,
+              "pluginType": "JS",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Alertas_produtosFiltrados.getTodosEctoAnimal",
+              "name": "produtosFiltrados.getTodosEctoAnimal",
+              "collectionId": "Alertas_produtosFiltrados",
+              "confirmBeforeExecute": false,
+              "pluginType": "JS",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Alertas_produtosFiltrados.getTodosVacinaAnimal",
+              "name": "produtosFiltrados.getTodosVacinaAnimal",
+              "collectionId": "Alertas_produtosFiltrados",
+              "confirmBeforeExecute": false,
+              "pluginType": "JS",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Alertas_produtosFiltrados.getTodosVermifugosAnimal",
+              "name": "produtosFiltrados.getTodosVermifugosAnimal",
+              "collectionId": "Alertas_produtosFiltrados",
+              "confirmBeforeExecute": false,
+              "pluginType": "JS",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Alertas_produtosFiltrados.getUmColeiraAnimal",
+              "name": "produtosFiltrados.getUmColeiraAnimal",
+              "collectionId": "Alertas_produtosFiltrados",
+              "confirmBeforeExecute": false,
+              "pluginType": "JS",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Alertas_produtosFiltrados.getUmEctoAnimal",
+              "name": "produtosFiltrados.getUmEctoAnimal",
+              "collectionId": "Alertas_produtosFiltrados",
+              "confirmBeforeExecute": false,
+              "pluginType": "JS",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Alertas_produtosFiltrados.getUmVacinaAnimal",
+              "name": "produtosFiltrados.getUmVacinaAnimal",
+              "collectionId": "Alertas_produtosFiltrados",
+              "confirmBeforeExecute": false,
+              "pluginType": "JS",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Alertas_produtosFiltrados.getUmVermifugoAnimal",
+              "name": "produtosFiltrados.getUmVermifugoAnimal",
+              "collectionId": "Alertas_produtosFiltrados",
+              "confirmBeforeExecute": false,
+              "pluginType": "JS",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
               "id": "Alertas_getAllAlertasAtrasados",
               "name": "getAllAlertasAtrasados",
               "confirmBeforeExecute": false,
@@ -65,76 +150,6 @@
           ],
           [
             {
-              "id": "Alertas_getTodosAlertaColeira",
-              "name": "getTodosAlertaColeira",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "appsmith.store.jwt",
-                "appsmith.store.url"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Alertas_getTodosAlertaVacina",
-              "name": "getTodosAlertaVacina",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "appsmith.store.jwt",
-                "appsmith.store.url"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Alertas_getTodosEctoparasiticida",
-              "name": "getTodosEctoparasiticida",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "appsmith.store.jwt",
-                "appsmith.store.url"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Alertas_getTodosVermifugos",
-              "name": "getTodosVermifugos",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "appsmith.store.jwt",
-                "appsmith.store.url"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Alertas_get_all_med",
-              "name": "get_all_med",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "appsmith.store.jwt",
-                "appsmith.store.url"
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ],
-          [
-            {
-              "id": "Alertas_medicamentosFiltrados.getTodosMedicamentosAnimal",
-              "name": "medicamentosFiltrados.getTodosMedicamentosAnimal",
-              "collectionId": "Alertas_medicamentosFiltrados",
-              "confirmBeforeExecute": false,
-              "pluginType": "JS",
-              "jsonPathKeys": [
-                "async function () {\n  await get_all_med.run();\n  const hoje = moment();\n  return get_all_med.data.data.filter(tarefa => medicamentosFiltrados.isTarefaValida(tarefa, hoje));\n}"
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ],
-          [
-            {
               "id": "Alertas_getAllAlertasAtrasadosUmCao",
               "name": "getAllAlertasAtrasadosUmCao",
               "confirmBeforeExecute": false,
@@ -156,156 +171,6 @@
                 "seletor_animal.selectedOptionValue",
                 "appsmith.store.jwt",
                 "new Date()",
-                "appsmith.store.url"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Alertas_produtosFiltrados.getTodosColeiraAnimal",
-              "name": "produtosFiltrados.getTodosColeiraAnimal",
-              "collectionId": "Alertas_produtosFiltrados",
-              "confirmBeforeExecute": false,
-              "pluginType": "JS",
-              "jsonPathKeys": [
-                "async function () {\n  await getTodosAlertaColeira.run();\n  const hoje = moment();\n  return getTodosAlertaColeira.data.data.filter(tarefa => produtosFiltrados.isTarefaValida(tarefa, hoje));\n}"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Alertas_produtosFiltrados.getTodosEctoAnimal",
-              "name": "produtosFiltrados.getTodosEctoAnimal",
-              "collectionId": "Alertas_produtosFiltrados",
-              "confirmBeforeExecute": false,
-              "pluginType": "JS",
-              "jsonPathKeys": [
-                "async function () {\n  await getTodosEctoparasiticida.run();\n  const hoje = moment();\n  return getTodosEctoparasiticida.data.data.filter(tarefa => produtosFiltrados.isTarefaValida(tarefa, hoje));\n}"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Alertas_produtosFiltrados.getTodosVacinaAnimal",
-              "name": "produtosFiltrados.getTodosVacinaAnimal",
-              "collectionId": "Alertas_produtosFiltrados",
-              "confirmBeforeExecute": false,
-              "pluginType": "JS",
-              "jsonPathKeys": [
-                "async function () {\n  await getTodosAlertaVacina.run();\n  const hoje = moment();\n  return getTodosAlertaVacina.data.data.filter(tarefa => produtosFiltrados.isTarefaValida(tarefa, hoje));\n}"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Alertas_produtosFiltrados.getTodosVermifugosAnimal",
-              "name": "produtosFiltrados.getTodosVermifugosAnimal",
-              "collectionId": "Alertas_produtosFiltrados",
-              "confirmBeforeExecute": false,
-              "pluginType": "JS",
-              "jsonPathKeys": [
-                "async function () {\n  await getTodosVermifugos.run();\n  const hoje = moment();\n  return getTodosVermifugos.data.data.filter(tarefa => produtosFiltrados.isTarefaValida(tarefa, hoje));\n}"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Alertas_produtosFiltrados.getUmColeiraAnimal",
-              "name": "produtosFiltrados.getUmColeiraAnimal",
-              "collectionId": "Alertas_produtosFiltrados",
-              "confirmBeforeExecute": false,
-              "pluginType": "JS",
-              "jsonPathKeys": [
-                "async function () {\n  await getAlertaColeiraUmCao.run();\n  const hoje = moment();\n  return getAlertaColeiraUmCao.data.data.filter(tarefa => produtosFiltrados.isTarefaValida(tarefa, hoje));\n}"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Alertas_produtosFiltrados.getUmEctoAnimal",
-              "name": "produtosFiltrados.getUmEctoAnimal",
-              "collectionId": "Alertas_produtosFiltrados",
-              "confirmBeforeExecute": false,
-              "pluginType": "JS",
-              "jsonPathKeys": [
-                "async function () {\n  await get_ectoparasiticidaDeCao.run();\n  const hoje = moment();\n  return get_ectoparasiticidaDeCao.data.data.filter(tarefa => produtosFiltrados.isTarefaValida(tarefa, hoje));\n}"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Alertas_produtosFiltrados.getUmVacinaAnimal",
-              "name": "produtosFiltrados.getUmVacinaAnimal",
-              "collectionId": "Alertas_produtosFiltrados",
-              "confirmBeforeExecute": false,
-              "pluginType": "JS",
-              "jsonPathKeys": [
-                "async function () {\n  await getAlertaVacina.run();\n  const hoje = moment();\n  return getAlertaVacina.data.data.filter(tarefa => produtosFiltrados.isTarefaValida(tarefa, hoje));\n}"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Alertas_produtosFiltrados.getUmVermifugoAnimal",
-              "name": "produtosFiltrados.getUmVermifugoAnimal",
-              "collectionId": "Alertas_produtosFiltrados",
-              "confirmBeforeExecute": false,
-              "pluginType": "JS",
-              "jsonPathKeys": [
-                "async function () {\n  await get_vermifugosDeCao.run();\n  const hoje = moment();\n  return get_vermifugosDeCao.data.data.filter(tarefa => produtosFiltrados.isTarefaValida(tarefa, hoje));\n}"
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ],
-          [
-            {
-              "id": "Alertas_getAlertaColeiraUmCao",
-              "name": "getAlertaColeiraUmCao",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "seletor_animal.selectedOptionValue",
-                "appsmith.store.jwt",
-                "appsmith.store.url"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Alertas_getAlertaVacina",
-              "name": "getAlertaVacina",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "seletor_animal.selectedOptionValue",
-                "appsmith.store.jwt",
-                "appsmith.store.url"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Alertas_get_ectoparasiticidaDeCao",
-              "name": "get_ectoparasiticidaDeCao",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "seletor_animal.selectedOptionValue",
-                "appsmith.store.jwt",
-                "appsmith.store.url"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Alertas_get_medicamento_animal",
-              "name": "get_medicamento_animal",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "seletor_animal.selectedOptionValue",
-                "appsmith.store.jwt",
-                "appsmith.store.url"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Alertas_get_vermifugosDeCao",
-              "name": "get_vermifugosDeCao",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "seletor_animal.selectedOptionValue",
-                "appsmith.store.jwt",
                 "appsmith.store.url"
               ],
               "timeoutInMillisecond": 10000

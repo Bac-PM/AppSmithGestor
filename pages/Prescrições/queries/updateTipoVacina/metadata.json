@@ -36,7 +36,7 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{\n  \"data\": {\n    \"data_proxima_aplicacao\": {{atualizaDataProximaDose.selectedDate}},\n\t\t\"anotacoes\" : {{atualizaObservacao.text}},\n\t\t\"lembrete_em_dias\" : {{atualizaLembreteDias.selectedOptionValue}},\n\t\t\"dose_atual\" : {{atualizaDoseAtual.text}},\n\t\t\"animal\": {{seletor_animal.selectedOptionValue}},\n\t\t\"foto_etiqueta\": {{parseInt(FotoId.text)}},\n\t\t\"doses_totais\": {{atualizaDoseTotal.text}},\n\t\t\"nome_vacina\": {{atualizaNomeVacina.selectedOptionValue}},\n\t\t\"intervalo_entre_doses\": {{atualizaDiasEntreDoses.text}}\n  }\n}\n",
+      "body": "{\n    \"data_proxima_aplicacao\": {{atualizaDataProximaDose.selectedDate}},\n\t\t\"anotacoes\" : {{atualizaObservacao.text}},\n\t\t\"lembrete_em_dias\" : {{atualizaLembreteDias.selectedOptionValue}},\n\t\t\"dose_atual\" : {{atualizaDoseAtual.text}},\n\t\t\"animal\": {{seletor_animal.selectedOptionValue}},\n\t\t\"foto_etiqueta\": {{parseInt(FotoId.text)}},\n\t\t\"doses_totais\": {{atualizaDoseTotal.text}},\n\t\t\"nome_vacina\": {{atualizaNomeVacina.selectedOptionValue}},\n\t\t\"intervalo_entre_doses\": {{atualizaDiasEntreDoses.text}}\n}\n",
       "bodyFormData": [],
       "httpMethod": "PUT",
       "selfReferencingDataPaths": [],

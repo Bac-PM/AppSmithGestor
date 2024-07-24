@@ -49,19 +49,6 @@
               ],
               "timeoutInMillisecond": 10000
             }
-          ],
-          [
-            {
-              "id": "Usuários_getRoles",
-              "name": "getRoles",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "appsmith.store.jwt",
-                "appsmith.store.url"
-              ],
-              "timeoutInMillisecond": 10000
-            }
           ]
         ],
         "layoutOnLoadActionErrors": [],

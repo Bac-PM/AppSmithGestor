@@ -68,7 +68,7 @@
         }
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "columnUpdatedAt": 1720204950467,
+    "columnUpdatedAt": 1721844719645,
     "originalBottomRow": 60,
     "defaultSelectedRowIndices": [0],
     "needsErrorInfo": false,
@@ -264,7 +264,7 @@
             "allowCellWrapping": false,
             "index": 1,
             "isDiscardVisible": true,
-            "isVisible": true,
+            "isVisible": false,
             "label": "Próxima Aplicação",
             "columnType": "date",
             "thousandSeparator": true,
@@ -473,7 +473,7 @@
             "verticalAlignment": "CENTER"
         },
         "doses_totais": {
-            "computedValue": "{{vacinas_aplicadas.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"doses_totais\"]))}}",
+            "computedValue": "{{vacinas_aplicadas.processedTableData.map((currentRow, currentIndex) => ( \nfunction(){\n\tif(currentRow.doses_totais === 0){\nreturn \"Dose Anual\"\n  }else return currentRow.doses_totais}()))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "doses_totais",

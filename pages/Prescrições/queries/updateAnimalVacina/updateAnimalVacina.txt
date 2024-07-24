@@ -3,7 +3,7 @@
     "lembrete_em_dias": {{atualizaLembreteDias.selectedOptionValue}},
     "dose_atual": {{atualizaDoseAtual.text}},
     "animal": {{seletor_animal.selectedOptionValue}},
-    "tipo_vacina": {{updateTipoVacina.data.data.id}},
+    "nome_vacina": {{atualizaNomeVacina.selectedOptionValue}}, 
 		"observacao": {{atualizaObservacao.text}}
 }
 

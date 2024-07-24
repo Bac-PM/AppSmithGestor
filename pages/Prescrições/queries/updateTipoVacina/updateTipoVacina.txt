@@ -1,5 +1,4 @@
 {
-  "data": {
     "data_proxima_aplicacao": {{atualizaDataProximaDose.selectedDate}},
 		"anotacoes" : {{atualizaObservacao.text}},
 		"lembrete_em_dias" : {{atualizaLembreteDias.selectedOptionValue}},
@@ -9,5 +8,4 @@
 		"doses_totais": {{atualizaDoseTotal.text}},
 		"nome_vacina": {{atualizaNomeVacina.selectedOptionValue}},
 		"intervalo_entre_doses": {{atualizaDiasEntreDoses.text}}
-  }
 }

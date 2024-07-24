@@ -34,9 +34,7 @@
               "clientSideExecution": true,
               "confirmBeforeExecute": false,
               "pluginType": "JS",
-              "jsonPathKeys": [
-                "function () {\n  showModal('Modal1');\n}"
-              ],
+              "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
             },
             {

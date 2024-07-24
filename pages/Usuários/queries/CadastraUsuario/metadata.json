@@ -36,7 +36,7 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "",
+      "body": "{\n  \"data\": {\n    \"username\": {{InsereNome.text}},\n\t\t\"email\": {{InsereEmail.text}},\n\t\t\"password\": {{InsereSenha.text}},\n\t\t\"cpf\": {{InsereCpf.text}}\n  }\n}",
       "bodyFormData": [
         {
           "key": "username",
@@ -95,6 +95,10 @@
       "FormeCadastroUsuario.data.InsereEmail",
       "FormeCadastroUsuario.data.InsereNome",
       "FormeCadastroUsuario.data.InsereSenha",
+      "InsereCpf.text",
+      "InsereEmail.text",
+      "InsereNome.text",
+      "InsereSenha.text",
       "appsmith.store.jwt",
       "appsmith.store.url"
     ],

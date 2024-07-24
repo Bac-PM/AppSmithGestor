@@ -8,6 +8,7 @@
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
+        "sshProxyEnabled": false,
         "url": ""
       },
       "invalids": [],
@@ -69,7 +70,7 @@
         "apiContentType": "text/plain"
       }
     },
-    "executeOnLoad": true,
+    "executeOnLoad": false,
     "dynamicBindingPathList": [
       {
         "key": "path"

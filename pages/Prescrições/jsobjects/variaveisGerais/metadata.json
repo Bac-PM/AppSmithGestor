@@ -1,0 +1,20 @@
+{
+  "unpublishedCollection": {
+    "name": "variaveisGerais",
+    "pageId": "Prescrições",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [
+      {
+        "name": "doseAnual",
+        "value": "0"
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "Prescrições_variaveisGerais",
+  "deleted": false,
+  "gitSyncId": "66969fcbc5ee223b0cd328ea_f7243fca-8f55-40c7-b13f-7a033bb73bcc"
+}
