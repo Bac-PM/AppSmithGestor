@@ -1,91 +1,32 @@
 {
+  "gitSyncId": "664b91393d0ee46738b29c21_6669d2c3721e40404f82815c",
   "unpublishedPage": {
-    "name": "Tarefas",
-    "slug": "tarefas",
+    "isHidden": false,
     "layouts": [
       {
-        "viewMode": false,
         "dsl": {
-          "widgetName": "MainContainer",
           "backgroundColor": "none",
-          "rightColumn": 1224,
-          "snapColumns": 64,
-          "detachFromLayout": true,
-          "widgetId": "0",
-          "topRow": 0,
           "bottomRow": 550,
-          "containerStyle": "none",
-          "snapRows": 79,
-          "parentRowSpace": 1,
-          "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 89,
+          "containerStyle": "none",
+          "detachFromLayout": true,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0,
           "minHeight": 810,
           "parentColumnSpace": 1,
-          "dynamicBindingPathList": [],
-          "leftColumn": 0
-        },
-        "layoutOnLoadActions": [
-          [
-            {
-              "id": "Tarefas_getUsuario",
-              "name": "getUsuario",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "appsmith.store.jwt",
-                "appsmith.store.url"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Tarefas_get_tarefas",
-              "name": "get_tarefas",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "appsmith.store.jwt",
-                "appsmith.store.url"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Tarefas_get_tarefas_executadas",
-              "name": "get_tarefas_executadas",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "appsmith.store.jwt",
-                "appsmith.store.url"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Tarefas_get_tarefas_hoje",
-              "name": "get_tarefas_hoje",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "appsmith.store.jwt",
-                "new Date()",
-                "appsmith.store.url"
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ]
-        ],
-        "layoutOnLoadActionErrors": [],
-        "validOnPageLoadActions": true,
-        "id": "Tarefas",
-        "deleted": false,
-        "policies": [],
-        "userPermissions": []
+          "parentRowSpace": 1,
+          "rightColumn": 1224,
+          "snapColumns": 64,
+          "snapRows": 79,
+          "topRow": 0,
+          "type": "CANVAS_WIDGET",
+          "version": 89,
+          "widgetId": "0",
+          "widgetName": "MainContainer"
+        }
       }
     ],
-    "userPermissions": [],
-    "policies": [],
-    "isHidden": false
-  },
-  "deleted": false,
-  "gitSyncId": "664b91393d0ee46738b29c21_6669d2c3721e40404f82815c"
+    "name": "Tarefas",
+    "slug": "tarefas"
+  }
 }

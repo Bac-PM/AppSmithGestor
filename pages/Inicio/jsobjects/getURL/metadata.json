@@ -1,15 +1,11 @@
 {
+  "gitSyncId": "6620198c897a1c105cb9afb5_66351936575fc970594e75a6",
+  "id": "Inicio_getURL",
   "unpublishedCollection": {
     "name": "getURL",
     "pageId": "Inicio",
     "pluginId": "js-plugin",
     "pluginType": "JS",
-    "actions": [],
-    "archivedActions": [],
-    "variables": [],
-    "userPermissions": []
-  },
-  "id": "Inicio_getURL",
-  "deleted": false,
-  "gitSyncId": "6620198c897a1c105cb9afb5_66351936575fc970594e75a6"
+    "variables": []
+  }
 }

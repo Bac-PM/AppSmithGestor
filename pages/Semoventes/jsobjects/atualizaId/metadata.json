@@ -1,11 +1,11 @@
 {
+  "gitSyncId": "663e5c1636f37417d2df3e34_6644e37f36f37417d2df4712",
+  "id": "Semoventes_atualizaId",
   "unpublishedCollection": {
     "name": "atualizaId",
     "pageId": "Semoventes",
     "pluginId": "js-plugin",
     "pluginType": "JS",
-    "actions": [],
-    "archivedActions": [],
     "variables": [
       {
         "name": "idFrente",
@@ -19,10 +19,6 @@
         "name": "idEsquerda",
         "value": "Table1.triggeredRow.Foto_esquerda.id"
       }
-    ],
-    "userPermissions": []
-  },
-  "id": "Semoventes_atualizaId",
-  "deleted": false,
-  "gitSyncId": "663e5c1636f37417d2df3e34_6644e37f36f37417d2df4712"
+    ]
+  }
 }

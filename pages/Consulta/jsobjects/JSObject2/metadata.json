@@ -1,15 +1,11 @@
 {
+  "gitSyncId": "664b91393d0ee46738b29c21_34872a73-ba6c-4446-81c6-a77c354d7790",
+  "id": "Consulta_JSObject2",
   "unpublishedCollection": {
     "name": "JSObject2",
     "pageId": "Consulta",
     "pluginId": "js-plugin",
     "pluginType": "JS",
-    "actions": [],
-    "archivedActions": [],
-    "variables": [],
-    "userPermissions": []
-  },
-  "id": "Consulta_JSObject2",
-  "deleted": false,
-  "gitSyncId": "664b91393d0ee46738b29c21_34872a73-ba6c-4446-81c6-a77c354d7790"
+    "variables": []
+  }
 }

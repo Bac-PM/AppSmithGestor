@@ -1,64 +1,80 @@
 {
-    "boxShadow": "none",
-    "iconSVG": "/static/media/icon.a7b19dc8b31d68fcff57f1d2c0084a18.svg",
-    "labelText": "Selecione o Animal",
-    "topRow": 1,
-    "labelWidth": 5,
-    "type": "SELECT_WIDGET",
-    "serverSideFiltering": false,
-    "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( seletor_animalCopy.selectedOptionValue))(seletor_animal.options, seletor_animal.serverSideFiltering) }}",
-    "animateLoading": true,
-    "leftColumn": 0,
-    "dynamicBindingPathList": [
-        {"key": "sourceData"},
-        {"key": "defaultOptionValue"},
-        {"key": "borderRadius"}
-    ],
-    "placeholderText": "Selecione um semovente",
-    "isDisabled": false,
-    "isRequired": false,
-    "dynamicHeight": "FIXED",
-    "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-    "isVisible": true,
-    "version": 1,
-    "tags": [
-        "Suggested",
-        "Select"
-    ],
-    "isLoading": false,
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "mobileBottomRow": 8,
-    "widgetName": "seletor_animal",
-    "isFilterable": true,
-    "dynamicPropertyPathList": [
-        {"key": "sourceData"},
-        {"key": "onOptionChange"}
-    ],
-    "displayName": "Select",
-    "searchTags": ["dropdown"],
-    "bottomRow": 8,
-    "parentRowSpace": 10,
-    "hideCard": false,
-    "mobileRightColumn": 21,
-    "parentColumnSpace": 18.26171875,
-    "dynamicTriggerPathList": [{"key": "onOptionChange"}],
-    "labelPosition": "Auto",
-    "sourceData": "{{get_all_animals_someventes.data.data}}",
-    "key": "ld5nbja9ju",
-    "labelTextSize": "1rem",
-    "isDeprecated": false,
-    "rightColumn": 18,
-    "widgetId": "s5jfyo84kg",
-    "optionValue": "id",
-    "minWidth": 450,
-    "parentId": "ofm89r9dqb",
-    "labelAlignment": "right",
-    "renderMode": "CANVAS",
-    "mobileTopRow": 1,
-    "optionLabel": "Nome",
-    "responsiveBehavior": "fill",
-    "mobileLeftColumn": 1,
-    "maxDynamicHeight": 9000,
-    "onOptionChange": "{{\n(function() {\n  if(Tabs1.selectedTab === 'Medicamentos'){\nget_medicamento_animal.run();\nget_medicamento_animal_aplicad.run();\n\t} if (Tabs1.selectedTab === 'Ectoparasiticidas'){\nget_ectoparasiticidas_animal.run();\nget_ectoparasiticidas_aplicado.run()\n\t} if (Tabs1.selectedTab === 'Vermífugos'){\nget_vermifugos_animal.run();\nget_vermifugos_aplicados.run()\n\t} if (Tabs1.selectedTab === 'Vacinas'){\n\tget_vacinas_animal.run();\n\tget_vacinas_aplicadas.run()\n\t}\n})();\n}}",
-    "minDynamicHeight": 4
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 8,
+  "boxShadow": "none",
+  "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( seletor_animalCopy.selectedOptionValue))(seletor_animal.options, seletor_animal.serverSideFiltering) }}",
+  "displayName": "Select",
+  "dynamicBindingPathList": [
+    {
+      "key": "sourceData"
+    },
+    {
+      "key": "defaultOptionValue"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    },
+    {
+      "key": "onOptionChange"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onOptionChange"
+    }
+  ],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.a7b19dc8b31d68fcff57f1d2c0084a18.svg",
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isFilterable": true,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "ld5nbja9ju",
+  "labelAlignment": "right",
+  "labelPosition": "Auto",
+  "labelText": "Selecione o Animal",
+  "labelTextSize": "1rem",
+  "labelWidth": 5,
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 8,
+  "mobileLeftColumn": 1,
+  "mobileRightColumn": 21,
+  "mobileTopRow": 1,
+  "onOptionChange": "{{\n(function() {\n  if(Tabs1.selectedTab === 'Medicamentos'){\nget_medicamento_animal.run();\nget_medicamento_animal_aplicad.run();\n\t} if (Tabs1.selectedTab === 'Ectoparasiticidas'){\nget_ectoparasiticidas_animal.run();\nget_ectoparasiticidas_aplicado.run()\n\t} if (Tabs1.selectedTab === 'Vermífugos'){\nget_vermifugos_animal.run();\nget_vermifugos_aplicados.run()\n\t} if (Tabs1.selectedTab === 'Vacinas'){\n\tget_vacinas_animal.run();\n\tget_vacinas_aplicadas.run()\n\t}\n})();\n}}",
+  "optionLabel": "Nome",
+  "optionValue": "id",
+  "parentColumnSpace": 18.26171875,
+  "parentId": "ofm89r9dqb",
+  "parentRowSpace": 10,
+  "placeholderText": "Selecione um semovente",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 18,
+  "searchTags": [
+    "dropdown"
+  ],
+  "serverSideFiltering": false,
+  "sourceData": "{{get_all_animals_someventes.data.data}}",
+  "tags": [
+    "Suggested",
+    "Select"
+  ],
+  "topRow": 1,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "s5jfyo84kg",
+  "widgetName": "seletor_animal"
 }

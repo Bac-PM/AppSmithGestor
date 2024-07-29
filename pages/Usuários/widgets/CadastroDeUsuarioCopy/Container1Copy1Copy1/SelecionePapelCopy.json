@@ -1,63 +1,75 @@
 {
-    "boxShadow": "none",
-    "iconSVG": "/static/media/icon.a7b19dc8b31d68fcff57f1d2c0084a18.svg",
-    "labelText": "Papel do Usuário",
-    "topRow": 39,
-    "labelWidth": 5,
-    "type": "SELECT_WIDGET",
-    "serverSideFiltering": false,
-    "defaultOptionValue": "",
-    "animateLoading": true,
-    "leftColumn": 3,
-    "dynamicBindingPathList": [
-        {"key": "accentColor"},
-        {"key": "borderRadius"},
-        {"key": "sourceData"}
-    ],
-    "placeholderText": "Selecione o Papel do Usuário",
-    "isDisabled": false,
-    "isRequired": false,
-    "dynamicHeight": "FIXED",
-    "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-    "isVisible": true,
-    "version": 1,
-    "tags": [
-        "Suggested",
-        "Select"
-    ],
-    "isLoading": false,
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "mobileBottomRow": 29,
-    "widgetName": "SelecionePapelCopy",
-    "isFilterable": true,
-    "dynamicPropertyPathList": [
-        {"key": "sourceData"},
-        {"key": "optionLabel"}
-    ],
-    "displayName": "Select",
-    "searchTags": ["dropdown"],
-    "bottomRow": 46,
-    "parentRowSpace": 10,
-    "hideCard": false,
-    "mobileRightColumn": 22,
-    "parentColumnSpace": 8.70068359375,
-    "dynamicTriggerPathList": [],
-    "labelPosition": "Top",
-    "sourceData": "{{filtros.roles()}}",
-    "key": "hqldh25sc9",
-    "labelTextSize": "0.875rem",
-    "isDeprecated": false,
-    "rightColumn": 59,
-    "widgetId": "ogi3l58bkw",
-    "optionValue": "id",
-    "minWidth": 450,
-    "parentId": "ceawm0eup9",
-    "labelAlignment": "left",
-    "renderMode": "CANVAS",
-    "mobileTopRow": 22,
-    "optionLabel": "name",
-    "responsiveBehavior": "fill",
-    "mobileLeftColumn": 2,
-    "maxDynamicHeight": 9000,
-    "minDynamicHeight": 4
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 46,
+  "boxShadow": "none",
+  "defaultOptionValue": "",
+  "displayName": "Select",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    },
+    {
+      "key": "optionLabel"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.a7b19dc8b31d68fcff57f1d2c0084a18.svg",
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isFilterable": true,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "hqldh25sc9",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "Papel do Usuário",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 3,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 29,
+  "mobileLeftColumn": 2,
+  "mobileRightColumn": 22,
+  "mobileTopRow": 22,
+  "optionLabel": "name",
+  "optionValue": "id",
+  "parentColumnSpace": 8.70068359375,
+  "parentId": "ceawm0eup9",
+  "parentRowSpace": 10,
+  "placeholderText": "Selecione o Papel do Usuário",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 59,
+  "searchTags": [
+    "dropdown"
+  ],
+  "serverSideFiltering": false,
+  "sourceData": "{{filtros.roles()}}",
+  "tags": [
+    "Suggested",
+    "Select"
+  ],
+  "topRow": 39,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "ogi3l58bkw",
+  "widgetName": "SelecionePapelCopy"
 }

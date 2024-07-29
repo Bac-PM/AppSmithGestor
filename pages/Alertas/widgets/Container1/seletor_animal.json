@@ -1,71 +1,91 @@
 {
-    "boxShadow": "none",
-    "iconSVG": "/static/media/icon.a7b19dc8b31d68fcff57f1d2c0084a18.svg",
-    "labelText": "Selecione o Animal",
-    "topRow": 0,
-    "labelWidth": 5,
-    "type": "SELECT_WIDGET",
-    "serverSideFiltering": false,
-    "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( -1))(seletor_animal.options, seletor_animal.serverSideFiltering) }}",
-    "animateLoading": true,
-    "leftColumn": 0,
-    "dynamicBindingPathList": [
-        {"key": "accentColor"},
-        {"key": "borderRadius"},
-        {"key": "sourceData"},
-        {"key": "defaultOptionValue"}
-    ],
-    "placeholderText": "Selecione uma opção",
-    "isDisabled": false,
-    "isRequired": false,
-    "dynamicHeight": "FIXED",
-    "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-    "isVisible": true,
-    "version": 1,
-    "onDropdownOpen": "",
-    "tags": [
-        "Suggested",
-        "Select"
-    ],
-    "isLoading": false,
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "mobileBottomRow": 8,
-    "widgetName": "seletor_animal",
-    "isFilterable": true,
-    "dynamicPropertyPathList": [
-        {"key": "sourceData"},
-        {"key": "onOptionChange"}
-    ],
-    "displayName": "Select",
-    "searchTags": ["dropdown"],
-    "bottomRow": 7,
-    "parentRowSpace": 10,
-    "hideCard": false,
-    "mobileRightColumn": 26,
-    "parentColumnSpace": 4.4521484375,
-    "dynamicTriggerPathList": [
-        {"key": "onOptionChange"},
-        {"key": "onDropdownClose"},
-        {"key": "onDropdownOpen"}
-    ],
-    "labelPosition": "Top",
-    "onDropdownClose": "",
-    "sourceData": "{{ [{ id: -1, Nome: \"Todos\" }, ...getCaesAtivos.data.data] }}",
-    "key": "y8d7t9iisd",
-    "labelTextSize": "0.875rem",
-    "isDeprecated": false,
-    "rightColumn": 20,
-    "widgetId": "eomgaxptqb",
-    "optionValue": "id",
-    "minWidth": 450,
-    "parentId": "ejtj5har7f",
-    "labelAlignment": "left",
-    "renderMode": "CANVAS",
-    "mobileTopRow": 1,
-    "optionLabel": "Nome",
-    "responsiveBehavior": "fill",
-    "mobileLeftColumn": 6,
-    "maxDynamicHeight": 9000,
-    "onOptionChange": "{{\n//filtros.filtrarEAtualizarAlertas()\n(function() {\n    if(seletor_animal.selectedOptionValue === -1) {\n\t\t\t//pegar todas Vacinas\n\t\t\tmedicamentosFiltrados.getTodosMedicamentosAnimal();\n\t\t\tgetTodosAlertaVacina.run().then(() => {\n\t\talertas_vacina.setData(getTodosAlertaVacina.data.data);\n\t\t\t\t\n\t\t\t});\n\t\t\t//pegar todas Coleiras\n\t\t\tgetTodosAlertaColeira.run().then(() => {\t\t\talertas_coleira.setData(getTodosAlertaColeira.data.data);\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t});\t\n\t\t\t//pegar todos Vermifugos\n\t\t\tgetTodosVermifugos.run().then(() => {\t\t\talertas_vermifugo.setData(getTodosVermifugos.data.data);\n\t\t\t});\t\n\t\t\t//pegar todos Ectoparasitas\n\t\t\tgetTodosEctoparasiticida.run().then(() => {\t\t\talertas_ectoparasitisida.setData(getTodosEctoparasiticida.data.data);\n\t\t\t});\n\t\t\t\ngetAllAlertasAtrasados.run().then(() => {\n\talertas_atrasados.setData(getAllAlertasAtrasados.data.data);\n});\n\t\t\t\ngetAllAlertasDoDia.run().then(() => {\n\t\n\talertas_hoje.setData(getAllAlertasDoDia.data.data);\n});\n\t\t\t\n    } else {\n\t\t\tmedicamentosFiltrados.getUmMedicamentosAnimal();\n\t\t\t//pegar as Vacinas de um Cao\n\t\t\tgetAlertaVacina.run().then(() => {\n\t\t\t\talertas_vacina.setData(getAlertaVacina.data.data);\n\t\t\t});\n\t\t\t//pegar a Coleira de um Cao\n\t\t\tgetAlertaColeiraUmCao.run().then(() => {\n\t\t\t\talertas_coleira.setData(getAlertaColeiraUmCao.data.data);\n\t\t\t});\n\t\t\t//pegar os Vermifugos de um Cao\n\t\t\tget_vermifugosDeCao.run().then(() => {\n\t\t\t\talertas_vermifugo.setData(get_vermifugosDeCao.data.data);\n\t\t\t});\n\t\t\t//pegar os Ectoparasiticidas de um Cao\n\t\t\tget_ectoparasiticidaDeCao.run().then(() => {\n\t\t\t\talertas_ectoparasitisida.setData(get_ectoparasiticidaDeCao.data.data);\n\t\t\t});\n\t\t\t\ngetAllAlertasAtrasadosUmCao.run().then(() => {\n\talertas_atrasados.setData(getAllAlertasAtrasadosUmCao.data.data);\n});\n\t\t\t\ngetAllAlertasDoDiaUmCao.run().then(() => {\n\t\n\talertas_hoje.setData(getAllAlertasDoDiaUmCao.data.data);\n});\n    }\n})();\n}}",
-    "minDynamicHeight": 4
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 7,
+  "boxShadow": "none",
+  "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( -1))(seletor_animal.options, seletor_animal.serverSideFiltering) }}",
+  "displayName": "Select",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "sourceData"
+    },
+    {
+      "key": "defaultOptionValue"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    },
+    {
+      "key": "onOptionChange"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onOptionChange"
+    },
+    {
+      "key": "onDropdownClose"
+    },
+    {
+      "key": "onDropdownOpen"
+    }
+  ],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.a7b19dc8b31d68fcff57f1d2c0084a18.svg",
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isFilterable": true,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "y8d7t9iisd",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "Selecione o Animal",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 8,
+  "mobileLeftColumn": 6,
+  "mobileRightColumn": 26,
+  "mobileTopRow": 1,
+  "onDropdownClose": "",
+  "onDropdownOpen": "",
+  "onOptionChange": "{{\n//filtros.filtrarEAtualizarAlertas()\n(function() {\n    if(seletor_animal.selectedOptionValue === -1) {\n\t\t\t//pegar todas Vacinas\n\t\t\tmedicamentosFiltrados.getTodosMedicamentosAnimal();\n\t\t\tgetTodosAlertaVacina.run().then(() => {\n\t\talertas_vacina.setData(getTodosAlertaVacina.data.data);\n\t\t\t\t\n\t\t\t});\n\t\t\t//pegar todas Coleiras\n\t\t\tgetTodosAlertaColeira.run().then(() => {\t\t\talertas_coleira.setData(getTodosAlertaColeira.data.data);\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t});\t\n\t\t\t//pegar todos Vermifugos\n\t\t\tgetTodosVermifugos.run().then(() => {\t\t\talertas_vermifugo.setData(getTodosVermifugos.data.data);\n\t\t\t});\t\n\t\t\t//pegar todos Ectoparasitas\n\t\t\tgetTodosEctoparasiticida.run().then(() => {\t\t\talertas_ectoparasitisida.setData(getTodosEctoparasiticida.data.data);\n\t\t\t});\n\t\t\t\ngetAllAlertasAtrasados.run().then(() => {\n\talertas_atrasados.setData(getAllAlertasAtrasados.data.data);\n});\n\t\t\t\ngetAllAlertasDoDia.run().then(() => {\n\t\n\talertas_hoje.setData(getAllAlertasDoDia.data.data);\n});\n\t\t\t\n    } else {\n\t\t\tmedicamentosFiltrados.getUmMedicamentosAnimal();\n\t\t\t//pegar as Vacinas de um Cao\n\t\t\tgetAlertaVacina.run().then(() => {\n\t\t\t\talertas_vacina.setData(getAlertaVacina.data.data);\n\t\t\t});\n\t\t\t//pegar a Coleira de um Cao\n\t\t\tgetAlertaColeiraUmCao.run().then(() => {\n\t\t\t\talertas_coleira.setData(getAlertaColeiraUmCao.data.data);\n\t\t\t});\n\t\t\t//pegar os Vermifugos de um Cao\n\t\t\tget_vermifugosDeCao.run().then(() => {\n\t\t\t\talertas_vermifugo.setData(get_vermifugosDeCao.data.data);\n\t\t\t});\n\t\t\t//pegar os Ectoparasiticidas de um Cao\n\t\t\tget_ectoparasiticidaDeCao.run().then(() => {\n\t\t\t\talertas_ectoparasitisida.setData(get_ectoparasiticidaDeCao.data.data);\n\t\t\t});\n\t\t\t\ngetAllAlertasAtrasadosUmCao.run().then(() => {\n\talertas_atrasados.setData(getAllAlertasAtrasadosUmCao.data.data);\n});\n\t\t\t\ngetAllAlertasDoDiaUmCao.run().then(() => {\n\t\n\talertas_hoje.setData(getAllAlertasDoDiaUmCao.data.data);\n});\n    }\n})();\n}}",
+  "optionLabel": "Nome",
+  "optionValue": "id",
+  "parentColumnSpace": 4.4521484375,
+  "parentId": "ejtj5har7f",
+  "parentRowSpace": 10,
+  "placeholderText": "Selecione uma opção",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 20,
+  "searchTags": [
+    "dropdown"
+  ],
+  "serverSideFiltering": false,
+  "sourceData": "{{ [{ id: -1, Nome: \"Todos\" }, ...getCaesAtivos.data.data] }}",
+  "tags": [
+    "Suggested",
+    "Select"
+  ],
+  "topRow": 0,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "eomgaxptqb",
+  "widgetName": "seletor_animal"
 }

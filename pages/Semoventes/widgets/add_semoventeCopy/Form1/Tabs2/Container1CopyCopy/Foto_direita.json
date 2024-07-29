@@ -1,50 +1,68 @@
 {
-    "boxShadow": "none",
-    "mobileBottomRow": 35,
-    "widgetName": "Foto_direita",
-    "buttonColor": "rgb(48, 73, 136)",
-    "dynamicPropertyPathList": [{"key": "onFilesSelected"}],
-    "iconSVG": "/static/media/icon.715769b31db833b32f40d9c90ec02de3.svg",
-    "displayName": "FilePicker",
-    "topRow": 6,
-    "searchTags": ["upload"],
-    "bottomRow": 10,
-    "parentRowSpace": 10,
-    "type": "FILE_PICKER_WIDGET_V2",
-    "allowedFileTypes": ["image/*"],
-    "hideCard": false,
-    "mobileRightColumn": 17,
-    "animateLoading": true,
-    "parentColumnSpace": 5.359619140625,
-    "dynamicTriggerPathList": [{"key": "onFilesSelected"}],
-    "leftColumn": 0,
-    "dynamicBindingPathList": [{"key": "borderRadius"}],
-    "isDisabled": false,
-    "key": "u6pj0jq3wv",
-    "onFilesSelected": "{{UpLoadImageDireita.sendImage('popUpAdicionar');}}",
-    "isRequired": true,
-    "isDeprecated": false,
-    "rightColumn": 35,
-    "isDefaultClickDisabled": true,
-    "widgetId": "h9e03uo718",
-    "minWidth": 120,
-    "isVisible": true,
-    "label": "Selecione",
-    "maxFileSize": "6",
-    "dynamicTyping": true,
-    "version": 1,
-    "fileDataType": "Binary",
-    "parentId": "3s66n0rv8c",
-    "tags": ["Inputs"],
-    "isLoading": false,
-    "selectedFiles": [],
-    "renderMode": "CANVAS",
-    "mobileTopRow": 31,
-    "responsiveBehavior": "hug",
-    "originalTopRow": 9,
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "mobileLeftColumn": 1,
-    "originalBottomRow": 13,
-    "files": [],
-    "maxNumFiles": "1"
+  "allowedFileTypes": [
+    "image/*"
+  ],
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 10,
+  "boxShadow": "none",
+  "buttonColor": "rgb(48, 73, 136)",
+  "displayName": "FilePicker",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onFilesSelected"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onFilesSelected"
+    }
+  ],
+  "dynamicTyping": true,
+  "fileDataType": "Binary",
+  "files": [],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.715769b31db833b32f40d9c90ec02de3.svg",
+  "isDefaultClickDisabled": true,
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isRequired": true,
+  "isVisible": true,
+  "key": "u6pj0jq3wv",
+  "label": "Selecione",
+  "leftColumn": 0,
+  "maxFileSize": "6",
+  "maxNumFiles": "1",
+  "minWidth": 120,
+  "mobileBottomRow": 35,
+  "mobileLeftColumn": 1,
+  "mobileRightColumn": 17,
+  "mobileTopRow": 31,
+  "onFilesSelected": "{{UpLoadImageDireita.sendImage('popUpAdicionar');}}",
+  "originalBottomRow": 13,
+  "originalTopRow": 9,
+  "parentColumnSpace": 5.359619140625,
+  "parentId": "3s66n0rv8c",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "hug",
+  "rightColumn": 35,
+  "searchTags": [
+    "upload"
+  ],
+  "selectedFiles": [],
+  "tags": [
+    "Inputs"
+  ],
+  "topRow": 6,
+  "type": "FILE_PICKER_WIDGET_V2",
+  "version": 1,
+  "widgetId": "h9e03uo718",
+  "widgetName": "Foto_direita"
 }

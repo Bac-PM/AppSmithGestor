@@ -1,237 +1,32 @@
 {
+  "gitSyncId": "664b7bb03d0ee46738b298c4_664b81603d0ee46738b29a35",
   "unpublishedPage": {
-    "name": "Prescrições",
-    "slug": "prescricoes",
+    "isHidden": false,
     "layouts": [
       {
-        "viewMode": false,
         "dsl": {
-          "widgetName": "MainContainer",
           "backgroundColor": "none",
-          "rightColumn": 1224,
-          "snapColumns": 64,
-          "detachFromLayout": true,
-          "widgetId": "0",
-          "topRow": 0,
           "bottomRow": 640,
-          "containerStyle": "none",
-          "snapRows": 79,
-          "parentRowSpace": 1,
-          "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 89,
+          "containerStyle": "none",
+          "detachFromLayout": true,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0,
           "minHeight": 810,
           "parentColumnSpace": 1,
-          "dynamicBindingPathList": [],
-          "leftColumn": 0
-        },
-        "layoutOnLoadActions": [
-          [
-            {
-              "id": "Prescrições_JSObject2.myFun1",
-              "name": "JSObject2.myFun1",
-              "collectionId": "Prescrições_JSObject2",
-              "clientSideExecution": true,
-              "confirmBeforeExecute": false,
-              "pluginType": "JS",
-              "jsonPathKeys": [
-                "function () {\n  showModal('Modal1');\n}"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Prescrições_getAllColeiras",
-              "name": "getAllColeiras",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "appsmith.store.jwt",
-                "appsmith.store.url"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Prescrições_get_Ectoparasiticidas",
-              "name": "get_Ectoparasiticidas",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "appsmith.store.jwt",
-                "appsmith.store.url"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Prescrições_get_all_animals_someventes",
-              "name": "get_all_animals_someventes",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "appsmith.store.jwt",
-                "appsmith.store.url"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Prescrições_get_vermifugos",
-              "name": "get_vermifugos",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "appsmith.store.jwt",
-                "appsmith.store.url"
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ],
-          [
-            {
-              "id": "Prescrições_getNomeVacinas",
-              "name": "getNomeVacinas",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "appsmith.store.jwt",
-                "appsmith.store.url"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Prescrições_get_NomeMedicamentos",
-              "name": "get_NomeMedicamentos",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "appsmith.store.jwt",
-                "appsmith.store.url"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Prescrições_get_apresentacao",
-              "name": "get_apresentacao",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "appsmith.store.jwt",
-                "appsmith.store.url"
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ],
-          [
-            {
-              "id": "Prescrições_get_medicamento_animal",
-              "name": "get_medicamento_animal",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "seletor_animal.selectedOptionValue",
-                "appsmith.store.jwt",
-                "appsmith.store.url"
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ],
-          [
-            {
-              "id": "Prescrições_get_coleiras_desativadas",
-              "name": "get_coleiras_desativadas",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "seletor_animal.selectedOptionValue",
-                "appsmith.store.jwt",
-                "appsmith.store.url"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Prescrições_get_ectoparasiticidas_animal",
-              "name": "get_ectoparasiticidas_animal",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "seletor_animal.selectedOptionValue",
-                "appsmith.store.jwt",
-                "appsmith.store.url"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Prescrições_get_ectoparasiticidas_aplicado",
-              "name": "get_ectoparasiticidas_aplicado",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "seletor_animal.selectedOptionValue",
-                "appsmith.store.jwt",
-                "appsmith.store.url"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Prescrições_get_vacinas_animal",
-              "name": "get_vacinas_animal",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "seletor_animal.selectedOptionValue",
-                "appsmith.store.jwt",
-                "appsmith.store.url"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Prescrições_get_vacinas_aplicadas",
-              "name": "get_vacinas_aplicadas",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "seletor_animal.selectedOptionValue",
-                "appsmith.store.jwt",
-                "appsmith.store.url"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Prescrições_get_vermifugos_animal",
-              "name": "get_vermifugos_animal",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "seletor_animal.selectedOptionValue",
-                "appsmith.store.jwt",
-                "appsmith.store.url"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Prescrições_get_vermifugos_aplicados",
-              "name": "get_vermifugos_aplicados",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "seletor_animal.selectedOptionValue",
-                "appsmith.store.jwt",
-                "appsmith.store.url"
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ]
-        ],
-        "layoutOnLoadActionErrors": [],
-        "validOnPageLoadActions": true,
-        "id": "Prescrições",
-        "deleted": false,
-        "policies": [],
-        "userPermissions": []
+          "parentRowSpace": 1,
+          "rightColumn": 1224,
+          "snapColumns": 64,
+          "snapRows": 79,
+          "topRow": 0,
+          "type": "CANVAS_WIDGET",
+          "version": 89,
+          "widgetId": "0",
+          "widgetName": "MainContainer"
+        }
       }
     ],
-    "userPermissions": [],
-    "policies": [],
-    "isHidden": false
-  },
-  "deleted": false,
-  "gitSyncId": "664b7bb03d0ee46738b298c4_664b81603d0ee46738b29a35"
+    "name": "Prescrições",
+    "slug": "prescricoes"
+  }
 }

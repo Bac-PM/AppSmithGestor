@@ -1,64 +1,80 @@
 {
-    "boxShadow": "none",
-    "dateFormat": "DD/MM/YYYY",
-    "iconSVG": "/static/media/icon.42ea2261c1fd35ebb9e4549b5028de76.svg",
-    "topRow": 25,
-    "labelWidth": 5,
-    "type": "DATE_PICKER_WIDGET2",
-    "animateLoading": true,
-    "leftColumn": 0,
-    "dynamicBindingPathList": [
-        {"key": "minDate"},
-        {"key": "maxDate"},
-        {"key": "accentColor"},
-        {"key": "borderRadius"}
-    ],
-    "isDisabled": false,
-    "isRequired": false,
-    "dynamicHeight": "FIXED",
-    "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-    "isVisible": true,
-    "datePickerType": "DATE_PICKER",
-    "version": 2,
-    "tags": ["Inputs"],
-    "isLoading": false,
-    "timePrecision": "None",
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "closeOnSelection": true,
-    "needsErrorInfo": false,
-    "mobileBottomRow": 32,
-    "widgetName": "Data_Nascimento",
-    "minDate": "{{ \n(function() {\nreturn new Date(new Date().setFullYear(new Date().getFullYear() - 20));\n})();}}",
-    "dynamicPropertyPathList": [
-        {"key": "minDate"},
-        {"key": "maxDate"}
-    ],
-    "displayName": "DatePicker",
-    "searchTags": ["calendar"],
-    "bottomRow": 32,
-    "shortcuts": false,
-    "parentRowSpace": 10,
-    "hideCard": false,
-    "mobileRightColumn": 20,
-    "parentColumnSpace": 11.09375,
-    "dynamicTriggerPathList": [],
-    "labelPosition": "Top",
-    "key": "wln4b6k73t",
-    "labelTextSize": "0.875rem",
-    "isDeprecated": false,
-    "rightColumn": 31,
-    "thumbnailSVG": "/static/media/thumbnail.6f2ddea04e74f31810326bef3bc239b8.svg",
-    "widgetId": "p8h5oo9z91",
-    "minWidth": 450,
-    "label": "Data de Nascimento",
-    "parentId": "7iluy8gud7",
-    "labelAlignment": "left",
-    "renderMode": "CANVAS",
-    "mobileTopRow": 25,
-    "responsiveBehavior": "fill",
-    "mobileLeftColumn": 0,
-    "maxDynamicHeight": 9000,
-    "firstDayOfWeek": 0,
-    "maxDate": "{{new Date()}}",
-    "minDynamicHeight": 4
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 32,
+  "boxShadow": "none",
+  "closeOnSelection": true,
+  "dateFormat": "DD/MM/YYYY",
+  "datePickerType": "DATE_PICKER",
+  "displayName": "DatePicker",
+  "dynamicBindingPathList": [
+    {
+      "key": "minDate"
+    },
+    {
+      "key": "maxDate"
+    },
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "minDate"
+    },
+    {
+      "key": "maxDate"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "firstDayOfWeek": 0,
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.42ea2261c1fd35ebb9e4549b5028de76.svg",
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "wln4b6k73t",
+  "label": "Data de Nascimento",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 0,
+  "maxDate": "{{new Date()}}",
+  "maxDynamicHeight": 9000,
+  "minDate": "{{ \n(function() {\nreturn new Date(new Date().setFullYear(new Date().getFullYear() - 20));\n})();}}",
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 32,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 20,
+  "mobileTopRow": 25,
+  "needsErrorInfo": false,
+  "parentColumnSpace": 11.09375,
+  "parentId": "7iluy8gud7",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 31,
+  "searchTags": [
+    "calendar"
+  ],
+  "shortcuts": false,
+  "tags": [
+    "Inputs"
+  ],
+  "thumbnailSVG": "/static/media/thumbnail.6f2ddea04e74f31810326bef3bc239b8.svg",
+  "timePrecision": "None",
+  "topRow": 25,
+  "type": "DATE_PICKER_WIDGET2",
+  "version": 2,
+  "widgetId": "p8h5oo9z91",
+  "widgetName": "Data_Nascimento"
 }

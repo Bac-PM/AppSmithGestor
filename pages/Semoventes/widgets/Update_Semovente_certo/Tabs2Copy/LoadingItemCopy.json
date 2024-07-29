@@ -1,58 +1,72 @@
 {
-    "resetFormOnClick": false,
-    "boxShadow": "none",
-    "onClick": "",
-    "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
-    "topRow": 57,
-    "type": "BUTTON_WIDGET",
-    "topRowBeforeCollapse": 57,
-    "animateLoading": true,
-    "leftColumn": 1,
-    "dynamicBindingPathList": [
-        {"key": "buttonColor"},
-        {"key": "borderRadius"}
-    ],
-    "text": "",
-    "isDisabled": false,
-    "isDefaultClickDisabled": true,
-    "iconName": "stopwatch",
-    "bottomRowBeforeCollapse": 61,
-    "isVisible": false,
-    "version": 1,
-    "tags": ["Buttons"],
-    "isLoading": false,
-    "disabledWhenInvalid": false,
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 61,
-    "placement": "CENTER",
-    "mobileBottomRow": 22,
-    "widgetName": "LoadingItemCopy",
-    "buttonColor": "{{appsmith.theme.colors.backgroundColor}}",
-    "dynamicPropertyPathList": [{"key": "onClick"}],
-    "displayName": "Button",
-    "searchTags": [
-        "click",
-        "submit"
-    ],
-    "bottomRow": 61,
-    "parentRowSpace": 10,
-    "hideCard": false,
-    "mobileRightColumn": 63,
-    "dynamicTriggerPathList": [{"key": "onClick"}],
-    "parentColumnSpace": 3.593994140625,
-    "key": "j223ug3h6r",
-    "isDeprecated": false,
-    "rightColumn": 5,
-    "widgetId": "ouqqwultth",
-    "buttonStyle": "PRIMARY_BUTTON",
-    "minWidth": 120,
-    "recaptchaType": "V3",
-    "parentId": "h72dkskdcu",
-    "renderMode": "CANVAS",
-    "mobileTopRow": 18,
-    "responsiveBehavior": "hug",
-    "originalTopRow": 57,
-    "mobileLeftColumn": 47,
-    "buttonVariant": "PRIMARY",
-    "iconAlign": "left"
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 61,
+  "bottomRowBeforeCollapse": 61,
+  "boxShadow": "none",
+  "buttonColor": "{{appsmith.theme.colors.backgroundColor}}",
+  "buttonStyle": "PRIMARY_BUTTON",
+  "buttonVariant": "PRIMARY",
+  "disabledWhenInvalid": false,
+  "displayName": "Button",
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "hideCard": false,
+  "iconAlign": "left",
+  "iconName": "stopwatch",
+  "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
+  "isDefaultClickDisabled": true,
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": false,
+  "key": "j223ug3h6r",
+  "leftColumn": 1,
+  "minWidth": 120,
+  "mobileBottomRow": 22,
+  "mobileLeftColumn": 47,
+  "mobileRightColumn": 63,
+  "mobileTopRow": 18,
+  "onClick": "",
+  "originalBottomRow": 61,
+  "originalTopRow": 57,
+  "parentColumnSpace": 3.593994140625,
+  "parentId": "h72dkskdcu",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "hug",
+  "rightColumn": 5,
+  "searchTags": [
+    "click",
+    "submit"
+  ],
+  "tags": [
+    "Buttons"
+  ],
+  "text": "",
+  "topRow": 57,
+  "topRowBeforeCollapse": 57,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "ouqqwultth",
+  "widgetName": "LoadingItemCopy"
 }

@@ -1,20 +1,16 @@
 {
+  "gitSyncId": "664b7bb03d0ee46738b298c4_664b81713d0ee46738b29a88",
+  "id": "Prescrições_atualizaId",
   "unpublishedCollection": {
     "name": "atualizaId",
     "pageId": "Prescrições",
     "pluginId": "js-plugin",
     "pluginType": "JS",
-    "actions": [],
-    "archivedActions": [],
     "variables": [
       {
         "name": "idFrente",
         "value": "vacinas_ativas.triggeredRow.fotoEtiqueta.id"
       }
-    ],
-    "userPermissions": []
-  },
-  "id": "Prescrições_atualizaId",
-  "deleted": false,
-  "gitSyncId": "664b7bb03d0ee46738b298c4_664b81713d0ee46738b29a88"
+    ]
+  }
 }

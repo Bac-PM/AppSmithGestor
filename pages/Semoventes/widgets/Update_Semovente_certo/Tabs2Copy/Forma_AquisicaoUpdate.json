@@ -1,66 +1,82 @@
 {
-    "boxShadow": "none",
-    "iconSVG": "/static/media/icon.a7b19dc8b31d68fcff57f1d2c0084a18.svg",
-    "labelText": "Forma de Aquisição",
-    "topRow": 18,
-    "labelWidth": 5,
-    "type": "SELECT_WIDGET",
-    "serverSideFiltering": false,
-    "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( getDefaultValue.getDefaultValue(semoventes_ativos.triggeredRow?.forma_aquisicao, get_forma_Aquisicao.data.data)))(Forma_AquisicaoUpdate.options, Forma_AquisicaoUpdate.serverSideFiltering) }}",
-    "animateLoading": true,
-    "leftColumn": 0,
-    "dynamicBindingPathList": [
-        {"key": "sourceData"},
-        {"key": "defaultOptionValue"},
-        {"key": "borderRadius"}
-    ],
-    "placeholderText": "Selecione a forma de aquisição do animal",
-    "isDisabled": false,
-    "isRequired": false,
-    "dynamicHeight": "FIXED",
-    "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-    "isVisible": true,
-    "version": 1,
-    "tags": [
-        "Suggested",
-        "Select"
-    ],
-    "isLoading": false,
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 28,
-    "mobileBottomRow": 33,
-    "widgetName": "Forma_AquisicaoUpdate",
-    "isFilterable": true,
-    "dynamicPropertyPathList": [
-        {"key": "onOptionChange"},
-        {"key": "sourceData"}
-    ],
-    "displayName": "Select",
-    "searchTags": ["dropdown"],
-    "bottomRow": 25,
-    "parentRowSpace": 10,
-    "hideCard": false,
-    "mobileRightColumn": 22,
-    "parentColumnSpace": 13.59375,
-    "dynamicTriggerPathList": [{"key": "onOptionChange"}],
-    "labelPosition": "Top",
-    "sourceData": "{{get_forma_Aquisicao.data.data}}",
-    "key": "up885n6100",
-    "labelTextSize": "0.875rem",
-    "isDeprecated": false,
-    "rightColumn": 31,
-    "widgetId": "tgbopzdj9z",
-    "optionValue": "id",
-    "minWidth": 450,
-    "parentId": "2amr0uga9n",
-    "labelAlignment": "left",
-    "renderMode": "CANVAS",
-    "mobileTopRow": 26,
-    "optionLabel": "Nome",
-    "responsiveBehavior": "fill",
-    "originalTopRow": 21,
-    "mobileLeftColumn": 2,
-    "maxDynamicHeight": 9000,
-    "onOptionChange": "{{\n(function() {\n  if (Forma_AquisicaoUpdate.selectedOptionValue == 'Compra'){\n\tValor_CompraUpdate.setVisibility(true)\n\tProprietarioAnteriorUpdate.setValue('')\n\tProprietarioAnteriorUpdate.setDisabled(false)\n\t} else if (Forma_AquisicaoUpdate.selectedOptionValue == 'Nascimento no Canil PMES'){\n\tProprietarioAnteriorUpdate.setDisabled(true)\n\tProprietarioAnteriorUpdate.setValue('Nascimento no Canil PMES')\n\t\tValor_CompraUpdate.setVisibility(false)\n\t} else {\n\t\tProprietarioAnteriorUpdate.setValue('')\n\t\tProprietarioAnteriorUpdate.setDisabled(false)\n\t\tValor_CompraUpdate.setVisibility(false)\n\t\t}\n})();\n}}",
-    "minDynamicHeight": 4
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 25,
+  "boxShadow": "none",
+  "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( getDefaultValue.getDefaultValue(semoventes_ativos.triggeredRow?.forma_aquisicao, get_forma_Aquisicao.data.data)))(Forma_AquisicaoUpdate.options, Forma_AquisicaoUpdate.serverSideFiltering) }}",
+  "displayName": "Select",
+  "dynamicBindingPathList": [
+    {
+      "key": "sourceData"
+    },
+    {
+      "key": "defaultOptionValue"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "onOptionChange"
+    },
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onOptionChange"
+    }
+  ],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.a7b19dc8b31d68fcff57f1d2c0084a18.svg",
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isFilterable": true,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "up885n6100",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "Forma de Aquisição",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 33,
+  "mobileLeftColumn": 2,
+  "mobileRightColumn": 22,
+  "mobileTopRow": 26,
+  "onOptionChange": "{{\n(function() {\n  if (Forma_AquisicaoUpdate.selectedOptionValue == 'Compra'){\n\tValor_CompraUpdate.setVisibility(true)\n\tProprietarioAnteriorUpdate.setValue('')\n\tProprietarioAnteriorUpdate.setDisabled(false)\n\t} else if (Forma_AquisicaoUpdate.selectedOptionValue == 'Nascimento no Canil PMES'){\n\tProprietarioAnteriorUpdate.setDisabled(true)\n\tProprietarioAnteriorUpdate.setValue('Nascimento no Canil PMES')\n\t\tValor_CompraUpdate.setVisibility(false)\n\t} else {\n\t\tProprietarioAnteriorUpdate.setValue('')\n\t\tProprietarioAnteriorUpdate.setDisabled(false)\n\t\tValor_CompraUpdate.setVisibility(false)\n\t\t}\n})();\n}}",
+  "optionLabel": "Nome",
+  "optionValue": "id",
+  "originalBottomRow": 28,
+  "originalTopRow": 21,
+  "parentColumnSpace": 13.59375,
+  "parentId": "2amr0uga9n",
+  "parentRowSpace": 10,
+  "placeholderText": "Selecione a forma de aquisição do animal",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 31,
+  "searchTags": [
+    "dropdown"
+  ],
+  "serverSideFiltering": false,
+  "sourceData": "{{get_forma_Aquisicao.data.data}}",
+  "tags": [
+    "Suggested",
+    "Select"
+  ],
+  "topRow": 18,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "tgbopzdj9z",
+  "widgetName": "Forma_AquisicaoUpdate"
 }

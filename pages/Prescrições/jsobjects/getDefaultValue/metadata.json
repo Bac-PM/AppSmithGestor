@@ -1,15 +1,11 @@
 {
+  "gitSyncId": "664b7bb03d0ee46738b298c4_664b81713d0ee46738b29a8c",
+  "id": "Prescrições_getDefaultValue",
   "unpublishedCollection": {
     "name": "getDefaultValue",
     "pageId": "Prescrições",
     "pluginId": "js-plugin",
     "pluginType": "JS",
-    "actions": [],
-    "archivedActions": [],
-    "variables": [],
-    "userPermissions": []
-  },
-  "id": "Prescrições_getDefaultValue",
-  "deleted": false,
-  "gitSyncId": "664b7bb03d0ee46738b298c4_664b81713d0ee46738b29a8c"
+    "variables": []
+  }
 }

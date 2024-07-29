@@ -1,11 +1,11 @@
 {
+  "gitSyncId": "6620198c897a1c105cb9afb5_662298c13692fb206d2962ca",
+  "id": "Ectoparasiticidas_LinkUrl",
   "unpublishedCollection": {
     "name": "LinkUrl",
     "pageId": "Ectoparasiticidas",
     "pluginId": "js-plugin",
     "pluginType": "JS",
-    "actions": [],
-    "archivedActions": [],
     "variables": [
       {
         "name": "url",
@@ -23,10 +23,6 @@
         "name": "url_App_Smith",
         "value": "\"http://localhost:2337\""
       }
-    ],
-    "userPermissions": []
-  },
-  "id": "Ectoparasiticidas_LinkUrl",
-  "deleted": false,
-  "gitSyncId": "6620198c897a1c105cb9afb5_662298c13692fb206d2962ca"
+    ]
+  }
 }

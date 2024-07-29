@@ -1,15 +1,11 @@
 {
+  "gitSyncId": "664b91393d0ee46738b29c21_667af2451c28de346a5533f2",
+  "id": "Medicamentos_getDefaultValues",
   "unpublishedCollection": {
     "name": "getDefaultValues",
     "pageId": "Medicamentos",
     "pluginId": "js-plugin",
     "pluginType": "JS",
-    "actions": [],
-    "archivedActions": [],
-    "variables": [],
-    "userPermissions": []
-  },
-  "id": "Medicamentos_getDefaultValues",
-  "deleted": false,
-  "gitSyncId": "664b91393d0ee46738b29c21_667af2451c28de346a5533f2"
+    "variables": []
+  }
 }

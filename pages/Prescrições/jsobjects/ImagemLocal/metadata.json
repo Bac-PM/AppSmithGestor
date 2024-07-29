@@ -1,20 +1,16 @@
 {
+  "gitSyncId": "664b7bb03d0ee46738b298c4_664b81713d0ee46738b29a82",
+  "id": "Prescrições_ImagemLocal",
   "unpublishedCollection": {
     "name": "ImagemLocal",
     "pageId": "Prescrições",
     "pluginId": "js-plugin",
     "pluginType": "JS",
-    "actions": [],
-    "archivedActions": [],
     "variables": [
       {
         "name": "frente",
         "value": "\"\""
       }
-    ],
-    "userPermissions": []
-  },
-  "id": "Prescrições_ImagemLocal",
-  "deleted": false,
-  "gitSyncId": "664b7bb03d0ee46738b298c4_664b81713d0ee46738b29a82"
+    ]
+  }
 }

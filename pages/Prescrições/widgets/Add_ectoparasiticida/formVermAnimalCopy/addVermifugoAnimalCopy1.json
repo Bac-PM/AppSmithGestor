@@ -1,51 +1,65 @@
 {
-    "resetFormOnClick": true,
-    "boxShadow": "none",
-    "mobileBottomRow": 37,
-    "widgetName": "addVermifugoAnimalCopy1",
-    "onClick": "{{create_EctoAnimal.run().then(() => {\n  closeModal('Add_ectoparasiticida');\n  get_ectoparasiticidas_animal.run();\n}).catch(() => {\n\t\t\t\n\t\t\tlet erroApi = service.getErrorApi(create_EctoAnimal.data);\n\t\t\t\n\t\t\terroPostEcto.setText(erroApi); \n  });\n;}}\n",
-    "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "dynamicPropertyPathList": [{"key": "onClick"}],
-    "displayName": "Button",
-    "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
-    "searchTags": [
-        "click",
-        "submit"
-    ],
-    "topRow": 35,
-    "bottomRow": 39,
-    "type": "BUTTON_WIDGET",
-    "hideCard": false,
-    "mobileRightColumn": 62,
-    "animateLoading": true,
-    "dynamicTriggerPathList": [{"key": "onClick"}],
-    "leftColumn": 49,
-    "dynamicBindingPathList": [
-        {"key": "buttonColor"},
-        {"key": "borderRadius"}
-    ],
-    "text": "Adicionar",
-    "isDisabled": false,
-    "key": "phwp1wq3kr",
-    "isDeprecated": false,
-    "rightColumn": 62,
-    "isDefaultClickDisabled": true,
-    "widgetId": "luzrwxrjne",
-    "minWidth": 120,
-    "isVisible": true,
-    "recaptchaType": "V3",
-    "version": 1,
-    "parentId": "z67rrdyup5",
-    "tags": ["Buttons"],
-    "renderMode": "CANVAS",
-    "isLoading": false,
-    "mobileTopRow": 33,
-    "responsiveBehavior": "hug",
-    "originalTopRow": 35,
-    "disabledWhenInvalid": true,
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "mobileLeftColumn": 46,
-    "originalBottomRow": 39,
-    "buttonVariant": "PRIMARY",
-    "placement": "CENTER"
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 39,
+  "boxShadow": "none",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonVariant": "PRIMARY",
+  "disabledWhenInvalid": true,
+  "displayName": "Button",
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
+  "isDefaultClickDisabled": true,
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "phwp1wq3kr",
+  "leftColumn": 49,
+  "minWidth": 120,
+  "mobileBottomRow": 37,
+  "mobileLeftColumn": 46,
+  "mobileRightColumn": 62,
+  "mobileTopRow": 33,
+  "onClick": "{{create_EctoAnimal.run().then(() => {\n  closeModal('Add_ectoparasiticida');\n  get_ectoparasiticidas_animal.run();\n}).catch(() => {\n\t\t\t\n\t\t\tlet erroApi = service.getErrorApi(create_EctoAnimal.data);\n\t\t\t\n\t\t\terroPostEcto.setText(erroApi); \n  });\n;}}\n",
+  "originalBottomRow": 39,
+  "originalTopRow": 35,
+  "parentId": "z67rrdyup5",
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": true,
+  "responsiveBehavior": "hug",
+  "rightColumn": 62,
+  "searchTags": [
+    "click",
+    "submit"
+  ],
+  "tags": [
+    "Buttons"
+  ],
+  "text": "Adicionar",
+  "topRow": 35,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "luzrwxrjne",
+  "widgetName": "addVermifugoAnimalCopy1"
 }

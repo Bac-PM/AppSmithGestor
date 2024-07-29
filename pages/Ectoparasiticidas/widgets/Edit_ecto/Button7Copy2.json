@@ -1,49 +1,63 @@
 {
-    "resetFormOnClick": false,
-    "boxShadow": "none",
-    "mobileBottomRow": 22,
-    "widgetName": "Button7Copy2",
-    "onClick": "{{put_ecto.run().then(() => {\n  showAlert('Editado com sucesso', 'success');\n  get_ectoparasiticida.run();\n  closeModal('Edit_ecto');\n}).catch(() => {\n let erroApi = service.getErrorApi(put_ecto.data);\n\t\t\terroPut.setText(erroApi); \n});}}",
-    "buttonColor": "rgb(48, 73, 136)",
-    "dynamicPropertyPathList": [{"key": "onClick"}],
-    "displayName": "Button",
-    "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
-    "searchTags": [
-        "click",
-        "submit"
-    ],
-    "topRow": 21,
-    "bottomRow": 25,
-    "type": "BUTTON_WIDGET",
-    "hideCard": false,
-    "mobileRightColumn": 63,
-    "animateLoading": true,
-    "dynamicTriggerPathList": [{"key": "onClick"}],
-    "leftColumn": 47,
-    "dynamicBindingPathList": [{"key": "borderRadius"}],
-    "text": "Atualizar",
-    "isDisabled": false,
-    "key": "9ojlitd7mg",
-    "isDeprecated": false,
-    "rightColumn": 63,
-    "isDefaultClickDisabled": true,
-    "widgetId": "elczbouwta",
-    "buttonStyle": "PRIMARY_BUTTON",
-    "minWidth": 120,
-    "isVisible": true,
-    "recaptchaType": "V3",
-    "version": 1,
-    "parentId": "phwb9007mi",
-    "tags": ["Buttons"],
-    "renderMode": "CANVAS",
-    "isLoading": false,
-    "mobileTopRow": 18,
-    "responsiveBehavior": "hug",
-    "originalTopRow": 21,
-    "disabledWhenInvalid": false,
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "mobileLeftColumn": 47,
-    "originalBottomRow": 25,
-    "buttonVariant": "PRIMARY",
-    "placement": "CENTER"
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 25,
+  "boxShadow": "none",
+  "buttonColor": "rgb(48, 73, 136)",
+  "buttonStyle": "PRIMARY_BUTTON",
+  "buttonVariant": "PRIMARY",
+  "disabledWhenInvalid": false,
+  "displayName": "Button",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
+  "isDefaultClickDisabled": true,
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "9ojlitd7mg",
+  "leftColumn": 47,
+  "minWidth": 120,
+  "mobileBottomRow": 22,
+  "mobileLeftColumn": 47,
+  "mobileRightColumn": 63,
+  "mobileTopRow": 18,
+  "onClick": "{{put_ecto.run().then(() => {\n  showAlert('Editado com sucesso', 'success');\n  get_ectoparasiticida.run();\n  closeModal('Edit_ecto');\n}).catch(() => {\n let erroApi = service.getErrorApi(put_ecto.data);\n\t\t\terroPut.setText(erroApi); \n});}}",
+  "originalBottomRow": 25,
+  "originalTopRow": 21,
+  "parentId": "phwb9007mi",
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "hug",
+  "rightColumn": 63,
+  "searchTags": [
+    "click",
+    "submit"
+  ],
+  "tags": [
+    "Buttons"
+  ],
+  "text": "Atualizar",
+  "topRow": 21,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "elczbouwta",
+  "widgetName": "Button7Copy2"
 }
