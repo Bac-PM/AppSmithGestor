@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "66969fcbc5ee223b0cd328ea_aa59225e-5e1d-4736-ab04-e93b8f94447f",
+  "id": "Prescrições_medicamentosFiltrados",
+  "unpublishedCollection": {
+    "name": "medicamentosFiltrados",
+    "pageId": "Prescrições",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

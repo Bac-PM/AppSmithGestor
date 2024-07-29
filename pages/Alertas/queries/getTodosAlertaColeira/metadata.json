@@ -61,7 +61,7 @@
         "key": "path"
       }
     ],
-    "executeOnLoad": false,
+    "executeOnLoad": true,
     "fullyQualifiedName": "getTodosAlertaColeira",
     "name": "getTodosAlertaColeira",
     "pageId": "Alertas",

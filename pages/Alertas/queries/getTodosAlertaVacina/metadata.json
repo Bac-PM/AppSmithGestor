@@ -97,7 +97,7 @@
         "key": "path"
       }
     ],
-    "executeOnLoad": false,
+    "executeOnLoad": true,
     "fullyQualifiedName": "getTodosAlertaVacina",
     "name": "getTodosAlertaVacina",
     "pageId": "Alertas",

@@ -16,7 +16,11 @@
       "key": "borderRadius"
     }
   ],
-  "dynamicPropertyPathList": [],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
   "dynamicTriggerPathList": [
     {
       "key": "onClick"
@@ -37,7 +41,7 @@
   "mobileRightColumn": 63,
   "mobileTopRow": 18,
   "needsErrorInfo": false,
-  "onClick": "{{put_aplicar_med.run().then(() => {\n  closeModal('aplicar_med');\n  get_medicamento_animal.run();\n get_medicamento_animal_aplicad.run()\n});}}",
+  "onClick": "{{AplicarMedicacao.run().then(() => {\n  closeModal('aplicar_med');\n\tget_medicamento_animalNaplic.run();\n  \n});}}",
   "originalBottomRow": 26,
   "originalTopRow": 22,
   "parentId": "soo66an7dp",

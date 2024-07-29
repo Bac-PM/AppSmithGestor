@@ -41,7 +41,7 @@
   "mobileRightColumn": 63,
   "mobileTopRow": 18,
   "needsErrorInfo": false,
-  "onClick": "{{put_aplicar_med.run().then(() => {\n  closeModal('aplicar_med');\nif(seletor_animal.selectedOptionValue === -1) {\nmedicamentosFiltrados.getTodosMedicamentosAnimal();\n\t\n} else {\nmedicamentosFiltrados.getUmMedicamentosAnimal();\n\t\t};\n  \n});}}",
+  "onClick": "{{AplicarMedicacao.run().then(() => {\n  closeModal('aplicar_med');\nif(seletor_animal.selectedOptionValue === -1) {\nmedicamentosFiltrados.getTodosMedicamentosAnimal();\n\t\n} else {\nmedicamentosFiltrados.getUmMedicamentosAnimal();\n\t\t};\n  \n});}}",
   "originalBottomRow": 26,
   "originalTopRow": 22,
   "parentId": "2fcfjrpb6k",

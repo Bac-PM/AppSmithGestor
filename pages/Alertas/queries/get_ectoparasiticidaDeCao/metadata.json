@@ -68,7 +68,7 @@
         "key": "queryParameters[1].value"
       }
     ],
-    "executeOnLoad": false,
+    "executeOnLoad": true,
     "fullyQualifiedName": "get_ectoparasiticidaDeCao",
     "name": "get_ectoparasiticidaDeCao",
     "pageId": "Alertas",

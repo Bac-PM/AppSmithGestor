@@ -51,7 +51,7 @@
     "Suggested",
     "Content"
   ],
-  "text": "{{medicamentos_ativos.triggeredItem.medicamento.nome}}",
+  "text": "{{medicamentos_ativos.triggeredRow.medicamento.nome}}",
   "textAlign": "LEFT",
   "textColor": "#231F20",
   "thumbnailSVG": "/static/media/thumbnail.0c129b82c9b3e4cd4920563b289659ab.svg",

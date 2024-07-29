@@ -1,5 +1,5 @@
 {
-  "gitSyncId": "664b91393d0ee46738b29c21_6667521e18c92d39a8ad30ed",
+  "gitSyncId": "66969fcbc5ee223b0cd328ea_ea0051e9-ed29-4114-966d-f338f6faf5ce",
   "id": "Prescrições_get_medicamento_animal",
   "pluginId": "restapi-plugin",
   "pluginType": "API",
@@ -58,7 +58,7 @@
         },
         {
           "key": "filters[aplicado]",
-          "value": "true"
+          "value": "false"
         },
         {
           "key": "populate[aplicado_por][fields][0]",
@@ -86,7 +86,7 @@
     ],
     "executeOnLoad": true,
     "fullyQualifiedName": "get_medicamento_animal",
-    "name": "get_medicamento_animal_aplicad",
+    "name": "get_medicamento_animalNaplic",
     "pageId": "Prescrições",
     "userSetOnLoad": true
   }
