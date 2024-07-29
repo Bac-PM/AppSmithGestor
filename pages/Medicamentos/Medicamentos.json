@@ -1,112 +1,32 @@
 {
+  "gitSyncId": "663e5c1636f37417d2df3e34_6644ded836f37417d2df45bf",
   "unpublishedPage": {
-    "name": "Medicamentos",
-    "slug": "medicamentos",
+    "isHidden": false,
     "layouts": [
       {
-        "viewMode": false,
         "dsl": {
-          "widgetName": "MainContainer",
           "backgroundColor": "none",
-          "rightColumn": 1224,
-          "snapColumns": 64,
-          "detachFromLayout": true,
-          "widgetId": "0",
-          "topRow": 0,
           "bottomRow": 610,
-          "containerStyle": "none",
-          "snapRows": 79,
-          "parentRowSpace": 1,
-          "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 89,
+          "containerStyle": "none",
+          "detachFromLayout": true,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0,
           "minHeight": 810,
           "parentColumnSpace": 1,
-          "dynamicBindingPathList": [],
-          "leftColumn": 0
-        },
-        "layoutOnLoadActions": [
-          [
-            {
-              "id": "Medicamentos_get_all_principios",
-              "name": "get_all_principios",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "appsmith.store.jwt",
-                "appsmith.store.url"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Medicamentos_get_apresentacao_medicamento",
-              "name": "get_apresentacao_medicamento",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "appsmith.store.jwt",
-                "appsmith.store.url"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Medicamentos_get_classificacao_medicamento",
-              "name": "get_classificacao_medicamento",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "appsmith.store.jwt",
-                "appsmith.store.url"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Medicamentos_get_medicamentos_ativos",
-              "name": "get_medicamentos_ativos",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "appsmith.store.jwt",
-                "appsmith.store.url"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Medicamentos_get_medicamentos_desativados",
-              "name": "get_medicamentos_desativados",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "appsmith.store.jwt",
-                "appsmith.store.url"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Medicamentos_get_unidade_dosagens",
-              "name": "get_unidade_dosagens",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "appsmith.store.jwt",
-                "appsmith.store.url"
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ]
-        ],
-        "layoutOnLoadActionErrors": [],
-        "validOnPageLoadActions": true,
-        "id": "Medicamentos",
-        "deleted": false,
-        "policies": [],
-        "userPermissions": []
+          "parentRowSpace": 1,
+          "rightColumn": 1224,
+          "snapColumns": 64,
+          "snapRows": 79,
+          "topRow": 0,
+          "type": "CANVAS_WIDGET",
+          "version": 89,
+          "widgetId": "0",
+          "widgetName": "MainContainer"
+        }
       }
     ],
-    "userPermissions": [],
-    "policies": [],
-    "isHidden": false
-  },
-  "deleted": false,
-  "gitSyncId": "663e5c1636f37417d2df3e34_6644ded836f37417d2df45bf"
+    "name": "Medicamentos",
+    "slug": "medicamentos"
+  }
 }

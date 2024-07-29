@@ -1,61 +1,71 @@
 {
-    "needsErrorInfo": false,
-    "mobileBottomRow": 12,
-    "widgetName": "edit_posologia",
-    "dynamicPropertyPathList": [{"key": "isVisible"}],
-    "iconSVG": "/static/media/icon.a55b701a2ae86aa2c6718ecb7b4083f0.svg",
-    "displayName": "Text",
-    "topRow": 39,
-    "searchTags": [
-        "typography",
-        "paragraph",
-        "label"
-    ],
-    "bottomRow": 43,
-    "parentRowSpace": 10,
-    "type": "TEXT_WIDGET",
-    "hideCard": false,
-    "mobileRightColumn": 23,
-    "animateLoading": true,
-    "overflow": "NONE",
-    "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-    "parentColumnSpace": 17.357800292968747,
-    "dynamicTriggerPathList": [],
-    "leftColumn": 8,
-    "dynamicBindingPathList": [
-        {"key": "text"},
-        {"key": "isVisible"},
-        {"key": "fontFamily"}
-    ],
-    "shouldTruncate": false,
-    "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "Dar {{edit_dosagem.text}} {{edit_medida.selectedOptionLabel}} a cada {{edit_num_frequencia.text}} {{edit_tipo_frequencia.selectedOptionLabel}} por {{edit_num_duracao.text}} {{edit_tipo_duracao.selectedOptionLabel}}",
-    "key": "nznrpni8y7",
-    "isDeprecated": false,
-    "rightColumn": 44,
-    "thumbnailSVG": "/static/media/thumbnail.0c129b82c9b3e4cd4920563b289659ab.svg",
-    "textAlign": "LEFT",
-    "dynamicHeight": "AUTO_HEIGHT",
-    "widgetId": "544jrxy2ei",
-    "minWidth": 450,
-    "isVisible": "{{\n(function() { if(edit_num_duracao.text == null){\n\treturn false;\n\t} else {\n\t\treturn true;\n\t}\n})();\n}}",
-    "fontStyle": "",
-    "textColor": "#231F20",
-    "version": 1,
-    "parentId": "hqo5elvo23",
-    "tags": [
-        "Suggested",
-        "Content"
-    ],
-    "isLoading": false,
-    "renderMode": "CANVAS",
-    "mobileTopRow": 8,
-    "responsiveBehavior": "fill",
-    "originalTopRow": 39,
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "mobileLeftColumn": 7,
-    "maxDynamicHeight": 9000,
-    "originalBottomRow": 43,
-    "fontSize": "0.875rem",
-    "minDynamicHeight": 4
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 43,
+  "displayName": "Text",
+  "dynamicBindingPathList": [
+    {
+      "key": "text"
+    },
+    {
+      "key": "isVisible"
+    },
+    {
+      "key": "fontFamily"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicPropertyPathList": [
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+  "fontSize": "0.875rem",
+  "fontStyle": "",
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.a55b701a2ae86aa2c6718ecb7b4083f0.svg",
+  "isDeprecated": false,
+  "isLoading": false,
+  "isVisible": "{{\n(function() { if(edit_num_duracao.text == null){\n\treturn false;\n\t} else {\n\t\treturn true;\n\t}\n})();\n}}",
+  "key": "nznrpni8y7",
+  "leftColumn": 8,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 12,
+  "mobileLeftColumn": 7,
+  "mobileRightColumn": 23,
+  "mobileTopRow": 8,
+  "needsErrorInfo": false,
+  "originalBottomRow": 43,
+  "originalTopRow": 39,
+  "overflow": "NONE",
+  "parentColumnSpace": 17.357800292968747,
+  "parentId": "hqo5elvo23",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 44,
+  "searchTags": [
+    "typography",
+    "paragraph",
+    "label"
+  ],
+  "shouldTruncate": false,
+  "tags": [
+    "Suggested",
+    "Content"
+  ],
+  "text": "Dar {{edit_dosagem.text}} {{edit_medida.selectedOptionLabel}} a cada {{edit_num_frequencia.text}} {{edit_tipo_frequencia.selectedOptionLabel}} por {{edit_num_duracao.text}} {{edit_tipo_duracao.selectedOptionLabel}}",
+  "textAlign": "LEFT",
+  "textColor": "#231F20",
+  "thumbnailSVG": "/static/media/thumbnail.0c129b82c9b3e4cd4920563b289659ab.svg",
+  "topRow": 39,
+  "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "544jrxy2ei",
+  "widgetName": "edit_posologia"
 }

@@ -1,49 +1,59 @@
 {
-    "resetFormOnClick": false,
-    "boxShadow": "none",
-    "mobileBottomRow": 22,
-    "widgetName": "Button10",
-    "onClick": "{{post_unidades.run();\ncloseModal('Add_unidade');\nget_unidades.run();\nshowModal('add_semovente');}}",
-    "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "displayName": "Button",
-    "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
-    "searchTags": [
-        "click",
-        "submit"
-    ],
-    "topRow": 18,
-    "bottomRow": 22,
-    "type": "BUTTON_WIDGET",
-    "hideCard": false,
-    "mobileRightColumn": 63,
-    "animateLoading": true,
-    "dynamicTriggerPathList": [{"key": "onClick"}],
-    "leftColumn": 47,
-    "dynamicBindingPathList": [
-        {"key": "buttonColor"},
-        {"key": "borderRadius"}
-    ],
-    "text": "Confirm",
-    "isDisabled": false,
-    "key": "g5b1rnqifg",
-    "isDeprecated": false,
-    "rightColumn": 63,
-    "isDefaultClickDisabled": true,
-    "widgetId": "n2fewcr5of",
-    "buttonStyle": "PRIMARY_BUTTON",
-    "minWidth": 120,
-    "isVisible": true,
-    "recaptchaType": "V3",
-    "version": 1,
-    "parentId": "lsfg4fksrk",
-    "tags": ["Buttons"],
-    "renderMode": "CANVAS",
-    "isLoading": false,
-    "mobileTopRow": 18,
-    "responsiveBehavior": "hug",
-    "disabledWhenInvalid": false,
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "mobileLeftColumn": 47,
-    "buttonVariant": "PRIMARY",
-    "placement": "CENTER"
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 22,
+  "boxShadow": "none",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonStyle": "PRIMARY_BUTTON",
+  "buttonVariant": "PRIMARY",
+  "disabledWhenInvalid": false,
+  "displayName": "Button",
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
+  "isDefaultClickDisabled": true,
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "g5b1rnqifg",
+  "leftColumn": 47,
+  "minWidth": 120,
+  "mobileBottomRow": 22,
+  "mobileLeftColumn": 47,
+  "mobileRightColumn": 63,
+  "mobileTopRow": 18,
+  "onClick": "{{post_unidades.run();\ncloseModal('Add_unidade');\nget_unidades.run();\nshowModal('add_semovente');}}",
+  "parentId": "lsfg4fksrk",
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "hug",
+  "rightColumn": 63,
+  "searchTags": [
+    "click",
+    "submit"
+  ],
+  "tags": [
+    "Buttons"
+  ],
+  "text": "Confirm",
+  "topRow": 18,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "n2fewcr5of",
+  "widgetName": "Button10"
 }

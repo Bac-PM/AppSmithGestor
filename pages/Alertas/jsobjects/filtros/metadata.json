@@ -1,15 +1,11 @@
 {
+  "gitSyncId": "664b91393d0ee46738b29c21_666b3d00721e40404f8281c5",
+  "id": "Alertas_filtros",
   "unpublishedCollection": {
     "name": "filtros",
     "pageId": "Alertas",
     "pluginId": "js-plugin",
     "pluginType": "JS",
-    "actions": [],
-    "archivedActions": [],
-    "variables": [],
-    "userPermissions": []
-  },
-  "id": "Alertas_filtros",
-  "deleted": false,
-  "gitSyncId": "664b91393d0ee46738b29c21_666b3d00721e40404f8281c5"
+    "variables": []
+  }
 }

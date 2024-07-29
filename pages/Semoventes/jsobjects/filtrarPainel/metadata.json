@@ -1,15 +1,11 @@
 {
+  "gitSyncId": "663e5c1636f37417d2df3e34_6644e37f36f37417d2df471c",
+  "id": "Semoventes_filtrarPainel",
   "unpublishedCollection": {
     "name": "filtrarPainel",
     "pageId": "Semoventes",
     "pluginId": "js-plugin",
     "pluginType": "JS",
-    "actions": [],
-    "archivedActions": [],
-    "variables": [],
-    "userPermissions": []
-  },
-  "id": "Semoventes_filtrarPainel",
-  "deleted": false,
-  "gitSyncId": "663e5c1636f37417d2df3e34_6644e37f36f37417d2df471c"
+    "variables": []
+  }
 }

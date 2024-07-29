@@ -1,52 +1,66 @@
 {
-    "resetFormOnClick": false,
-    "boxShadow": "none",
-    "mobileBottomRow": 22,
-    "widgetName": "botaoAdicionarCreateColeira",
-    "onClick": "{{postAnimalColeira.run().then(() => {\n\tget_coleiras_animal.run();\n  showAlert('Coleira Adicionada com Sucesso', 'success');\n  closeModal('Add_coleira_id');\n\t\n}).catch(() => {\n postAnimalColeira.data.error.details.errors.forEach(element => {\n   showAlert(element.message, 'error');\n});\n});}}",
-    "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "dynamicPropertyPathList": [{"key": "onClick"}],
-    "displayName": "Button",
-    "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
-    "searchTags": [
-        "click",
-        "submit"
-    ],
-    "topRow": 21,
-    "bottomRow": 25,
-    "type": "BUTTON_WIDGET",
-    "hideCard": false,
-    "mobileRightColumn": 63,
-    "animateLoading": true,
-    "dynamicTriggerPathList": [{"key": "onClick"}],
-    "leftColumn": 43,
-    "dynamicBindingPathList": [
-        {"key": "buttonColor"},
-        {"key": "borderRadius"}
-    ],
-    "text": "Adicionar",
-    "isDisabled": false,
-    "key": "ehyow4y0da",
-    "isDeprecated": false,
-    "rightColumn": 62,
-    "isDefaultClickDisabled": true,
-    "widgetId": "wu3gqp1ie9",
-    "buttonStyle": "PRIMARY_BUTTON",
-    "minWidth": 120,
-    "isVisible": true,
-    "recaptchaType": "V3",
-    "version": 1,
-    "parentId": "u6x1k4krsa",
-    "tags": ["Buttons"],
-    "renderMode": "CANVAS",
-    "isLoading": false,
-    "mobileTopRow": 18,
-    "responsiveBehavior": "hug",
-    "originalTopRow": 21,
-    "disabledWhenInvalid": false,
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "mobileLeftColumn": 47,
-    "originalBottomRow": 25,
-    "buttonVariant": "PRIMARY",
-    "placement": "CENTER"
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 25,
+  "boxShadow": "none",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonStyle": "PRIMARY_BUTTON",
+  "buttonVariant": "PRIMARY",
+  "disabledWhenInvalid": false,
+  "displayName": "Button",
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
+  "isDefaultClickDisabled": true,
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "ehyow4y0da",
+  "leftColumn": 43,
+  "minWidth": 120,
+  "mobileBottomRow": 22,
+  "mobileLeftColumn": 47,
+  "mobileRightColumn": 63,
+  "mobileTopRow": 18,
+  "onClick": "{{postAnimalColeira.run().then(() => {\n\tget_coleiras_animal.run();\n  showAlert('Coleira Adicionada com Sucesso', 'success');\n  closeModal('Add_coleira_id');\n\t\n}).catch(() => {\n postAnimalColeira.data.error.details.errors.forEach(element => {\n   showAlert(element.message, 'error');\n});\n});}}",
+  "originalBottomRow": 25,
+  "originalTopRow": 21,
+  "parentId": "u6x1k4krsa",
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "hug",
+  "rightColumn": 62,
+  "searchTags": [
+    "click",
+    "submit"
+  ],
+  "tags": [
+    "Buttons"
+  ],
+  "text": "Adicionar",
+  "topRow": 21,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "wu3gqp1ie9",
+  "widgetName": "botaoAdicionarCreateColeira"
 }

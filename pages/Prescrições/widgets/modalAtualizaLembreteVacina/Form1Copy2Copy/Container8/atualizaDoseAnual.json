@@ -1,58 +1,74 @@
 {
-    "needsErrorInfo": false,
-    "mobileBottomRow": 28,
-    "widgetName": "atualizaDoseAnual",
-    "dynamicPropertyPathList": [{"key": "onCheckChange"}],
-    "displayName": "Checkbox",
-    "iconSVG": "/static/media/icon.57df02ed5f94295f286d31eb27a0bb9f.svg",
-    "searchTags": ["boolean"],
-    "topRow": 7,
-    "bottomRow": 11,
-    "parentRowSpace": 10,
-    "type": "CHECKBOX_WIDGET",
-    "alignWidget": "LEFT",
-    "hideCard": false,
-    "mobileRightColumn": 37,
-    "shouldScrollContents": true,
-    "animateLoading": true,
-    "parentColumnSpace": 1.1621095016598701,
-    "dynamicTriggerPathList": [{"key": "onCheckChange"}],
-    "leftColumn": 0,
-    "dynamicBindingPathList": [
-        {"key": "accentColor"},
-        {"key": "borderRadius"}
-    ],
-    "labelPosition": "Right",
-    "onCheckChange": "{{(function() {\n  \tif(atualizaDoseAnual.isChecked){\n\t\t\t\n\t\t\tatualizaDoseTotal.setVisibility(false)\natualizaDoseTotal.setDisabled(true)\n\t\t\tatualizaDiasEntreDoses.setDisabled(true)\n\t\t\tatualizaDiasEntreDoses.setValue(365)\n\t\t\tvariaveisGerais.doseAnual = 0;\n\t\t\t\n      }else{\n\t\t\t\tatualizaDoseTotal.setVisibility(true)\n\t\t\t\tatualizaDoseTotal.setDisabled(false)\n\t\t\t\t\t\t\tatualizaDiasEntreDoses.setDisabled(false)\n\t\t\t\tvariaveisGerais.doseAnual = parseInt(atualizaDoseTotal.text);\n\t\t\t}\t\n\t\t\n})();\n}}",
-    "isDisabled": false,
-    "key": "sqkwbo8uqh",
-    "isRequired": false,
-    "isDeprecated": false,
-    "rightColumn": 41,
-    "thumbnailSVG": "/static/media/thumbnail.aa4d27836e27bb6c4c45db14dee8f2b2.svg",
-    "dynamicHeight": "FIXED",
-    "widgetId": "yphbc1u0hf",
-    "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-    "onCanvasUI": {
-        "focusBGCSSVar": "--on-canvas-ui-widget-focus",
-        "disableParentSelection": false,
-        "focusColorCSSVar": "--on-canvas-ui-widget-selection",
-        "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
-        "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "alignWidget": "LEFT",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 11,
+  "defaultCheckedState": false,
+  "displayName": "Checkbox",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
     },
-    "minWidth": 450,
-    "isVisible": true,
-    "label": "Dose Anual",
-    "version": 1,
-    "parentId": "re3qbiwhy3",
-    "tags": ["Toggles"],
-    "renderMode": "CANVAS",
-    "isLoading": false,
-    "mobileTopRow": 24,
-    "responsiveBehavior": "fill",
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "mobileLeftColumn": 25,
-    "defaultCheckedState": false,
-    "maxDynamicHeight": 6,
-    "minDynamicHeight": 4
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "onCheckChange"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onCheckChange"
+    }
+  ],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.57df02ed5f94295f286d31eb27a0bb9f.svg",
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "sqkwbo8uqh",
+  "label": "Dose Anual",
+  "labelPosition": "Right",
+  "leftColumn": 0,
+  "maxDynamicHeight": 6,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 28,
+  "mobileLeftColumn": 25,
+  "mobileRightColumn": 37,
+  "mobileTopRow": 24,
+  "needsErrorInfo": false,
+  "onCanvasUI": {
+    "disableParentSelection": false,
+    "focusBGCSSVar": "--on-canvas-ui-widget-focus",
+    "focusColorCSSVar": "--on-canvas-ui-widget-selection",
+    "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
+    "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
+  },
+  "onCheckChange": "{{(function() {\n  \tif(atualizaDoseAnual.isChecked){\n\t\t\t\n\t\t\tatualizaDoseTotal.setVisibility(false)\natualizaDoseTotal.setDisabled(true)\n\t\t\tatualizaDiasEntreDoses.setDisabled(true)\n\t\t\tatualizaDiasEntreDoses.setValue(365)\n\t\t\tvariaveisGerais.doseAnual = 0;\n\t\t\t\n      }else{\n\t\t\t\tatualizaDoseTotal.setVisibility(true)\n\t\t\t\tatualizaDoseTotal.setDisabled(false)\n\t\t\t\t\t\t\tatualizaDiasEntreDoses.setDisabled(false)\n\t\t\t\tvariaveisGerais.doseAnual = parseInt(atualizaDoseTotal.text);\n\t\t\t}\t\n\t\t\n})();\n}}",
+  "parentColumnSpace": 1.1621095016598701,
+  "parentId": "re3qbiwhy3",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 41,
+  "searchTags": [
+    "boolean"
+  ],
+  "shouldScrollContents": true,
+  "tags": [
+    "Toggles"
+  ],
+  "thumbnailSVG": "/static/media/thumbnail.aa4d27836e27bb6c4c45db14dee8f2b2.svg",
+  "topRow": 7,
+  "type": "CHECKBOX_WIDGET",
+  "version": 1,
+  "widgetId": "yphbc1u0hf",
+  "widgetName": "atualizaDoseAnual"
 }

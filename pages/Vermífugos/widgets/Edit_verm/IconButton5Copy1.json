@@ -1,42 +1,52 @@
 {
-    "boxShadow": "none",
-    "mobileBottomRow": 4,
-    "widgetName": "IconButton5Copy1",
-    "onClick": "{{closeModal('Edit_verm');}}",
-    "buttonColor": "rgb(48, 73, 136)",
-    "dynamicPropertyPathList": [],
-    "displayName": "Icon button",
-    "iconSVG": "/static/media/icon.b08054586989b185a0801e9a34f8ad49.svg",
-    "searchTags": [
-        "click",
-        "submit"
-    ],
-    "topRow": 0,
-    "bottomRow": 4,
-    "type": "ICON_BUTTON_WIDGET",
-    "hideCard": false,
-    "mobileRightColumn": 64,
-    "animateLoading": true,
-    "dynamicTriggerPathList": [{"key": "onClick"}],
-    "leftColumn": 58,
-    "dynamicBindingPathList": [{"key": "borderRadius"}],
-    "iconSize": 24,
-    "isDisabled": false,
-    "key": "oatjc5dn1k",
-    "isDeprecated": false,
-    "rightColumn": 64,
-    "iconName": "cross",
-    "widgetId": "a4eop3eoqg",
-    "minWidth": 50,
-    "isVisible": true,
-    "version": 1,
-    "parentId": "o5y50hnvgc",
-    "tags": ["Buttons"],
-    "renderMode": "CANVAS",
-    "isLoading": false,
-    "mobileTopRow": 0,
-    "responsiveBehavior": "hug",
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "mobileLeftColumn": 58,
-    "buttonVariant": "TERTIARY"
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 4,
+  "boxShadow": "none",
+  "buttonColor": "rgb(48, 73, 136)",
+  "buttonVariant": "TERTIARY",
+  "displayName": "Icon button",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicPropertyPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "hideCard": false,
+  "iconName": "cross",
+  "iconSVG": "/static/media/icon.b08054586989b185a0801e9a34f8ad49.svg",
+  "iconSize": 24,
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "oatjc5dn1k",
+  "leftColumn": 58,
+  "minWidth": 50,
+  "mobileBottomRow": 4,
+  "mobileLeftColumn": 58,
+  "mobileRightColumn": 64,
+  "mobileTopRow": 0,
+  "onClick": "{{closeModal('Edit_verm');}}",
+  "parentId": "o5y50hnvgc",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "hug",
+  "rightColumn": 64,
+  "searchTags": [
+    "click",
+    "submit"
+  ],
+  "tags": [
+    "Buttons"
+  ],
+  "topRow": 0,
+  "type": "ICON_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "a4eop3eoqg",
+  "widgetName": "IconButton5Copy1"
 }

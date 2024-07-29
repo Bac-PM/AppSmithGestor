@@ -1,59 +1,67 @@
 {
-    "boxShadow": "none",
-    "mobileBottomRow": 11,
-    "widgetName": "retornoCreate",
-    "dynamicPropertyPathList": [],
-    "iconSVG": "/static/media/icon.99c101b3b70073f9c00e9af6523f9427.svg",
-    "displayName": "Radio Group",
-    "topRow": 39,
-    "searchTags": ["choice"],
-    "bottomRow": 45,
-    "parentRowSpace": 10,
-    "labelWidth": 5,
-    "type": "RADIO_GROUP_WIDGET",
-    "hideCard": false,
-    "mobileRightColumn": 32,
-    "defaultOptionValue": "",
-    "animateLoading": false,
-    "parentColumnSpace": 6.4140625,
-    "dynamicTriggerPathList": [],
-    "leftColumn": 2,
-    "dynamicBindingPathList": [{"key": "accentColor"}],
-    "labelPosition": "Top",
-    "options": [
-        {
-            "label": "Sim",
-            "value": "true"
-        },
-        {
-            "label": "Não",
-            "value": "false"
-        }
-    ],
-    "isDisabled": false,
-    "flexVerticalAlignment": "start",
-    "key": "n4odwea16f",
-    "labelTextSize": "0.875rem",
-    "isRequired": false,
-    "isDeprecated": false,
-    "rightColumn": 36,
-    "dynamicHeight": "AUTO_HEIGHT",
-    "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-    "widgetId": "13kl3q3wh0",
-    "isVisible": true,
-    "label": "É retorno?",
-    "version": 1,
-    "parentId": "li5dis2tyf",
-    "tags": ["Toggles"],
-    "isLoading": false,
-    "labelAlignment": "left",
-    "renderMode": "CANVAS",
-    "mobileTopRow": 5,
-    "originalTopRow": 39,
-    "mobileLeftColumn": 12,
-    "maxDynamicHeight": 9000,
-    "originalBottomRow": 45,
-    "isInline": true,
-    "alignment": "left",
-    "minDynamicHeight": 4
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "alignment": "left",
+  "animateLoading": false,
+  "bottomRow": 45,
+  "boxShadow": "none",
+  "defaultOptionValue": "",
+  "displayName": "Radio Group",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicPropertyPathList": [],
+  "dynamicTriggerPathList": [],
+  "flexVerticalAlignment": "start",
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.99c101b3b70073f9c00e9af6523f9427.svg",
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isInline": true,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "n4odwea16f",
+  "label": "É retorno?",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 2,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "mobileBottomRow": 11,
+  "mobileLeftColumn": 12,
+  "mobileRightColumn": 32,
+  "mobileTopRow": 5,
+  "options": [
+    {
+      "label": "Sim",
+      "value": "true"
+    },
+    {
+      "label": "Não",
+      "value": "false"
+    }
+  ],
+  "originalBottomRow": 45,
+  "originalTopRow": 39,
+  "parentColumnSpace": 6.4140625,
+  "parentId": "li5dis2tyf",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 36,
+  "searchTags": [
+    "choice"
+  ],
+  "tags": [
+    "Toggles"
+  ],
+  "topRow": 39,
+  "type": "RADIO_GROUP_WIDGET",
+  "version": 1,
+  "widgetId": "13kl3q3wh0",
+  "widgetName": "retornoCreate"
 }

@@ -1,50 +1,60 @@
 {
-    "resetFormOnClick": true,
-    "boxShadow": "none",
-    "mobileBottomRow": 37,
-    "widgetName": "Button3Copy2",
-    "onClick": "{{closeModal('modalAdicionaLembreteVacina');}}",
-    "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "displayName": "Button",
-    "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
-    "searchTags": [
-        "click",
-        "submit"
-    ],
-    "topRow": 60,
-    "bottomRow": 64,
-    "type": "BUTTON_WIDGET",
-    "hideCard": false,
-    "mobileRightColumn": 46,
-    "animateLoading": true,
-    "dynamicTriggerPathList": [{"key": "onClick"}],
-    "leftColumn": 40,
-    "dynamicBindingPathList": [
-        {"key": "buttonColor"},
-        {"key": "borderRadius"}
-    ],
-    "text": "Descartar",
-    "isDisabled": false,
-    "key": "phwp1wq3kr",
-    "isDeprecated": false,
-    "rightColumn": 51,
-    "isDefaultClickDisabled": true,
-    "widgetId": "8z49zih1qm",
-    "minWidth": 120,
-    "isVisible": true,
-    "recaptchaType": "V3",
-    "version": 1,
-    "parentId": "hvywwq83st",
-    "tags": ["Buttons"],
-    "renderMode": "CANVAS",
-    "isLoading": false,
-    "mobileTopRow": 33,
-    "responsiveBehavior": "hug",
-    "originalTopRow": 60,
-    "disabledWhenInvalid": false,
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "mobileLeftColumn": 30,
-    "originalBottomRow": 64,
-    "buttonVariant": "SECONDARY",
-    "placement": "CENTER"
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 64,
+  "boxShadow": "none",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonVariant": "SECONDARY",
+  "disabledWhenInvalid": false,
+  "displayName": "Button",
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
+  "isDefaultClickDisabled": true,
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "phwp1wq3kr",
+  "leftColumn": 40,
+  "minWidth": 120,
+  "mobileBottomRow": 37,
+  "mobileLeftColumn": 30,
+  "mobileRightColumn": 46,
+  "mobileTopRow": 33,
+  "onClick": "{{closeModal('modalAdicionaLembreteVacina');}}",
+  "originalBottomRow": 64,
+  "originalTopRow": 60,
+  "parentId": "hvywwq83st",
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": true,
+  "responsiveBehavior": "hug",
+  "rightColumn": 51,
+  "searchTags": [
+    "click",
+    "submit"
+  ],
+  "tags": [
+    "Buttons"
+  ],
+  "text": "Descartar",
+  "topRow": 60,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "8z49zih1qm",
+  "widgetName": "Button3Copy2"
 }

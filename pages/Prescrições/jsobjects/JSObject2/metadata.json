@@ -1,15 +1,11 @@
 {
+  "gitSyncId": "664b91393d0ee46738b29c21_667c39aa1c28de346a55349b",
+  "id": "Prescrições_JSObject2",
   "unpublishedCollection": {
     "name": "JSObject2",
     "pageId": "Prescrições",
     "pluginId": "js-plugin",
     "pluginType": "JS",
-    "actions": [],
-    "archivedActions": [],
-    "variables": [],
-    "userPermissions": []
-  },
-  "id": "Prescrições_JSObject2",
-  "deleted": false,
-  "gitSyncId": "664b91393d0ee46738b29c21_667c39aa1c28de346a55349b"
+    "variables": []
+  }
 }

@@ -1,56 +1,70 @@
 {
-    "resetFormOnClick": false,
-    "boxShadow": "none",
-    "mobileBottomRow": 37,
-    "widgetName": "Criar",
-    "onClick": "{{create_semovente.run().then(response => {\n\natualizaIdFrenteAdiciona.idDireita= \"\";\n\tatualizaIdFrenteAdiciona.idFrente= \"\";\n\natualizaIdFrenteAdiciona.idEsquerda= \"\"; \n\t\n//resetWidget(\"add_semoventeCopy\", true);\n\tget_animals_ativos.run();\nget_animals_painel.run();\n   \ncloseModal(add_semoventeCopy.name); showModal(Cadastro_Realizado.name);\n\n}).catch(error => {\n create_semovente.data.error.details.errors.forEach(element => {\n   showAlert(JSON.stringify(element.message), 'error');\n});\n});}}\n",
-    "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "dynamicPropertyPathList": [
-        {"key": "onClick"},
-        {"key": "isVisible"}
-    ],
-    "displayName": "Button",
-    "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
-    "searchTags": [
-        "click",
-        "submit"
-    ],
-    "topRow": 45,
-    "bottomRow": 49,
-    "type": "BUTTON_WIDGET",
-    "hideCard": false,
-    "mobileRightColumn": 62,
-    "topRowBeforeCollapse": 45,
-    "animateLoading": true,
-    "dynamicTriggerPathList": [{"key": "onClick"}],
-    "leftColumn": 52,
-    "dynamicBindingPathList": [
-        {"key": "isVisible"},
-        {"key": "buttonColor"}
-    ],
-    "text": "Criar",
-    "isDisabled": false,
-    "key": "r43kcp0fjx",
-    "isDeprecated": false,
-    "rightColumn": 64,
-    "borDerRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "isDefaultClickDisabled": true,
-    "widgetId": "ahzhpjuy44",
-    "bottomRowBeforeCollapse": 49,
-    "minWidth": 120,
-    "isVisible": "{{\n(function() {\n  if(appsmith.store.tabSemovente == '3 - Fotos do Semovente'){\nreturn true\n\t} else {\n\t\treturn false;\n\t}\n})();\n}}",
-    "recaptchaType": "V3",
-    "version": 1,
-    "parentId": "o23kt3gij2",
-    "tags": ["Buttons"],
-    "renderMode": "CANVAS",
-    "isLoading": false,
-    "mobileTopRow": 33,
-    "responsiveBehavior": "hug",
-    "originalTopRow": 45,
-    "disabledWhenInvalid": true,
-    "mobileLeftColumn": 46,
-    "originalBottomRow": 45,
-    "buttonVariant": "PRIMARY",
-    "placement": "CENTER"
+  "animateLoading": true,
+  "borDerRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 49,
+  "bottomRowBeforeCollapse": 49,
+  "boxShadow": "none",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonVariant": "PRIMARY",
+  "disabledWhenInvalid": true,
+  "displayName": "Button",
+  "dynamicBindingPathList": [
+    {
+      "key": "isVisible"
+    },
+    {
+      "key": "buttonColor"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    },
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
+  "isDefaultClickDisabled": true,
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": "{{\n(function() {\n  if(appsmith.store.tabSemovente == '3 - Fotos do Semovente'){\nreturn true\n\t} else {\n\t\treturn false;\n\t}\n})();\n}}",
+  "key": "r43kcp0fjx",
+  "leftColumn": 52,
+  "minWidth": 120,
+  "mobileBottomRow": 37,
+  "mobileLeftColumn": 46,
+  "mobileRightColumn": 62,
+  "mobileTopRow": 33,
+  "onClick": "{{create_semovente.run().then(response => {\n\natualizaIdFrenteAdiciona.idDireita= \"\";\n\tatualizaIdFrenteAdiciona.idFrente= \"\";\n\natualizaIdFrenteAdiciona.idEsquerda= \"\"; \n\t\n//resetWidget(\"add_semoventeCopy\", true);\n\tget_animals_ativos.run();\nget_animals_painel.run();\n   \ncloseModal(add_semoventeCopy.name); showModal(Cadastro_Realizado.name);\n\n}).catch(error => {\n create_semovente.data.error.details.errors.forEach(element => {\n   showAlert(JSON.stringify(element.message), 'error');\n});\n});}}\n",
+  "originalBottomRow": 45,
+  "originalTopRow": 45,
+  "parentId": "o23kt3gij2",
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "hug",
+  "rightColumn": 64,
+  "searchTags": [
+    "click",
+    "submit"
+  ],
+  "tags": [
+    "Buttons"
+  ],
+  "text": "Criar",
+  "topRow": 45,
+  "topRowBeforeCollapse": 45,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "ahzhpjuy44",
+  "widgetName": "Criar"
 }

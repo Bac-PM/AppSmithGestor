@@ -1,56 +1,72 @@
 {
-    "resetFormOnClick": false,
-    "boxShadow": "none",
-    "mobileBottomRow": 43,
-    "widgetName": "Button11CopyCopyCopy",
-    "onClick": "{{storeValue('tabSemovente', '2 - Dados Complementares');}}",
-    "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "dynamicPropertyPathList": [{"key": "isVisible"}],
-    "displayName": "Button",
-    "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
-    "searchTags": [
-        "click",
-        "submit"
-    ],
-    "topRow": 45,
-    "bottomRow": 49,
-    "parentRowSpace": 10,
-    "type": "BUTTON_WIDGET",
-    "hideCard": false,
-    "mobileRightColumn": 58,
-    "topRowBeforeCollapse": 45,
-    "animateLoading": true,
-    "parentColumnSpace": 11.59228515625,
-    "dynamicTriggerPathList": [{"key": "onClick"}],
-    "leftColumn": 40,
-    "dynamicBindingPathList": [
-        {"key": "isVisible"},
-        {"key": "buttonColor"},
-        {"key": "borderRadius"}
-    ],
-    "text": "Voltar",
-    "isDisabled": false,
-    "key": "a6vklfx1mc",
-    "isDeprecated": false,
-    "rightColumn": 52,
-    "isDefaultClickDisabled": true,
-    "widgetId": "qohndjvejd",
-    "bottomRowBeforeCollapse": 49,
-    "minWidth": 120,
-    "isVisible": "{{\n(function() {\n  if(appsmith.store.tabSemovente == '3 - Fotos do Semovente'){\nreturn true\n\t} else {\n\t\treturn false;\n\t}\n})();\n}}",
-    "recaptchaType": "V3",
-    "version": 1,
-    "parentId": "o23kt3gij2",
-    "tags": ["Buttons"],
-    "renderMode": "CANVAS",
-    "isLoading": false,
-    "mobileTopRow": 39,
-    "responsiveBehavior": "hug",
-    "originalTopRow": 45,
-    "disabledWhenInvalid": false,
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "mobileLeftColumn": 42,
-    "originalBottomRow": 45,
-    "buttonVariant": "PRIMARY",
-    "placement": "CENTER"
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 49,
+  "bottomRowBeforeCollapse": 49,
+  "boxShadow": "none",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonVariant": "PRIMARY",
+  "disabledWhenInvalid": false,
+  "displayName": "Button",
+  "dynamicBindingPathList": [
+    {
+      "key": "isVisible"
+    },
+    {
+      "key": "buttonColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
+  "isDefaultClickDisabled": true,
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": "{{\n(function() {\n  if(appsmith.store.tabSemovente == '3 - Fotos do Semovente'){\nreturn true\n\t} else {\n\t\treturn false;\n\t}\n})();\n}}",
+  "key": "a6vklfx1mc",
+  "leftColumn": 40,
+  "minWidth": 120,
+  "mobileBottomRow": 43,
+  "mobileLeftColumn": 42,
+  "mobileRightColumn": 58,
+  "mobileTopRow": 39,
+  "onClick": "{{storeValue('tabSemovente', '2 - Dados Complementares');}}",
+  "originalBottomRow": 45,
+  "originalTopRow": 45,
+  "parentColumnSpace": 11.59228515625,
+  "parentId": "o23kt3gij2",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "hug",
+  "rightColumn": 52,
+  "searchTags": [
+    "click",
+    "submit"
+  ],
+  "tags": [
+    "Buttons"
+  ],
+  "text": "Voltar",
+  "topRow": 45,
+  "topRowBeforeCollapse": 45,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "qohndjvejd",
+  "widgetName": "Button11CopyCopyCopy"
 }

@@ -1,194 +1,32 @@
 {
+  "gitSyncId": "6620198c897a1c105cb9afb5_662019d8897a1c105cb9b02f",
   "unpublishedPage": {
-    "name": "Alertas",
-    "slug": "alertas",
+    "isHidden": false,
     "layouts": [
       {
-        "viewMode": false,
         "dsl": {
-          "widgetName": "MainContainer",
           "backgroundColor": "none",
-          "rightColumn": 1224,
-          "snapColumns": 64,
-          "detachFromLayout": true,
-          "widgetId": "0",
-          "topRow": 0,
           "bottomRow": 750,
-          "containerStyle": "none",
-          "snapRows": 53,
-          "parentRowSpace": 1,
-          "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 89,
+          "containerStyle": "none",
+          "detachFromLayout": true,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0,
           "minHeight": 550,
           "parentColumnSpace": 1,
-          "dynamicBindingPathList": [],
-          "leftColumn": 0
-        },
-        "layoutOnLoadActions": [
-          [
-            {
-              "id": "Alertas_medicamentosFiltrados.getTodosMedicamentosAnimal",
-              "name": "medicamentosFiltrados.getTodosMedicamentosAnimal",
-              "collectionId": "Alertas_medicamentosFiltrados",
-              "confirmBeforeExecute": false,
-              "pluginType": "JS",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            }
-          ],
-          [
-            {
-              "id": "Alertas_produtosFiltrados.getTodosColeiraAnimal",
-              "name": "produtosFiltrados.getTodosColeiraAnimal",
-              "collectionId": "Alertas_produtosFiltrados",
-              "confirmBeforeExecute": false,
-              "pluginType": "JS",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Alertas_produtosFiltrados.getTodosEctoAnimal",
-              "name": "produtosFiltrados.getTodosEctoAnimal",
-              "collectionId": "Alertas_produtosFiltrados",
-              "confirmBeforeExecute": false,
-              "pluginType": "JS",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Alertas_produtosFiltrados.getTodosVacinaAnimal",
-              "name": "produtosFiltrados.getTodosVacinaAnimal",
-              "collectionId": "Alertas_produtosFiltrados",
-              "confirmBeforeExecute": false,
-              "pluginType": "JS",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Alertas_produtosFiltrados.getTodosVermifugosAnimal",
-              "name": "produtosFiltrados.getTodosVermifugosAnimal",
-              "collectionId": "Alertas_produtosFiltrados",
-              "confirmBeforeExecute": false,
-              "pluginType": "JS",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Alertas_produtosFiltrados.getUmColeiraAnimal",
-              "name": "produtosFiltrados.getUmColeiraAnimal",
-              "collectionId": "Alertas_produtosFiltrados",
-              "confirmBeforeExecute": false,
-              "pluginType": "JS",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Alertas_produtosFiltrados.getUmEctoAnimal",
-              "name": "produtosFiltrados.getUmEctoAnimal",
-              "collectionId": "Alertas_produtosFiltrados",
-              "confirmBeforeExecute": false,
-              "pluginType": "JS",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Alertas_produtosFiltrados.getUmVacinaAnimal",
-              "name": "produtosFiltrados.getUmVacinaAnimal",
-              "collectionId": "Alertas_produtosFiltrados",
-              "confirmBeforeExecute": false,
-              "pluginType": "JS",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Alertas_produtosFiltrados.getUmVermifugoAnimal",
-              "name": "produtosFiltrados.getUmVermifugoAnimal",
-              "collectionId": "Alertas_produtosFiltrados",
-              "confirmBeforeExecute": false,
-              "pluginType": "JS",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            }
-          ],
-          [
-            {
-              "id": "Alertas_getAllAlertasAtrasados",
-              "name": "getAllAlertasAtrasados",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "appsmith.store.jwt",
-                "new Date()",
-                "appsmith.store.url"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Alertas_getAllAlertasDoDia",
-              "name": "getAllAlertasDoDia",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "appsmith.store.jwt",
-                "new Date()",
-                "appsmith.store.url"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Alertas_getCaesAtivos",
-              "name": "getCaesAtivos",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "appsmith.store.jwt",
-                "appsmith.store.url"
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ],
-          [
-            {
-              "id": "Alertas_getAllAlertasAtrasadosUmCao",
-              "name": "getAllAlertasAtrasadosUmCao",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "seletor_animal.selectedOptionValue",
-                "appsmith.store.jwt",
-                "new Date()",
-                "appsmith.store.url"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Alertas_getAllAlertasDoDiaUmCao",
-              "name": "getAllAlertasDoDiaUmCao",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "seletor_animal.selectedOptionValue",
-                "appsmith.store.jwt",
-                "new Date()",
-                "appsmith.store.url"
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ]
-        ],
-        "layoutOnLoadActionErrors": [],
-        "validOnPageLoadActions": true,
-        "id": "Alertas",
-        "deleted": false,
-        "policies": [],
-        "userPermissions": []
+          "parentRowSpace": 1,
+          "rightColumn": 1224,
+          "snapColumns": 64,
+          "snapRows": 53,
+          "topRow": 0,
+          "type": "CANVAS_WIDGET",
+          "version": 89,
+          "widgetId": "0",
+          "widgetName": "MainContainer"
+        }
       }
     ],
-    "userPermissions": [],
-    "policies": [],
-    "isHidden": false
-  },
-  "deleted": false,
-  "gitSyncId": "6620198c897a1c105cb9afb5_662019d8897a1c105cb9b02f"
+    "name": "Alertas",
+    "slug": "alertas"
+  }
 }

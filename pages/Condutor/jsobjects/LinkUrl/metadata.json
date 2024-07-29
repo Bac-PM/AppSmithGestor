@@ -1,11 +1,11 @@
 {
+  "gitSyncId": "65c281a7ed663e5cca363ff4_65d653bec20f0956f327f171",
+  "id": "Condutor_LinkUrl",
   "unpublishedCollection": {
     "name": "LinkUrl",
     "pageId": "Condutor",
     "pluginId": "js-plugin",
     "pluginType": "JS",
-    "actions": [],
-    "archivedActions": [],
     "variables": [
       {
         "name": "url",
@@ -23,10 +23,6 @@
         "name": "url_App_Smith",
         "value": "\"http://localhost:2337\""
       }
-    ],
-    "userPermissions": []
-  },
-  "id": "Condutor_LinkUrl",
-  "deleted": false,
-  "gitSyncId": "65c281a7ed663e5cca363ff4_65d653bec20f0956f327f171"
+    ]
+  }
 }

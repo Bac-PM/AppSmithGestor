@@ -1,53 +1,63 @@
 {
-    "resetFormOnClick": false,
-    "boxShadow": "none",
-    "mobileBottomRow": 43,
-    "widgetName": "Button11Copy",
-    "onClick": "{{storeValue('tabSemovente', '3 - Fotos do Semovente');}}",
-    "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "dynamicPropertyPathList": [],
-    "displayName": "Button",
-    "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
-    "searchTags": [
-        "click",
-        "submit"
-    ],
-    "topRow": 39,
-    "bottomRow": 43,
-    "parentRowSpace": 10,
-    "type": "BUTTON_WIDGET",
-    "hideCard": false,
-    "mobileRightColumn": 58,
-    "animateLoading": true,
-    "parentColumnSpace": 11.59228515625,
-    "dynamicTriggerPathList": [{"key": "onClick"}],
-    "leftColumn": 52,
-    "dynamicBindingPathList": [
-        {"key": "buttonColor"},
-        {"key": "borderRadius"}
-    ],
-    "text": "Próximo",
-    "isDisabled": false,
-    "key": "a6vklfx1mc",
-    "isDeprecated": false,
-    "rightColumn": 64,
-    "isDefaultClickDisabled": true,
-    "widgetId": "w6klwoc3pu",
-    "minWidth": 120,
-    "isVisible": true,
-    "recaptchaType": "V3",
-    "version": 1,
-    "parentId": "2ti37oil30",
-    "tags": ["Buttons"],
-    "renderMode": "CANVAS",
-    "isLoading": false,
-    "mobileTopRow": 39,
-    "responsiveBehavior": "hug",
-    "originalTopRow": 39,
-    "disabledWhenInvalid": false,
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "mobileLeftColumn": 42,
-    "originalBottomRow": 43,
-    "buttonVariant": "PRIMARY",
-    "placement": "CENTER"
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 43,
+  "boxShadow": "none",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonVariant": "PRIMARY",
+  "disabledWhenInvalid": false,
+  "displayName": "Button",
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicPropertyPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
+  "isDefaultClickDisabled": true,
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "a6vklfx1mc",
+  "leftColumn": 52,
+  "minWidth": 120,
+  "mobileBottomRow": 43,
+  "mobileLeftColumn": 42,
+  "mobileRightColumn": 58,
+  "mobileTopRow": 39,
+  "onClick": "{{storeValue('tabSemovente', '3 - Fotos do Semovente');}}",
+  "originalBottomRow": 43,
+  "originalTopRow": 39,
+  "parentColumnSpace": 11.59228515625,
+  "parentId": "2ti37oil30",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "hug",
+  "rightColumn": 64,
+  "searchTags": [
+    "click",
+    "submit"
+  ],
+  "tags": [
+    "Buttons"
+  ],
+  "text": "Próximo",
+  "topRow": 39,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "w6klwoc3pu",
+  "widgetName": "Button11Copy"
 }

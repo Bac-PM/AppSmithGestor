@@ -1,11 +1,10 @@
 {
-  "name": "service",
-  "uidString": "service_https://cdn.jsdelivr.net/gh/felipefo/appsmith-bac@organizando-e-refatorando/dist/service.umd.js",
   "accessor": [
     "service"
   ],
-  "url": "https://cdn.jsdelivr.net/gh/felipefo/appsmith-bac@organizando-e-refatorando/dist/service.umd.js",
-  "version": "",
   "defs": "{\"!name\":\"LIB/service\",\"service\":{\"getAnimal\":{\"!type\":\"fn()\"},\"createAnimal\":{\"!type\":\"fn()\"},\"removeAnimal\":{\"!type\":\"fn()\"},\"getCondutor\":{\"!type\":\"fn()\"},\"createCondutor\":{\"!type\":\"fn()\"},\"extrairMensagensDeErro\":{\"!type\":\"fn()\"},\"juntarMensagensDeErro\":{\"!type\":\"fn()\"},\"getErrorApi\":{\"!type\":\"fn()\"},\"setUIError\":{\"!type\":\"fn()\"},\"getUrl\":{\"!type\":\"fn()\"},\"getUrlApi\":{\"!type\":\"fn()\"},\"getUrlAppSmith\":{\"!type\":\"fn()\"},\"getHostDocker\":{\"!type\":\"fn()\"},\"getServidor\":{\"!type\":\"fn()\"},\"setServidorLEDS\":{\"!type\":\"fn()\"},\"setServidorPM\":{\"!type\":\"fn()\"}}}",
-  "deleted": false
+  "name": "service",
+  "uidString": "service_https://cdn.jsdelivr.net/gh/felipefo/appsmith-bac@organizando-e-refatorando/dist/service.umd.js",
+  "url": "https://cdn.jsdelivr.net/gh/felipefo/appsmith-bac@organizando-e-refatorando/dist/service.umd.js",
+  "version": ""
 }

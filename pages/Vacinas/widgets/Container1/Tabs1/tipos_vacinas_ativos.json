@@ -1,172 +1,190 @@
 {
-    "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
-    "borderColor": "#E0DEDE",
-    "isVisibleDownload": true,
-    "iconSVG": "/static/media/icon.cf625df24d42d0de4d06cba559b3c327.svg",
-    "topRow": 4,
-    "isSortable": true,
-    "type": "TABLE_WIDGET_V2",
-    "inlineEditingSaveOption": "ROW_LEVEL",
-    "animateLoading": true,
-    "dynamicBindingPathList": [
-        {"key": "accentColor"},
-        {"key": "borderRadius"},
-        {"key": "boxShadow"},
-        {"key": "tableData"},
-        {"key": "primaryColumns.id.computedValue"},
-        {"key": "primaryColumns.tipo.computedValue"}
-    ],
-    "needsHeightForContent": true,
-    "leftColumn": 0,
-    "delimiter": ",",
-    "defaultSelectedRowIndex": 0,
-    "flexVerticalAlignment": "start",
-    "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-    "onCanvasUI": {
-        "focusBGCSSVar": "--on-canvas-ui-widget-focus",
-        "disableParentSelection": false,
-        "focusColorCSSVar": "--on-canvas-ui-widget-selection",
-        "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
-        "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderColor": "#E0DEDE",
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "borderWidth": "1",
+  "bottomRow": 49,
+  "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+  "canFreezeColumn": true,
+  "childStylesheet": {
+    "button": {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none",
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}"
     },
-    "isVisibleFilters": true,
-    "isVisible": true,
-    "enableClientSideSearch": true,
-    "version": 2,
-    "totalRecordsCount": 0,
-    "tags": [
-        "Suggested",
-        "Display"
-    ],
-    "isLoading": false,
-    "childStylesheet": {
-        "button": {
-            "boxShadow": "none",
-            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-            "buttonColor": "{{appsmith.theme.colors.primaryColor}}"
-        },
-        "iconButton": {
-            "boxShadow": "none",
-            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-            "buttonColor": "{{appsmith.theme.colors.primaryColor}}"
-        },
-        "menuButton": {
-            "boxShadow": "none",
-            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-            "menuColor": "{{appsmith.theme.colors.primaryColor}}"
-        },
-        "editActions": {
-            "saveButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-            "saveBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-            "discardBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-            "discardButtonColor": "{{appsmith.theme.colors.primaryColor}}"
-        }
+    "editActions": {
+      "discardBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "discardButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+      "saveBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "saveButtonColor": "{{appsmith.theme.colors.primaryColor}}"
     },
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "columnUpdatedAt": 1719937293372,
-    "originalBottomRow": 95,
-    "defaultSelectedRowIndices": [0],
-    "needsErrorInfo": false,
-    "mobileBottomRow": 78,
-    "widgetName": "tipos_vacinas_ativos",
-    "defaultPageSize": 0,
-    "columnOrder": [
-        "id",
-        "tipo"
-    ],
-    "dynamicPropertyPathList": [{"key": "tableData"}],
-    "displayName": "Table",
-    "bottomRow": 49,
-    "columnWidthMap": {},
-    "parentRowSpace": 10,
-    "hideCard": false,
-    "mobileRightColumn": 34,
-    "parentColumnSpace": 18.5,
-    "dynamicTriggerPathList": [],
-    "borderWidth": "1",
-    "primaryColumns": {
-        "tipo": {
-            "computedValue": "{{tipos_vacinas_ativos.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"tipo\"]))}}",
-            "isEditable": false,
-            "notation": "standard",
-            "alias": "tipo",
-            "enableSort": true,
-            "isSaveVisible": true,
-            "id": "tipo",
-            "isDisabled": false,
-            "allowSameOptionsInNewRow": true,
-            "validation": {},
-            "isCellVisible": true,
-            "isDerived": false,
-            "textSize": "0.875rem",
-            "allowCellWrapping": false,
-            "index": 1,
-            "isDiscardVisible": true,
-            "isVisible": true,
-            "label": "Tipo da Vacina",
-            "columnType": "text",
-            "thousandSeparator": true,
-            "horizontalAlignment": "LEFT",
-            "isCellEditable": false,
-            "decimals": 0,
-            "width": 150,
-            "enableFilter": true,
-            "sticky": "",
-            "originalId": "tipo",
-            "currencyCode": "USD",
-            "verticalAlignment": "CENTER"
-        },
-        "id": {
-            "computedValue": "{{tipos_vacinas_ativos.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"id\"]))}}",
-            "isEditable": false,
-            "notation": "standard",
-            "alias": "id",
-            "enableSort": true,
-            "isSaveVisible": true,
-            "id": "id",
-            "isDisabled": false,
-            "allowSameOptionsInNewRow": true,
-            "validation": {},
-            "isCellVisible": true,
-            "isDerived": false,
-            "textSize": "0.875rem",
-            "allowCellWrapping": false,
-            "index": 0,
-            "isDiscardVisible": true,
-            "isVisible": false,
-            "label": "id",
-            "columnType": "number",
-            "thousandSeparator": true,
-            "horizontalAlignment": "LEFT",
-            "isCellEditable": false,
-            "decimals": 0,
-            "width": 150,
-            "enableFilter": true,
-            "sticky": "",
-            "originalId": "id",
-            "currencyCode": "USD",
-            "verticalAlignment": "CENTER"
-        }
+    "iconButton": {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none",
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}"
     },
-    "key": "r2bysd7cu2",
-    "canFreezeColumn": true,
-    "isDeprecated": false,
-    "rightColumn": 64,
-    "textSize": "0.875rem",
-    "thumbnailSVG": "/static/media/thumbnail.d0492f06681daa69baf92b07d3829dfc.svg",
-    "widgetId": "xhclewcymo",
-    "minWidth": 450,
-    "tableData": "{{getTipoVacina.data.data}}",
-    "label": "Data",
-    "searchKey": "",
-    "parentId": "um9w2b69qm",
-    "renderMode": "CANVAS",
-    "mobileTopRow": 50,
-    "horizontalAlignment": "LEFT",
-    "isVisibleSearch": true,
-    "responsiveBehavior": "fill",
-    "originalTopRow": 50,
-    "mobileLeftColumn": 0,
-    "isVisiblePagination": true,
-    "verticalAlignment": "CENTER"
+    "menuButton": {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none",
+      "menuColor": "{{appsmith.theme.colors.primaryColor}}"
+    }
+  },
+  "columnOrder": [
+    "id",
+    "tipo"
+  ],
+  "columnUpdatedAt": 1719937293372,
+  "columnWidthMap": {},
+  "defaultPageSize": 0,
+  "defaultSelectedRowIndex": 0,
+  "defaultSelectedRowIndices": [
+    0
+  ],
+  "delimiter": ",",
+  "displayName": "Table",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "boxShadow"
+    },
+    {
+      "key": "tableData"
+    },
+    {
+      "key": "primaryColumns.id.computedValue"
+    },
+    {
+      "key": "primaryColumns.tipo.computedValue"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "tableData"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "enableClientSideSearch": true,
+  "flexVerticalAlignment": "start",
+  "hideCard": false,
+  "horizontalAlignment": "LEFT",
+  "iconSVG": "/static/media/icon.cf625df24d42d0de4d06cba559b3c327.svg",
+  "inlineEditingSaveOption": "ROW_LEVEL",
+  "isDeprecated": false,
+  "isLoading": false,
+  "isSortable": true,
+  "isVisible": true,
+  "isVisibleDownload": true,
+  "isVisibleFilters": true,
+  "isVisiblePagination": true,
+  "isVisibleSearch": true,
+  "key": "r2bysd7cu2",
+  "label": "Data",
+  "leftColumn": 0,
+  "minWidth": 450,
+  "mobileBottomRow": 78,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 34,
+  "mobileTopRow": 50,
+  "needsErrorInfo": false,
+  "needsHeightForContent": true,
+  "onCanvasUI": {
+    "disableParentSelection": false,
+    "focusBGCSSVar": "--on-canvas-ui-widget-focus",
+    "focusColorCSSVar": "--on-canvas-ui-widget-selection",
+    "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
+    "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
+  },
+  "originalBottomRow": 95,
+  "originalTopRow": 50,
+  "parentColumnSpace": 18.5,
+  "parentId": "um9w2b69qm",
+  "parentRowSpace": 10,
+  "primaryColumns": {
+    "id": {
+      "alias": "id",
+      "allowCellWrapping": false,
+      "allowSameOptionsInNewRow": true,
+      "columnType": "number",
+      "computedValue": "{{tipos_vacinas_ativos.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"id\"]))}}",
+      "currencyCode": "USD",
+      "decimals": 0,
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "id",
+      "index": 0,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": false,
+      "label": "id",
+      "notation": "standard",
+      "originalId": "id",
+      "sticky": "",
+      "textSize": "0.875rem",
+      "thousandSeparator": true,
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "tipo": {
+      "alias": "tipo",
+      "allowCellWrapping": false,
+      "allowSameOptionsInNewRow": true,
+      "columnType": "text",
+      "computedValue": "{{tipos_vacinas_ativos.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"tipo\"]))}}",
+      "currencyCode": "USD",
+      "decimals": 0,
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "tipo",
+      "index": 1,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "Tipo da Vacina",
+      "notation": "standard",
+      "originalId": "tipo",
+      "sticky": "",
+      "textSize": "0.875rem",
+      "thousandSeparator": true,
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    }
+  },
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 64,
+  "searchKey": "",
+  "tableData": "{{getTipoVacina.data.data}}",
+  "tags": [
+    "Suggested",
+    "Display"
+  ],
+  "textSize": "0.875rem",
+  "thumbnailSVG": "/static/media/thumbnail.d0492f06681daa69baf92b07d3829dfc.svg",
+  "topRow": 4,
+  "totalRecordsCount": 0,
+  "type": "TABLE_WIDGET_V2",
+  "version": 2,
+  "verticalAlignment": "CENTER",
+  "widgetId": "xhclewcymo",
+  "widgetName": "tipos_vacinas_ativos"
 }

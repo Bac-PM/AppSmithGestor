@@ -1,60 +1,70 @@
 {
-    "needsErrorInfo": false,
-    "boxShadow": "none",
-    "mobileBottomRow": 8,
-    "widgetName": "Text6",
-    "displayName": "Text",
-    "iconSVG": "/static/media/icon.a55b701a2ae86aa2c6718ecb7b4083f0.svg",
-    "searchTags": [
-        "typography",
-        "paragraph",
-        "label"
-    ],
-    "topRow": 4,
-    "bottomRow": 8,
-    "type": "TEXT_WIDGET",
-    "hideCard": false,
-    "mobileRightColumn": 24,
-    "animateLoading": true,
-    "overflow": "NONE",
-    "dynamicTriggerPathList": [],
-    "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-    "dynamicBindingPathList": [
-        {"key": "text"},
-        {"key": "truncateButtonColor"},
-        {"key": "fontFamily"},
-        {"key": "borderRadius"},
-        {"key": "text"}
-    ],
-    "leftColumn": 1,
-    "shouldTruncate": false,
-    "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "{{currentItem.medicamento.nome}}, {{currentItem.medicamento.dosagem}} {{currentItem.medicamento.unidade_dosagem.Nome}} - {{currentItem.medicamento.apresentacao_medicamento.Nome}}",
-    "key": "5kec4wkssq",
-    "isDeprecated": false,
-    "rightColumn": 35,
-    "thumbnailSVG": "/static/media/thumbnail.0c129b82c9b3e4cd4920563b289659ab.svg",
-    "textAlign": "LEFT",
-    "dynamicHeight": "FIXED",
-    "widgetId": "j5fb8vpjty",
-    "minWidth": 450,
-    "isVisible": true,
-    "fontStyle": "",
-    "textColor": "#231F20",
-    "version": 1,
-    "parentId": "3h9pk2wc13",
-    "tags": [
-        "Suggested",
-        "Content"
-    ],
-    "renderMode": "CANVAS",
-    "isLoading": false,
-    "mobileTopRow": 4,
-    "responsiveBehavior": "fill",
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "mobileLeftColumn": 16,
-    "maxDynamicHeight": 9000,
-    "fontSize": "0.875rem",
-    "textStyle": "BODY",
-    "minDynamicHeight": 4
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 8,
+  "boxShadow": "none",
+  "displayName": "Text",
+  "dynamicBindingPathList": [
+    {
+      "key": "text"
+    },
+    {
+      "key": "truncateButtonColor"
+    },
+    {
+      "key": "fontFamily"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "text"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicTriggerPathList": [],
+  "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+  "fontSize": "0.875rem",
+  "fontStyle": "",
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.a55b701a2ae86aa2c6718ecb7b4083f0.svg",
+  "isDeprecated": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "5kec4wkssq",
+  "leftColumn": 1,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 8,
+  "mobileLeftColumn": 16,
+  "mobileRightColumn": 24,
+  "mobileTopRow": 4,
+  "needsErrorInfo": false,
+  "overflow": "NONE",
+  "parentId": "3h9pk2wc13",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 35,
+  "searchTags": [
+    "typography",
+    "paragraph",
+    "label"
+  ],
+  "shouldTruncate": false,
+  "tags": [
+    "Suggested",
+    "Content"
+  ],
+  "text": "{{currentItem.medicamento.nome}}, {{currentItem.medicamento.dosagem}} {{currentItem.medicamento.unidade_dosagem.Nome}} - {{currentItem.medicamento.apresentacao_medicamento.Nome}}",
+  "textAlign": "LEFT",
+  "textColor": "#231F20",
+  "textStyle": "BODY",
+  "thumbnailSVG": "/static/media/thumbnail.0c129b82c9b3e4cd4920563b289659ab.svg",
+  "topRow": 4,
+  "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "j5fb8vpjty",
+  "widgetName": "Text6"
 }

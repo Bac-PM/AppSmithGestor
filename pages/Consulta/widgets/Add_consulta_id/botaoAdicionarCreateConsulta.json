@@ -1,52 +1,66 @@
 {
-    "resetFormOnClick": false,
-    "boxShadow": "none",
-    "mobileBottomRow": 22,
-    "widgetName": "botaoAdicionarCreateConsulta",
-    "onClick": "{{getIdUsuario.run().then(() => {\n  createConsulta.run().then(() => {\n  showAlert('Consulta Cadastrada com Sucesso', 'success');\n  closeModal('Add_consulta_id');\n  getConsultaDeUmCao.run();\n}).catch(() => {\n let erroApi = service.getErrorApi(createConsulta.data);\n\t\t\terroPost.setText(erroApi);\n});\n});\n}}",
-    "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "dynamicPropertyPathList": [{"key": "onClick"}],
-    "displayName": "Button",
-    "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
-    "searchTags": [
-        "click",
-        "submit"
-    ],
-    "topRow": 50,
-    "bottomRow": 54,
-    "type": "BUTTON_WIDGET",
-    "hideCard": false,
-    "mobileRightColumn": 63,
-    "animateLoading": true,
-    "dynamicTriggerPathList": [{"key": "onClick"}],
-    "leftColumn": 44,
-    "dynamicBindingPathList": [
-        {"key": "buttonColor"},
-        {"key": "borderRadius"}
-    ],
-    "text": "Adicionar",
-    "isDisabled": false,
-    "key": "ehyow4y0da",
-    "isDeprecated": false,
-    "rightColumn": 63,
-    "isDefaultClickDisabled": true,
-    "widgetId": "721ewxpiwx",
-    "buttonStyle": "PRIMARY_BUTTON",
-    "minWidth": 120,
-    "isVisible": true,
-    "recaptchaType": "V3",
-    "version": 1,
-    "parentId": "li5dis2tyf",
-    "tags": ["Buttons"],
-    "renderMode": "CANVAS",
-    "isLoading": false,
-    "mobileTopRow": 18,
-    "responsiveBehavior": "hug",
-    "originalTopRow": 46,
-    "disabledWhenInvalid": false,
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "mobileLeftColumn": 47,
-    "originalBottomRow": 50,
-    "buttonVariant": "PRIMARY",
-    "placement": "CENTER"
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 54,
+  "boxShadow": "none",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonStyle": "PRIMARY_BUTTON",
+  "buttonVariant": "PRIMARY",
+  "disabledWhenInvalid": false,
+  "displayName": "Button",
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
+  "isDefaultClickDisabled": true,
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "ehyow4y0da",
+  "leftColumn": 44,
+  "minWidth": 120,
+  "mobileBottomRow": 22,
+  "mobileLeftColumn": 47,
+  "mobileRightColumn": 63,
+  "mobileTopRow": 18,
+  "onClick": "{{getIdUsuario.run().then(() => {\n  createConsulta.run().then(() => {\n  showAlert('Consulta Cadastrada com Sucesso', 'success');\n  closeModal('Add_consulta_id');\n  getConsultaDeUmCao.run();\n}).catch(() => {\n let erroApi = service.getErrorApi(createConsulta.data);\n\t\t\terroPost.setText(erroApi);\n});\n});\n}}",
+  "originalBottomRow": 50,
+  "originalTopRow": 46,
+  "parentId": "li5dis2tyf",
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "hug",
+  "rightColumn": 63,
+  "searchTags": [
+    "click",
+    "submit"
+  ],
+  "tags": [
+    "Buttons"
+  ],
+  "text": "Adicionar",
+  "topRow": 50,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "721ewxpiwx",
+  "widgetName": "botaoAdicionarCreateConsulta"
 }

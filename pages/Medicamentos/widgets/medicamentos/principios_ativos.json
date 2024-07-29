@@ -1,221 +1,257 @@
 {
-    "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
-    "borderColor": "#E0DEDE",
-    "isVisibleDownload": true,
-    "iconSVG": "/static/media/icon.c4395b694ca4b5a84741345b057b6866.svg",
-    "topRow": 4,
-    "isSortable": true,
-    "onPageChange": "{{get_principio_ativo.run()}}",
-    "type": "TABLE_WIDGET_V2",
-    "inlineEditingSaveOption": "ROW_LEVEL",
-    "animateLoading": true,
-    "dynamicBindingPathList": [
-        {"key": "accentColor"},
-        {"key": "borderRadius"},
-        {"key": "boxShadow"},
-        {"key": "tableData"},
-        {"key": "primaryColumns.id.computedValue"},
-        {"key": "primaryColumns.Nome.computedValue"},
-        {"key": "primaryColumns.customColumn2.buttonColor"},
-        {"key": "primaryColumns.customColumn2.borderRadius"},
-        {"key": "primaryColumns.customColumn2.boxShadow"},
-        {"key": "primaryColumns.customColumn2.isCellVisible"},
-        {"key": "primaryColumns.customColumn2.isDisabled"}
-    ],
-    "needsHeightForContent": true,
-    "leftColumn": 0,
-    "delimiter": ",",
-    "defaultSelectedRowIndex": 0,
-    "flexVerticalAlignment": "start",
-    "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-    "isVisibleFilters": false,
-    "isVisible": true,
-    "enableClientSideSearch": true,
-    "version": 2,
-    "totalRecordsCount": 0,
-    "tags": [
-        "Suggested",
-        "Display"
-    ],
-    "isLoading": false,
-    "childStylesheet": {
-        "button": {
-            "boxShadow": "none",
-            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-            "buttonColor": "{{appsmith.theme.colors.primaryColor}}"
-        },
-        "iconButton": {
-            "boxShadow": "none",
-            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-            "buttonColor": "{{appsmith.theme.colors.primaryColor}}"
-        },
-        "menuButton": {
-            "boxShadow": "none",
-            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-            "menuColor": "{{appsmith.theme.colors.primaryColor}}"
-        },
-        "editActions": {
-            "saveButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-            "saveBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-            "discardBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-            "discardButtonColor": "{{appsmith.theme.colors.primaryColor}}"
-        }
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderColor": "#E0DEDE",
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "borderWidth": "1",
+  "bottomRow": 55,
+  "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+  "canFreezeColumn": true,
+  "childStylesheet": {
+    "button": {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none",
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}"
     },
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "columnUpdatedAt": 1718992136692,
-    "defaultSelectedRowIndices": [0],
-    "needsErrorInfo": false,
-    "mobileBottomRow": 43,
-    "widgetName": "principios_ativos",
-    "defaultPageSize": 0,
-    "columnOrder": [
-        "id",
-        "Nome",
-        "customColumn2"
-    ],
-    "dynamicPropertyPathList": [
-        {"key": "tableData"},
-        {"key": "primaryColumns.customColumn2.onClick"},
-        {"key": "primaryColumns.customColumn2.isCellVisible"},
-        {"key": "primaryColumns.customColumn2.isDisabled"}
-    ],
-    "displayName": "Table",
-    "bottomRow": 55,
-    "columnWidthMap": {
-        "customColumn2": 170,
-        "Nome": 1029
+    "editActions": {
+      "discardBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "discardButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+      "saveBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "saveButtonColor": "{{appsmith.theme.colors.primaryColor}}"
     },
-    "parentRowSpace": 10,
-    "hideCard": false,
-    "mobileRightColumn": 43,
-    "parentColumnSpace": 18.880859375,
-    "dynamicTriggerPathList": [
-        {"key": "primaryColumns.customColumn2.onClick"},
-        {"key": "onPageChange"}
-    ],
-    "borderWidth": "1",
-    "primaryColumns": {
-        "id": {
-            "computedValue": "{{principios_ativos.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"id\"]))}}",
-            "isEditable": false,
-            "notation": "standard",
-            "alias": "id",
-            "enableSort": true,
-            "isSaveVisible": true,
-            "id": "id",
-            "isDisabled": false,
-            "allowSameOptionsInNewRow": true,
-            "validation": {},
-            "isCellVisible": true,
-            "isDerived": false,
-            "textSize": "0.875rem",
-            "allowCellWrapping": false,
-            "index": 0,
-            "isDiscardVisible": true,
-            "isVisible": false,
-            "label": "id",
-            "columnType": "number",
-            "thousandSeparator": true,
-            "horizontalAlignment": "LEFT",
-            "isCellEditable": false,
-            "decimals": 0,
-            "width": 150,
-            "enableFilter": true,
-            "sticky": "",
-            "originalId": "id",
-            "currencyCode": "USD",
-            "verticalAlignment": "CENTER"
-        },
-        "customColumn2": {
-            "boxShadow": "{{principios_ativos.processedTableData.map((currentRow, currentIndex) => ( \"none\"))}}",
-            "computedValue": "",
-            "onClick": "{{erroPutPrin.setText(\"\");\nresetWidget(\"edit_principio_ativo_modal\", true);\nshowModal('edit_principio_ativo_modal');}}",
-            "buttonColor": "{{principios_ativos.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.colors.primaryColor)))}}",
-            "isEditable": false,
-            "notation": "standard",
-            "alias": "Editar",
-            "enableSort": true,
-            "isSaveVisible": true,
-            "id": "customColumn2",
-            "isDisabled": "{{principios_ativos.processedTableData.map((currentRow, currentIndex) => ( \n(function() {if(appsmith.store.roleAtual == \"Tratador\"){\n\t\treturn true;\n\t}\n\telse{\n\t\treturn false;\n\t}\t\t\t \n})()\n))}}",
-            "allowSameOptionsInNewRow": true,
-            "validation": {},
-            "isCellVisible": "{{principios_ativos.processedTableData.map((currentRow, currentIndex) => ( \n(function() {if(appsmith.store.roleAtual == \"Tratador\"){\n\t\treturn false;\n\t}\n\telse{\n\t\treturn true;\n\t}\t\t\t \n})()\n))}}",
-            "isDerived": true,
-            "textSize": "0.875rem",
-            "iconName": "edit",
-            "buttonStyle": "rgb(3, 179, 101)",
-            "allowCellWrapping": false,
-            "index": 3,
-            "isDiscardVisible": true,
-            "isVisible": true,
-            "label": "Editar",
-            "labelColor": "#FFFFFF",
-            "columnType": "iconButton",
-            "thousandSeparator": true,
-            "horizontalAlignment": "LEFT",
-            "isCellEditable": false,
-            "borderRadius": "{{principios_ativos.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.borderRadius.appBorderRadius)))}}",
-            "decimals": 0,
-            "width": 150,
-            "enableFilter": true,
-            "sticky": "right",
-            "originalId": "customColumn2",
-            "currencyCode": "USD",
-            "customAlias": "",
-            "verticalAlignment": "CENTER"
-        },
-        "Nome": {
-            "computedValue": "{{principios_ativos.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Nome\"]))}}",
-            "isEditable": false,
-            "notation": "standard",
-            "alias": "Nome",
-            "enableSort": true,
-            "isSaveVisible": true,
-            "id": "Nome",
-            "isDisabled": false,
-            "allowSameOptionsInNewRow": true,
-            "validation": {},
-            "isCellVisible": true,
-            "isDerived": false,
-            "textSize": "0.875rem",
-            "allowCellWrapping": false,
-            "index": 1,
-            "isDiscardVisible": true,
-            "isVisible": true,
-            "label": "Nome",
-            "columnType": "text",
-            "thousandSeparator": true,
-            "horizontalAlignment": "LEFT",
-            "isCellEditable": false,
-            "decimals": 0,
-            "width": 150,
-            "enableFilter": true,
-            "sticky": "",
-            "originalId": "Nome",
-            "currencyCode": "USD",
-            "verticalAlignment": "CENTER"
-        }
+    "iconButton": {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none",
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}"
     },
-    "key": "tl8fflzdsy",
-    "canFreezeColumn": true,
-    "isDeprecated": false,
-    "rightColumn": 64,
-    "textSize": "0.875rem",
-    "thumbnailSVG": "/static/media/thumbnail.d0492f06681daa69baf92b07d3829dfc.svg",
-    "widgetId": "bx2uc03h36",
-    "minWidth": 450,
-    "tableData": "{{get_all_principios.data.data}}",
-    "label": "Data",
-    "searchKey": "",
-    "parentId": "ygxrkhp9oa",
-    "serverSidePaginationEnabled": false,
-    "renderMode": "CANVAS",
-    "mobileTopRow": 15,
-    "horizontalAlignment": "LEFT",
-    "isVisibleSearch": true,
-    "responsiveBehavior": "fill",
-    "mobileLeftColumn": 9,
-    "isVisiblePagination": true,
-    "verticalAlignment": "CENTER"
+    "menuButton": {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none",
+      "menuColor": "{{appsmith.theme.colors.primaryColor}}"
+    }
+  },
+  "columnOrder": [
+    "id",
+    "Nome",
+    "customColumn2"
+  ],
+  "columnUpdatedAt": 1718992136692,
+  "columnWidthMap": {
+    "Nome": 1029,
+    "customColumn2": 170
+  },
+  "defaultPageSize": 0,
+  "defaultSelectedRowIndex": 0,
+  "defaultSelectedRowIndices": [
+    0
+  ],
+  "delimiter": ",",
+  "displayName": "Table",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "boxShadow"
+    },
+    {
+      "key": "tableData"
+    },
+    {
+      "key": "primaryColumns.id.computedValue"
+    },
+    {
+      "key": "primaryColumns.Nome.computedValue"
+    },
+    {
+      "key": "primaryColumns.customColumn2.buttonColor"
+    },
+    {
+      "key": "primaryColumns.customColumn2.borderRadius"
+    },
+    {
+      "key": "primaryColumns.customColumn2.boxShadow"
+    },
+    {
+      "key": "primaryColumns.customColumn2.isCellVisible"
+    },
+    {
+      "key": "primaryColumns.customColumn2.isDisabled"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "tableData"
+    },
+    {
+      "key": "primaryColumns.customColumn2.onClick"
+    },
+    {
+      "key": "primaryColumns.customColumn2.isCellVisible"
+    },
+    {
+      "key": "primaryColumns.customColumn2.isDisabled"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "primaryColumns.customColumn2.onClick"
+    },
+    {
+      "key": "onPageChange"
+    }
+  ],
+  "enableClientSideSearch": true,
+  "flexVerticalAlignment": "start",
+  "hideCard": false,
+  "horizontalAlignment": "LEFT",
+  "iconSVG": "/static/media/icon.c4395b694ca4b5a84741345b057b6866.svg",
+  "inlineEditingSaveOption": "ROW_LEVEL",
+  "isDeprecated": false,
+  "isLoading": false,
+  "isSortable": true,
+  "isVisible": true,
+  "isVisibleDownload": true,
+  "isVisibleFilters": false,
+  "isVisiblePagination": true,
+  "isVisibleSearch": true,
+  "key": "tl8fflzdsy",
+  "label": "Data",
+  "leftColumn": 0,
+  "minWidth": 450,
+  "mobileBottomRow": 43,
+  "mobileLeftColumn": 9,
+  "mobileRightColumn": 43,
+  "mobileTopRow": 15,
+  "needsErrorInfo": false,
+  "needsHeightForContent": true,
+  "onPageChange": "{{get_principio_ativo.run()}}",
+  "parentColumnSpace": 18.880859375,
+  "parentId": "ygxrkhp9oa",
+  "parentRowSpace": 10,
+  "primaryColumns": {
+    "Nome": {
+      "alias": "Nome",
+      "allowCellWrapping": false,
+      "allowSameOptionsInNewRow": true,
+      "columnType": "text",
+      "computedValue": "{{principios_ativos.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Nome\"]))}}",
+      "currencyCode": "USD",
+      "decimals": 0,
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "Nome",
+      "index": 1,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "Nome",
+      "notation": "standard",
+      "originalId": "Nome",
+      "sticky": "",
+      "textSize": "0.875rem",
+      "thousandSeparator": true,
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "customColumn2": {
+      "alias": "Editar",
+      "allowCellWrapping": false,
+      "allowSameOptionsInNewRow": true,
+      "borderRadius": "{{principios_ativos.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.borderRadius.appBorderRadius)))}}",
+      "boxShadow": "{{principios_ativos.processedTableData.map((currentRow, currentIndex) => ( \"none\"))}}",
+      "buttonColor": "{{principios_ativos.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.colors.primaryColor)))}}",
+      "buttonStyle": "rgb(3, 179, 101)",
+      "columnType": "iconButton",
+      "computedValue": "",
+      "currencyCode": "USD",
+      "customAlias": "",
+      "decimals": 0,
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "iconName": "edit",
+      "id": "customColumn2",
+      "index": 3,
+      "isCellEditable": false,
+      "isCellVisible": "{{principios_ativos.processedTableData.map((currentRow, currentIndex) => ( \n(function() {if(appsmith.store.roleAtual == \"Tratador\"){\n\t\treturn false;\n\t}\n\telse{\n\t\treturn true;\n\t}\t\t\t \n})()\n))}}",
+      "isDerived": true,
+      "isDisabled": "{{principios_ativos.processedTableData.map((currentRow, currentIndex) => ( \n(function() {if(appsmith.store.roleAtual == \"Tratador\"){\n\t\treturn true;\n\t}\n\telse{\n\t\treturn false;\n\t}\t\t\t \n})()\n))}}",
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "Editar",
+      "labelColor": "#FFFFFF",
+      "notation": "standard",
+      "onClick": "{{erroPutPrin.setText(\"\");\nresetWidget(\"edit_principio_ativo_modal\", true);\nshowModal('edit_principio_ativo_modal');}}",
+      "originalId": "customColumn2",
+      "sticky": "right",
+      "textSize": "0.875rem",
+      "thousandSeparator": true,
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "id": {
+      "alias": "id",
+      "allowCellWrapping": false,
+      "allowSameOptionsInNewRow": true,
+      "columnType": "number",
+      "computedValue": "{{principios_ativos.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"id\"]))}}",
+      "currencyCode": "USD",
+      "decimals": 0,
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "id",
+      "index": 0,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": false,
+      "label": "id",
+      "notation": "standard",
+      "originalId": "id",
+      "sticky": "",
+      "textSize": "0.875rem",
+      "thousandSeparator": true,
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    }
+  },
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 64,
+  "searchKey": "",
+  "serverSidePaginationEnabled": false,
+  "tableData": "{{get_all_principios.data.data}}",
+  "tags": [
+    "Suggested",
+    "Display"
+  ],
+  "textSize": "0.875rem",
+  "thumbnailSVG": "/static/media/thumbnail.d0492f06681daa69baf92b07d3829dfc.svg",
+  "topRow": 4,
+  "totalRecordsCount": 0,
+  "type": "TABLE_WIDGET_V2",
+  "version": 2,
+  "verticalAlignment": "CENTER",
+  "widgetId": "bx2uc03h36",
+  "widgetName": "principios_ativos"
 }

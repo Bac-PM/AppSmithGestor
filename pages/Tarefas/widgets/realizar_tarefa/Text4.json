@@ -1,59 +1,67 @@
 {
-    "needsErrorInfo": false,
-    "mobileBottomRow": 15,
-    "widgetName": "Text4",
-    "displayName": "Text",
-    "iconSVG": "/static/media/icon.a55b701a2ae86aa2c6718ecb7b4083f0.svg",
-    "searchTags": [
-        "typography",
-        "paragraph",
-        "label"
-    ],
-    "topRow": 9,
-    "bottomRow": 16,
-    "parentRowSpace": 10,
-    "type": "TEXT_WIDGET",
-    "hideCard": false,
-    "mobileRightColumn": 19,
-    "animateLoading": true,
-    "overflow": "NONE",
-    "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-    "parentColumnSpace": 6.9375,
-    "dynamicTriggerPathList": [],
-    "leftColumn": 1,
-    "dynamicBindingPathList": [
-        {"key": "truncateButtonColor"},
-        {"key": "fontFamily"},
-        {"key": "borderRadius"},
-        {"key": "text"}
-    ],
-    "shouldTruncate": false,
-    "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "{{tarefas_ativas.triggeredRow.tarefa}}",
-    "key": "3ttn5ridg0",
-    "isDeprecated": false,
-    "rightColumn": 62,
-    "thumbnailSVG": "/static/media/thumbnail.0c129b82c9b3e4cd4920563b289659ab.svg",
-    "textAlign": "CENTER",
-    "dynamicHeight": "FIXED",
-    "widgetId": "yjze81cd3u",
-    "minWidth": 450,
-    "isVisible": true,
-    "fontStyle": "",
-    "textColor": "#231F20",
-    "version": 1,
-    "parentId": "p21anb1o08",
-    "tags": [
-        "Suggested",
-        "Content"
-    ],
-    "renderMode": "CANVAS",
-    "isLoading": false,
-    "mobileTopRow": 11,
-    "responsiveBehavior": "fill",
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "mobileLeftColumn": 3,
-    "maxDynamicHeight": 9000,
-    "fontSize": "0.875rem",
-    "minDynamicHeight": 4
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 16,
+  "displayName": "Text",
+  "dynamicBindingPathList": [
+    {
+      "key": "truncateButtonColor"
+    },
+    {
+      "key": "fontFamily"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "text"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicTriggerPathList": [],
+  "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+  "fontSize": "0.875rem",
+  "fontStyle": "",
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.a55b701a2ae86aa2c6718ecb7b4083f0.svg",
+  "isDeprecated": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "3ttn5ridg0",
+  "leftColumn": 1,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 15,
+  "mobileLeftColumn": 3,
+  "mobileRightColumn": 19,
+  "mobileTopRow": 11,
+  "needsErrorInfo": false,
+  "overflow": "NONE",
+  "parentColumnSpace": 6.9375,
+  "parentId": "p21anb1o08",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 62,
+  "searchTags": [
+    "typography",
+    "paragraph",
+    "label"
+  ],
+  "shouldTruncate": false,
+  "tags": [
+    "Suggested",
+    "Content"
+  ],
+  "text": "{{tarefas_ativas.triggeredRow.tarefa}}",
+  "textAlign": "CENTER",
+  "textColor": "#231F20",
+  "thumbnailSVG": "/static/media/thumbnail.0c129b82c9b3e4cd4920563b289659ab.svg",
+  "topRow": 9,
+  "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "yjze81cd3u",
+  "widgetName": "Text4"
 }

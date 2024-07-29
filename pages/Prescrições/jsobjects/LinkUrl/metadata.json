@@ -1,11 +1,11 @@
 {
+  "gitSyncId": "664b7bb03d0ee46738b298c4_664b81713d0ee46738b29a84",
+  "id": "Prescrições_LinkUrl",
   "unpublishedCollection": {
     "name": "LinkUrl",
     "pageId": "Prescrições",
     "pluginId": "js-plugin",
     "pluginType": "JS",
-    "actions": [],
-    "archivedActions": [],
     "variables": [
       {
         "name": "url",
@@ -27,10 +27,6 @@
         "name": "url_App_Smithh",
         "value": "\"http://localhost:2337\""
       }
-    ],
-    "userPermissions": []
-  },
-  "id": "Prescrições_LinkUrl",
-  "deleted": false,
-  "gitSyncId": "664b7bb03d0ee46738b298c4_664b81713d0ee46738b29a84"
+    ]
+  }
 }

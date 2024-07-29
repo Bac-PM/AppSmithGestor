@@ -1,52 +1,66 @@
 {
-    "resetFormOnClick": false,
-    "boxShadow": "none",
-    "mobileBottomRow": 22,
-    "widgetName": "confirmar_button",
-    "onClick": "{{postVacina.run().then(() => {\n  showAlert('Adicionado com sucesso', '');\ncloseModal('add_nome_vacina');\tgetAllVacina.run();\n\t\t\t\n}).catch(() => {\n\t\t\t\n\t\t\tlet erroApi = service.getErrorApi(postVacina.data);\nerroPost.setText(erroApi); \n  });\n;}}",
-    "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "dynamicPropertyPathList": [{"key": "onClick"}],
-    "displayName": "Button",
-    "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
-    "searchTags": [
-        "click",
-        "submit"
-    ],
-    "topRow": 28,
-    "bottomRow": 32,
-    "type": "BUTTON_WIDGET",
-    "hideCard": false,
-    "mobileRightColumn": 63,
-    "animateLoading": true,
-    "dynamicTriggerPathList": [{"key": "onClick"}],
-    "leftColumn": 46,
-    "dynamicBindingPathList": [
-        {"key": "buttonColor"},
-        {"key": "borderRadius"}
-    ],
-    "text": "Adicionar",
-    "isDisabled": false,
-    "key": "qfjj9b2oq9",
-    "isDeprecated": false,
-    "rightColumn": 62,
-    "isDefaultClickDisabled": true,
-    "widgetId": "kcv4ud6q34",
-    "buttonStyle": "PRIMARY_BUTTON",
-    "minWidth": 120,
-    "isVisible": true,
-    "recaptchaType": "V3",
-    "version": 1,
-    "parentId": "ztp8u1qshl",
-    "tags": ["Buttons"],
-    "renderMode": "CANVAS",
-    "isLoading": false,
-    "mobileTopRow": 18,
-    "responsiveBehavior": "hug",
-    "originalTopRow": 32,
-    "disabledWhenInvalid": false,
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "mobileLeftColumn": 47,
-    "originalBottomRow": 36,
-    "buttonVariant": "PRIMARY",
-    "placement": "CENTER"
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 32,
+  "boxShadow": "none",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonStyle": "PRIMARY_BUTTON",
+  "buttonVariant": "PRIMARY",
+  "disabledWhenInvalid": false,
+  "displayName": "Button",
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
+  "isDefaultClickDisabled": true,
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "qfjj9b2oq9",
+  "leftColumn": 46,
+  "minWidth": 120,
+  "mobileBottomRow": 22,
+  "mobileLeftColumn": 47,
+  "mobileRightColumn": 63,
+  "mobileTopRow": 18,
+  "onClick": "{{postVacina.run().then(() => {\n  showAlert('Adicionado com sucesso', '');\ncloseModal('add_nome_vacina');\tgetAllVacina.run();\n\t\t\t\n}).catch(() => {\n\t\t\t\n\t\t\tlet erroApi = service.getErrorApi(postVacina.data);\nerroPost.setText(erroApi); \n  });\n;}}",
+  "originalBottomRow": 36,
+  "originalTopRow": 32,
+  "parentId": "ztp8u1qshl",
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "hug",
+  "rightColumn": 62,
+  "searchTags": [
+    "click",
+    "submit"
+  ],
+  "tags": [
+    "Buttons"
+  ],
+  "text": "Adicionar",
+  "topRow": 28,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "kcv4ud6q34",
+  "widgetName": "confirmar_button"
 }

@@ -1,51 +1,65 @@
 {
-    "resetFormOnClick": false,
-    "boxShadow": "none",
-    "mobileBottomRow": 37,
-    "widgetName": "Button2CopyCopy",
-    "onClick": "{{CadastraUsuario.run().then(() => {\n\tAtualizaPapelUsuario.run().then(() => {\n    \t\tshowModal(\"Cadastro_Realizado\");\n    \t\tgetAllUsuario.run();\n  \t});\n}).catch(() => {\n\tif(InsereNome.text.trim() == \"\"){\n\t\terroNome.setText(\"Nome inválido\");\n\t} else {\n\t\terroNome.setText(\"\");\n\t}\n\tif(InsereEmail.text.trim() == \"\"){\n\t\terroEmail.setText(\"Email inválido\")\n\t} else {\n\t\tif(InsereEmail.isValid){\n\t\terroEmail.setText(\"\");\n\t} else {\n\t\terroEmail.setText(\"Email inválido\")\n\t} \n\t}\n\t\tif(InsereCpf.text.trim() == \"\"){\n\t\terroCpf.setText(\"Cpf Inválido\")\n\t} else {\n\t\terroCpf.setText(\"\")\n\t} \n\tif(InsereSenha.text.trim() == \"\"){\n\t\terroSenha.setText(\"Senha inválida\");\n\t\terroSenha2.setText(\"\");\n\t} else {\n\t\tif(InsereSenha.text.trim() != InsereSenhaConfirma.text.trim()){\n\t\t\terroSenha2.setText(\"As senhas precisam ser iguais\");\n\t\t} else {\n\t\t\terroSenha2.setText(\"\");\n\t\t\terroSenha.setText(\"\");\n\t\t}\n\t}\n}); \n}}",
-    "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "dynamicPropertyPathList": [{"key": "onClick"}],
-    "displayName": "Button",
-    "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
-    "searchTags": [
-        "click",
-        "submit"
-    ],
-    "topRow": 70,
-    "bottomRow": 74,
-    "type": "BUTTON_WIDGET",
-    "hideCard": false,
-    "mobileRightColumn": 62,
-    "animateLoading": true,
-    "dynamicTriggerPathList": [{"key": "onClick"}],
-    "leftColumn": 48,
-    "dynamicBindingPathList": [
-        {"key": "buttonColor"},
-        {"key": "borderRadius"}
-    ],
-    "text": "Cadastrar",
-    "isDisabled": false,
-    "key": "ufnuqxr2wb",
-    "isDeprecated": false,
-    "rightColumn": 64,
-    "isDefaultClickDisabled": true,
-    "widgetId": "6ttqq2rsvb",
-    "minWidth": 120,
-    "isVisible": true,
-    "recaptchaType": "V3",
-    "version": 1,
-    "parentId": "ehzhy1thjl",
-    "tags": ["Buttons"],
-    "renderMode": "CANVAS",
-    "isLoading": false,
-    "mobileTopRow": 33,
-    "responsiveBehavior": "hug",
-    "originalTopRow": 62,
-    "disabledWhenInvalid": false,
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "mobileLeftColumn": 46,
-    "originalBottomRow": 66,
-    "buttonVariant": "PRIMARY",
-    "placement": "CENTER"
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 74,
+  "boxShadow": "none",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonVariant": "PRIMARY",
+  "disabledWhenInvalid": false,
+  "displayName": "Button",
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
+  "isDefaultClickDisabled": true,
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "ufnuqxr2wb",
+  "leftColumn": 48,
+  "minWidth": 120,
+  "mobileBottomRow": 37,
+  "mobileLeftColumn": 46,
+  "mobileRightColumn": 62,
+  "mobileTopRow": 33,
+  "onClick": "{{CadastraUsuario.run().then(() => {\n\tAtualizaPapelUsuario.run().then(() => {\n    \t\tshowModal(\"Cadastro_Realizado\");\n    \t\tgetAllUsuario.run();\n  \t});\n}).catch(() => {\n\tif(InsereNome.text.trim() == \"\"){\n\t\terroNome.setText(\"Nome inválido\");\n\t} else {\n\t\terroNome.setText(\"\");\n\t}\n\tif(InsereEmail.text.trim() == \"\"){\n\t\terroEmail.setText(\"Email inválido\")\n\t} else {\n\t\tif(InsereEmail.isValid){\n\t\terroEmail.setText(\"\");\n\t} else {\n\t\terroEmail.setText(\"Email inválido\")\n\t} \n\t}\n\t\tif(InsereCpf.text.trim() == \"\"){\n\t\terroCpf.setText(\"Cpf Inválido\")\n\t} else {\n\t\terroCpf.setText(\"\")\n\t} \n\tif(InsereSenha.text.trim() == \"\"){\n\t\terroSenha.setText(\"Senha inválida\");\n\t\terroSenha2.setText(\"\");\n\t} else {\n\t\tif(InsereSenha.text.trim() != InsereSenhaConfirma.text.trim()){\n\t\t\terroSenha2.setText(\"As senhas precisam ser iguais\");\n\t\t} else {\n\t\t\terroSenha2.setText(\"\");\n\t\t\terroSenha.setText(\"\");\n\t\t}\n\t}\n}); \n}}",
+  "originalBottomRow": 66,
+  "originalTopRow": 62,
+  "parentId": "ehzhy1thjl",
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "hug",
+  "rightColumn": 64,
+  "searchTags": [
+    "click",
+    "submit"
+  ],
+  "tags": [
+    "Buttons"
+  ],
+  "text": "Cadastrar",
+  "topRow": 70,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "6ttqq2rsvb",
+  "widgetName": "Button2CopyCopy"
 }

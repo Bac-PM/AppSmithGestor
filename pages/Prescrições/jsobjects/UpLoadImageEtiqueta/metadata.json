@@ -1,11 +1,11 @@
 {
+  "gitSyncId": "664b7bb03d0ee46738b298c4_664b81713d0ee46738b29a86",
+  "id": "Prescrições_UpLoadImageEtiqueta",
   "unpublishedCollection": {
     "name": "UpLoadImageEtiqueta",
     "pageId": "Prescrições",
     "pluginId": "js-plugin",
     "pluginType": "JS",
-    "actions": [],
-    "archivedActions": [],
     "variables": [
       {
         "name": "data",
@@ -19,10 +19,6 @@
         "name": "id",
         "value": "0"
       }
-    ],
-    "userPermissions": []
-  },
-  "id": "Prescrições_UpLoadImageEtiqueta",
-  "deleted": false,
-  "gitSyncId": "664b7bb03d0ee46738b298c4_664b81713d0ee46738b29a86"
+    ]
+  }
 }

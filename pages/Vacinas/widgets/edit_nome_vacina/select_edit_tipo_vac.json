@@ -1,63 +1,77 @@
 {
-    "boxShadow": "none",
-    "iconSVG": "/static/media/icon.a62f1265827a5af78966a733a05697db.svg",
-    "labelText": "Tipo da Vacina",
-    "topRow": 13,
-    "labelWidth": 5,
-    "type": "SELECT_WIDGET",
-    "serverSideFiltering": false,
-    "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( getDefaultValue.getDefaultValue(nomes_vacinas_ativos.triggeredRow.tipo_vacina, getTipoVacina.data.data)))(select_edit_tipo_vac.options, select_edit_tipo_vac.serverSideFiltering) }}",
-    "animateLoading": true,
-    "leftColumn": 2,
-    "dynamicBindingPathList": [
-        {"key": "accentColor"},
-        {"key": "borderRadius"},
-        {"key": "sourceData"},
-        {"key": "defaultOptionValue"}
-    ],
-    "placeholderText": "Selecione o Tipo da Vacina",
-    "isDisabled": false,
-    "isRequired": false,
-    "dynamicHeight": "FIXED",
-    "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-    "isVisible": true,
-    "version": 1,
-    "tags": [
-        "Suggested",
-        "Select"
-    ],
-    "isLoading": false,
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "needsErrorInfo": false,
-    "mobileBottomRow": 21,
-    "widgetName": "select_edit_tipo_vac",
-    "isFilterable": true,
-    "dynamicPropertyPathList": [{"key": "sourceData"}],
-    "displayName": "Select",
-    "searchTags": ["dropdown"],
-    "bottomRow": 20,
-    "parentRowSpace": 10,
-    "hideCard": false,
-    "mobileRightColumn": 21,
-    "parentColumnSpace": 6.9375,
-    "dynamicTriggerPathList": [],
-    "labelPosition": "Top",
-    "sourceData": "{{getTipoVacina.data.data}}",
-    "key": "uooomwd25l",
-    "labelTextSize": "0.875rem",
-    "isDeprecated": false,
-    "rightColumn": 61,
-    "thumbnailSVG": "/static/media/thumbnail.9aef24cb159e9c6e4d0f1d7ca4fb0c79.svg",
-    "widgetId": "b23xjv0hds",
-    "optionValue": "id",
-    "minWidth": 450,
-    "parentId": "3notnab8uk",
-    "labelAlignment": "left",
-    "renderMode": "CANVAS",
-    "mobileTopRow": 14,
-    "optionLabel": "tipo",
-    "responsiveBehavior": "fill",
-    "mobileLeftColumn": 1,
-    "maxDynamicHeight": 9000,
-    "minDynamicHeight": 4
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 20,
+  "boxShadow": "none",
+  "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( getDefaultValue.getDefaultValue(nomes_vacinas_ativos.triggeredRow.tipo_vacina, getTipoVacina.data.data)))(select_edit_tipo_vac.options, select_edit_tipo_vac.serverSideFiltering) }}",
+  "displayName": "Select",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "sourceData"
+    },
+    {
+      "key": "defaultOptionValue"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.a62f1265827a5af78966a733a05697db.svg",
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isFilterable": true,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "uooomwd25l",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "Tipo da Vacina",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 2,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 21,
+  "mobileLeftColumn": 1,
+  "mobileRightColumn": 21,
+  "mobileTopRow": 14,
+  "needsErrorInfo": false,
+  "optionLabel": "tipo",
+  "optionValue": "id",
+  "parentColumnSpace": 6.9375,
+  "parentId": "3notnab8uk",
+  "parentRowSpace": 10,
+  "placeholderText": "Selecione o Tipo da Vacina",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 61,
+  "searchTags": [
+    "dropdown"
+  ],
+  "serverSideFiltering": false,
+  "sourceData": "{{getTipoVacina.data.data}}",
+  "tags": [
+    "Suggested",
+    "Select"
+  ],
+  "thumbnailSVG": "/static/media/thumbnail.9aef24cb159e9c6e4d0f1d7ca4fb0c79.svg",
+  "topRow": 13,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "b23xjv0hds",
+  "widgetName": "select_edit_tipo_vac"
 }
