@@ -4,7 +4,7 @@
   "borderRadius": "0.375rem",
   "bottomRow": 38,
   "boxShadow": "none",
-  "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( medicamentos_ativos.triggeredItem.tipo_frequencia))(edit_tipo_frequencia.options, edit_tipo_frequencia.serverSideFiltering) }}",
+  "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( medicamentos_ativos.triggeredRow.tipo_frequencia))(edit_tipo_frequencia.options, edit_tipo_frequencia.serverSideFiltering) }}",
   "displayName": "Select",
   "dynamicBindingPathList": [
     {

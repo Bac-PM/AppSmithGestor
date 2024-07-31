@@ -4,7 +4,7 @@
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "bottomRow": 38,
   "boxShadow": "none",
-  "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( medicamentos_ativos.triggeredItem.medida.id))(edit_medida.options, edit_medida.serverSideFiltering) }}",
+  "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( medicamentos_ativos.triggeredRow.medida.id))(edit_medida.options, edit_medida.serverSideFiltering) }}",
   "displayName": "Select",
   "dynamicBindingPathList": [
     {

@@ -7,7 +7,7 @@
   "closeOnSelection": true,
   "dateFormat": "DD/MM/YYYY",
   "datePickerType": "DATE_PICKER",
-  "defaultDate": "{{medicamentos_ativos.triggeredItem.data_fim}}",
+  "defaultDate": "{{medicamentos_ativos.triggeredRow.data_fim}}",
   "displayName": "DatePicker",
   "dynamicBindingPathList": [
     {

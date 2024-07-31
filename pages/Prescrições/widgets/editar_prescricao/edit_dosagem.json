@@ -5,7 +5,7 @@
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "bottomRow": 38,
   "boxShadow": "none",
-  "defaultText": "{{medicamentos_ativos.triggeredItem.dosagem}}",
+  "defaultText": "{{medicamentos_ativos.triggeredRow.dosagem}}",
   "displayName": "Input",
   "dynamicBindingPathList": [
     {

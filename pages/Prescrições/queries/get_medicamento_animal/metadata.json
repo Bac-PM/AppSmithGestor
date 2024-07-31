@@ -57,12 +57,16 @@
           "value": "true"
         },
         {
-          "key": "filters[aplicado]",
-          "value": "false"
-        },
-        {
           "key": "populate[aplicado_por][fields][0]",
           "value": "username"
+        },
+        {
+          "key": "populate[aplicacoes_meedicamento][fields][0]",
+          "value": "aplicado"
+        },
+        {
+          "key": "populate[aplicacoes_meedicamento][fields][1]",
+          "value": "hora_da_proxima_aplicacao"
         }
       ],
       "timeoutInMillisecond": 10000

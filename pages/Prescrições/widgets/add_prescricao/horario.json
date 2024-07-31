@@ -48,6 +48,7 @@
   "parentId": "q9o571nqkz",
   "parentRowSpace": 10,
   "placeholderText": "Ex.: 19:00",
+  "regex": "^([01]\\d|2[0-3]):([0-5]\\d)$",
   "renderMode": "CANVAS",
   "resetOnSubmit": true,
   "responsiveBehavior": "fill",

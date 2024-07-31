@@ -4,7 +4,7 @@
   "animateLoading": true,
   "bottomRow": 27,
   "boxShadow": "none",
-  "defaultOptionValue": "{{3}}",
+  "defaultOptionValue": "{{medicamentos_ativos.triggeredRow.lembrete_em_dias}}",
   "displayName": "Radio Group",
   "dynamicBindingPathList": [
     {

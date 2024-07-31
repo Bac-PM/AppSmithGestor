@@ -4,7 +4,7 @@
   "borderRadius": "0.375rem",
   "bottomRow": 38,
   "boxShadow": "none",
-  "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( medicamentos_ativos.triggeredItem.tipo_duracao))(edit_tipo_duracao.options, edit_tipo_duracao.serverSideFiltering) }}",
+  "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( medicamentos_ativos.triggeredRow.tipo_duracao))(edit_tipo_duracao.options, edit_tipo_duracao.serverSideFiltering) }}",
   "displayName": "Select",
   "dynamicBindingPathList": [
     {
