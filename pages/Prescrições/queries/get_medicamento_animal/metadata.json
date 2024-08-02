@@ -21,7 +21,7 @@
       "httpMethod": "GET",
       "httpVersion": "HTTP11",
       "paginationType": "NONE",
-      "path": "{{appsmith.store.url}}/api/medicamento-animals",
+      "path": "{{appsmith.store.url}}/api/getAplicacoesMedicamento",
       "pluginSpecifiedTemplates": [
         {
           "value": true
@@ -31,10 +31,6 @@
         {
           "key": "filters[animal][id]",
           "value": "{{seletor_animal.selectedOptionValue}}"
-        },
-        {
-          "key": "populate",
-          "value": "*"
         }
       ],
       "timeoutInMillisecond": 10000
@@ -58,7 +54,7 @@
     ],
     "executeOnLoad": false,
     "fullyQualifiedName": "get_medicamento_animal",
-    "name": "GET_MEDICaTeste",
+    "name": "getAplicacoesMed",
     "pageId": "Prescrições",
     "userSetOnLoad": false
   }
