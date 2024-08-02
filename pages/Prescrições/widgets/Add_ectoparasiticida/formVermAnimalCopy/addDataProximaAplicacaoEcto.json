@@ -17,12 +17,18 @@
     },
     {
       "key": "borderRadius"
+    },
+    {
+      "key": "maxDate"
     }
   ],
   "dynamicHeight": "FIXED",
   "dynamicPropertyPathList": [
     {
       "key": "minDate"
+    },
+    {
+      "key": "maxDate"
     }
   ],
   "dynamicTriggerPathList": [],
@@ -42,7 +48,7 @@
   "labelTooltip": "",
   "labelWidth": 5,
   "leftColumn": 31,
-  "maxDate": "2121-12-31T18:29:00.000Z",
+  "maxDate": "{{\nfunction(){\n\tlet date = new Date();\n\n                        date.setFullYear(date.getFullYear() +15);\n\t\n\n\treturn new Date(date); \n}();\n}}",
   "maxDynamicHeight": 9000,
   "minDate": "{{\n(function() {\n  let dataAtual = new Date();\n\tdataAtual.setDate(dataAtual.getDate()-1)\n\treturn dataAtual;\n})();\n}}",
   "minDynamicHeight": 4,

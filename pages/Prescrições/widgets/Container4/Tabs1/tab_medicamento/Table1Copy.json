@@ -51,9 +51,11 @@
     "hora_de_aplicacao",
     "medicamento",
     "medida",
-    "aplicado_por"
+    "aplicado_por",
+    "animal",
+    "aplicacoes_meedicamentos"
   ],
-  "columnUpdatedAt": 1721233689550,
+  "columnUpdatedAt": 1722561805375,
   "columnWidthMap": {
     "data_fim": 133,
     "data_inicio": 135,
@@ -143,6 +145,12 @@
     },
     {
       "key": "primaryColumns.aplicado_por.computedValue"
+    },
+    {
+      "key": "primaryColumns.animal.computedValue"
+    },
+    {
+      "key": "primaryColumns.aplicacoes_meedicamentos.computedValue"
     }
   ],
   "dynamicPropertyPathList": [
@@ -186,6 +194,74 @@
   "parentId": "qv1euy83bx",
   "parentRowSpace": 10,
   "primaryColumns": {
+    "animal": {
+      "alias": "animal",
+      "allowCellWrapping": false,
+      "allowSameOptionsInNewRow": true,
+      "cellBackground": "",
+      "columnType": "text",
+      "computedValue": "{{Table1Copy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"animal\"]))}}",
+      "currencyCode": "USD",
+      "decimals": 0,
+      "enableFilter": true,
+      "enableSort": true,
+      "fontStyle": "",
+      "horizontalAlignment": "LEFT",
+      "id": "animal",
+      "index": 19,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": false,
+      "label": "animal",
+      "notation": "standard",
+      "originalId": "animal",
+      "sticky": "",
+      "textColor": "",
+      "textSize": "0.875rem",
+      "thousandSeparator": true,
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "aplicacoes_meedicamentos": {
+      "alias": "aplicacoes_meedicamentos",
+      "allowCellWrapping": false,
+      "allowSameOptionsInNewRow": true,
+      "cellBackground": "",
+      "columnType": "text",
+      "computedValue": "{{Table1Copy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"aplicacoes_meedicamentos\"]))}}",
+      "currencyCode": "USD",
+      "decimals": 0,
+      "enableFilter": true,
+      "enableSort": true,
+      "fontStyle": "",
+      "horizontalAlignment": "LEFT",
+      "id": "aplicacoes_meedicamentos",
+      "index": 22,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": false,
+      "label": "aplicacoes_meedicamentos",
+      "notation": "standard",
+      "originalId": "aplicacoes_meedicamentos",
+      "sticky": "",
+      "textColor": "",
+      "textSize": "0.875rem",
+      "thousandSeparator": true,
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
     "aplicado": {
       "alias": "aplicado",
       "allowCellWrapping": false,

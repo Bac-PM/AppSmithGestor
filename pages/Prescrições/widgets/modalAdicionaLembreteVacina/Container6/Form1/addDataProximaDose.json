@@ -7,6 +7,7 @@
   "closeOnSelection": true,
   "dateFormat": "DD/MM/YYYY",
   "datePickerType": "DATE_PICKER",
+  "defaultDate": "{{new Date()}}",
   "displayName": "DatePicker",
   "dynamicBindingPathList": [
     {
@@ -14,10 +15,29 @@
     },
     {
       "key": "borderRadius"
+    },
+    {
+      "key": "defaultDate"
+    },
+    {
+      "key": "minDate"
+    },
+    {
+      "key": "maxDate"
     }
   ],
   "dynamicHeight": "FIXED",
-  "dynamicPropertyPathList": [],
+  "dynamicPropertyPathList": [
+    {
+      "key": "defaultDate"
+    },
+    {
+      "key": "minDate"
+    },
+    {
+      "key": "maxDate"
+    }
+  ],
   "dynamicTriggerPathList": [],
   "firstDayOfWeek": 0,
   "hideCard": false,
@@ -35,9 +55,9 @@
   "labelTooltip": "",
   "labelWidth": 5,
   "leftColumn": 25,
-  "maxDate": "2121-12-31T18:29:00.000Z",
+  "maxDate": "{{\nfunction(){\n\tlet date = new Date();\n\n                        date.setFullYear(date.getFullYear() + 7);\n\t\n\n\treturn new Date(date); \n}();\n}}",
   "maxDynamicHeight": 9000,
-  "minDate": "1920-12-31T18:30:00.000Z",
+  "minDate": "{{\nnew Date()\n}}",
   "minDynamicHeight": 4,
   "minWidth": 450,
   "mobileBottomRow": 15,

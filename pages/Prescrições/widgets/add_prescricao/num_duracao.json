@@ -20,7 +20,7 @@
   "hideCard": false,
   "iconAlign": "left",
   "iconSVG": "/static/media/icon.f4dd498ee72f01127e5bfe3a1a8ad671.svg",
-  "inputType": "TEXT",
+  "inputType": "NUMBER",
   "isDeprecated": false,
   "isDisabled": false,
   "isLoading": false,
@@ -36,6 +36,7 @@
   "leftColumn": 44,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
+  "minNum": "0",
   "minWidth": 450,
   "mobileBottomRow": 24,
   "mobileLeftColumn": 0,
@@ -58,6 +59,7 @@
     "number",
     "textarea"
   ],
+  "shouldAllowAutofill": false,
   "showStepArrows": false,
   "tags": [
     "Suggested",

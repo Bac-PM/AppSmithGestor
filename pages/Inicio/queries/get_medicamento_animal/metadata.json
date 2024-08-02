@@ -1,6 +1,6 @@
 {
-  "gitSyncId": "66969fcbc5ee223b0cd328ea_538e1bb0-02b2-4b21-8645-9c3470e07056",
-  "id": "Prescrições_get_medicamento_animal",
+  "gitSyncId": "66969fcbc5ee223b0cd328ea_d1a49056-5b92-4058-903e-3de1e872e1f2",
+  "id": "Inicio_get_medicamento_animal",
   "pluginId": "restapi-plugin",
   "pluginType": "API",
   "unpublishedAction": {
@@ -33,8 +33,32 @@
           "value": "{{seletor_animal.selectedOptionValue}}"
         },
         {
-          "key": "populate",
-          "value": "*"
+          "key": "populate[medicamento][populate][apresentacao_medicamento][fields]",
+          "value": "Nome"
+        },
+        {
+          "key": "populate[medicamento][populate][unidade_dosagem][fields]",
+          "value": "Nome"
+        },
+        {
+          "key": "populate[medicamento][fields][0]",
+          "value": "nome"
+        },
+        {
+          "key": "populate[medicamento][fields][1]",
+          "value": "dosagem"
+        },
+        {
+          "key": "populate[medida][fields][0]",
+          "value": "Nome"
+        },
+        {
+          "key": "filters[ativo]",
+          "value": "true"
+        },
+        {
+          "key": "populate[aplicado_por][fields][0]",
+          "value": "username"
         }
       ],
       "timeoutInMillisecond": 10000
@@ -58,8 +82,8 @@
     ],
     "executeOnLoad": false,
     "fullyQualifiedName": "get_medicamento_animal",
-    "name": "GET_MEDICaTeste",
-    "pageId": "Prescrições",
+    "name": "get_medicamento_animalNaplic",
+    "pageId": "Inicio",
     "userSetOnLoad": false
   }
 }
