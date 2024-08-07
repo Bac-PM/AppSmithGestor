@@ -43,9 +43,10 @@
     "aplicado",
     "customColumn7",
     "aplicado_por",
-    "observacao"
+    "observacao",
+    "historico_nome"
   ],
-  "columnUpdatedAt": 1720206200890,
+  "columnUpdatedAt": 1723047365268,
   "columnWidthMap": {
     "anamnese": 172,
     "animal": 186,
@@ -60,7 +61,7 @@
     "data_proxima_aplicacao": 204,
     "diagnostico": 116,
     "exame_fisico": 104,
-    "observacao": 550,
+    "observacao": 207,
     "retorno": 276.75,
     "tipo_aplicacao": 253
   },
@@ -119,6 +120,9 @@
     },
     {
       "key": "primaryColumns.aplicado_por.computedValue"
+    },
+    {
+      "key": "primaryColumns.historico_nome.computedValue"
     }
   ],
   "dynamicPropertyPathList": [
@@ -425,6 +429,40 @@
       "notation": "standard",
       "originalId": "data_proxima_aplicacao",
       "outputFormat": "DD/MM/YYYY",
+      "sticky": "",
+      "textColor": "",
+      "textSize": "0.875rem",
+      "thousandSeparator": true,
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "historico_nome": {
+      "alias": "historico_nome",
+      "allowCellWrapping": false,
+      "allowSameOptionsInNewRow": true,
+      "cellBackground": "",
+      "columnType": "text",
+      "computedValue": "{{ectoparasiticidas_aplicados.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"historico_nome\"]))}}",
+      "currencyCode": "USD",
+      "decimals": 0,
+      "enableFilter": true,
+      "enableSort": true,
+      "fontStyle": "",
+      "horizontalAlignment": "LEFT",
+      "id": "historico_nome",
+      "index": 8,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": false,
+      "label": "historico_nome",
+      "notation": "standard",
+      "originalId": "historico_nome",
       "sticky": "",
       "textColor": "",
       "textSize": "0.875rem",

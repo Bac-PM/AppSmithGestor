@@ -26,7 +26,7 @@
       "httpMethod": "PUT",
       "httpVersion": "HTTP11",
       "paginationType": "NONE",
-      "path": "{{appsmith.store.url}}/api/medicamento-animals/{{medicamentos_ativos.triggeredItem.id}}",
+      "path": "{{appsmith.store.url}}/api/medicamento-animals/{{medicamentos_ativos.triggeredRow.id}}",
       "pluginSpecifiedTemplates": [
         {
           "value": true

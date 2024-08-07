@@ -52,7 +52,7 @@
     "customColumn6",
     "customColumn7"
   ],
-  "columnUpdatedAt": 1721758011397,
+  "columnUpdatedAt": 1723047285005,
   "columnWidthMap": {
     "anotacoes": 119,
     "customColumn1": 140,
@@ -277,7 +277,7 @@
       "isDiscardVisible": true,
       "isEditable": false,
       "isSaveVisible": true,
-      "isVisible": true,
+      "isVisible": false,
       "label": "anual",
       "notation": "standard",
       "originalId": "anual",
@@ -676,7 +676,7 @@
       "isDiscardVisible": true,
       "isEditable": false,
       "isSaveVisible": true,
-      "isVisible": true,
+      "isVisible": false,
       "label": "historico_nome",
       "notation": "standard",
       "originalId": "historico_nome",
