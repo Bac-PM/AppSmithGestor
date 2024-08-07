@@ -11,7 +11,7 @@
           "value": "application/json"
         }
       ],
-      "body": "",
+      "body": "{\n  \"data\": {\n    \"aplicado_por\": {{appsmith.store.idUsuario}}\n  }\n}\n",
       "bodyFormData": [],
       "encodeParamsToggle": true,
       "formData": {
@@ -47,6 +47,9 @@
       },
       {
         "key": "headers[0].value"
+      },
+      {
+        "key": "body"
       }
     ],
     "executeOnLoad": false,
