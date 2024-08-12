@@ -241,7 +241,7 @@
   "rightColumn": 64,
   "searchKey": "",
   "serverSidePaginationEnabled": false,
-  "tableData": "{{getAllTipoVacinaDesativados.data.data}}",
+  "tableData": "{{getTipoVacinaDesativados.data.data}}",
   "tags": [
     "Suggested",
     "Display"
