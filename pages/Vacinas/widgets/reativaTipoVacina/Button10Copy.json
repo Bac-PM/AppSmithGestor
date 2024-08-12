@@ -41,7 +41,7 @@
   "mobileRightColumn": 63,
   "mobileTopRow": 18,
   "needsErrorInfo": false,
-  "onClick": "{{\nativaTipoVacina.run().then(() => {\n  showAlert(ativaTipoVacina.data.data.nome+' Ativado com sucesso', 'success');\n\tgetAllTipoVacinaDesativados.run();\n\t\n}).catch(() => {\n  showAlert('Um erro ocorreu', 'error');\n});\n\ncloseModal('reativaTipoVacina');}}",
+  "onClick": "{{\nativaTipoVacina.run().then(() => {\n  showAlert(ativaTipoVacina.data.data.nome+' Ativado com sucesso', 'success');\n\tgetTipoVacinaDesativados.run();\n\t\n}).catch(() => {\n  showAlert('Um erro ocorreu', 'error');\n});\n\ncloseModal('reativaTipoVacina');}}",
   "originalBottomRow": 21,
   "originalTopRow": 17,
   "parentId": "s147s69a66",
