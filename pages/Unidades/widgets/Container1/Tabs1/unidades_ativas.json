@@ -377,7 +377,7 @@
   "rightColumn": 64,
   "searchKey": "",
   "serverSidePaginationEnabled": false,
-  "tableData": "{{getUnidadesAtivas.data.data}}",
+  "tableData": "{{getAllUnidadesAtivas.data.data}}",
   "tags": [
     "Suggested",
     "Display"

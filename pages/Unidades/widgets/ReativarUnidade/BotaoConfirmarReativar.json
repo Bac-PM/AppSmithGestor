@@ -40,7 +40,7 @@
   "mobileLeftColumn": 47,
   "mobileRightColumn": 63,
   "mobileTopRow": 18,
-  "onClick": "{{ativaUnidades.run().then(() => {\n  getUnidadesAtivas.run();\n getUnidadesDesativadas.run(); showAlert(ativaUnidades.data.data.Nome + ' Desativado com sucesso', 'success');\n  closeModal('ReativarUnidade');\n  \n}).catch(() => {\n  ativaUnidades.data.error.details.errors.forEach(element => {\n    showAlert(element.message, 'error');\n  });\n});}}\n\n",
+  "onClick": "{{ativaUnidades.run().then(() => {\n  getAllUnidadesAtivas.run();\n getUnidadesDesativadas.run(); showAlert(ativaUnidades.data.data.Nome + ' Desativado com sucesso', 'success');\n  closeModal('ReativarUnidade');\n  \n}).catch(() => {\n  ativaUnidades.data.error.details.errors.forEach(element => {\n    showAlert(element.message, 'error');\n  });\n});}}\n\n",
   "originalBottomRow": 21,
   "originalTopRow": 17,
   "parentId": "hcs4lh8xa6",

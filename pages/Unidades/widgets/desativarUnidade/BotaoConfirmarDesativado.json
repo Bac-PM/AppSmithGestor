@@ -13,7 +13,11 @@
       "key": "borderRadius"
     }
   ],
-  "dynamicPropertyPathList": [],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
   "dynamicTriggerPathList": [
     {
       "key": "onClick"
@@ -33,7 +37,7 @@
   "mobileLeftColumn": 47,
   "mobileRightColumn": 63,
   "mobileTopRow": 18,
-  "onClick": "{{desativaUnidades.run().then(() => {\n  getUnidadesAtivas.run();\n getUnidadesDesativadas.run(); showAlert(desativaUnidades.data.data.Nome + ' Desativado com sucesso', 'success');\n  closeModal('desativarUnidade');\n  \n}).catch(() => {\n  postUnidades.data.error.details.errors.forEach(element => {\n    showAlert(element.message, 'error');\n  });\n});}}",
+  "onClick": "{{desativaUnidades.run().then(() => {\n  getAllUnidadesAtivas.run();\n getUnidadesDesativadas.run(); showAlert(desativaUnidades.data.data.Nome + ' Desativado com sucesso', 'success');\n  closeModal('desativarUnidade');\n  \n}).catch(() => {\n  postUnidades.data.error.details.errors.forEach(element => {\n    showAlert(element.message, 'error');\n  });\n});}}",
   "originalBottomRow": 21,
   "originalTopRow": 17,
   "parentId": "cnq2zegg6l",
