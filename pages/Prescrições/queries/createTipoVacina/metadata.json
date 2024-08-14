@@ -25,7 +25,7 @@
       ],
       "httpMethod": "POST",
       "paginationType": "NONE",
-      "path": "{{appsmith.store.url}}/api/tipo-vacinas",
+      "path": "{{appsmith.store.url}}/api/tipo-vacinas ",
       "pluginSpecifiedTemplates": [
         {
           "value": true

@@ -42,7 +42,7 @@
         },
         {
           "key": "populate",
-          "value": "*"
+          "value": "* "
         }
       ],
       "timeoutInMillisecond": 10000
@@ -64,7 +64,7 @@
         "key": "queryParameters[1].value"
       }
     ],
-    "executeOnLoad": false,
+    "executeOnLoad": true,
     "fullyQualifiedName": "getAlertaVacina",
     "name": "getAlertaVacina",
     "pageId": "Alertas",

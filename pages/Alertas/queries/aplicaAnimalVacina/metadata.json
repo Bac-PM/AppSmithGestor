@@ -25,7 +25,7 @@
       ],
       "httpMethod": "PUT",
       "paginationType": "NONE",
-      "path": "{{appsmith.store.url}}/api/updateAnimalVacina/{{alertas_vacina.triggeredRow.id}}",
+      "path": "{{appsmith.store.url}}/api/updateAnimalVacina/{{alertas_vacina.triggeredRow.id}} ",
       "pluginSpecifiedTemplates": [
         {
           "value": true

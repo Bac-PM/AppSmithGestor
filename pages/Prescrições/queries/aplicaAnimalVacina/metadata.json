@@ -25,7 +25,7 @@
       ],
       "httpMethod": "PUT",
       "paginationType": "NONE",
-      "path": "{{appsmith.store.url}}/api/updateAnimalVacina/{{vacinas_ativas.triggeredRow.id}}",
+      "path": "{{appsmith.store.url}}/api/updateAnimalVacina/{{vacinas_ativas.triggeredRow.id}} ",
       "pluginSpecifiedTemplates": [
         {
           "value": true
@@ -42,10 +42,10 @@
     },
     "dynamicBindingPathList": [
       {
-        "key": "path"
+        "key": "body"
       },
       {
-        "key": "body"
+        "key": "path"
       }
     ],
     "executeOnLoad": false,

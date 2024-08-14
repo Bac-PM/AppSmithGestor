@@ -25,7 +25,7 @@
       ],
       "httpMethod": "POST",
       "paginationType": "NONE",
-      "path": "{{appsmith.store.url}}/api/consultas",
+      "path": "{{appsmith.store.url}}/api/consultas ",
       "pluginSpecifiedTemplates": [
         {
           "value": true

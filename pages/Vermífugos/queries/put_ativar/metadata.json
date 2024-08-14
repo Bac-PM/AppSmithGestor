@@ -26,7 +26,7 @@
       "httpMethod": "PUT",
       "httpVersion": "HTTP11",
       "paginationType": "NONE",
-      "path": "{{appsmith.store.url}}/api/tipo-aplicacaos/{{verm_desativados.triggeredRow.id}}",
+      "path": "{{appsmith.store.url}}/api/tipo-aplicacaos/{{verm_desativados.triggeredRow.id}} ",
       "pluginSpecifiedTemplates": [
         {
           "value": true

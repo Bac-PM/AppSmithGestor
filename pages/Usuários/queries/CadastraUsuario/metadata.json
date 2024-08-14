@@ -62,9 +62,6 @@
         "key": "headers[0].value"
       },
       {
-        "key": "path"
-      },
-      {
         "key": "bodyFormData[0].value"
       },
       {
@@ -75,6 +72,9 @@
       },
       {
         "key": "bodyFormData[3].value"
+      },
+      {
+        "key": "path"
       }
     ],
     "executeOnLoad": false,

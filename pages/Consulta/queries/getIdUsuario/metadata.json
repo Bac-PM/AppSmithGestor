@@ -28,7 +28,7 @@
       "queryParameters": [
         {
           "key": "fields[0]",
-          "value": "id"
+          "value": "id "
         }
       ],
       "timeoutInMillisecond": 10000

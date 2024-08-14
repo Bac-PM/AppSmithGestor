@@ -42,7 +42,7 @@
         },
         {
           "key": "populate[tipo_vacina][fields][0]",
-          "value": "tipo"
+          "value": "tipo "
         }
       ],
       "timeoutInMillisecond": 10000
@@ -55,10 +55,10 @@
     },
     "dynamicBindingPathList": [
       {
-        "key": "path"
+        "key": "headers[0].value"
       },
       {
-        "key": "headers[0].value"
+        "key": "path"
       }
     ],
     "executeOnLoad": true,

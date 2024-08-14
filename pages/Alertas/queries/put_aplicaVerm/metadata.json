@@ -26,7 +26,7 @@
       "httpMethod": "PUT",
       "httpVersion": "HTTP11",
       "paginationType": "NONE",
-      "path": "{{appsmith.store.url}}/api/animal-aplicacaos/{{alertas_vermifugo.triggeredRow.id}}",
+      "path": "{{appsmith.store.url}}/api/animal-aplicacaos/{{alertas_vermifugo.triggeredRow.id}} ",
       "pluginSpecifiedTemplates": [
         {
           "value": true

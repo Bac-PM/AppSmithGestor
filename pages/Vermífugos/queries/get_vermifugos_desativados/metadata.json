@@ -40,7 +40,7 @@
         },
         {
           "key": "filters[ativo]",
-          "value": "false"
+          "value": "false "
         }
       ],
       "timeoutInMillisecond": 10000

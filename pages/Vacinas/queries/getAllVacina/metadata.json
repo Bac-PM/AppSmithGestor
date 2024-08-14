@@ -38,7 +38,7 @@
         },
         {
           "key": "populate[tipo_vacina][fields][0]",
-          "value": "tipo"
+          "value": "tipo "
         }
       ],
       "timeoutInMillisecond": 10000

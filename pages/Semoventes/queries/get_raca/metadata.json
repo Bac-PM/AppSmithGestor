@@ -33,7 +33,7 @@
       "queryParameters": [
         {
           "key": "fields[0]",
-          "value": "nome"
+          "value": "nome "
         }
       ],
       "timeoutInMillisecond": 10000

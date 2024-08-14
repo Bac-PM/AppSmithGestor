@@ -66,7 +66,7 @@
         },
         {
           "key": "populate[aplicado_por][fields][0]",
-          "value": "username"
+          "value": "username "
         }
       ],
       "timeoutInMillisecond": 10000
@@ -79,10 +79,10 @@
     },
     "dynamicBindingPathList": [
       {
-        "key": "path"
+        "key": "headers[0].value"
       },
       {
-        "key": "headers[0].value"
+        "key": "path"
       },
       {
         "key": "queryParameters[0].value"

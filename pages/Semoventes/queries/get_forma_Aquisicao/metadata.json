@@ -37,7 +37,7 @@
         },
         {
           "key": "fields[1]",
-          "value": "id"
+          "value": "id "
         }
       ],
       "timeoutInMillisecond": 10000

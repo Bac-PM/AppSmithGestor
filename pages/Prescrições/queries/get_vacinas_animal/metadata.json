@@ -38,7 +38,7 @@
         },
         {
           "key": "populate",
-          "value": "*,nome_vacina.tipo_vacina,foto_etiqueta,animal"
+          "value": "*,nome_vacina.tipo_vacina,foto_etiqueta,animal "
         }
       ],
       "timeoutInMillisecond": 10000
@@ -51,10 +51,10 @@
     },
     "dynamicBindingPathList": [
       {
-        "key": "path"
+        "key": "headers[0].value"
       },
       {
-        "key": "headers[0].value"
+        "key": "path"
       },
       {
         "key": "queryParameters[0].value"

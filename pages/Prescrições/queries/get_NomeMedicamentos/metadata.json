@@ -41,7 +41,7 @@
           "value": "Nome"
         },
         {
-          "key": "populate[apresentacao_medicamento][fields][0]",
+          "key": "populate[apresentacao_medicamento][fields] [0]",
           "value": "Nome"
         },
         {
@@ -50,7 +50,7 @@
         },
         {
           "key": "populate[unidade_dosagem][fields][0]",
-          "value": "Nome"
+          "value": "Nome "
         }
       ],
       "timeoutInMillisecond": 10000
@@ -63,10 +63,10 @@
     },
     "dynamicBindingPathList": [
       {
-        "key": "path"
+        "key": "headers[0].value"
       },
       {
-        "key": "headers[0].value"
+        "key": "path"
       }
     ],
     "executeOnLoad": true,

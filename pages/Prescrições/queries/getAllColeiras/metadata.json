@@ -46,7 +46,7 @@
         },
         {
           "key": "populate[tipo_produto_antiparasitario][fields][0]",
-          "value": "descricao"
+          "value": "descricao "
         }
       ],
       "timeoutInMillisecond": 10000

@@ -62,7 +62,7 @@
         },
         {
           "key": "populate[tipo_aplicacao][fields][0]",
-          "value": "nome_produto"
+          "value": "nome_produto "
         }
       ],
       "timeoutInMillisecond": 10000
@@ -75,10 +75,10 @@
     },
     "dynamicBindingPathList": [
       {
-        "key": "path"
+        "key": "headers[0].value"
       },
       {
-        "key": "headers[0].value"
+        "key": "path"
       },
       {
         "key": "queryParameters[0].value"
