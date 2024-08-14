@@ -68,7 +68,7 @@
         "key": "queryParameters[1].value"
       }
     ],
-    "executeOnLoad": true,
+    "executeOnLoad": false,
     "fullyQualifiedName": "getAlertaColeiraUmCao",
     "name": "getAlertaColeiraUmCao",
     "pageId": "Alertas",

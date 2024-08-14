@@ -1,5 +1,5 @@
 {
-  "gitSyncId": "664b91393d0ee46738b29c21_6675a81c659391197810391f",
+  "gitSyncId": "66bb9d33f911ae13e29b620b_6b9b6ab0-5c18-450f-b31f-e243d6ae41ef",
   "id": "Inicio_get_user",
   "pluginId": "restapi-plugin",
   "pluginType": "API",
@@ -60,6 +60,6 @@
     "executeOnLoad": false,
     "name": "get_user",
     "pageId": "Inicio",
-    "userSetOnLoad": true
+    "userSetOnLoad": false
   }
 }

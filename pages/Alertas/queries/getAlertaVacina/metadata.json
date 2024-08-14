@@ -64,7 +64,7 @@
         "key": "queryParameters[1].value"
       }
     ],
-    "executeOnLoad": true,
+    "executeOnLoad": false,
     "fullyQualifiedName": "getAlertaVacina",
     "name": "getAlertaVacina",
     "pageId": "Alertas",

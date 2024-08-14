@@ -61,7 +61,7 @@
         "key": "path"
       }
     ],
-    "executeOnLoad": true,
+    "executeOnLoad": false,
     "fullyQualifiedName": "getTodosVermifugos",
     "name": "getTodosVermifugos",
     "pageId": "Alertas",

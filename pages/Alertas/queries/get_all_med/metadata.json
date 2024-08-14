@@ -77,7 +77,7 @@
         "key": "headers[0].value"
       }
     ],
-    "executeOnLoad": true,
+    "executeOnLoad": false,
     "name": "get_all_med",
     "pageId": "Alertas",
     "userSetOnLoad": false

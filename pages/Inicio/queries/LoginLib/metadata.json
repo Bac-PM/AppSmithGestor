@@ -32,7 +32,7 @@
       "httpMethod": "POST",
       "httpVersion": "HTTP11",
       "paginationType": "NONE",
-      "path": "{{getURL.getUrl.data}}/api/auth/local",
+      "path": "{{getURL.getUrl.data}}/api/auth/local ",
       "pluginSpecifiedTemplates": [
         {
           "value": true

@@ -47,7 +47,7 @@
         "key": "path"
       }
     ],
-    "executeOnLoad": true,
+    "executeOnLoad": false,
     "fullyQualifiedName": "getRoles",
     "name": "getRoles",
     "pageId": "Usuários",

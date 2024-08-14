@@ -84,7 +84,7 @@
         "key": "queryParameters[0].value"
       }
     ],
-    "executeOnLoad": true,
+    "executeOnLoad": false,
     "name": "get_medicamento_animal",
     "pageId": "Alertas",
     "userSetOnLoad": false
