@@ -38,7 +38,7 @@
         },
         {
           "key": "fields[1]",
-          "value": "email"
+          "value": "email "
         }
       ],
       "timeoutInMillisecond": 10000
@@ -51,10 +51,10 @@
     },
     "dynamicBindingPathList": [
       {
-        "key": "path"
+        "key": "headers[0].value"
       },
       {
-        "key": "headers[0].value"
+        "key": "path"
       }
     ],
     "executeOnLoad": false,

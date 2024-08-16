@@ -83,19 +83,11 @@
       "isDefault": false
     },
     {
-      "id": "Treinamento",
+      "id": "Ração",
       "isDefault": false
     },
     {
-      "id": "Estoque",
-      "isDefault": false
-    },
-    {
-      "id": "Painel de Informações",
-      "isDefault": false
-    },
-    {
-      "id": "Page1",
+      "id": "Peso",
       "isDefault": false
     }
   ],

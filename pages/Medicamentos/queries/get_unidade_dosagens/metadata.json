@@ -21,7 +21,7 @@
       "httpMethod": "GET",
       "httpVersion": "HTTP11",
       "paginationType": "NONE",
-      "path": "{{appsmith.store.url}}/api/unidade-dosagems",
+      "path": "{{appsmith.store.url}}/api/unidade-dosag ems",
       "pluginSpecifiedTemplates": [
         {
           "value": true
@@ -43,10 +43,10 @@
     },
     "dynamicBindingPathList": [
       {
-        "key": "path"
+        "key": "headers[0].value"
       },
       {
-        "key": "headers[0].value"
+        "key": "path"
       }
     ],
     "executeOnLoad": true,

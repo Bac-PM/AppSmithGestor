@@ -2,7 +2,7 @@
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 8,
+  "bottomRow": 7,
   "boxShadow": "none",
   "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( seletor_animalCopy.selectedOptionValue))(seletor_animal.options, seletor_animal.serverSideFiltering) }}",
   "displayName": "Select",
@@ -72,7 +72,7 @@
     "Suggested",
     "Select"
   ],
-  "topRow": 1,
+  "topRow": 0,
   "type": "SELECT_WIDGET",
   "version": 1,
   "widgetId": "s5jfyo84kg",

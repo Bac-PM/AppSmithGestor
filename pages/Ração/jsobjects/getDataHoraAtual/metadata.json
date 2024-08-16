@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "66bcf7b3d5cff221687cd2ca_4a71ea1a-6008-4b69-838a-74bdf88cb22c",
+  "id": "Ração_getDataHoraAtual",
+  "unpublishedCollection": {
+    "name": "getDataHoraAtual",
+    "pageId": "Ração",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}
