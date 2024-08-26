@@ -4,6 +4,7 @@
 	"lembrete_em_dias":{{addLembreteDiasEcto.selectedOptionValue}},
 	"data_proxima_aplicacao":{{addDataProximaAplicacaoEcto.selectedDate}},
 	"aplicado":"false",
-	"observacao": {{obs_ecto.text}}
+	"observacao": {{obs_ecto.text}},
+	"historico_nome": {{select_ectoAplicar.selectedOptionLabel}}
 }
 

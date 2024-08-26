@@ -1,0 +1,7 @@
+{
+	"data": {
+		"Data": {{new Date()}},
+		"users_permissions_user" : {{getIdUsuario.data.id}},
+		"animal":{{seletor_animal.selectedOptionValue}},
+	}
+}

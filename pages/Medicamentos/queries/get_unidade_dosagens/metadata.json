@@ -21,7 +21,7 @@
       "httpMethod": "GET",
       "httpVersion": "HTTP11",
       "paginationType": "NONE",
-      "path": "{{appsmith.store.url}}/api/unidade-dosag ems",
+      "path": "{{appsmith.store.url}}/api/unidade-dosagems",
       "pluginSpecifiedTemplates": [
         {
           "value": true

@@ -1,0 +1,5 @@
+{
+	"peso": {{input_peso.text}},
+	"data": {{new Date()}},
+	"animal": {{seletor_animal.selectedOptionValue}}
+}

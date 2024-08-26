@@ -39,7 +39,7 @@
   ],
   "columnUpdatedAt": 1719596646070,
   "columnWidthMap": {
-    "customColumn1": 189,
+    "customColumn1": 281,
     "tipo_aplicacao": 213
   },
   "defaultPageSize": 0,
@@ -200,7 +200,7 @@
       "label": "Data Próxima Aplicação",
       "notation": "standard",
       "originalId": "data_proxima_aplicacao",
-      "outputFormat": "DD/MM/YYYY",
+      "outputFormat": "YYYY-MM-DD HH:mm",
       "sticky": "",
       "textSize": "0.875rem",
       "thousandSeparator": true,

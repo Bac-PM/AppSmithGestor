@@ -59,10 +59,6 @@
         {
           "key": "filters[aplicado]",
           "value": "false"
-        },
-        {
-          "key": "filters[primeira_aplicacao]",
-          "value": "true"
         }
       ],
       "timeoutInMillisecond": 10000

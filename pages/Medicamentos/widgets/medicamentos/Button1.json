@@ -45,7 +45,7 @@
   "isLoading": false,
   "isVisible": "{{\n(function() {if(appsmith.store.roleAtual == \"Tratador\"){\n\t\treturn false;\n\t}\n\telse{\n\t\treturn true;\n\t}\t\t\t \n})();\n}}",
   "key": "6on0ta95k9",
-  "leftColumn": 47,
+  "leftColumn": 48,
   "minWidth": 120,
   "mobileBottomRow": 4,
   "mobileLeftColumn": 47,
@@ -61,7 +61,7 @@
   "renderMode": "CANVAS",
   "resetFormOnClick": false,
   "responsiveBehavior": "hug",
-  "rightColumn": 63,
+  "rightColumn": 64,
   "searchTags": [
     "click",
     "submit"

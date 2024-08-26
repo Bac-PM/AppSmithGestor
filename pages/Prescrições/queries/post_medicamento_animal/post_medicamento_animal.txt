@@ -4,7 +4,7 @@
 		"animal": {{ seletor_animal.selectedOptionValue}},
 		"data_inicio": {{data_ini.selectedDate}},
 		"data_fim":{{data_fim.selectedDate}},
-		"dosagem": {{dosagem.text}},
+		"dosagem": {{dosagem.text.toString()}},
 		"medida": {{medida.selectedOptionValue}},
 		"num_frequencia": {{num_frequencia.text}},
 		"tipo_frequencia": {{tipo_frequencia.selectedOptionValue}},

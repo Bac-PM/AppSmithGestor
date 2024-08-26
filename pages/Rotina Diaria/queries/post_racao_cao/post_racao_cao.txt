@@ -1,0 +1,9 @@
+{
+	"data": {
+		"quantidade": {{quantidade.text}},
+		"data": {{getDataHoraAtual.getDataHoraAtual()}},
+		"users_permissions_user" : {{getIdUsuario.data.id}},
+		"animal":{{seletor_animal.selectedOptionValue}},
+		"tipo_racao": {{tipo_racao.selectedOptionLabel}}
+	}
+}

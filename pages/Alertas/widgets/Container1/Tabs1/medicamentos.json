@@ -52,10 +52,9 @@
     "hora_de_aplicacao",
     "medicamento",
     "medida",
-    "primeira_aplicacao",
     "customColumn1"
   ],
-  "columnUpdatedAt": 1721926096854,
+  "columnUpdatedAt": 1724256947995,
   "columnWidthMap": {
     "customColumn2": 121,
     "data_fim": 133,
@@ -161,9 +160,6 @@
     },
     {
       "key": "primaryColumns.customColumn1.isDisabled"
-    },
-    {
-      "key": "primaryColumns.primeira_aplicacao.computedValue"
     }
   ],
   "dynamicPropertyPathList": [
@@ -810,40 +806,6 @@
       "notation": "standard",
       "originalId": "posologia",
       "sticky": "",
-      "textSize": "0.875rem",
-      "thousandSeparator": true,
-      "validation": {},
-      "verticalAlignment": "CENTER",
-      "width": 150
-    },
-    "primeira_aplicacao": {
-      "alias": "primeira_aplicacao",
-      "allowCellWrapping": false,
-      "allowSameOptionsInNewRow": true,
-      "cellBackground": "",
-      "columnType": "text",
-      "computedValue": "{{medicamentos.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"primeira_aplicacao\"]))}}",
-      "currencyCode": "USD",
-      "decimals": 0,
-      "enableFilter": true,
-      "enableSort": true,
-      "fontStyle": "",
-      "horizontalAlignment": "LEFT",
-      "id": "primeira_aplicacao",
-      "index": 18,
-      "isCellEditable": false,
-      "isCellVisible": true,
-      "isDerived": false,
-      "isDisabled": false,
-      "isDiscardVisible": true,
-      "isEditable": false,
-      "isSaveVisible": true,
-      "isVisible": false,
-      "label": "primeira_aplicacao",
-      "notation": "standard",
-      "originalId": "primeira_aplicacao",
-      "sticky": "",
-      "textColor": "",
       "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},

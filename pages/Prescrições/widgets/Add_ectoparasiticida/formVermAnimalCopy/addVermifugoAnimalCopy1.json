@@ -39,7 +39,7 @@
   "mobileLeftColumn": 46,
   "mobileRightColumn": 62,
   "mobileTopRow": 33,
-  "onClick": "{{create_EctoAnimal.run().then(() => {\n  closeModal('Add_ectoparasiticida');\n  get_ectoparasiticidas_animal.run();\n}).catch(() => {\n\t\t\t\n\t\t\tlet erroApi = service.getErrorApi(create_EctoAnimal.data);\n\t\t\t\n\t\t\terroPostEcto.setText(erroApi); \n  });\n;}}\n",
+  "onClick": "{{create_EctoAnimal.run().then(() => {\n  closeModal(Add_ectoparasiticida.name); get_ectoparasiticidas_animal.run();\n}).catch(() => {\n\t\t\t\n\t\t\tlet erroApi = service.getErrorApi(create_EctoAnimal.data);\n\t\t\t\n\t\t\terroPostEcto.setText(erroApi); \n  });\n;}}\n",
   "originalBottomRow": 39,
   "originalTopRow": 35,
   "parentId": "z67rrdyup5",

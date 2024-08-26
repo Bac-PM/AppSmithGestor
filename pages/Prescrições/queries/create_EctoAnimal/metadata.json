@@ -11,7 +11,7 @@
           "value": "application/json"
         }
       ],
-      "body": "{\n\t\"animal\":{{seletor_animal.selectedOptionValue}},\n\t\"tipo_aplicacao\":{{select_ectoAplicar.selectedOptionValue}},\n\t\"lembrete_em_dias\":{{addLembreteDiasEcto.selectedOptionValue}},\n\t\"data_proxima_aplicacao\":{{addDataProximaAplicacaoEcto.selectedDate}},\n\t\"aplicado\":\"false\",\n\t\"observacao\": {{obs_ecto.text}}\n}\n\n",
+      "body": "{\n\t\"animal\":{{seletor_animal.selectedOptionValue}},\n\t\"tipo_aplicacao\":{{select_ectoAplicar.selectedOptionValue}},\n\t\"lembrete_em_dias\":{{addLembreteDiasEcto.selectedOptionValue}},\n\t\"data_proxima_aplicacao\":{{addDataProximaAplicacaoEcto.selectedDate}},\n\t\"aplicado\":\"false\",\n\t\"observacao\": {{obs_ecto.text}},\n\t\"historico_nome\": {{select_ectoAplicar.selectedOptionLabel}}\n}\n\n",
       "bodyFormData": [],
       "encodeParamsToggle": true,
       "formData": {

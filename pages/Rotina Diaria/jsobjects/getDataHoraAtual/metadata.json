@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "66bcf7b3d5cff221687cd2ca_e5e39992-b741-44e4-b9e2-ee7c51953a99",
+  "id": "Rotina Diaria_getDataHoraAtual",
+  "unpublishedCollection": {
+    "name": "getDataHoraAtual",
+    "pageId": "Rotina Diaria",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}
