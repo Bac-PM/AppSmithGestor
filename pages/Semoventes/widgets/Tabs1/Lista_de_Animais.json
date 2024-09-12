@@ -41,9 +41,10 @@
     "status_saude",
     "sexo",
     "Condutor_principal",
-    "status_operacional"
+    "status_operacional",
+    "customColumn1"
   ],
-  "columnUpdatedAt": 1720195055874,
+  "columnUpdatedAt": 1726167713219,
   "columnWidthMap": {
     "Box": 71.185546875,
     "Condutor_principal": 167,
@@ -55,7 +56,8 @@
     "Status": 190,
     "Status_operacional": 179,
     "Status_saude": 177,
-    "justificativa": 122.689453125
+    "justificativa": 122.689453125,
+    "status_operacional": 268
   },
   "defaultPageSize": 0,
   "defaultSelectedRowIndex": "0",
@@ -103,6 +105,15 @@
     },
     {
       "key": "boxShadow"
+    },
+    {
+      "key": "primaryColumns.customColumn1.boxShadow"
+    },
+    {
+      "key": "primaryColumns.customColumn1.borderRadius"
+    },
+    {
+      "key": "primaryColumns.customColumn1.buttonColor"
     }
   ],
   "dynamicPropertyPathList": [
@@ -125,6 +136,9 @@
     },
     {
       "key": "onPageChange"
+    },
+    {
+      "key": "primaryColumns.customColumn1.onClick"
     }
   ],
   "enableClientSideSearch": true,
@@ -328,6 +342,46 @@
       "verticalAlignment": "CENTER",
       "width": 150
     },
+    "customColumn1": {
+      "alias": "Prontuário",
+      "allowCellWrapping": false,
+      "allowSameOptionsInNewRow": true,
+      "borderRadius": "{{Lista_de_Animais.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.borderRadius.appBorderRadius)))}}",
+      "boxShadow": "{{Lista_de_Animais.processedTableData.map((currentRow, currentIndex) => ( \"none\"))}}",
+      "buttonColor": "{{Lista_de_Animais.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.colors.primaryColor)))}}",
+      "buttonStyle": "rgb(3, 179, 101)",
+      "cellBackground": "",
+      "columnType": "iconButton",
+      "computedValue": "",
+      "currencyCode": "USD",
+      "customAlias": "",
+      "decimals": 0,
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "iconName": "import",
+      "id": "customColumn1",
+      "index": 9,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": true,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "Prontuário",
+      "labelColor": "#FFFFFF",
+      "notation": "standard",
+      "onClick": "{{rodarGets.getsProntuario();}}",
+      "originalId": "customColumn1",
+      "sticky": "",
+      "textSize": "0.875rem",
+      "thousandSeparator": true,
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
     "id": {
       "alias": "id",
       "allowCellWrapping": false,
@@ -344,7 +398,7 @@
       "id": "id",
       "index": 0,
       "isCellEditable": false,
-      "isCellVisible": false,
+      "isCellVisible": true,
       "isDerived": false,
       "isDisabled": false,
       "isDiscardVisible": true,

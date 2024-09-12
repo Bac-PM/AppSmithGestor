@@ -55,13 +55,13 @@
     },
     "dynamicBindingPathList": [
       {
-        "key": "path"
-      },
-      {
         "key": "headers[0].value"
       },
       {
         "key": "queryParameters[2].value"
+      },
+      {
+        "key": "path"
       }
     ],
     "executeOnLoad": true,

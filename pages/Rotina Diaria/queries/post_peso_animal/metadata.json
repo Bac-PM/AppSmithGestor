@@ -46,10 +46,10 @@
         "key": "headers[0].value"
       },
       {
-        "key": "path"
+        "key": "body"
       },
       {
-        "key": "body"
+        "key": "path"
       }
     ],
     "executeOnLoad": false,

@@ -38,7 +38,7 @@
         },
         {
           "key": "fields[1]",
-          "value": "email "
+          "value": "email"
         }
       ],
       "timeoutInMillisecond": 10000
