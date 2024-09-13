@@ -33,6 +33,10 @@
           "value": "true"
         },
         {
+          "key": "filters[id][$ne]",
+          "value": "21"
+        },
+        {
           "key": "fields[0]",
           "value": "Nome"
         },

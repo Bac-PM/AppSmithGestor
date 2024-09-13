@@ -79,7 +79,7 @@
   "isCanvas": true,
   "isDeprecated": false,
   "isLoading": false,
-  "isVisible": "{{\n(function() {if(appsmith.store.roleAtual != \"Super Administrador\"){\n\t\treturn true;\n\t}\n\telse{\n\t\treturn false;\n\t}\t\t\t \n})();\n}}",
+  "isVisible": "{{\n(function() {if(appsmith.store.roleAtual === \"Tratador\"){\n\t\treturn true;\n\t}\n\telse{\n\t\treturn false;\n\t}\t\t\t \n})()\n}}",
   "key": "a7uj3rb38l",
   "leftColumn": 6,
   "maxDynamicHeight": 9000,

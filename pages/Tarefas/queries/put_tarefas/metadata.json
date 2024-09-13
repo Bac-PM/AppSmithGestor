@@ -11,7 +11,7 @@
           "value": "application/json"
         }
       ],
-      "body": "{\n\t\"data\": {\n\t\t\"tarefa\": {{edit_tarefa_input.text}},\n\t\t\"data_prevista_execucao\": \"{{edit_data_prevista.selectedDate}}\",\n\t\t\"users_permissions_user\": {{getUsuario.data.id}}\n\t}\n}",
+      "body": "{\n\t\"data\": {\n\t\t\"tarefa\": {{edit_tarefa_input.text}},\n\t\t\"data_prevista_execucao\": \"{{edit_data_prevista.selectedDate}}\",\n\t\t\"users_permissions_user\": {{getUsuario.data.id}},\n\t}\n}",
       "bodyFormData": [],
       "encodeParamsToggle": true,
       "formData": {

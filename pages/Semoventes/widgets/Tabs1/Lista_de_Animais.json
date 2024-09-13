@@ -128,6 +128,9 @@
     },
     {
       "key": "tableData"
+    },
+    {
+      "key": "primaryColumns.customColumn1.onClick"
     }
   ],
   "dynamicTriggerPathList": [
@@ -373,7 +376,7 @@
       "label": "Prontuário",
       "labelColor": "#FFFFFF",
       "notation": "standard",
-      "onClick": "{{rodarGets.getsProntuario();}}",
+      "onClick": "{{\ngetBanho.run();\ngetColeira.run();\ngetConsulta.run();\ngetEcto.run();\ngetLiberdade.run();\ngetMedicamento.run();\ngetPeso.run();\ngetRacao.run();\ngetRasqueamento.run();\ngetVacina.run();\ngetVerm.run();\ngerar_pdf.gerarPDF();}}",
       "originalId": "customColumn1",
       "sticky": "",
       "textSize": "0.875rem",

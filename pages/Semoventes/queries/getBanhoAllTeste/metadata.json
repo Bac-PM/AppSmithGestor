@@ -1,6 +1,6 @@
 {
-  "gitSyncId": "664b91393d0ee46738b29c21_666c7113721e40404f82829b",
-  "id": "Semoventes_get_condutor",
+  "gitSyncId": "66e325a097a37e7429f6c5a5_e3da8a93-4b54-469b-888a-3b748913d8a8",
+  "id": "Semoventes_getBanhoAllTeste",
   "pluginId": "restapi-plugin",
   "pluginType": "API",
   "unpublishedAction": {
@@ -21,26 +21,13 @@
       "httpMethod": "GET",
       "httpVersion": "HTTP11",
       "paginationType": "NONE",
-      "path": "{{appsmith.store.url}}/api/condutors",
+      "path": "{{appsmith.store.url}}/api/getBanho",
       "pluginSpecifiedTemplates": [
         {
           "value": true
         }
       ],
-      "queryParameters": [
-        {
-          "key": "fields[0]",
-          "value": "nome"
-        },
-        {
-          "key": "fields[1]",
-          "value": "id"
-        },
-        {
-          "key": "filters[ativo]",
-          "value": "true"
-        }
-      ],
+      "queryParameters": [],
       "timeoutInMillisecond": 10000
     },
     "confirmBeforeExecute": false,
@@ -51,15 +38,15 @@
     },
     "dynamicBindingPathList": [
       {
-        "key": "headers[0].value"
+        "key": "path"
       },
       {
-        "key": "path"
+        "key": "headers[0].value"
       }
     ],
-    "executeOnLoad": true,
-    "name": "get_condutor",
+    "executeOnLoad": false,
+    "name": "getBanhoAllTeste",
     "pageId": "Semoventes",
-    "userSetOnLoad": true
+    "userSetOnLoad": false
   }
 }
