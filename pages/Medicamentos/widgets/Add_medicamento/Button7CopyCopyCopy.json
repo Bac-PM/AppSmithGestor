@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 53,
+  "bottomRow": 59,
   "boxShadow": "none",
   "buttonColor": "rgb(48, 73, 136)",
   "buttonStyle": "PRIMARY_BUTTON",
@@ -55,7 +55,7 @@
     "Buttons"
   ],
   "text": "Adicionar",
-  "topRow": 49,
+  "topRow": 55,
   "type": "BUTTON_WIDGET",
   "version": 1,
   "widgetId": "bkmc1vuct3",

@@ -85,6 +85,10 @@
     {
       "id": "Rotina Diaria",
       "isDefault": false
+    },
+    {
+      "id": "Cio das Cadelas",
+      "isDefault": false
     }
   ],
   "unpublishedAppLayout": {

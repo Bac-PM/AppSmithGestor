@@ -1,12 +1,12 @@
 {
-  "gitSyncId": "663e5c1636f37417d2df3e34_6644e37536f37417d2df46d7",
+  "gitSyncId": "66e325a097a37e7429f6c5a5_2040657d-92ed-4a11-b9f0-7bf219cf3552",
   "unpublishedPage": {
     "isHidden": false,
     "layouts": [
       {
         "dsl": {
           "backgroundColor": "none",
-          "bottomRow": 570,
+          "bottomRow": 730,
           "canExtend": true,
           "containerStyle": "none",
           "detachFromLayout": true,
@@ -26,7 +26,7 @@
         }
       }
     ],
-    "name": "Semoventes",
-    "slug": "semoventes"
+    "name": "Cio das Cadelas",
+    "slug": "cio-das-cadelas"
   }
 }
