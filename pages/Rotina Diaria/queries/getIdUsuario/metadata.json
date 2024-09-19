@@ -27,12 +27,7 @@
           "value": true
         }
       ],
-      "queryParameters": [
-        {
-          "key": "fields[0]",
-          "value": "id"
-        }
-      ],
+      "queryParameters": [],
       "timeoutInMillisecond": 10000
     },
     "confirmBeforeExecute": false,

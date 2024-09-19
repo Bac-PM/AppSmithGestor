@@ -11,7 +11,7 @@
           "value": "application/json"
         }
       ],
-      "body": "{\n  \"data\": {\n\t\t\"animal\": {{seletor_animal.selectedOptionValue}},\n    \"data_de_entrada\": {{post_data.selectedDate}}\n  }\n}",
+      "body": "{\n  \"data\": {\n\t\t\"animal\": {{seletor_animal.selectedOptionValue}},\n    \"data_de_entrada\": {{new Date(post_data.selectedDate)}},\n  }\n}",
       "bodyFormData": [],
       "encodeParamsToggle": true,
       "formData": {

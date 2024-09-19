@@ -47,7 +47,7 @@
     "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
-  "onClick": "{{showModal(registrar_data.name);\nerroPost.setText(\"\")}}",
+  "onClick": "{{\nresetWidget(\"registrar_data\");\nshowModal(registrar_data.name);\nerroPost.setText(\"\")}}",
   "parentColumnSpace": 19.5,
   "parentId": "t9r00fddgl",
   "parentRowSpace": 10,

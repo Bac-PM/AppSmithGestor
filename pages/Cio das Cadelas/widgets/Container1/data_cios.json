@@ -36,10 +36,11 @@
     "id",
     "customColumn1"
   ],
-  "columnUpdatedAt": 1726592506155,
+  "columnUpdatedAt": 1726602263531,
   "columnWidthMap": {
     "animal": 210,
-    "data_de_entrada": 924
+    "data_de_entrada": 924,
+    "data_entrada": 1120
   },
   "defaultPageSize": 0,
   "defaultSelectedRowIndex": 0,
@@ -65,9 +66,6 @@
       "key": "primaryColumns.id.computedValue"
     },
     {
-      "key": "primaryColumns.data_de_entrada.computedValue"
-    },
-    {
       "key": "primaryColumns.animal.computedValue"
     },
     {
@@ -78,6 +76,9 @@
     },
     {
       "key": "primaryColumns.customColumn1.boxShadow"
+    },
+    {
+      "key": "primaryColumns.data_de_entrada.computedValue"
     }
   ],
   "dynamicPropertyPathList": [
@@ -223,7 +224,7 @@
       "isEditable": false,
       "isSaveVisible": true,
       "isVisible": true,
-      "label": "Data de entrada no Cio",
+      "label": "Data de Entrada no Cio",
       "notation": "standard",
       "originalId": "data_de_entrada",
       "outputFormat": "DD/MM/YYYY",

@@ -48,9 +48,9 @@
     "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
-  "onClick": "{{put_data_cio.run().then(() => { closeModal(edtar_data.name);\n\t\t\tshowAlert('Data de Cio Atualizada com Sucesso!', 'success');\n\t\t\tget_cios.run();\n}).catch(() => {\n\t\tlet erroApi = service.getErrorApi(post_data_cio.data);\n\t\terroPost.setText(erroApi); \n\t});\n}}",
-  "originalBottomRow": 22,
-  "originalTopRow": 18,
+  "onClick": "{{put_data_cio.run().then(() => { closeModal(edtar_data.name);\n\t\t\tshowAlert('Data de Cio Atualizada com Sucesso!', 'success');\n\t\t\tget_cios.run();\n}).catch(() => {\n\t\tlet erroApi = service.getErrorApi(put_data_cio.data);\n\t\terroPut.setText(erroApi); \n\t});\n}}",
+  "originalBottomRow": 18,
+  "originalTopRow": 14,
   "parentId": "j9hwnapf80",
   "placement": "CENTER",
   "recaptchaType": "V3",

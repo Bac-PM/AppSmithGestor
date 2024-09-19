@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 59,
+  "bottomRow": 53,
   "boxShadow": "none",
   "buttonColor": "rgb(48, 73, 136)",
   "buttonStyle": "PRIMARY",
@@ -33,8 +33,8 @@
   "mobileRightColumn": 47,
   "mobileTopRow": 18,
   "onClick": "{{closeModal(Add_medicamento.name);}}",
-  "originalBottomRow": 53,
-  "originalTopRow": 49,
+  "originalBottomRow": 59,
+  "originalTopRow": 55,
   "parentId": "de4q9l0yxl",
   "placement": "CENTER",
   "recaptchaType": "V3",
@@ -50,7 +50,7 @@
     "Buttons"
   ],
   "text": "Descartar",
-  "topRow": 55,
+  "topRow": 49,
   "type": "BUTTON_WIDGET",
   "version": 1,
   "widgetId": "jewpx2tlot",

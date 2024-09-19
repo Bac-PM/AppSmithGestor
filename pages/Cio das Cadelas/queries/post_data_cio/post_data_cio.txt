@@ -1,6 +1,6 @@
 {
   "data": {
 		"animal": {{seletor_animal.selectedOptionValue}},
-    "data_de_entrada": {{post_data.selectedDate}}
+    "data_de_entrada": {{new Date(post_data.selectedDate)}},
   }
 }

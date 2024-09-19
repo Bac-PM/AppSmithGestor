@@ -1,5 +1,5 @@
 {
   "data": {
-    "data_de_entrada": {{put_data.selectedDate}}
+    "data_de_entrada": {{new Date(put_data.selectedDate)}}
   }
 }

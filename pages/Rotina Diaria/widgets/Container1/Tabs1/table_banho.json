@@ -254,6 +254,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 64,
   "searchKey": "",
+  "serverSidePaginationEnabled": true,
   "tableData": "{{get_banho_cao.data.data}}",
   "tags": [
     "Suggested",

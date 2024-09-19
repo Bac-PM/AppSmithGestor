@@ -37,17 +37,16 @@
     "diagnostico",
     "animal",
     "retorno",
-    "publishedAt",
+    "users_permissions_user",
     "createdAt",
     "updatedAt",
     "id",
     "customColumn6",
     "removido",
-    "users_permissions_user",
     "customColumn4",
     "customColumn5"
   ],
-  "columnUpdatedAt": 1714667406323,
+  "columnUpdatedAt": 1726761888511,
   "columnWidthMap": {
     "anamnese": 229,
     "animal": 149,
@@ -59,7 +58,7 @@
     "customColumn6": 169,
     "data_consulta": 157,
     "exame_fisico": 196,
-    "retorno": 279
+    "retorno": 116
   },
   "defaultPageSize": 0,
   "defaultSelectedRowIndex": 0,
@@ -110,9 +109,6 @@
     },
     {
       "key": "primaryColumns.anamnese.computedValue"
-    },
-    {
-      "key": "primaryColumns.publishedAt.computedValue"
     },
     {
       "key": "primaryColumns.exame_fisico.computedValue"
@@ -555,40 +551,6 @@
       "verticalAlignment": "CENTER",
       "width": 150
     },
-    "publishedAt": {
-      "alias": "publishedAt",
-      "allowCellWrapping": false,
-      "allowSameOptionsInNewRow": true,
-      "cellBackground": "",
-      "columnType": "date",
-      "computedValue": "{{consultas_ativas.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"publishedAt\"]))}}",
-      "currencyCode": "USD",
-      "decimals": 0,
-      "enableFilter": true,
-      "enableSort": true,
-      "fontStyle": "",
-      "horizontalAlignment": "LEFT",
-      "id": "publishedAt",
-      "index": 5,
-      "isCellEditable": false,
-      "isCellVisible": true,
-      "isDerived": false,
-      "isDisabled": false,
-      "isDiscardVisible": true,
-      "isEditable": false,
-      "isSaveVisible": true,
-      "isVisible": false,
-      "label": "publishedAt",
-      "notation": "standard",
-      "originalId": "publishedAt",
-      "sticky": "",
-      "textColor": "",
-      "textSize": "0.875rem",
-      "thousandSeparator": true,
-      "validation": {},
-      "verticalAlignment": "CENTER",
-      "width": 150
-    },
     "removido": {
       "alias": "removido",
       "allowCellWrapping": false,
@@ -722,7 +684,7 @@
       "allowSameOptionsInNewRow": true,
       "cellBackground": "",
       "columnType": "text",
-      "computedValue": "{{consultas_ativas.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"users_permissions_user\"]))}}",
+      "computedValue": "{{consultas_ativas.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"users_permissions_user\"].username))}}",
       "currencyCode": "USD",
       "decimals": 0,
       "enableFilter": true,
@@ -738,8 +700,8 @@
       "isDiscardVisible": true,
       "isEditable": false,
       "isSaveVisible": true,
-      "isVisible": false,
-      "label": "users_permissions_user",
+      "isVisible": true,
+      "label": "Realizada por",
       "notation": "standard",
       "originalId": "users_permissions_user",
       "sticky": "",

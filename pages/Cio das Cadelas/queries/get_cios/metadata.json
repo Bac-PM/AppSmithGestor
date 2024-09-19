@@ -39,6 +39,10 @@
         {
           "key": "filters[animal][id]",
           "value": "{{seletor_animal.selectedOptionValue}}"
+        },
+        {
+          "key": "_sort",
+          "value": "data_de_entrada:ASC\n"
         }
       ],
       "timeoutInMillisecond": 10000

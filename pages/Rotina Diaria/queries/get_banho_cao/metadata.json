@@ -43,6 +43,14 @@
         {
           "key": "populate[animal][fields][0]",
           "value": "Nome"
+        },
+        {
+          "key": "pagination[pageSize]",
+          "value": "100"
+        },
+        {
+          "key": "pagination[page]",
+          "value": "{{table_banho.pageNo}}"
         }
       ],
       "timeoutInMillisecond": 10000
@@ -58,10 +66,13 @@
         "key": "headers[0].value"
       },
       {
+        "key": "path"
+      },
+      {
         "key": "queryParameters[2].value"
       },
       {
-        "key": "path"
+        "key": "queryParameters[5].value"
       }
     ],
     "executeOnLoad": true,

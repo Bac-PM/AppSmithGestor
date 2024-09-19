@@ -31,14 +31,14 @@
     }
   },
   "columnOrder": [
-    "quantidade",
     "data",
+    "quantidade",
     "tipo_racao",
     "users_permissions_user",
     "animal",
     "id"
   ],
-  "columnUpdatedAt": 1723832677536,
+  "columnUpdatedAt": 1726759029596,
   "columnWidthMap": {
     "data": 229
   },

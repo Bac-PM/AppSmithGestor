@@ -32,12 +32,12 @@
   },
   "columnOrder": [
     "id",
-    "peso",
     "data",
+    "peso",
     "createdAt",
     "updatedAt"
   ],
-  "columnUpdatedAt": 1723748285992,
+  "columnUpdatedAt": 1726759036570,
   "columnWidthMap": {
     "peso": 587
   },

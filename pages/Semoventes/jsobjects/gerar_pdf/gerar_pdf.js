@@ -252,7 +252,7 @@ export default {
 				positionY = doc.lastAutoTable.finalY + 12; // Atualizar a posição vertical após a tabela
 			}
 			
-			//LIBERDADE
+			//MEDICAMENTOS
 			
 			doc.text("Medicamentos", 14, positionY);
 			positionY += 12;

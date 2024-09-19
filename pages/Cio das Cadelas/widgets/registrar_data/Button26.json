@@ -48,7 +48,7 @@
     "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
-  "onClick": "{{post_data_cio.run().then(() => { closeModal(registrar_data.name);\n\t\t\tshowAlert('Cio Registrado com Sucesso!', 'success');\n\t\t\tget_cios.run();\n}).catch(() => {\n\t\tlet erroApi = service.getErrorApi(post_data_cio.data);\n\t\terroPost.setText(erroApi); \n\t});\n}}",
+  "onClick": "{{post_data_cio.run().then(() => {\n\tresetWidget(\"registrar_data\");\n\tcloseModal(registrar_data.name);\n\tshowAlert('Cio Registrado com Sucesso!', 'success');\n\tget_cios.run();\n}).catch(() => {\n\t\tlet erroApi = service.getErrorApi(post_data_cio.data.error);\n\t\terroPost.setText(erroApi); \n\t});\n}}",
   "originalBottomRow": 22,
   "originalTopRow": 18,
   "parentId": "mi1rab2ref",

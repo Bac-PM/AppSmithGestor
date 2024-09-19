@@ -233,7 +233,7 @@
   "mobileRightColumn": 48,
   "mobileTopRow": 39,
   "onTabSelected": "{{get_animals_ativos.run();\nget_animals_desativados.run();\nget_animals_painel.run()}}",
-  "originalBottomRow": 59,
+  "originalBottomRow": 57,
   "originalTopRow": 1,
   "parentColumnSpace": 17.9375,
   "parentId": "0",
