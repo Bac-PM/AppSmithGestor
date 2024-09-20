@@ -80,67 +80,6 @@ export default {
 
 				positionY = doc.lastAutoTable.finalY + 12; // Atualizar a posição vertical após a tabela
 			} 
-			/*
-			else {
-				const semDados = [["Não há dados"]]; // Colocar "Não há dados" como uma célula de corpo
-
-				doc.autoTable({
-					head: semDados,  // Cabeçalhos da tabela vazios, pois não há dados
-					startY: positionY,
-					headStyles: {
-						fillColor: [48, 73, 136],
-						fontStyle: 'bold',
-						halign: 'center'
-					}
-				});
-
-				positionY = doc.lastAutoTable.finalY + 12; // Atualizar a posição vertical após a tabela
-			}
-			*/
-			
-			/*
-			// COLEIRAS
-			//Verifique se os dados de banho estão disponíveis
-			if (!dadosColeira|| dadosColeira.length !== 0) {
-				
-				doc.text("Troca de Coleira", 14, positionY);
-				positionY += 12;
-				
-				const colunasColeira = ["Animal", "Inicio de Uso", "Fim de Uso"];
-			
-				const linhasColeira = dadosColeira.map((item) => [
-					item.historico_nome,
-					new Date(item.data_aplicacao).toLocaleDateString(),
-					new Date(item.data_proxima_aplicacao).toLocaleDateString()
-				]);
-
-				doc.autoTable({
-					head: [colunasColeira],  // Cabeçalhos da tabela
-					body: linhasColeira,     // Dados da tabela
-					startY: positionY,
-					headStyles: {
-						fillColor: [48, 73, 136],
-						fontStyle: 'bold'
-					}
-				});
-
-				positionY = doc.lastAutoTable.finalY + 12;
-			} else {
-				const semDados = [["Não há dados"]]; // Colocar "Não há dados" como uma célula de corpo
-
-				doc.autoTable({
-					head: semDados,  // Cabeçalhos da tabela vazios, pois não há dados
-					startY: positionY,
-					headStyles: {
-						fillColor: [48, 73, 136],
-						fontStyle: 'bold',
-						halign: 'center'
-					}
-				});
-
-				positionY = doc.lastAutoTable.finalY + 12; // Atualizar a posição vertical após a tabela
-			}
-			*/
 			
 			// Consultas
 			
@@ -172,23 +111,6 @@ export default {
 				});
 			positionY = doc.lastAutoTable.finalY + 12;
 			}
-			/*
-			else {
-				const semDados = [["Não há dados"]]; // Colocar "Não há dados" como uma célula de corpo
-
-				doc.autoTable({
-					head: semDados,  // Cabeçalhos da tabela vazios, pois não há dados
-					startY: positionY,
-					headStyles: {
-						fillColor: [48, 73, 136],
-						fontStyle: 'bold',
-						halign: 'center'
-					}
-				});
-
-				positionY = doc.lastAutoTable.finalY + 12; // Atualizar a posição vertical após a tabela
-			}
-			*/
 			
 			//ECTOS
 			//Verifique se os dados de banho estão disponíveis
@@ -215,23 +137,6 @@ export default {
 				});
 				positionY = doc.lastAutoTable.finalY + 12;
 			}
-			/*
-			else {
-				const semDados = [["Não há dados"]]; // Colocar "Não há dados" como uma célula de corpo
-
-				doc.autoTable({
-					head: semDados,  // Cabeçalhos da tabela vazios, pois não há dados
-					startY: positionY,
-					headStyles: {
-						fillColor: [48, 73, 136],
-						fontStyle: 'bold',
-						halign: 'center'
-					}
-				});
-
-				positionY = doc.lastAutoTable.finalY + 12; // Atualizar a posição vertical após a tabela
-			}
-			*/
 			
 			//LIBERDADE	
 			//Verifique se os dados de banho estão disponíveis
@@ -261,71 +166,7 @@ export default {
 				});
 				positionY = doc.lastAutoTable.finalY + 12;
 			}
-			/*
-			else {
-				const semDados = [["Não há dados"]]; // Colocar "Não há dados" como uma célula de corpo
-
-				doc.autoTable({
-					head: semDados,  // Cabeçalhos da tabela vazios, pois não há dados
-					startY: positionY,
-					headStyles: {
-						fillColor: [48, 73, 136],
-						fontStyle: 'bold',
-						halign: 'center'
-					}
-				});
-
-				positionY = doc.lastAutoTable.finalY + 12; // Atualizar a posição vertical após a tabela
-			}
-			*/
-			
-			/*
-			//MEDICAMENTOS
-			
-			doc.text("Medicamentos", 14, positionY);
-			positionY += 12;
-			
-			//Verifique se os dados de banho estão disponíveis
-			if (!dadosMedicamento|| dadosMedicamento.length !== 0) {
-				const colunasMedicamentos = ["Nome", "Data de Início", "Data de Fim", "Posologia", "Horário de Aplicação", "Observação", "Aplicado Por"];
-
-				const linhasMedicamentos = dadosMedicamento.map((item) => [
-					item.historico_nome,
-					new Date(item.data_inicio).toLocaleDateString(),
-					new Date(item.data_fim).toLocaleDateString(),
-					item.posologia,
-					formatarHoras(new Date(item.hora_de_aplicacao)),
-					item.observacao,
-					item.aplicado_por.username
-				]);
-
-				doc.autoTable({
-					head: [colunasMedicamentos],  // Cabeçalhos da tabela
-					body: linhasMedicamentos,     // Dados da tabela
-					startY: positionY,
-					headStyles: {
-						fillColor: [48, 73, 136],
-						fontStyle: 'bold'
-					}
-				});
-				positionY = doc.lastAutoTable.finalY + 12;
-			} else {
-				const semDados = [["Não há dados"]]; // Colocar "Não há dados" como uma célula de corpo
-
-				doc.autoTable({
-					head: semDados,  // Cabeçalhos da tabela vazios, pois não há dados
-					startY: positionY,
-					headStyles: {
-						fillColor: [48, 73, 136],
-						fontStyle: 'bold',
-						halign: 'center'
-					}
-				});
-
-				positionY = doc.lastAutoTable.finalY + 12; // Atualizar a posição vertical após a tabela
-			}
-			*/
-						
+							
 			//RACAO			
 			//Verifique se os dados de banho estão disponíveis
 			if (!dadosRacao|| dadosRacao.length !== 0) {
@@ -354,23 +195,7 @@ export default {
 			});
 				positionY = doc.lastAutoTable.finalY + 12;
 			}
-			/*
-			else {
-				const semDados = [["Não há dados"]]; // Colocar "Não há dados" como uma célula de corpo
 
-				doc.autoTable({
-					head: semDados,  // Cabeçalhos da tabela vazios, pois não há dados
-					startY: positionY,
-					headStyles: {
-						fillColor: [48, 73, 136],
-						fontStyle: 'bold',
-						halign: 'center'
-					}
-				});
-
-				positionY = doc.lastAutoTable.finalY + 12; // Atualizar a posição vertical após a tabela
-			}	
-			*/
 			
 			//RASQUEAMENTO					
 			//Verifique se os dados de banho estão disponíveis
@@ -398,23 +223,7 @@ export default {
 				});
 				positionY = doc.lastAutoTable.finalY + 12;
 			}
-			/*
-			else {
-				const semDados = [["Não há dados"]]; // Colocar "Não há dados" como uma célula de corpo
 
-				doc.autoTable({
-					head: semDados,  // Cabeçalhos da tabela vazios, pois não há dados
-					startY: positionY,
-					headStyles: {
-						fillColor: [48, 73, 136],
-						fontStyle: 'bold',
-						halign: 'center'
-					}
-				});
-				positionY = doc.lastAutoTable.finalY + 12; // Atualizar a posição vertical após a tabela
-			}	
-			*/
-			
 			//VACINAS
 			//Verifique se os dados de banho estão disponíveis
 			if (!dadosVacina|| dadosVacina.length !== 0) {
@@ -441,23 +250,7 @@ export default {
 					}
 				});
 				positionY = doc.lastAutoTable.finalY + 12;
-			}
-			/*
-			else {
-				const semDados = [["Não há dados"]]; // Colocar "Não há dados" como uma célula de corpo
-
-				doc.autoTable({
-					head: semDados,  // Cabeçalhos da tabela vazios, pois não há dados
-					startY: positionY,
-					headStyles: {
-						fillColor: [48, 73, 136],
-						fontStyle: 'bold',
-						halign: 'center'
-					}
-				});
-				positionY = doc.lastAutoTable.finalY + 12; // Atualizar a posição vertical após a tabela
 			}	
-			*/			
 			
 			//VERMIFUGO
 			//Verifique se os dados de banho estão disponíveis
@@ -483,22 +276,6 @@ export default {
 				});
 				positionY = doc.lastAutoTable.finalY + 12;
 			}
-			/*
-			else {
-				const semDados = [["Não há dados"]]; // Colocar "Não há dados" como uma célula de corpo
-
-				doc.autoTable({
-					head: semDados,  // Cabeçalhos da tabela vazios, pois não há dados
-					startY: positionY,
-					headStyles: {
-						fillColor: [48, 73, 136],
-						fontStyle: 'bold',
-						halign: 'center'
-					}
-				});
-				positionY = doc.lastAutoTable.finalY + 12; // Atualizar a posição vertical após a tabela
-			}	
-			*/
 			
 			positionY += 12;
 

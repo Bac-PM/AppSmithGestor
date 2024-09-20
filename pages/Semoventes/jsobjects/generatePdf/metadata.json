@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "66e325a097a37e7429f6c5a5_0f7f0cea-e4c3-4750-ae7b-1fde322883fa",
+  "id": "Semoventes_generatePdf",
+  "unpublishedCollection": {
+    "name": "generatePdf",
+    "pageId": "Semoventes",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}
