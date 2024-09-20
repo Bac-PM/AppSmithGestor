@@ -59,13 +59,14 @@
     "customColumn2",
     "customColumn1"
   ],
-  "columnUpdatedAt": 1724429527719,
+  "columnUpdatedAt": 1726776223596,
   "columnWidthMap": {
     "data_fim": 133,
     "data_inicio": 135,
     "historico_nome": 262,
     "hora": 186,
-    "posologia": 308
+    "posologia": 308,
+    "updatedBy": 307
   },
   "defaultPageSize": 0,
   "defaultSelectedRowIndex": 0,
@@ -439,7 +440,7 @@
       "isDiscardVisible": true,
       "isEditable": false,
       "isSaveVisible": true,
-      "isVisible": true,
+      "isVisible": false,
       "label": "createdBy",
       "notation": "standard",
       "originalId": "createdBy",
@@ -1081,7 +1082,7 @@
       "isDiscardVisible": true,
       "isEditable": false,
       "isSaveVisible": true,
-      "isVisible": true,
+      "isVisible": false,
       "label": "updatedBy",
       "notation": "standard",
       "originalId": "updatedBy",
