@@ -38,10 +38,10 @@
     "updatedAt",
     "data_prevista_execucao",
     "executada",
-    "customColumn2",
-    "customColumn1"
+    "customColumn3",
+    "customColumn2"
   ],
-  "columnUpdatedAt": 1718222587927,
+  "columnUpdatedAt": 1727729064865,
   "columnWidthMap": {
     "customColumn2": 81,
     "data_prevista_execucao": 298,
@@ -90,15 +90,6 @@
       "key": "primaryColumns.executada.computedValue"
     },
     {
-      "key": "primaryColumns.customColumn1.buttonColor"
-    },
-    {
-      "key": "primaryColumns.customColumn1.borderRadius"
-    },
-    {
-      "key": "primaryColumns.customColumn1.boxShadow"
-    },
-    {
       "key": "primaryColumns.customColumn2.buttonColor"
     },
     {
@@ -114,10 +105,13 @@
       "key": "primaryColumns.customColumn2.isDisabled"
     },
     {
-      "key": "primaryColumns.customColumn1.isCellVisible"
+      "key": "primaryColumns.customColumn3.boxShadow"
     },
     {
-      "key": "primaryColumns.customColumn1.isDisabled"
+      "key": "primaryColumns.customColumn3.borderRadius"
+    },
+    {
+      "key": "primaryColumns.customColumn3.buttonColor"
     }
   ],
   "dynamicPropertyPathList": [
@@ -132,12 +126,6 @@
     },
     {
       "key": "primaryColumns.customColumn2.isDisabled"
-    },
-    {
-      "key": "primaryColumns.customColumn1.isCellVisible"
-    },
-    {
-      "key": "primaryColumns.customColumn1.isDisabled"
     }
   ],
   "dynamicTriggerPathList": [
@@ -148,13 +136,13 @@
       "key": "primaryColumns.customColumn2.onClick"
     },
     {
-      "key": "primaryColumns.customColumn1.onClick"
-    },
-    {
       "key": "onPageSizeChange"
     },
     {
       "key": "onSearchTextChanged"
+    },
+    {
+      "key": "primaryColumns.customColumn3.onClick"
     }
   ],
   "enableClientSideSearch": true,
@@ -219,45 +207,6 @@
       "verticalAlignment": "CENTER",
       "width": 150
     },
-    "customColumn1": {
-      "alias": "Realizar",
-      "allowCellWrapping": false,
-      "allowSameOptionsInNewRow": true,
-      "borderRadius": "{{tarefas_ativas.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.borderRadius.appBorderRadius)))}}",
-      "boxShadow": "{{tarefas_ativas.processedTableData.map((currentRow, currentIndex) => ( \"none\"))}}",
-      "buttonColor": "{{tarefas_ativas.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.colors.primaryColor)))}}",
-      "buttonStyle": "rgb(3, 179, 101)",
-      "columnType": "iconButton",
-      "computedValue": "",
-      "currencyCode": "USD",
-      "customAlias": "",
-      "decimals": 0,
-      "enableFilter": true,
-      "enableSort": true,
-      "horizontalAlignment": "LEFT",
-      "iconName": "tick",
-      "id": "customColumn1",
-      "index": 7,
-      "isCellEditable": false,
-      "isCellVisible": "{{tarefas_ativas.processedTableData.map((currentRow, currentIndex) => ( \n(function() {\n\tif (appsmith.store.roleAtual == \"Tratador\" || \n\t\tappsmith.store.roleAtual == \"Condutor\" || \n\t\tappsmith.store.roleAtual == \"Condutor K9\") {\n\t\treturn false;\n\t} else {\n\t\treturn true;\n\t}\n})()\n))}}",
-      "isDerived": true,
-      "isDisabled": "{{tarefas_ativas.processedTableData.map((currentRow, currentIndex) => ( \n(function() {\n\tif (appsmith.store.roleAtual == \"Tratador\" || \n\t\tappsmith.store.roleAtual == \"Condutor\" || \n\t\tappsmith.store.roleAtual == \"Condutor K9\") {\n\t\treturn true;\n\t} else {\n\t\treturn false;\n\t}\n})()\n))}}",
-      "isDiscardVisible": true,
-      "isEditable": false,
-      "isSaveVisible": true,
-      "isVisible": true,
-      "label": "Realizar",
-      "labelColor": "#FFFFFF",
-      "notation": "standard",
-      "onClick": "{{showModal('realizar_tarefa');}}",
-      "originalId": "customColumn1",
-      "sticky": "right",
-      "textSize": "0.875rem",
-      "thousandSeparator": true,
-      "validation": {},
-      "verticalAlignment": "CENTER",
-      "width": 150
-    },
     "customColumn2": {
       "alias": "Editar",
       "allowCellWrapping": false,
@@ -290,6 +239,45 @@
       "notation": "standard",
       "onClick": "{{erroPut.setText(\"\");\nresetWidget(\"edit_tarefa\", true);\nshowModal('edit_tarefa');\n}}\n",
       "originalId": "customColumn2",
+      "sticky": "right",
+      "textSize": "0.875rem",
+      "thousandSeparator": true,
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "customColumn3": {
+      "alias": "Realizar",
+      "allowCellWrapping": false,
+      "allowSameOptionsInNewRow": true,
+      "borderRadius": "{{tarefas_ativas.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.borderRadius.appBorderRadius)))}}",
+      "boxShadow": "{{tarefas_ativas.processedTableData.map((currentRow, currentIndex) => ( \"none\"))}}",
+      "buttonColor": "{{tarefas_ativas.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.colors.primaryColor)))}}",
+      "buttonStyle": "rgb(3, 179, 101)",
+      "columnType": "iconButton",
+      "computedValue": "",
+      "currencyCode": "USD",
+      "customAlias": "",
+      "decimals": 0,
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "iconName": "tick",
+      "id": "customColumn3",
+      "index": 9,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": true,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "Realizar",
+      "labelColor": "#FFFFFF",
+      "notation": "standard",
+      "onClick": "{{showModal(realizar_tarefa.name);}}",
+      "originalId": "customColumn3",
       "sticky": "right",
       "textSize": "0.875rem",
       "thousandSeparator": true,

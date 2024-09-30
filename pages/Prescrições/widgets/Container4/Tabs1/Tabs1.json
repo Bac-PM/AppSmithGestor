@@ -283,7 +283,7 @@
   "mobileRightColumn": 48,
   "mobileTopRow": 39,
   "onTabSelected": "{{\n(function() {\n  if(Tabs1.selectedTab === 'Medicamentos'){\nget_medicamento_animalNaplic.run();\ngetAplicacoesMed.run();\n\t} if (Tabs1.selectedTab === 'Ectoparasiticidas'){\nget_ectoparasiticidas_animal.run();\nget_ectoparasiticidas_aplicado.run()\n\t} if (Tabs1.selectedTab === 'Vermífugos'){\nget_vermifugos_animal.run();\nget_vermifugos_aplicados.run()\n\t} if (Tabs1.selectedTab === 'Vacinas'){\n\tget_vacinas_animal.run();\n\tget_vacinas_aplicadas.run()\n\t} if (Tabs1.selectedTab === \"Coleiras\"){\n\tget_coleiras_animal.run();\n\tget_coleiras_desativadas.run();\n\t}\n})();\n}}",
-  "originalBottomRow": 60,
+  "originalBottomRow": 67,
   "originalTopRow": 8,
   "parentColumnSpace": 17.9375,
   "parentId": "ofm89r9dqb",
