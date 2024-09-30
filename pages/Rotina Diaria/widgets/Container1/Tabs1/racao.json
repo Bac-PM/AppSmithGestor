@@ -86,7 +86,11 @@
       "key": "tableData"
     }
   ],
-  "dynamicTriggerPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onPageChange"
+    }
+  ],
   "enableClientSideSearch": true,
   "flexVerticalAlignment": "start",
   "hideCard": false,
@@ -118,6 +122,7 @@
     "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
+  "onPageChange": "{{get_racao_cao.run()}}",
   "parentColumnSpace": 17.6396484375,
   "parentId": "xef4e0ls3b",
   "parentRowSpace": 10,
@@ -333,6 +338,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 64,
   "searchKey": "",
+  "serverSidePaginationEnabled": true,
   "tableData": "{{get_racao_cao.data.data}}",
   "tags": [
     "Suggested",
@@ -341,7 +347,7 @@
   "textSize": "0.875rem",
   "thumbnailSVG": "/static/media/thumbnail.d0492f06681daa69baf92b07d3829dfc.svg",
   "topRow": 4,
-  "totalRecordsCount": 0,
+  "totalRecordsCount": "0",
   "type": "TABLE_WIDGET_V2",
   "version": 2,
   "verticalAlignment": "CENTER",

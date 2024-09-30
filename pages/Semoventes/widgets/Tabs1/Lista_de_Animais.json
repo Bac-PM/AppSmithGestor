@@ -33,21 +33,21 @@
     }
   },
   "columnOrder": [
+    "id",
     "Nome",
     "Idade",
     "Box",
-    "id",
     "Data_nascimento",
-    "status_saude",
     "sexo",
-    "Condutor_principal",
+    "status_saude",
     "status_operacional",
+    "Condutor_principal",
     "customColumn1"
   ],
-  "columnUpdatedAt": 1726167713219,
+  "columnUpdatedAt": 1727721624864,
   "columnWidthMap": {
     "Box": 71.185546875,
-    "Condutor_principal": 167,
+    "Condutor_principal": 170,
     "Data_nascimento": 167,
     "Idade": 82.1875,
     "Nome": 190,
@@ -57,7 +57,7 @@
     "Status_operacional": 179,
     "Status_saude": 177,
     "justificativa": 122.689453125,
-    "status_operacional": 268
+    "status_operacional": 261
   },
   "defaultPageSize": 0,
   "defaultSelectedRowIndex": "0",
@@ -69,9 +69,6 @@
   "dynamicBindingPathList": [
     {
       "key": "tableData"
-    },
-    {
-      "key": "primaryColumns.status_saude.computedValue"
     },
     {
       "key": "primaryColumns.Idade.computedValue"
@@ -87,15 +84,6 @@
     },
     {
       "key": "primaryColumns.Nome.computedValue"
-    },
-    {
-      "key": "primaryColumns.sexo.computedValue"
-    },
-    {
-      "key": "primaryColumns.Condutor_principal.computedValue"
-    },
-    {
-      "key": "primaryColumns.status_operacional.computedValue"
     },
     {
       "key": "accentColor"
@@ -114,6 +102,18 @@
     },
     {
       "key": "primaryColumns.customColumn1.buttonColor"
+    },
+    {
+      "key": "primaryColumns.sexo.computedValue"
+    },
+    {
+      "key": "primaryColumns.status_saude.computedValue"
+    },
+    {
+      "key": "primaryColumns.status_operacional.computedValue"
+    },
+    {
+      "key": "primaryColumns.Condutor_principal.computedValue"
     }
   ],
   "dynamicPropertyPathList": [
@@ -212,7 +212,7 @@
       "allowSameOptionsInNewRow": true,
       "cellBackground": "",
       "columnType": "text",
-      "computedValue": "{{Lista_de_Animais.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Condutor_principal\"].Nome))}}",
+      "computedValue": "{{Lista_de_Animais.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Condutor_principal\"].username))}}",
       "currencyCode": "USD",
       "decimals": 0,
       "enableFilter": true,
@@ -220,7 +220,7 @@
       "fontStyle": "",
       "horizontalAlignment": "LEFT",
       "id": "Condutor_principal",
-      "index": 5,
+      "index": 8,
       "isCellEditable": false,
       "isCellVisible": true,
       "isDerived": false,
@@ -375,7 +375,7 @@
       "notation": "standard",
       "onClick": "{{generatePdfApi.run().then(() => {\n  generatePdf.baixarPdf();\n});}}",
       "originalId": "customColumn1",
-      "sticky": "",
+      "sticky": "right",
       "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},
@@ -464,7 +464,7 @@
       "fontStyle": "",
       "horizontalAlignment": "LEFT",
       "id": "status_operacional",
-      "index": 7,
+      "index": 6,
       "isCellEditable": false,
       "isCellVisible": true,
       "isDerived": false,
@@ -490,7 +490,7 @@
       "allowSameOptionsInNewRow": true,
       "cellBackground": "",
       "columnType": "text",
-      "computedValue": "{{Lista_de_Animais.processedTableData.map((currentRow, currentIndex) => ( currentRow.status_saude.Nome))}}",
+      "computedValue": "{{Lista_de_Animais.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"status_saude\"].Nome))}}",
       "currencyCode": "USD",
       "decimals": 0,
       "enableFilter": true,
@@ -498,7 +498,7 @@
       "fontStyle": "",
       "horizontalAlignment": "LEFT",
       "id": "status_saude",
-      "index": 6,
+      "index": 5,
       "isCellEditable": false,
       "isCellVisible": true,
       "isDerived": false,
@@ -507,7 +507,7 @@
       "isEditable": false,
       "isSaveVisible": true,
       "isVisible": true,
-      "label": "Status saúde",
+      "label": "Status Saúde",
       "notation": "standard",
       "originalId": "status_saude",
       "sticky": "",
@@ -523,7 +523,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 64,
   "searchKey": "",
-  "serverSidePaginationEnabled": false,
+  "serverSidePaginationEnabled": true,
   "showInlineEditingOptionDropdown": true,
   "tableData": "{{get_animals_painel.data.data}}",
   "tags": [

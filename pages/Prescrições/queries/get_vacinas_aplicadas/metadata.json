@@ -83,6 +83,14 @@
         {
           "key": "populate[aplicado_por][fields][0]",
           "value": "username"
+        },
+        {
+          "key": "pagination[pageSize]",
+          "value": "10"
+        },
+        {
+          "key": "pagination[page]",
+          "value": "{{vacinas_aplicadas.pageNo}}"
         }
       ],
       "timeoutInMillisecond": 10000
@@ -102,6 +110,9 @@
       },
       {
         "key": "queryParameters[0].value"
+      },
+      {
+        "key": "queryParameters[15].value"
       }
     ],
     "executeOnLoad": true,

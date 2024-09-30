@@ -103,6 +103,9 @@
   "dynamicTriggerPathList": [
     {
       "key": "primaryColumns.customColumn2.onClick"
+    },
+    {
+      "key": "onPageChange"
     }
   ],
   "enableClientSideSearch": true,
@@ -128,6 +131,7 @@
   "mobileRightColumn": 23,
   "mobileTopRow": 0,
   "needsHeightForContent": true,
+  "onPageChange": "{{getUnidadesDesativadas.run()}}",
   "parentColumnSpace": 12.160400390625,
   "parentId": "h9a5p0vwlq",
   "parentRowSpace": 10,
@@ -306,6 +310,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 64,
   "searchKey": "",
+  "serverSidePaginationEnabled": true,
   "tableData": "{{getUnidadesDesativadas.data.data}}",
   "tags": [
     "Suggested",

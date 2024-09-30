@@ -42,6 +42,10 @@
         {
           "key": "filters[sexo][id]",
           "value": "2"
+        },
+        {
+          "key": "pagination[pageSize]",
+          "value": "100"
         }
       ],
       "timeoutInMillisecond": 10000

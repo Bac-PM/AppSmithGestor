@@ -23,7 +23,7 @@
         },
         {
           "key": "password",
-          "value": "{{FormeCadastroUsuario.data.InsereSenha}}"
+          "value": "Mudar@123"
         },
         {
           "key": "cpf",
@@ -66,9 +66,6 @@
       },
       {
         "key": "bodyFormData[1].value"
-      },
-      {
-        "key": "bodyFormData[2].value"
       },
       {
         "key": "bodyFormData[3].value"

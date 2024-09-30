@@ -17,7 +17,7 @@
   ],
   "dynamicHeight": "FIXED",
   "dynamicTriggerPathList": [],
-  "errorMessage": "Formato Inválido",
+  "errorMessage": "Formato Inválido. Exemplo de formato: 01:00",
   "hideCard": false,
   "iconAlign": "left",
   "iconSVG": "/static/media/icon.f4dd498ee72f01127e5bfe3a1a8ad671.svg",

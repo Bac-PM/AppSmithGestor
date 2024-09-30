@@ -31,6 +31,14 @@
         {
           "key": "filters[executada]",
           "value": "false"
+        },
+        {
+          "key": "pagination[pageSize]",
+          "value": "10"
+        },
+        {
+          "key": "pagination[page]",
+          "value": "{{tarefas_ativas.pageNo}}"
         }
       ],
       "timeoutInMillisecond": 10000
@@ -47,6 +55,9 @@
       },
       {
         "key": "path"
+      },
+      {
+        "key": "queryParameters[2].value"
       }
     ],
     "executeOnLoad": true,

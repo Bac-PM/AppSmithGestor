@@ -96,6 +96,9 @@
   "dynamicTriggerPathList": [
     {
       "key": "primaryColumns.customColumn1.onClick"
+    },
+    {
+      "key": "onPageChange"
     }
   ],
   "enableClientSideSearch": true,
@@ -129,6 +132,7 @@
     "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
+  "onPageChange": "{{get_liberdade_cao.run()}}",
   "parentColumnSpace": 19.1875,
   "parentId": "4gfm5lhbia",
   "parentRowSpace": 10,
@@ -342,6 +346,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 64,
   "searchKey": "",
+  "serverSidePaginationEnabled": true,
   "tableData": "{{get_liberdade_cao.data.data}}",
   "tags": [
     "Suggested",

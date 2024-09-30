@@ -43,6 +43,14 @@
         {
           "key": "populate",
           "value": "*"
+        },
+        {
+          "key": "pagination[pageSize]",
+          "value": "10"
+        },
+        {
+          "key": "pagination[page]",
+          "value": "{{ectoparasiticidas_aplicados.pageNo}}"
         }
       ],
       "timeoutInMillisecond": 10000
@@ -62,6 +70,9 @@
       },
       {
         "key": "queryParameters[0].value"
+      },
+      {
+        "key": "queryParameters[5].value"
       }
     ],
     "executeOnLoad": true,

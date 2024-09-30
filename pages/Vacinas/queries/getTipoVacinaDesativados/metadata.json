@@ -35,6 +35,14 @@
         {
           "key": "fields[0]",
           "value": "tipo"
+        },
+        {
+          "key": "pagination[pageSize]",
+          "value": "10"
+        },
+        {
+          "key": "pagination[page]",
+          "value": "{{tipos_vacinas_desativados.pageNo}}"
         }
       ],
       "timeoutInMillisecond": 10000
@@ -51,6 +59,9 @@
       },
       {
         "key": "path"
+      },
+      {
+        "key": "queryParameters[3].value"
       }
     ],
     "executeOnLoad": true,

@@ -73,16 +73,31 @@
     },
     {
       "key": "primaryColumns.customColumn1.boxShadow"
+    },
+    {
+      "key": "primaryColumns.customColumn1.isCellVisible"
+    },
+    {
+      "key": "primaryColumns.customColumn1.isDisabled"
     }
   ],
   "dynamicPropertyPathList": [
     {
       "key": "tableData"
+    },
+    {
+      "key": "primaryColumns.customColumn1.isCellVisible"
+    },
+    {
+      "key": "primaryColumns.customColumn1.isDisabled"
     }
   ],
   "dynamicTriggerPathList": [
     {
       "key": "primaryColumns.customColumn1.onClick"
+    },
+    {
+      "key": "onPageChange"
     }
   ],
   "enableClientSideSearch": true,
@@ -116,6 +131,7 @@
     "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
+  "onPageChange": "{{get_classificacao_medicamento.run()}}",
   "parentColumnSpace": 19.5,
   "parentId": "2ketsmymbh",
   "parentRowSpace": 10,
@@ -171,9 +187,9 @@
       "id": "customColumn1",
       "index": 2,
       "isCellEditable": false,
-      "isCellVisible": true,
+      "isCellVisible": "{{classificacoes.processedTableData.map((currentRow, currentIndex) => ( \n(function() {\n\tif (appsmith.store.roleAtual == \"Tratador\" || \n\t\tappsmith.store.roleAtual == \"Condutor\" || \n\t\tappsmith.store.roleAtual == \"Condutor K9\") {\n\t\treturn false;\n\t} else {\n\t\treturn true;\n\t}\n})()\n))}}",
       "isDerived": true,
-      "isDisabled": false,
+      "isDisabled": "{{classificacoes.processedTableData.map((currentRow, currentIndex) => ( \n(function() {\n\tif (appsmith.store.roleAtual == \"Tratador\" || \n\t\tappsmith.store.roleAtual == \"Condutor\" || \n\t\tappsmith.store.roleAtual == \"Condutor K9\") {\n\t\treturn true;\n\t} else {\n\t\treturn false;\n\t}\n})()\n))}}",
       "isDiscardVisible": true,
       "isEditable": false,
       "isSaveVisible": true,
@@ -226,6 +242,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 64,
   "searchKey": "",
+  "serverSidePaginationEnabled": true,
   "tableData": "{{get_classificacao_medicamento.data.data}}",
   "tags": [
     "Suggested",

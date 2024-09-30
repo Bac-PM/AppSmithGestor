@@ -86,19 +86,19 @@
         },
         {
           "key": "populate[Condutor_principal][fields][0]",
-          "value": "Nome"
+          "value": "id"
         },
         {
           "key": "populate[Condutor_principal][fields][1]",
-          "value": "rg"
+          "value": "username"
         },
         {
           "key": "populate[Condutor_secundario][fields][0]",
-          "value": "Nome"
+          "value": "username"
         },
         {
           "key": "populate[Condutor_secundario][fields][1]",
-          "value": "rg"
+          "value": "id"
         },
         {
           "key": "populate[cor_animal][fields][0]",
@@ -139,6 +139,14 @@
         {
           "key": "populate[Foto_direita]",
           "value": "Foto_direita"
+        },
+        {
+          "key": "pagination[pageSize]",
+          "value": "10"
+        },
+        {
+          "key": "pagination[page]",
+          "value": "{{semoventes_ativos.pageNo}}"
         }
       ],
       "timeoutInMillisecond": 10000
@@ -155,6 +163,9 @@
       },
       {
         "key": "path"
+      },
+      {
+        "key": "queryParameters[29].value"
       }
     ],
     "executeOnLoad": true,

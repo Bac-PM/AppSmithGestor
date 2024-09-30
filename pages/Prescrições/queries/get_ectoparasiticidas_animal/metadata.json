@@ -67,6 +67,14 @@
         {
           "key": "populate[tipo_aplicacao][fields][1]",
           "value": "duracao_em_dias"
+        },
+        {
+          "key": "pagination[pageSize]",
+          "value": "10"
+        },
+        {
+          "key": "pagination[page]",
+          "value": "{{ectoparasiticidas_ativos.pageNo}}"
         }
       ],
       "timeoutInMillisecond": 10000
@@ -86,6 +94,9 @@
       },
       {
         "key": "queryParameters[0].value"
+      },
+      {
+        "key": "queryParameters[11].value"
       }
     ],
     "executeOnLoad": true,

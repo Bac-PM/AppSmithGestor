@@ -41,6 +41,14 @@
         {
           "key": "filters[ativo]",
           "value": "true"
+        },
+        {
+          "key": "pagination[pageSize]",
+          "value": "10"
+        },
+        {
+          "key": "pagination[page]",
+          "value": "{{ecto_ativos.pageNo}}"
         }
       ],
       "timeoutInMillisecond": 10000
@@ -57,6 +65,9 @@
       },
       {
         "key": "path"
+      },
+      {
+        "key": "queryParameters[5].value"
       }
     ],
     "executeOnLoad": true,

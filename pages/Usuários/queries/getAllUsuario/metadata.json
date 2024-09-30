@@ -31,6 +31,10 @@
           "value": "false"
         },
         {
+          "key": "filters[id][$ne]",
+          "value": "59"
+        },
+        {
           "key": "fields[0]",
           "value": "username"
         },
@@ -60,7 +64,7 @@
         },
         {
           "key": "populate[role][fields][2]",
-          "value": "type"
+          "value": "type\n"
         }
       ],
       "timeoutInMillisecond": 10000

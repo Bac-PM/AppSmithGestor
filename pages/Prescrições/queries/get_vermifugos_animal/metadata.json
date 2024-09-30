@@ -63,6 +63,14 @@
         {
           "key": "populate[tipo_aplicacao][fields][0]",
           "value": "nome_produto"
+        },
+        {
+          "key": "pagination[pageSize]",
+          "value": "10"
+        },
+        {
+          "key": "pagination[page]",
+          "value": "{{vermifugos_ativos.pageNo}}"
         }
       ],
       "timeoutInMillisecond": 10000
@@ -82,6 +90,9 @@
       },
       {
         "key": "queryParameters[0].value"
+      },
+      {
+        "key": "queryParameters[10].value"
       }
     ],
     "executeOnLoad": true,

@@ -41,7 +41,7 @@
           "value": "lembrete_em_dias"
         },
         {
-          "key": "fields[1]",
+          "key": "fields[1]/",
           "value": "data_aplicacao"
         },
         {

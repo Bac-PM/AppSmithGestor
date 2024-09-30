@@ -50,17 +50,17 @@
     "Foto_esquerda",
     "status_geral",
     "Alocacao",
-    "Condutor_principal",
-    "Condutor_secundario",
     "forma_aquisicao",
     "sexo",
     "status_operacional",
     "raca",
     "especializacao",
+    "Condutor_principal",
+    "Condutor_secundario",
     "customColumn2",
     "customColumn3"
   ],
-  "columnUpdatedAt": 1719421048488,
+  "columnUpdatedAt": 1727723765389,
   "columnWidthMap": {
     "Alocacao": 213,
     "Box": 99,
@@ -68,7 +68,7 @@
     "Condutor_secundario": 189,
     "Data_nascimento": 181,
     "Foto": 102,
-    "Idade": 75,
+    "Idade": 92,
     "Justificativa_baixado": 220,
     "Nome": 126,
     "Racao_Diaria": 104,
@@ -185,12 +185,6 @@
       "key": "primaryColumns.Alocacao.computedValue"
     },
     {
-      "key": "primaryColumns.Condutor_principal.computedValue"
-    },
-    {
-      "key": "primaryColumns.Condutor_secundario.computedValue"
-    },
-    {
       "key": "primaryColumns.forma_aquisicao.computedValue"
     },
     {
@@ -213,6 +207,12 @@
     },
     {
       "key": "boxShadow"
+    },
+    {
+      "key": "primaryColumns.Condutor_principal.computedValue"
+    },
+    {
+      "key": "primaryColumns.Condutor_secundario.computedValue"
     }
   ],
   "dynamicPropertyPathList": [
@@ -277,6 +277,8 @@
   "needsHeightForContent": true,
   "onPageChange": "{{get_animals_ativos.run()}}",
   "onRowSelected": "",
+  "originalBottomRow": 55,
+  "originalTopRow": 5,
   "parentColumnSpace": 14.26171875,
   "parentId": "5hsi5po2uy",
   "parentRowSpace": 10,
@@ -352,7 +354,7 @@
       "allowSameOptionsInNewRow": true,
       "cellBackground": "",
       "columnType": "text",
-      "computedValue": "{{semoventes_ativos.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Condutor_principal\"].Nome))}}",
+      "computedValue": "{{semoventes_ativos.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Condutor_principal\"].username))}}",
       "currencyCode": "USD",
       "decimals": 0,
       "enableFilter": true,
@@ -360,7 +362,7 @@
       "fontStyle": "",
       "horizontalAlignment": "LEFT",
       "id": "Condutor_principal",
-      "index": 13,
+      "index": 23,
       "isCellEditable": false,
       "isCellVisible": true,
       "isDerived": false,
@@ -386,7 +388,7 @@
       "allowSameOptionsInNewRow": true,
       "cellBackground": "",
       "columnType": "text",
-      "computedValue": "{{semoventes_ativos.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Condutor_secundario\"].Nome))}}",
+      "computedValue": "{{semoventes_ativos.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Condutor_secundario\"].username))}}",
       "currencyCode": "USD",
       "decimals": 0,
       "enableFilter": true,
@@ -394,7 +396,7 @@
       "fontStyle": "",
       "horizontalAlignment": "LEFT",
       "id": "Condutor_secundario",
-      "index": 14,
+      "index": 24,
       "isCellEditable": false,
       "isCellVisible": true,
       "isDerived": false,
@@ -403,7 +405,7 @@
       "isEditable": false,
       "isSaveVisible": true,
       "isVisible": true,
-      "label": "Condutor Secundario",
+      "label": "Condutor Secundário",
       "notation": "standard",
       "originalId": "Condutor_secundario",
       "sticky": "",
@@ -664,9 +666,9 @@
       "id": "customColumn2",
       "index": 10,
       "isCellEditable": false,
-      "isCellVisible": "{{semoventes_ativos.processedTableData.map((currentRow, currentIndex) => ( \n(function() {if(appsmith.store.roleAtual == \"Tratador\"){\n\t\treturn false;\n\t}\n\telse{\n\t\treturn true;\n\t}\t\t\t \n})()\n))}}",
+      "isCellVisible": "{{semoventes_ativos.processedTableData.map((currentRow, currentIndex) => ( \n(function() {\n\tif (appsmith.store.roleAtual == \"Tratador\" || \n\t\tappsmith.store.roleAtual == \"Condutor\" || \n\t\tappsmith.store.roleAtual == \"Condutor K9\") {\n\t\treturn false;\n\t} else {\n\t\treturn true;\n\t}\n})()\n))}}",
       "isDerived": true,
-      "isDisabled": "{{semoventes_ativos.processedTableData.map((currentRow, currentIndex) => ( \n(function() { if(appsmith.store.roleAtual == \"Tratador\"){\n\t\treturn true;\n\t}\n\telse{\n\t\treturn false;\n\t}\n})()\n))}}",
+      "isDisabled": "{{semoventes_ativos.processedTableData.map((currentRow, currentIndex) => ( \n(function() {\n\tif (appsmith.store.roleAtual == \"Tratador\" || \n\t\tappsmith.store.roleAtual == \"Condutor\" || \n\t\tappsmith.store.roleAtual == \"Condutor K9\") {\n\t\treturn true;\n\t} else {\n\t\treturn false;\n\t}\n})()\n))}}",
       "isDiscardVisible": true,
       "isEditable": false,
       "isSaveVisible": true,
@@ -703,9 +705,9 @@
       "id": "customColumn3",
       "index": 10,
       "isCellEditable": false,
-      "isCellVisible": "{{semoventes_ativos.processedTableData.map((currentRow, currentIndex) => ( \n(function() {if(appsmith.store.roleAtual == \"Tratador\"){\n\t\treturn false;\n\t}\n\telse{\n\t\treturn true;\n\t}\t\t\t \n})()\n))}}",
+      "isCellVisible": "{{semoventes_ativos.processedTableData.map((currentRow, currentIndex) => ( \n(function() {\n\tif (appsmith.store.roleAtual == \"Tratador\" || \n\t\tappsmith.store.roleAtual == \"Condutor\" || \n\t\tappsmith.store.roleAtual == \"Condutor K9\") {\n\t\treturn false;\n\t} else {\n\t\treturn true;\n\t}\n})()\n))}}",
       "isDerived": true,
-      "isDisabled": "{{semoventes_ativos.processedTableData.map((currentRow, currentIndex) => ( \n(function() { if(appsmith.store.roleAtual == \"Tratador\"){\n\t\treturn true;\n\t}\n\telse{\n\t\treturn false;\n\t}\n})()\n))}}",
+      "isDisabled": "{{semoventes_ativos.processedTableData.map((currentRow, currentIndex) => ( \n(function() {\n\tif (appsmith.store.roleAtual == \"Tratador\" || \n\t\tappsmith.store.roleAtual == \"Condutor\" || \n\t\tappsmith.store.roleAtual == \"Condutor K9\") {\n\t\treturn true;\n\t} else {\n\t\treturn false;\n\t}\n})()\n))}}",
       "isDiscardVisible": true,
       "isEditable": false,
       "isSaveVisible": true,
@@ -1199,7 +1201,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 64,
   "searchKey": "",
-  "serverSidePaginationEnabled": false,
+  "serverSidePaginationEnabled": true,
   "showInlineEditingOptionDropdown": true,
   "tableData": "{{get_animals_ativos.data.data}}",
   "tags": [

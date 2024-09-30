@@ -30,7 +30,7 @@
   "isLoading": false,
   "isRequired": false,
   "isSpellCheck": true,
-  "isVisible": true,
+  "isVisible": false,
   "key": "g8vnblvniu",
   "label": "Confirme a Senha",
   "labelAlignment": "left",

@@ -106,6 +106,18 @@
     },
     {
       "key": "primaryColumns.customColumn2.boxShadow"
+    },
+    {
+      "key": "primaryColumns.customColumn2.isCellVisible"
+    },
+    {
+      "key": "primaryColumns.customColumn2.isDisabled"
+    },
+    {
+      "key": "primaryColumns.customColumn1.isCellVisible"
+    },
+    {
+      "key": "primaryColumns.customColumn1.isDisabled"
     }
   ],
   "dynamicPropertyPathList": [
@@ -114,6 +126,18 @@
     },
     {
       "key": "primaryColumns.customColumn2.onClick"
+    },
+    {
+      "key": "primaryColumns.customColumn2.isCellVisible"
+    },
+    {
+      "key": "primaryColumns.customColumn2.isDisabled"
+    },
+    {
+      "key": "primaryColumns.customColumn1.isCellVisible"
+    },
+    {
+      "key": "primaryColumns.customColumn1.isDisabled"
     }
   ],
   "dynamicTriggerPathList": [
@@ -215,9 +239,9 @@
       "id": "customColumn1",
       "index": 7,
       "isCellEditable": false,
-      "isCellVisible": true,
+      "isCellVisible": "{{tarefas_ativas.processedTableData.map((currentRow, currentIndex) => ( \n(function() {\n\tif (appsmith.store.roleAtual == \"Tratador\" || \n\t\tappsmith.store.roleAtual == \"Condutor\" || \n\t\tappsmith.store.roleAtual == \"Condutor K9\") {\n\t\treturn false;\n\t} else {\n\t\treturn true;\n\t}\n})()\n))}}",
       "isDerived": true,
-      "isDisabled": false,
+      "isDisabled": "{{tarefas_ativas.processedTableData.map((currentRow, currentIndex) => ( \n(function() {\n\tif (appsmith.store.roleAtual == \"Tratador\" || \n\t\tappsmith.store.roleAtual == \"Condutor\" || \n\t\tappsmith.store.roleAtual == \"Condutor K9\") {\n\t\treturn true;\n\t} else {\n\t\treturn false;\n\t}\n})()\n))}}",
       "isDiscardVisible": true,
       "isEditable": false,
       "isSaveVisible": true,
@@ -254,9 +278,9 @@
       "id": "customColumn2",
       "index": 8,
       "isCellEditable": false,
-      "isCellVisible": true,
+      "isCellVisible": "{{tarefas_ativas.processedTableData.map((currentRow, currentIndex) => ( \n(function() {\n\tif (appsmith.store.roleAtual == \"Tratador\" || \n\t\tappsmith.store.roleAtual == \"Condutor\" || \n\t\tappsmith.store.roleAtual == \"Condutor K9\") {\n\t\treturn false;\n\t} else {\n\t\treturn true;\n\t}\n})()\n))}}",
       "isDerived": true,
-      "isDisabled": false,
+      "isDisabled": "{{tarefas_ativas.processedTableData.map((currentRow, currentIndex) => ( \n(function() {\n\tif (appsmith.store.roleAtual == \"Tratador\" || \n\t\tappsmith.store.roleAtual == \"Condutor\" || \n\t\tappsmith.store.roleAtual == \"Condutor K9\") {\n\t\treturn true;\n\t} else {\n\t\treturn false;\n\t}\n})()\n))}}",
       "isDiscardVisible": true,
       "isEditable": false,
       "isSaveVisible": true,
@@ -466,7 +490,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 64,
   "searchKey": "",
-  "serverSidePaginationEnabled": false,
+  "serverSidePaginationEnabled": true,
   "tableData": "{{get_tarefas.data.data}}",
   "tags": [
     "Suggested",

@@ -170,6 +170,9 @@
     },
     {
       "key": "primaryColumns.customColumn5.onClick"
+    },
+    {
+      "key": "onPageChange"
     }
   ],
   "enableClientSideSearch": true,
@@ -195,6 +198,7 @@
   "mobileRightColumn": 46,
   "mobileTopRow": 5,
   "needsHeightForContent": true,
+  "onPageChange": "{{getConsultaDeUmCao.run()}}",
   "originalBottomRow": 113,
   "originalTopRow": 75,
   "parentColumnSpace": 19.1904296875,
@@ -323,9 +327,9 @@
       "id": "customColumn4",
       "index": 10,
       "isCellEditable": false,
-      "isCellVisible": "{{consultas_ativas.processedTableData.map((currentRow, currentIndex) => ( \n(function() {if(appsmith.store.roleAtual == \"Tratador\"){\n\t\treturn false;\n\t}\n\telse{\n\t\treturn true;\n\t}\t\t\t \n})()\n))}}",
+      "isCellVisible": "{{consultas_ativas.processedTableData.map((currentRow, currentIndex) => ( \n(function() {\n\tif (appsmith.store.roleAtual == \"Tratador\" || \n\t\tappsmith.store.roleAtual == \"Condutor\" || \n\t\tappsmith.store.roleAtual == \"Condutor K9\") {\n\t\treturn false;\n\t} else {\n\t\treturn true;\n\t}\n})()\n))}}",
       "isDerived": true,
-      "isDisabled": "{{consultas_ativas.processedTableData.map((currentRow, currentIndex) => ( \n(function() {if(appsmith.store.roleAtual == \"Tratador\"){\n\t\treturn true;\n\t}\n\telse{\n\t\treturn false;\n\t}\t\t\t \n})()\n))}}",
+      "isDisabled": "{{consultas_ativas.processedTableData.map((currentRow, currentIndex) => ( \n(function() {\n\tif (appsmith.store.roleAtual == \"Tratador\" || \n\t\tappsmith.store.roleAtual == \"Condutor\" || \n\t\tappsmith.store.roleAtual == \"Condutor K9\") {\n\t\treturn true;\n\t} else {\n\t\treturn false;\n\t}\n})()\n))}}",
       "isDiscardVisible": true,
       "isEditable": false,
       "isSaveVisible": true,
@@ -362,9 +366,9 @@
       "id": "customColumn5",
       "index": 10,
       "isCellEditable": false,
-      "isCellVisible": "{{consultas_ativas.processedTableData.map((currentRow, currentIndex) => ( \n(function() {if(appsmith.store.roleAtual == \"Tratador\"){\n\t\treturn false;\n\t}\n\telse{\n\t\treturn true;\n\t}\t\t\t \n})()\n))}}",
+      "isCellVisible": "{{consultas_ativas.processedTableData.map((currentRow, currentIndex) => ( \n(function() {\n\tif (appsmith.store.roleAtual == \"Tratador\" || \n\t\tappsmith.store.roleAtual == \"Condutor\" || \n\t\tappsmith.store.roleAtual == \"Condutor K9\") {\n\t\treturn false;\n\t} else {\n\t\treturn true;\n\t}\n})()\n))}}",
       "isDerived": true,
-      "isDisabled": "{{consultas_ativas.processedTableData.map((currentRow, currentIndex) => ( \n(function() {if(appsmith.store.roleAtual == \"Tratador\"){\n\t\treturn true;\n\t}\n\telse{\n\t\treturn false;\n\t}\t\t\t \n})()\n))}}",
+      "isDisabled": "{{consultas_ativas.processedTableData.map((currentRow, currentIndex) => ( \n(function() {\n\tif (appsmith.store.roleAtual == \"Tratador\" || \n\t\tappsmith.store.roleAtual == \"Condutor\" || \n\t\tappsmith.store.roleAtual == \"Condutor K9\") {\n\t\treturn true;\n\t} else {\n\t\treturn false;\n\t}\n})()\n))}}",
       "isDiscardVisible": true,
       "isEditable": false,
       "isSaveVisible": true,
@@ -717,7 +721,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 64,
   "searchKey": "",
-  "serverSidePaginationEnabled": false,
+  "serverSidePaginationEnabled": true,
   "showInlineEditingOptionDropdown": true,
   "tableData": "{{getConsultaDeUmCao.data.data}}",
   "tags": [

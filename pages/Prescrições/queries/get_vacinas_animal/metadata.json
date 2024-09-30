@@ -39,6 +39,14 @@
         {
           "key": "populate",
           "value": "*,nome_vacina.tipo_vacina,foto_etiqueta,animal"
+        },
+        {
+          "key": "pagination[pageSize]",
+          "value": "10"
+        },
+        {
+          "key": "pagination[page]",
+          "value": "{{vacinas_ativas.pageNo}}"
         }
       ],
       "timeoutInMillisecond": 10000
@@ -58,6 +66,9 @@
       },
       {
         "key": "queryParameters[0].value"
+      },
+      {
+        "key": "queryParameters[4].value"
       }
     ],
     "executeOnLoad": true,

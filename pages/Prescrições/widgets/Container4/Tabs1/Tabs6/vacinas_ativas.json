@@ -163,6 +163,12 @@
     },
     {
       "key": "primaryColumns.anual.computedValue"
+    },
+    {
+      "key": "primaryColumns.customColumn7.isCellVisible"
+    },
+    {
+      "key": "primaryColumns.customColumn7.isDisabled"
     }
   ],
   "dynamicPropertyPathList": [
@@ -177,6 +183,12 @@
     },
     {
       "key": "primaryColumns.customColumn6.isDisabled"
+    },
+    {
+      "key": "primaryColumns.customColumn7.isDisabled"
+    },
+    {
+      "key": "primaryColumns.customColumn7.isCellVisible"
     }
   ],
   "dynamicTriggerPathList": [
@@ -437,9 +449,9 @@
       "id": "customColumn6",
       "index": 10,
       "isCellEditable": false,
-      "isCellVisible": "{{vacinas_ativas.processedTableData.map((currentRow, currentIndex) => ( \n(function() {if(appsmith.store.roleAtual == \"Tratador\"){\n\t\treturn false;\n\t}\n\telse{\n\t\treturn true;\n\t}\t\t\t \n})()\n))}}",
+      "isCellVisible": "{{vacinas_ativas.processedTableData.map((currentRow, currentIndex) => ( \n(function() {\n\tif (appsmith.store.roleAtual == \"Tratador\" || \n\t\tappsmith.store.roleAtual == \"Condutor\" || \n\t\tappsmith.store.roleAtual == \"Condutor K9\") {\n\t\treturn false;\n\t} else {\n\t\treturn true;\n\t}\n})()\n))}}",
       "isDerived": true,
-      "isDisabled": "{{vacinas_ativas.processedTableData.map((currentRow, currentIndex) => ( \n(function() {if(appsmith.store.roleAtual == \"Tratador\"){\n\t\treturn true;\n\t}\n\telse{\n\t\treturn false;\n\t}\t\t\t \n})()\n))}}",
+      "isDisabled": "{{vacinas_ativas.processedTableData.map((currentRow, currentIndex) => ( \n(function() {\n\tif (appsmith.store.roleAtual == \"Tratador\" || \n\t\tappsmith.store.roleAtual == \"Condutor\" || \n\t\tappsmith.store.roleAtual == \"Condutor K9\") {\n\t\treturn true;\n\t} else {\n\t\treturn false;\n\t}\n})()\n))}}",
       "isDiscardVisible": true,
       "isEditable": false,
       "isSaveVisible": true,
@@ -476,9 +488,9 @@
       "id": "customColumn7",
       "index": 10,
       "isCellEditable": false,
-      "isCellVisible": true,
+      "isCellVisible": "{{vacinas_ativas.processedTableData.map((currentRow, currentIndex) => ( \n(function() {\n\tif (appsmith.store.roleAtual == \"Tratador\" || \n\t\tappsmith.store.roleAtual == \"Condutor\" || \n\t\tappsmith.store.roleAtual == \"Condutor K9\") {\n\t\treturn false;\n\t} else {\n\t\treturn true;\n\t}\n})()\n))}}",
       "isDerived": true,
-      "isDisabled": false,
+      "isDisabled": "{{vacinas_ativas.processedTableData.map((currentRow, currentIndex) => ( \n(function() {\n\tif (appsmith.store.roleAtual == \"Tratador\" || \n\t\tappsmith.store.roleAtual == \"Condutor\" || \n\t\tappsmith.store.roleAtual == \"Condutor K9\") {\n\t\treturn true;\n\t} else {\n\t\treturn false;\n\t}\n})()\n))}}",
       "isDiscardVisible": true,
       "isEditable": false,
       "isSaveVisible": true,

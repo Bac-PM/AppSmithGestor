@@ -8,6 +8,8 @@
 			let proxAplicacao = moment().add(parseInt(Duracao_coleira.text), 'days')
 			return proxAplicacao
 		})()}},
+		"aplicado_por": {{appsmith.store.idUsuario}},
+		"historico_nome": {{Select_coleira.selectedOptionLabel}},
 		"aplicado": true
   }
 }

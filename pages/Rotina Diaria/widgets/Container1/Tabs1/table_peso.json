@@ -82,7 +82,11 @@
       "key": "tableData"
     }
   ],
-  "dynamicTriggerPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onPageChange"
+    }
+  ],
   "enableClientSideSearch": true,
   "flexVerticalAlignment": "start",
   "hideCard": false,
@@ -114,6 +118,7 @@
     "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
+  "onPageChange": "{{get_peso_cao.run()}}",
   "parentColumnSpace": 7.1171875,
   "parentId": "nggzl6lf7g",
   "parentRowSpace": 10,
@@ -124,7 +129,7 @@
       "allowSameOptionsInNewRow": true,
       "cellBackground": "",
       "columnType": "date",
-      "computedValue": "{{Table1Copy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"createdAt\"]))}}",
+      "computedValue": "{{table_peso.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"createdAt\"]))}}",
       "currencyCode": "USD",
       "decimals": 0,
       "enableFilter": true,
@@ -158,7 +163,7 @@
       "allowSameOptionsInNewRow": true,
       "cellBackground": "",
       "columnType": "date",
-      "computedValue": "{{Table1Copy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"data\"]))}}",
+      "computedValue": "{{table_peso.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"data\"]))}}",
       "currencyCode": "USD",
       "decimals": 0,
       "enableFilter": true,
@@ -193,7 +198,7 @@
       "allowSameOptionsInNewRow": true,
       "cellBackground": "",
       "columnType": "number",
-      "computedValue": "{{Table1Copy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"id\"]))}}",
+      "computedValue": "{{table_peso.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"id\"]))}}",
       "currencyCode": "USD",
       "decimals": 0,
       "enableFilter": true,
@@ -227,7 +232,7 @@
       "allowSameOptionsInNewRow": true,
       "cellBackground": "",
       "columnType": "number",
-      "computedValue": "{{Table1Copy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"peso\"] + ' Kg'))}}",
+      "computedValue": "{{table_peso.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"peso\"] + ' Kg'))}}",
       "currencyCode": "USD",
       "decimals": 0,
       "enableFilter": true,
@@ -261,7 +266,7 @@
       "allowSameOptionsInNewRow": true,
       "cellBackground": "",
       "columnType": "date",
-      "computedValue": "{{Table1Copy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"updatedAt\"]))}}",
+      "computedValue": "{{table_peso.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"updatedAt\"]))}}",
       "currencyCode": "USD",
       "decimals": 0,
       "enableFilter": true,
@@ -294,6 +299,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 64,
   "searchKey": "",
+  "serverSidePaginationEnabled": true,
   "tableData": "{{get_peso_cao.data.data}}",
   "tags": [
     "Suggested",
@@ -307,5 +313,5 @@
   "version": 2,
   "verticalAlignment": "CENTER",
   "widgetId": "8cchf16kby",
-  "widgetName": "Table1Copy"
+  "widgetName": "table_peso"
 }

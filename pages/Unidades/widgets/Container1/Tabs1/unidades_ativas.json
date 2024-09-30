@@ -156,7 +156,7 @@
   "mobileRightColumn": 23,
   "mobileTopRow": 0,
   "needsHeightForContent": true,
-  "onPageChange": "{{getUnidadesAtivas.run()}}",
+  "onPageChange": "{{getAllUnidadesAtivas.run()}}",
   "originalBottomRow": 74,
   "originalTopRow": 28,
   "parentColumnSpace": 12.160400390625,
@@ -376,7 +376,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 64,
   "searchKey": "",
-  "serverSidePaginationEnabled": false,
+  "serverSidePaginationEnabled": true,
   "tableData": "{{getAllUnidadesAtivas.data.data}}",
   "tags": [
     "Suggested",

@@ -36,7 +36,7 @@
   "mobileLeftColumn": 31,
   "mobileRightColumn": 47,
   "mobileTopRow": 18,
-  "onClick": "",
+  "onClick": "{{closeModal(avisoVacina.name);}}",
   "originalBottomRow": 21,
   "originalTopRow": 17,
   "parentId": "3i038c1y64",

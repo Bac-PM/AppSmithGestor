@@ -43,6 +43,14 @@
         {
           "key": "filters[animal][id]",
           "value": "{{seletor_animal.selectedOptionValue}}"
+        },
+        {
+          "key": "pagination[pageSize]",
+          "value": "10"
+        },
+        {
+          "key": "pagination[page]",
+          "value": "{{table_rasqueamento.pageNo}}"
         }
       ],
       "timeoutInMillisecond": 10000
@@ -58,10 +66,13 @@
         "key": "headers[0].value"
       },
       {
+        "key": "path"
+      },
+      {
         "key": "queryParameters[3].value"
       },
       {
-        "key": "path"
+        "key": "queryParameters[5].value"
       }
     ],
     "executeOnLoad": true,

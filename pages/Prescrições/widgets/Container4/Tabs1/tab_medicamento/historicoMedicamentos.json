@@ -31,7 +31,7 @@
     }
   },
   "columnOrder": [
-    "updatedAt",
+    "hora_de_aplicacao",
     "customColumn1",
     "customColumn2",
     "customColumn3",
@@ -42,9 +42,10 @@
     "aplicado",
     "customColumn6",
     "hora_da_proxima_aplicacao",
-    "medicamento_animal"
+    "medicamento_animal",
+    "updatedAt"
   ],
-  "columnUpdatedAt": 1726861068751,
+  "columnUpdatedAt": 1727454508242,
   "columnWidthMap": {
     "aplicado_por": 248,
     "customColumn1": 232,
@@ -56,6 +57,7 @@
     "historico_nome": 262,
     "hora": 93.00000000000001,
     "hora_da_proxima_aplicacao": 283,
+    "hora_de_aplicacao": 351,
     "medicamento_animal": 228,
     "posologia": 308
   },
@@ -114,6 +116,9 @@
     },
     {
       "key": "primaryColumns.medicamento_animal.computedValue"
+    },
+    {
+      "key": "primaryColumns.hora_de_aplicacao.computedValue"
     }
   ],
   "dynamicPropertyPathList": [
@@ -455,6 +460,41 @@
       "verticalAlignment": "CENTER",
       "width": 150
     },
+    "hora_de_aplicacao": {
+      "alias": "hora_de_aplicacao",
+      "allowCellWrapping": false,
+      "allowSameOptionsInNewRow": true,
+      "cellBackground": "",
+      "columnType": "date",
+      "computedValue": "{{historicoMedicamentos.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"hora_de_aplicacao\"]))}}",
+      "currencyCode": "USD",
+      "decimals": 0,
+      "enableFilter": true,
+      "enableSort": true,
+      "fontStyle": "",
+      "horizontalAlignment": "LEFT",
+      "id": "hora_de_aplicacao",
+      "index": 6,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "Aplicado Em",
+      "notation": "standard",
+      "originalId": "hora_de_aplicacao",
+      "outputFormat": "DD/MM/YYYY HH:mm",
+      "sticky": "",
+      "textColor": "",
+      "textSize": "0.875rem",
+      "thousandSeparator": true,
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
     "id": {
       "alias": "id",
       "allowCellWrapping": false,
@@ -540,8 +580,8 @@
       "isDiscardVisible": true,
       "isEditable": false,
       "isSaveVisible": true,
-      "isVisible": true,
-      "label": "Aplicado em",
+      "isVisible": false,
+      "label": "updated_at",
       "notation": "standard",
       "originalId": "updatedAt",
       "outputFormat": "DD/MM/YYYY HH:mm",

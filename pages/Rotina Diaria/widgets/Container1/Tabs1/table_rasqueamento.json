@@ -79,7 +79,11 @@
       "key": "tableData"
     }
   ],
-  "dynamicTriggerPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onPageChange"
+    }
+  ],
   "enableClientSideSearch": true,
   "flexVerticalAlignment": "start",
   "hideCard": false,
@@ -111,6 +115,7 @@
     "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
+  "onPageChange": "{{get_rasqueamento_cao.run()}}",
   "parentColumnSpace": 19.1875,
   "parentId": "xkvlhal12f",
   "parentRowSpace": 10,
@@ -254,6 +259,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 64,
   "searchKey": "",
+  "serverSidePaginationEnabled": true,
   "tableData": "{{get_rasqueamento_cao.data.data}}",
   "tags": [
     "Suggested",

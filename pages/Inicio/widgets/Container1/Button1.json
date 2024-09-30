@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 27,
+  "bottomRow": 26,
   "boxShadow": "none",
   "buttonColor": "rgb(48, 73, 136)",
   "buttonVariant": "PRIMARY",
@@ -37,8 +37,8 @@
   "mobileRightColumn": 30,
   "mobileTopRow": 24,
   "onClick": "{{LoginLib.run(() => { \n\t\n\tconst jwt = LoginLib?.data?.jwt;\t\t\t\t \nif(jwt){\n\tstoreValue('jwt' , jwt);\n\tstoreValue('url', getURL.getUrl.data);\n\tget_user.run().then(() => {\n  storeValue('roleAtual', get_user.data.role.name);\n\t\tstoreValue('idUsuario', get_user.data.id);\n\t\tstoreValue('urlFoto', )\n\t\tset_store_role.myFun1();\n\t\tnavigateTo(\"Semoventes\");\n\t\t});\n  }else{\n\t\tshowModal(\"Credenciais invalidas\");\n\t}\n}).catch(() =>{\terrorWidget.setText(\"Email ou senha inválidos\"); \n})}}\n",
-  "originalBottomRow": 27,
-  "originalTopRow": 23,
+  "originalBottomRow": 26,
+  "originalTopRow": 22,
   "parentColumnSpace": 14.09375,
   "parentId": "iu33onleol",
   "parentRowSpace": 10,
@@ -56,7 +56,7 @@
     "Buttons"
   ],
   "text": "Login",
-  "topRow": 23,
+  "topRow": 22,
   "type": "BUTTON_WIDGET",
   "version": 1,
   "widgetId": "zzeli8xtat",

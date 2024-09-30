@@ -42,6 +42,14 @@
         {
           "key": "populate",
           "value": "*"
+        },
+        {
+          "key": "pagination[pageSize]",
+          "value": "15"
+        },
+        {
+          "key": "pagination[page]",
+          "value": "{{consultas_ativas.pageNo}}"
         }
       ],
       "timeoutInMillisecond": 10000
@@ -54,10 +62,13 @@
     },
     "dynamicBindingPathList": [
       {
+        "key": "path"
+      },
+      {
         "key": "queryParameters[0].value"
       },
       {
-        "key": "path"
+        "key": "queryParameters[4].value"
       }
     ],
     "executeOnLoad": true,

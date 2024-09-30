@@ -120,9 +120,6 @@
   ],
   "dynamicPropertyPathList": [
     {
-      "key": "tableData"
-    },
-    {
       "key": "primaryColumns.customColumn1.onClick"
     },
     {
@@ -136,6 +133,9 @@
     },
     {
       "key": "primaryColumns.customColumn2.isDisabled"
+    },
+    {
+      "key": "tableData"
     }
   ],
   "dynamicTriggerPathList": [
@@ -172,7 +172,7 @@
   "mobileRightColumn": 23,
   "mobileTopRow": 0,
   "needsHeightForContent": true,
-  "onPageChange": "",
+  "onPageChange": "{{getAllUsuario.run()}}",
   "originalBottomRow": 49,
   "originalTopRow": 5,
   "parentColumnSpace": 12.160400390625,
@@ -482,7 +482,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 64,
   "searchKey": "",
-  "serverSidePaginationEnabled": false,
+  "serverSidePaginationEnabled": true,
   "showInlineEditingOptionDropdown": true,
   "tableData": "{{getAllUsuario.data}}",
   "tags": [

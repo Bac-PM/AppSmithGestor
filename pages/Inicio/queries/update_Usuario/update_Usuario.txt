@@ -1,0 +1,4 @@
+{
+		"identifier": {{LoginLibEsqueciSenha.data.user.email}},
+   	"password": {{insereNovaSenha.text}}	
+}

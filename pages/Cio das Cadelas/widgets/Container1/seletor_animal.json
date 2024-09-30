@@ -59,7 +59,7 @@
   "placeholderText": "Selecione um semovente",
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 18,
+  "rightColumn": 15,
   "searchTags": [
     "dropdown"
   ],

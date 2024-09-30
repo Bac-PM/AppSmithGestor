@@ -31,6 +31,14 @@
         {
           "key": "fields[0]",
           "value": "Nome"
+        },
+        {
+          "key": "pagination[pageSize]",
+          "value": "10"
+        },
+        {
+          "key": "pagination[page]",
+          "value": "{{classificacoes.pageNo}}"
         }
       ],
       "timeoutInMillisecond": 10000
@@ -47,6 +55,9 @@
       },
       {
         "key": "path"
+      },
+      {
+        "key": "queryParameters[2].value"
       }
     ],
     "executeOnLoad": true,

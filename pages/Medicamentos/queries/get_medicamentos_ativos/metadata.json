@@ -59,6 +59,14 @@
         {
           "key": "fields[2]",
           "value": "dosagem"
+        },
+        {
+          "key": "pagination[pageSize]",
+          "value": "10"
+        },
+        {
+          "key": "pagination[page]",
+          "value": "{{medicamentos_ativos.pageNo}}"
         }
       ],
       "timeoutInMillisecond": 10000
@@ -75,6 +83,9 @@
       },
       {
         "key": "path"
+      },
+      {
+        "key": "queryParameters[9].value"
       }
     ],
     "executeOnLoad": true,

@@ -41,8 +41,16 @@
           "value": "{{seletor_animal.selectedOptionValue}}"
         },
         {
-          "key": "_sort",
-          "value": "data_de_entrada:ASC\n"
+          "key": "sort",
+          "value": "data_de_entrada:desc"
+        },
+        {
+          "key": "pagination[pageSize]",
+          "value": "10"
+        },
+        {
+          "key": "pagination[page]",
+          "value": "{{data_cios.pageNo}}"
         }
       ],
       "timeoutInMillisecond": 10000
@@ -62,6 +70,9 @@
       },
       {
         "key": "queryParameters[2].value"
+      },
+      {
+        "key": "queryParameters[5].value"
       }
     ],
     "executeOnLoad": true,

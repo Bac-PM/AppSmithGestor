@@ -200,7 +200,7 @@
       "label": "Data Próxima Aplicação",
       "notation": "standard",
       "originalId": "data_proxima_aplicacao",
-      "outputFormat": "YYYY-MM-DD HH:mm",
+      "outputFormat": "DD/MM/YYYY HH:mm",
       "sticky": "",
       "textSize": "0.875rem",
       "thousandSeparator": true,

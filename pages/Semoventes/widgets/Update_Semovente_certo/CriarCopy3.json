@@ -40,7 +40,7 @@
   "mobileLeftColumn": 46,
   "mobileRightColumn": 62,
   "mobileTopRow": 33,
-  "onClick": "{{update_semoventeCopy.run().then(response => {  \n get_animals_ativos.run();\nget_animals_painel.run();\n  showAlert('Atualizado com sucesso', 'success');\n\t\n\nresetWidget(\"Foto_direitaUpdate\", true);\nresetWidget(\"Foto_frenteUpdate\", true);\nresetWidget(\"Foto_esquerdaUpdate\", true);\n\tshowModal('Update_Realizado');\n}).catch(error => {\n  console.error('API Error:', error);\n  //showAlert(JSON.stringify(update_semoventeCopy.data.error.details.errors), 'error');\n});}}",
+  "onClick": "{{update_semoventeCopy.run().then(response => {  \n get_animals_ativos.run();\nget_animals_painel.run();\n  showAlert('Atualizado com sucesso', 'success');\n\t\nresetWidget(\"Foto_direitaUpdate\", true);\nresetWidget(\"Foto_frenteUpdate\", true);\nresetWidget(\"Foto_esquerdaUpdate\", true);\n\tshowModal('Update_Realizado');\n}).catch(error => {\n  console.error('API Error:', error);\n  \n});}}",
   "originalBottomRow": 55,
   "originalTopRow": 51,
   "parentId": "xbmhz1ao99",

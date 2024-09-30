@@ -2,7 +2,7 @@ export default {
 	/*
 @author Mateus Lannes 
 @altered Felipe Frechiani
-Faz o envio de imagem para o servidor. Atualiza o identificador da imagem no objeot image e atualiza a url para ser exbida no componente visual da interface. 
+Faz o envio de imagem para o servidor. Atualiza o identificador da imagem no objeto image e atualiza a url para ser exbida no componente visual da interface. 
 @params identificadorPOPup - valor 1 caso seja o Pop-up "Adicionar Semovente", caso contrario o Pop-up "Editar Semovente"
 */
 	data: {},

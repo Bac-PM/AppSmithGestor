@@ -4,7 +4,7 @@
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "bottomRow": 32,
   "boxShadow": "none",
-  "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( SemoventesDesativados.triggeredRow.especializacao))(EspecializacaoBaixado.options, EspecializacaoBaixado.serverSideFiltering) }}",
+  "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( getDefaultValue.getDefaultValue(SemoventesDesativados.triggeredRow?.especializacao, get_especializacaos.data.data)))(EspecializacaoBaixado.options, EspecializacaoBaixado.serverSideFiltering) }}",
   "displayName": "Select",
   "dynamicBindingPathList": [
     {
@@ -12,6 +12,9 @@
     },
     {
       "key": "borderRadius"
+    },
+    {
+      "key": "sourceData"
     }
   ],
   "dynamicHeight": "FIXED",
@@ -43,8 +46,8 @@
   "mobileLeftColumn": 2,
   "mobileRightColumn": 22,
   "mobileTopRow": 26,
-  "optionLabel": "name",
-  "optionValue": "code",
+  "optionLabel": "Nome",
+  "optionValue": "id",
   "originalBottomRow": 50,
   "originalTopRow": 43,
   "parentColumnSpace": 13.59375,
@@ -58,7 +61,7 @@
     "dropdown"
   ],
   "serverSideFiltering": false,
-  "sourceData": "[\n  {\n    \"name\": \"Faro de Munição e Explosivos\",\n    \"code\": \"Faro de Munição e Explosivos\"\n  },\n  {\n    \"name\": \"Faro de Entorpecentes\",\n    \"code\": \"Faro de Entorpecentes\"\n  },\n  {\n    \"name\": \"Faro de Dinheiro\",\n    \"code\": \"Faro de Dinheiro\"\n  },\n  {\n    \"name\": \"Busca e Apreensão\",\n    \"code\": \"Busca e Apreensão\"\n  },\n  {\n    \"name\": \"Em treinamento\",\n    \"code\": \"Em treinamento\"\n  }\n]",
+  "sourceData": "{{get_especializacaos.data.data}}",
   "tags": [
     "Suggested",
     "Select"

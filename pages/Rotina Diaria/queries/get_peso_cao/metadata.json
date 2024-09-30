@@ -35,6 +35,14 @@
         {
           "key": "sort",
           "value": "data:desc"
+        },
+        {
+          "key": "pagination[pageSize]",
+          "value": "10"
+        },
+        {
+          "key": "pagination[page]",
+          "value": "{{table_peso.pageNo}}"
         }
       ],
       "timeoutInMillisecond": 10000
@@ -54,6 +62,9 @@
       },
       {
         "key": "queryParameters[0].value"
+      },
+      {
+        "key": "queryParameters[3].value"
       }
     ],
     "executeOnLoad": true,

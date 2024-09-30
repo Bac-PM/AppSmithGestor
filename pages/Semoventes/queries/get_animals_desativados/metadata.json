@@ -143,6 +143,14 @@
         {
           "key": "fields[13]",
           "value": "Justificativa_baixado"
+        },
+        {
+          "key": "pagination[pageSize]",
+          "value": "10"
+        },
+        {
+          "key": "pagination[page]",
+          "value": "{{SemoventesDesativados.pageNo}}"
         }
       ],
       "timeoutInMillisecond": 10000
@@ -159,6 +167,9 @@
       },
       {
         "key": "path"
+      },
+      {
+        "key": "queryParameters[30].value"
       }
     ],
     "executeOnLoad": true,

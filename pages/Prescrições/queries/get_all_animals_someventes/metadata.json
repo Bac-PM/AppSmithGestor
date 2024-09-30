@@ -38,6 +38,10 @@
         {
           "key": "fields[0]",
           "value": "Nome"
+        },
+        {
+          "key": "pagination[pageSize]",
+          "value": "100"
         }
       ],
       "timeoutInMillisecond": 10000

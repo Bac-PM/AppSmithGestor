@@ -100,7 +100,11 @@
       "key": "tableData"
     }
   ],
-  "dynamicTriggerPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onPageChange"
+    }
+  ],
   "enableClientSideSearch": true,
   "flexVerticalAlignment": "start",
   "hideCard": false,
@@ -125,6 +129,7 @@
   "mobileTopRow": 0,
   "needsErrorInfo": false,
   "needsHeightForContent": true,
+  "onPageChange": "{{get_tarefas_executadas.run()}}",
   "parentColumnSpace": 17.6396484375,
   "parentId": "oqstjzrpox",
   "parentRowSpace": 10,
@@ -414,6 +419,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 64,
   "searchKey": "",
+  "serverSidePaginationEnabled": true,
   "tableData": "{{get_tarefas_executadas.data.data}}",
   "tags": [
     "Suggested",

@@ -59,6 +59,14 @@
         {
           "key": "fields[3]",
           "value": "tipo_racao"
+        },
+        {
+          "key": "pagination[pageSize]",
+          "value": "10"
+        },
+        {
+          "key": "pagination[page]",
+          "value": "{{racao.pageNo}}"
         }
       ],
       "timeoutInMillisecond": 10000
@@ -71,13 +79,16 @@
     },
     "dynamicBindingPathList": [
       {
-        "key": "queryParameters[0].value"
-      },
-      {
         "key": "headers[0].value"
       },
       {
         "key": "path"
+      },
+      {
+        "key": "queryParameters[0].value"
+      },
+      {
+        "key": "queryParameters[9].value"
       }
     ],
     "executeOnLoad": true,

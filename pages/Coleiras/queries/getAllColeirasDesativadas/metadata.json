@@ -47,6 +47,14 @@
         {
           "key": "populate[tipo_produto_antiparasitario][fields][0]",
           "value": "descricao"
+        },
+        {
+          "key": "pagination[pageSize]",
+          "value": "10"
+        },
+        {
+          "key": "pagination[page]",
+          "value": "{{coleiras_desativadas.pageNo}}"
         }
       ],
       "timeoutInMillisecond": 10000
@@ -63,6 +71,9 @@
       },
       {
         "key": "path"
+      },
+      {
+        "key": "queryParameters[6].value"
       }
     ],
     "executeOnLoad": true,

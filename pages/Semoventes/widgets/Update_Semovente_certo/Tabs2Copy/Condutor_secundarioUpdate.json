@@ -4,7 +4,7 @@
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "bottomRow": 18,
   "boxShadow": "none",
-  "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( getDefaultValue.getDefaultValue(semoventes_ativos.triggeredRow?.Condutor_secundario, get_condutor.data.data)))(Condutor_secundarioUpdate.options, Condutor_secundarioUpdate.serverSideFiltering) }}",
+  "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( getDefaultValue.getDefaultValueCondutor(semoventes_ativos.triggeredRow?.Condutor_secundario, get_condutor.data)))(Condutor_secundarioUpdate.options, Condutor_secundarioUpdate.serverSideFiltering) }}",
   "displayName": "Select",
   "dynamicBindingPathList": [
     {
@@ -46,7 +46,7 @@
   "mobileLeftColumn": 33,
   "mobileRightColumn": 53,
   "mobileTopRow": 18,
-  "optionLabel": "Nome",
+  "optionLabel": "username",
   "optionValue": "id",
   "originalBottomRow": 132,
   "originalTopRow": 125,
@@ -61,7 +61,7 @@
     "dropdown"
   ],
   "serverSideFiltering": false,
-  "sourceData": "{{get_condutor.data.data}}",
+  "sourceData": "{{get_condutor.data}}",
   "tags": [
     "Suggested",
     "Select"

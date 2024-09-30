@@ -62,7 +62,7 @@
     "dropdown"
   ],
   "serverSideFiltering": false,
-  "sourceData": "{{get_all_principios.data.data.map( (obj) =>{ return  {'label': obj.Nome, 'value': obj.id } })}}",
+  "sourceData": "{{get_principios_add.data.data.map( (obj) =>{ return  {'label': obj.Nome, 'value': obj.id } })}}",
   "tags": [
     "Suggested",
     "Select"

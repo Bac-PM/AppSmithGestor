@@ -21,7 +21,7 @@
       "httpMethod": "GET",
       "httpVersion": "HTTP11",
       "paginationType": "NONE",
-      "path": "{{appsmith.store.url}}/api/condutors",
+      "path": "{{appsmith.store.url}}/api/users",
       "pluginSpecifiedTemplates": [
         {
           "value": true
@@ -29,16 +29,24 @@
       ],
       "queryParameters": [
         {
+          "key": "filters[blocked]",
+          "value": "false"
+        },
+        {
+          "key": "filters[$or][0][role][name]",
+          "value": "Condutor"
+        },
+        {
+          "key": "filters[$or][1][role][name]",
+          "value": "Condutor K9"
+        },
+        {
           "key": "fields[0]",
-          "value": "nome"
+          "value": "username"
         },
         {
-          "key": "fields[1]",
-          "value": "id"
-        },
-        {
-          "key": "filters[ativo]",
-          "value": "true"
+          "key": "populate[role][fields][0]",
+          "value": "name"
         }
       ],
       "timeoutInMillisecond": 10000

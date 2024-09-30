@@ -38,7 +38,7 @@
   "mobileRightColumn": 63,
   "mobileTopRow": 18,
   "needsErrorInfo": false,
-  "onClick": "{{\ndesativarTipoVacina.run().then(() => {\n\t\n  showAlert( desativarTipoVacina.data.data.tipo + ' Desativado com sucesso', 'success');\n\tgetTipoVacinaTable.run();\n}).catch(() => {\n  showAlert('Um erro ocorreu', 'error');\n});\n\ncloseModal(\"desativar_tipo_vac\")}}",
+  "onClick": "{{\ndesativarTipoVacina.run().then(() => {\n\t\n  showAlert( desativarTipoVacina.data.data.tipo + ' Desativado com sucesso', 'success');\n\tgetTipoVacina.run();\n}).catch(() => {\n  showAlert('Um erro ocorreu', 'error');\n});\n\ncloseModal(\"desativar_tipo_vac\")}}",
   "originalBottomRow": 22,
   "originalTopRow": 18,
   "parentId": "jpm9jso33e",
