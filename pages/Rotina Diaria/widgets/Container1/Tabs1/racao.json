@@ -237,7 +237,7 @@
       "allowSameOptionsInNewRow": true,
       "cellBackground": "",
       "columnType": "number",
-      "computedValue": "{{racao.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"quantidade\"] + 'g'))}}",
+      "computedValue": "{{racao.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"quantidade\"]))}}",
       "currencyCode": "USD",
       "decimals": 0,
       "enableFilter": true,

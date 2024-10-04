@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "66e325a097a37e7429f6c5a5_cc937565-3f0d-4628-a27d-fe5a6daf62c9",
+  "id": "Rotina Diaria_generatePdf",
+  "unpublishedCollection": {
+    "name": "generatePdf",
+    "pageId": "Rotina Diaria",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

@@ -5,12 +5,12 @@
   "borderColor": "#E0DEDE",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": 1,
-  "bottomRow": 67,
+  "bottomRow": 59,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "children": [
     {
       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-      "bottomRow": 550,
+      "bottomRow": 470,
       "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
       "canExtend": false,
       "containerStyle": "none",
@@ -57,7 +57,7 @@
     },
     {
       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-      "bottomRow": 550,
+      "bottomRow": 470,
       "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
       "canExtend": false,
       "containerStyle": "none",
@@ -104,7 +104,7 @@
     },
     {
       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-      "bottomRow": 550,
+      "bottomRow": 470,
       "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
       "canExtend": false,
       "containerStyle": "none",
@@ -151,7 +151,7 @@
     },
     {
       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-      "bottomRow": 550,
+      "bottomRow": 530,
       "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
       "canExtend": false,
       "containerStyle": "none",
@@ -198,7 +198,7 @@
     },
     {
       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-      "bottomRow": 550,
+      "bottomRow": 470,
       "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
       "canExtend": false,
       "containerStyle": "none",
@@ -283,7 +283,7 @@
   "mobileRightColumn": 48,
   "mobileTopRow": 39,
   "onTabSelected": "{{\n(function() {\n  if(Tabs1.selectedTab === 'Medicamentos'){\nget_medicamento_animalNaplic.run();\ngetAplicacoesMed.run();\n\t} if (Tabs1.selectedTab === 'Ectoparasiticidas'){\nget_ectoparasiticidas_animal.run();\nget_ectoparasiticidas_aplicado.run()\n\t} if (Tabs1.selectedTab === 'Vermífugos'){\nget_vermifugos_animal.run();\nget_vermifugos_aplicados.run()\n\t} if (Tabs1.selectedTab === 'Vacinas'){\n\tget_vacinas_animal.run();\n\tget_vacinas_aplicadas.run()\n\t} if (Tabs1.selectedTab === \"Coleiras\"){\n\tget_coleiras_animal.run();\n\tget_coleiras_desativadas.run();\n\t}\n})();\n}}",
-  "originalBottomRow": 67,
+  "originalBottomRow": 59,
   "originalTopRow": 8,
   "parentColumnSpace": 17.9375,
   "parentId": "ofm89r9dqb",

@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 22,
+  "bottomRow": 23,
   "boxShadow": "none",
   "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
   "buttonStyle": "PRIMARY",
@@ -44,8 +44,8 @@
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
   "onClick": "{{closeModal(add_banho.name);}}",
-  "originalBottomRow": 23,
-  "originalTopRow": 19,
+  "originalBottomRow": 22,
+  "originalTopRow": 18,
   "parentId": "r2m7h7g076",
   "placement": "CENTER",
   "recaptchaType": "V3",
@@ -62,7 +62,7 @@
   ],
   "text": "Cancelar",
   "thumbnailSVG": "/static/media/thumbnail.a348658e996feaad96cadc30d99374ff.svg",
-  "topRow": 18,
+  "topRow": 19,
   "type": "BUTTON_WIDGET",
   "version": 1,
   "widgetId": "iz6xezuumf",
