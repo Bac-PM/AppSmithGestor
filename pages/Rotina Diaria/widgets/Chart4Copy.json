@@ -3,7 +3,7 @@
   "allowScroll": false,
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 84,
+  "bottomRow": 99,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "chartData": {
     "ow5skjyjpy": {
@@ -13,7 +13,7 @@
   },
   "chartName": "Sales Report",
   "chartType": "CUSTOM_ECHART",
-  "customEChartConfig": "{{ ((chartType) => ( geraGraficos.getPesoTempo()))(Chart4.chartType) }}",
+  "customEChartConfig": "{{ ((chartType) => ( geraGraficos.getRacaoMediaPorDia()))(Chart4Copy.chartType) }}",
   "customFusionChartConfig": {
     "dataSource": {
       "chart": {
@@ -108,10 +108,10 @@
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
   "onDataPointClick": "",
-  "originalBottomRow": 103,
-  "originalTopRow": 71,
+  "originalBottomRow": 99,
+  "originalTopRow": 67,
   "parentColumnSpace": 17.9375,
-  "parentId": "nggzl6lf7g",
+  "parentId": "0",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
@@ -126,11 +126,11 @@
     "Display"
   ],
   "thumbnailSVG": "/static/media/thumbnail.98fb19b2c4f99671c0888284cf939f3a.svg",
-  "topRow": 52,
+  "topRow": 67,
   "type": "CHART_WIDGET",
   "version": 1,
-  "widgetId": "sooayv4k1u",
-  "widgetName": "Chart4",
+  "widgetId": "80ycwvopgr",
+  "widgetName": "Chart4Copy",
   "xAxisName": "Product Line",
   "yAxisName": "Revenue($)"
 }

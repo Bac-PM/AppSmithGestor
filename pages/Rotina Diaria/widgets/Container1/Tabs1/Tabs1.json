@@ -5,12 +5,12 @@
   "borderColor": "#E0DEDE",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": 1,
-  "bottomRow": 97,
+  "bottomRow": 64,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "children": [
     {
       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-      "bottomRow": 860,
+      "bottomRow": 530,
       "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
       "canExtend": true,
       "detachFromLayout": true,
@@ -66,7 +66,7 @@
     },
     {
       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-      "bottomRow": 860,
+      "bottomRow": 530,
       "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
       "canExtend": true,
       "detachFromLayout": true,
@@ -122,7 +122,7 @@
     },
     {
       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-      "bottomRow": 860,
+      "bottomRow": 530,
       "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
       "canExtend": false,
       "containerStyle": "none",
@@ -177,7 +177,7 @@
     },
     {
       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-      "bottomRow": 860,
+      "bottomRow": 530,
       "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
       "canExtend": false,
       "containerStyle": "none",
@@ -232,7 +232,7 @@
     },
     {
       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-      "bottomRow": 860,
+      "bottomRow": 840,
       "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
       "canExtend": false,
       "containerStyle": "none",
@@ -335,7 +335,7 @@
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
   "onTabSelected": "{{\n(function() {\n  if(Tabs1.selectedTab === 'Banho'){\nget_banho_cao.run();\n\t} if (Tabs1.selectedTab === 'Rasqueamento'){\n\t\tget_rasqueamento_cao.run();\n\t} if (Tabs1.selectedTab === 'Liberdade'){\n\t\tget_liberdade_cao.run();\n\t} if (Tabs1.selectedTab === 'Ração'){\n\tget_racao_cao.run();\n\t} if (Tabs1.selectedTab === 'Peso'){\n\tget_peso_cao.run();\t\n\t}\n})();\n}}",
-  "originalBottomRow": 97,
+  "originalBottomRow": 64,
   "originalTopRow": 7,
   "parentColumnSpace": 5.5693359375,
   "parentId": "9poiry4zka",

@@ -1,6 +1,6 @@
 {
-  "gitSyncId": "66e325a097a37e7429f6c5a5_f01a515c-1363-4a5a-ab09-7c1fc89d7756",
-  "id": "Rotina Diaria_geraGraficos.downloadChart",
+  "gitSyncId": "66e325a097a37e7429f6c5a5_a83bc504-b932-4f1a-b686-764b721e1dd5",
+  "id": "Rotina Diaria_geraGraficos.RacaoUltimos2Meses",
   "pluginId": "js-plugin",
   "pluginType": "JS",
   "unpublishedAction": {
@@ -23,8 +23,8 @@
       }
     ],
     "executeOnLoad": false,
-    "fullyQualifiedName": "geraGraficos.downloadChart",
-    "name": "downloadChart",
+    "fullyQualifiedName": "geraGraficos.RacaoUltimos2Meses",
+    "name": "RacaoUltimos2Meses",
     "pageId": "Rotina Diaria",
     "userSetOnLoad": false
   }

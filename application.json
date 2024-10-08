@@ -89,6 +89,10 @@
     {
       "id": "Cio das Cadelas",
       "isDefault": false
+    },
+    {
+      "id": "AJUDA",
+      "isDefault": false
     }
   ],
   "unpublishedAppLayout": {
