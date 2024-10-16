@@ -176,8 +176,9 @@ export default {
 	RacaoUltimos2Meses(){
 		
 	
-		//const data = get_racao_cao.data.data;
-		const data = funcoesAuxliarGraficos.gerarRegistrosRealistas();
+		const data = get_racao_cao.data.data;
+		//const data = funcoesAuxliarGraficos.gerarRegistrosRealistas();
+		//console.log(data)
 		const dadosAgrupados = funcoesAuxliarGraficos.agruparPorDiaETipo(data);
 		const datas = Object.keys(dadosAgrupados).sort(); 
 		const datasFormatadas = datas.map(data => funcoesAuxliarGraficos.formatarDataParaExibicao(data));
@@ -215,7 +216,7 @@ export default {
 		tooltip: {
 			trigger: 'axis',
 			axisPointer: {
-				type: 'shadow'
+				type: 'cross'
 			}
 		},
 		legend: {

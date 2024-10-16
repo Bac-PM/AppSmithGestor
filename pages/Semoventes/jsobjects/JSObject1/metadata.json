@@ -1,0 +1,20 @@
+{
+  "gitSyncId": "66e325a097a37e7429f6c5a5_1bbfd1f9-1bf2-4144-bd40-92426559d3c6",
+  "id": "Semoventes_JSObject1",
+  "unpublishedCollection": {
+    "name": "JSObject1",
+    "pageId": "Semoventes",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": "[]"
+      },
+      {
+        "name": "myVar2",
+        "value": "{}"
+      }
+    ]
+  }
+}

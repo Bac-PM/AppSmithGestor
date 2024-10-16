@@ -8,7 +8,7 @@
 		"Alocacao" : {{ UnidadeUpdate.selectedOptionValue}},
 		"Condutor_principal" : {{Condutor_principalUpdate.selectedOptionValue}},
 		"Condutor_secundario" : {{ Condutor_secundarioUpdate.selectedOptionValue}},
-		"Foto_frente" : {{parseInt(FotoIdFrente1Copy.text)}},
+		"Foto_frente" : {{parseInt(FotoIdFrente1.text)}},
 		"Foto_esquerda" : {{parseInt(FotoIdEsquerda1.text)}},
 		"Foto_direita" : {{parseInt(FotoIdDireita1.text)}},
 		"numero_patrimonio" : {{NumeroPatrimonioUpdate.text}},

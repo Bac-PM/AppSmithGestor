@@ -13,9 +13,6 @@
       "key": "defaultText"
     },
     {
-      "key": "validation"
-    },
-    {
       "key": "accentColor"
     },
     {
@@ -71,7 +68,7 @@
   "topRow": 0,
   "topRowBeforeCollapse": 0,
   "type": "INPUT_WIDGET_V2",
-  "validation": "{{FotoIdDireita.text > -1}}",
+  "validation": "",
   "version": 2,
   "widgetId": "zpw127kdsp",
   "widgetName": "FotoIdDireita1"

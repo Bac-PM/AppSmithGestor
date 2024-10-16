@@ -1,6 +1,8 @@
 {
   "allowedFileTypes": [
-    "image/*"
+    "image/*",
+    "image/jpeg",
+    ".png"
   ],
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",

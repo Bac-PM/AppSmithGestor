@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 73,
+  "bottomRow": 63,
   "displayName": "Text",
   "dynamicBindingPathList": [
     {
@@ -25,7 +25,7 @@
   "isLoading": false,
   "isVisible": true,
   "key": "dp4vc5naia",
-  "leftColumn": 4,
+  "leftColumn": 1,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
@@ -41,15 +41,15 @@
     "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
-  "originalBottomRow": 73,
-  "originalTopRow": 68,
+  "originalBottomRow": 63,
+  "originalTopRow": 58,
   "overflow": "NONE",
   "parentColumnSpace": 17.9375,
   "parentId": "0",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 25,
+  "rightColumn": 14,
   "searchTags": [
     "typography",
     "paragraph",
@@ -60,14 +60,14 @@
     "Suggested",
     "Content"
   ],
-  "text": "Recuperação de Senha",
+  "text": "Consulta",
   "textAlign": "LEFT",
   "textColor": "#231F20",
   "thumbnailSVG": "/static/media/thumbnail.0c129b82c9b3e4cd4920563b289659ab.svg",
-  "topRow": 68,
+  "topRow": 58,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "wkhpjsu2an",
-  "widgetName": "Text1Copy2"
+  "widgetId": "bkrr0a04pb",
+  "widgetName": "Text1Copy1Copy1"
 }

@@ -49,7 +49,7 @@
   "mobileLeftColumn": 45,
   "mobileRightColumn": 61,
   "mobileTopRow": 0,
-  "onClick": "{{\natualizaIdFrenteAdiciona.idDireita= \"\";\n\tatualizaIdFrenteAdiciona.idFrente= \"\";\n\tatualizaIdFrenteAdiciona.idEsquerda= \"\";\nImagensAdiciona.frente= \"\";\nImagensAdiciona.direita= \"\";\nImagensAdiciona.esquerda= \"\";\nresetWidget(\"add_semoventeCopy\", true);\n\nstoreValue('tabSemovente', '1 - Informações do Semovente');\n\nshowModal('add_semoventeCopy');\n}}",
+  "onClick": "{{\natualizaIdFrenteAdiciona.idDireita= \"\";\natualizaIdFrenteAdiciona.idFrente= \"\";\natualizaIdFrenteAdiciona.idEsquerda= \"\";\nImagensAdiciona.frente= \"\";\nImagensAdiciona.direita= \"\";\nImagensAdiciona.esquerda= \"\";\nresetWidget(\"add_semoventeCopy\", true);\n\nstoreValue('tabSemovente', '1 - Informações do Semovente');\n\nshowModal('add_semoventeCopy');\n}}",
   "originalBottomRow": 5,
   "originalTopRow": 1,
   "parentColumnSpace": 13.140625,

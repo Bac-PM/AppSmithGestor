@@ -1,0 +1,24 @@
+{
+  "gitSyncId": "66e325a097a37e7429f6c5a5_26ace3b9-587a-4466-b07e-b5556732d439",
+  "id": "Semoventes_JSObject2",
+  "unpublishedCollection": {
+    "name": "JSObject2",
+    "pageId": "Semoventes",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "frente",
+        "value": "\"\""
+      },
+      {
+        "name": "direita",
+        "value": "\"\""
+      },
+      {
+        "name": "esquerda",
+        "value": "\"\""
+      }
+    ]
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "gitSyncId": "664b91393d0ee46738b29c21_666c7202721e40404f8282cf",
+  "gitSyncId": "66e325a097a37e7429f6c5a5_49d8bb7d-b414-41ec-bc3d-48780f67c952",
   "id": "Semoventes_upload_file_frente",
   "pluginId": "restapi-plugin",
   "pluginType": "API",
@@ -35,6 +35,7 @@
         }
       ],
       "httpMethod": "POST",
+      "httpVersion": "HTTP11",
       "paginationType": "NONE",
       "path": "{{appsmith.store.url}}/api/upload",
       "pluginSpecifiedTemplates": [
@@ -53,6 +54,9 @@
     },
     "dynamicBindingPathList": [
       {
+        "key": "path"
+      },
+      {
         "key": "headers[0].value"
       },
       {
@@ -60,13 +64,9 @@
       },
       {
         "key": "bodyFormData[1].value"
-      },
-      {
-        "key": "path"
       }
     ],
     "executeOnLoad": false,
-    "fullyQualifiedName": "upload_file_frente",
     "name": "upload_file_frente",
     "pageId": "Semoventes",
     "userSetOnLoad": false

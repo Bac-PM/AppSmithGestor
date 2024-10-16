@@ -1,10 +1,4 @@
 export default {
-	
-	/** 
-	
-	
-	
-	*/
 	idFrente:"",
 	idEsquerda:"",
 	idDireita:"",

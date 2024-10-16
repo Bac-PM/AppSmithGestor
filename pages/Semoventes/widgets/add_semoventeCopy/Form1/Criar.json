@@ -6,7 +6,7 @@
   "boxShadow": "none",
   "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
   "buttonVariant": "PRIMARY",
-  "disabledWhenInvalid": true,
+  "disabledWhenInvalid": false,
   "displayName": "Button",
   "dynamicBindingPathList": [
     {
@@ -35,7 +35,7 @@
   "isDeprecated": false,
   "isDisabled": false,
   "isLoading": false,
-  "isVisible": "{{\n(function() {\n  if(appsmith.store.tabSemovente == '3 - Fotos do Semovente'){\nreturn true\n\t} else {\n\t\treturn false;\n\t}\n})();\n}}",
+  "isVisible": "{{\n(function() {\n\tif(appsmith.store.tabSemovente == '3 - Fotos do Semovente') {\n\t\treturn true;\n\t} else {\n\t\treturn false;\n\t}\n})();\n}}",
   "key": "r43kcp0fjx",
   "leftColumn": 52,
   "minWidth": 120,
@@ -44,8 +44,8 @@
   "mobileRightColumn": 62,
   "mobileTopRow": 33,
   "onClick": "{{create_semovente.run().then(response => {\n\natualizaIdFrenteAdiciona.idDireita= \"\";\n\tatualizaIdFrenteAdiciona.idFrente= \"\";\n\natualizaIdFrenteAdiciona.idEsquerda= \"\"; \n\t\n//resetWidget(\"add_semoventeCopy\", true);\n\tget_animals_ativos.run();\nget_animals_painel.run();\n   \ncloseModal(add_semoventeCopy.name); showModal(Cadastro_Realizado.name);\n\n}).catch(error => {\n create_semovente.data.error.details.errors.forEach(element => {\n   showAlert(JSON.stringify(element.message), 'error');\n});\n});}}\n",
-  "originalBottomRow": 45,
-  "originalTopRow": 45,
+  "originalBottomRow": 67,
+  "originalTopRow": 63,
   "parentId": "o23kt3gij2",
   "placement": "CENTER",
   "recaptchaType": "V3",
@@ -65,6 +65,6 @@
   "topRowBeforeCollapse": 45,
   "type": "BUTTON_WIDGET",
   "version": 1,
-  "widgetId": "ahzhpjuy44",
+  "widgetId": "qppgf2ajxh",
   "widgetName": "Criar"
 }

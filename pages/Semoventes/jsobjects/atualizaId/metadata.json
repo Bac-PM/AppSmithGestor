@@ -9,15 +9,15 @@
     "variables": [
       {
         "name": "idFrente",
-        "value": "Table1.triggeredRow.Foto_frente.id"
+        "value": "semoventes_ativos.triggeredRow.Foto_frente.id"
       },
       {
         "name": "idDireita",
-        "value": "Table1.triggeredRow.Foto_direita.id"
+        "value": "semoventes_ativos.triggeredRow.Foto_direita.id"
       },
       {
         "name": "idEsquerda",
-        "value": "Table1.triggeredRow.Foto_esquerda.id"
+        "value": "semoventes_ativos.triggeredRow.Foto_esquerda.id"
       }
     ]
   }

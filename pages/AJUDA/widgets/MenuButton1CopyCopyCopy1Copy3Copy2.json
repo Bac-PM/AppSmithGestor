@@ -1,0 +1,97 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 31,
+  "boxShadow": "none",
+  "displayName": "Menu button",
+  "dynamicBindingPathList": [
+    {
+      "key": "menuColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "menuItems.menuItem1.onClick"
+    },
+    {
+      "key": "menuItems.menuItem2.onClick"
+    },
+    {
+      "key": "menuItems.menuItemc4u84taxya.onClick"
+    }
+  ],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.5e66a9029af45161f7a3fbfb4262e5ee.svg",
+  "isCompact": false,
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "k8l6jhze7r",
+  "label": "Opções",
+  "leftColumn": 22,
+  "menuColor": "{{appsmith.theme.colors.primaryColor}}",
+  "menuItems": {
+    "menuItem1": {
+      "id": "menuItem1",
+      "index": 0,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "Cadastrar",
+      "onClick": "{{navigateTo('https://youtu.be/aEkCS4zvmXU', {}, 'NEW_WINDOW');}}",
+      "widgetId": ""
+    },
+    "menuItem2": {
+      "id": "menuItem2",
+      "index": 1,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "Editar",
+      "onClick": "{{navigateTo('https://youtu.be/P-nWV_0GUNQ', {}, 'NEW_WINDOW');}}",
+      "widgetId": ""
+    },
+    "menuItemc4u84taxya": {
+      "id": "menuItemc4u84taxya",
+      "index": 2,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "Baixar",
+      "onClick": "{{navigateTo('https://youtu.be/y3i4Jwbp0Z0', {}, 'NEW_WINDOW');}}",
+      "widgetId": "0sztgjki7w"
+    }
+  },
+  "menuItemsSource": "STATIC",
+  "menuVariant": "PRIMARY",
+  "mobileBottomRow": 205,
+  "mobileLeftColumn": 16,
+  "mobileRightColumn": 32,
+  "mobileTopRow": 201,
+  "needsErrorInfo": false,
+  "onCanvasUI": {
+    "disableParentSelection": false,
+    "focusBGCSSVar": "--on-canvas-ui-widget-focus",
+    "focusColorCSSVar": "--on-canvas-ui-widget-selection",
+    "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
+    "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
+  },
+  "originalBottomRow": 31,
+  "originalTopRow": 27,
+  "parentColumnSpace": 19.8125,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "renderMode": "CANVAS",
+  "rightColumn": 32,
+  "tags": [
+    "Buttons"
+  ],
+  "thumbnailSVG": "/static/media/thumbnail.57aa4a1b6aaab3ade6ce3bc3a1177531.svg",
+  "topRow": 27,
+  "type": "MENU_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "fg52l3nghl",
+  "widgetName": "MenuButton1CopyCopyCopy1Copy3Copy2"
+}

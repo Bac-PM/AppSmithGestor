@@ -123,7 +123,7 @@ gerarRegistrosRealistas() {
         "Ração Light": 200 
     };
     const horariosDeAlimentacao = ['08:00:00', '18:00:00'];
-    const numeroDeDias = 60; // Últimos 60 dias
+    const numeroDeDias = 15; // Últimos 60 dias
     const registros = [];
 
     // Gerar dados para os últimos 60 dias

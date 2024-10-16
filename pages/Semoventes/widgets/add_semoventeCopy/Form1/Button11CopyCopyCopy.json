@@ -44,7 +44,7 @@
   "mobileRightColumn": 58,
   "mobileTopRow": 39,
   "onClick": "{{storeValue('tabSemovente', '2 - Dados Complementares');}}",
-  "originalBottomRow": 45,
+  "originalBottomRow": 49,
   "originalTopRow": 45,
   "parentColumnSpace": 11.59228515625,
   "parentId": "o23kt3gij2",
