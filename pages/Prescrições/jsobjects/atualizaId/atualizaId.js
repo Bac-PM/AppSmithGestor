@@ -1,6 +1,6 @@
 export default {
-	idFrente: vacinas_ativas.triggeredRow.fotoEtiqueta.id,
-	frente (id) {
-		atualizaId.idFrente = id;
+	idDoc: "",
+	setIdDocument (id) {
+		atualizaId.idDoc = id;
 	}
 }

@@ -12,7 +12,17 @@
       "key": "borderRadius"
     }
   ],
-  "dynamicTriggerPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "menuItems.menuItem1.onClick"
+    },
+    {
+      "key": "menuItems.menuItem2.onClick"
+    },
+    {
+      "key": "menuItems.menuItemaz1g54kp4u.onClick"
+    }
+  ],
   "hideCard": false,
   "iconSVG": "/static/media/icon.5e66a9029af45161f7a3fbfb4262e5ee.svg",
   "isCompact": false,
@@ -31,6 +41,7 @@
       "isDisabled": false,
       "isVisible": true,
       "label": "Prescrever",
+      "onClick": "{{navigateTo('https://youtu.be/3wCzVfmQ9UQ', {}, 'NEW_WINDOW');}}",
       "widgetId": ""
     },
     "menuItem2": {
@@ -39,7 +50,17 @@
       "isDisabled": false,
       "isVisible": true,
       "label": "Editar",
+      "onClick": "{{navigateTo('https://youtu.be/p_okBjRcYEc', {}, 'NEW_WINDOW');}}",
       "widgetId": ""
+    },
+    "menuItemaz1g54kp4u": {
+      "id": "menuItemaz1g54kp4u",
+      "index": 2,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "Aplicar",
+      "onClick": "{{navigateTo('https://youtu.be/zG8ceZge7L4', {}, 'NEW_WINDOW');}}",
+      "widgetId": "v99gxzcmgc"
     }
   },
   "menuItemsSource": "STATIC",

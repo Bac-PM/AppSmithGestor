@@ -1,0 +1,4 @@
+{
+	"arquivo": {{parseInt(DocumentIdInput.text)}},
+	"animal": {{seletor_animal.selectedOptionValue}},
+}

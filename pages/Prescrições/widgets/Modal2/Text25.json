@@ -5,7 +5,13 @@
   "displayName": "Text",
   "dynamicBindingPathList": [
     {
+      "key": "truncateButtonColor"
+    },
+    {
       "key": "fontFamily"
+    },
+    {
+      "key": "borderRadius"
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
@@ -14,12 +20,12 @@
   "fontSize": "1.25rem",
   "fontStyle": "BOLD",
   "hideCard": false,
-  "iconSVG": "/static/media/icon.a55b701a2ae86aa2c6718ecb7b4083f0.svg",
+  "iconSVG": "/static/media/icon.301748e14b0306a7b94ece2d9e2c11cc.svg",
   "isDeprecated": false,
   "isLoading": false,
   "isVisible": true,
-  "key": "2v6wzmaa3v",
-  "leftColumn": 8,
+  "key": "nze9sd4o7a",
+  "leftColumn": 1,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
@@ -28,13 +34,18 @@
   "mobileRightColumn": 41,
   "mobileTopRow": 1,
   "needsErrorInfo": false,
-  "originalBottomRow": 7,
-  "originalTopRow": 1,
+  "onCanvasUI": {
+    "disableParentSelection": false,
+    "focusBGCSSVar": "--on-canvas-ui-widget-focus",
+    "focusColorCSSVar": "--on-canvas-ui-widget-selection",
+    "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
+    "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
+  },
   "overflow": "NONE",
-  "parentId": "soo66an7dp",
+  "parentId": "jza8lkk3of",
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 55,
+  "rightColumn": 41,
   "searchTags": [
     "typography",
     "paragraph",
@@ -45,14 +56,14 @@
     "Suggested",
     "Content"
   ],
-  "text": "Deseja realizar uma aplicação?",
-  "textAlign": "CENTER",
+  "text": "Adicionar Documento",
+  "textAlign": "LEFT",
   "textColor": "#231F20",
   "thumbnailSVG": "/static/media/thumbnail.0c129b82c9b3e4cd4920563b289659ab.svg",
   "topRow": 1,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "bdmtq7pdzm",
-  "widgetName": "Text18"
+  "widgetId": "jzblpr4wvf",
+  "widgetName": "Text25"
 }

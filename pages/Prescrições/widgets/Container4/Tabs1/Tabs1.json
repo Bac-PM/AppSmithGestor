@@ -243,6 +243,61 @@
       "version": 1,
       "widgetId": "p8gud48so3",
       "widgetName": "Canvas26"
+    },
+    {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "bottomRow": 480,
+      "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+      "canExtend": false,
+      "containerStyle": "none",
+      "detachFromLayout": true,
+      "displayName": "Canvas",
+      "dynamicBindingPathList": [
+        {
+          "key": "borderRadius"
+        },
+        {
+          "key": "boxShadow"
+        }
+      ],
+      "dynamicHeight": "AUTO_HEIGHT",
+      "dynamicTriggerPathList": [],
+      "flexLayers": [],
+      "hideCard": true,
+      "isDeprecated": false,
+      "isLoading": false,
+      "isVisible": true,
+      "key": "o2hbl95z13",
+      "leftColumn": 0,
+      "maxDynamicHeight": 9000,
+      "minDynamicHeight": 4,
+      "minHeight": 520,
+      "minWidth": 450,
+      "mobileBottomRow": 521,
+      "mobileLeftColumn": 0,
+      "mobileRightColumn": 1148,
+      "mobileTopRow": 1,
+      "needsErrorInfo": false,
+      "onCanvasUI": {
+        "disableParentSelection": true,
+        "focusBGCSSVar": "--on-canvas-ui-widget-focus",
+        "focusColorCSSVar": "--on-canvas-ui-widget-selection",
+        "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
+        "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
+      },
+      "parentColumnSpace": 1,
+      "parentId": "6vhfyae7vi",
+      "parentRowSpace": 1,
+      "renderMode": "CANVAS",
+      "responsiveBehavior": "fill",
+      "rightColumn": 1148,
+      "tabId": "tabjo8ra2g4b6",
+      "tabName": "Documentos",
+      "topRow": 1,
+      "type": "CANVAS_WIDGET",
+      "version": 1,
+      "widgetId": "snyct48929",
+      "widgetName": "Canvas48"
     }
   ],
   "defaultTab": "Vacinas",
@@ -282,7 +337,7 @@
   "mobileLeftColumn": 24,
   "mobileRightColumn": 48,
   "mobileTopRow": 39,
-  "onTabSelected": "{{\n(function() {\n  if(Tabs1.selectedTab === 'Medicamentos'){\nget_medicamento_animalNaplic.run();\ngetAplicacoesMed.run();\n\t} if (Tabs1.selectedTab === 'Ectoparasiticidas'){\nget_ectoparasiticidas_animal.run();\nget_ectoparasiticidas_aplicado.run()\n\t} if (Tabs1.selectedTab === 'Vermífugos'){\nget_vermifugos_animal.run();\nget_vermifugos_aplicados.run()\n\t} if (Tabs1.selectedTab === 'Vacinas'){\n\tget_vacinas_animal.run();\n\tget_vacinas_aplicadas.run()\n\t} if (Tabs1.selectedTab === \"Coleiras\"){\n\tget_coleiras_animal.run();\n\tget_coleiras_desativadas.run();\n\t}\n})();\n}}",
+  "onTabSelected": "{{\n(function() {\n  if(Tabs1.selectedTab === 'Medicamentos'){\nget_medicamento_animalNaplic.run();\ngetAplicacoesMed.run();\n\t} if (Tabs1.selectedTab === 'Ectoparasiticidas'){\nget_ectoparasiticidas_animal.run();\nget_ectoparasiticidas_aplicado.run()\n\t} if (Tabs1.selectedTab === 'Vermífugos'){\nget_vermifugos_animal.run();\nget_vermifugos_aplicados.run()\n\t} if (Tabs1.selectedTab === 'Vacinas'){\n\tget_vacinas_animal.run();\n\tget_vacinas_aplicadas.run()\n\t} if (Tabs1.selectedTab === \"Coleiras\"){\n\tget_coleiras_animal.run();\n\tget_coleiras_desativadas.run();\n\t} if (Tabs1.selectedTab === \"Documentos\"){\n\t\tget_documentos_animal.run();\n\t}\n})();\n}}",
   "originalBottomRow": 60,
   "originalTopRow": 8,
   "parentColumnSpace": 17.9375,
@@ -317,6 +372,13 @@
       "isVisible": true,
       "label": "Ectoparasiticidas",
       "widgetId": "1a8tyt2dyt"
+    },
+    "tabjo8ra2g4b6": {
+      "id": "tabjo8ra2g4b6",
+      "index": 5,
+      "isVisible": true,
+      "label": "Documentos",
+      "widgetId": "snyct48929"
     },
     "tabo3x4xe6e8m": {
       "id": "tabo3x4xe6e8m",

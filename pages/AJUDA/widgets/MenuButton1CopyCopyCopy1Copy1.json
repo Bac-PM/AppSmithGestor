@@ -12,7 +12,17 @@
       "key": "borderRadius"
     }
   ],
-  "dynamicTriggerPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "menuItems.menuItem1.onClick"
+    },
+    {
+      "key": "menuItems.menuItem2.onClick"
+    },
+    {
+      "key": "menuItems.menuItemlh1m7wkvkd.onClick"
+    }
+  ],
   "hideCard": false,
   "iconSVG": "/static/media/icon.5e66a9029af45161f7a3fbfb4262e5ee.svg",
   "isCompact": false,
@@ -31,6 +41,7 @@
       "isDisabled": false,
       "isVisible": true,
       "label": "Prescrever",
+      "onClick": "{{navigateTo('https://youtu.be/F1s_4fyTsYs', {}, 'NEW_WINDOW');}}",
       "widgetId": ""
     },
     "menuItem2": {
@@ -38,8 +49,18 @@
       "index": 1,
       "isDisabled": false,
       "isVisible": true,
-      "label": "Editar",
+      "label": "Editar Prescrição",
+      "onClick": "{{navigateTo('https://youtu.be/0l83pUrIIbM', {}, 'NEW_WINDOW');}}",
       "widgetId": ""
+    },
+    "menuItemlh1m7wkvkd": {
+      "id": "menuItemlh1m7wkvkd",
+      "index": 2,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "Aplicar",
+      "onClick": "{{navigateTo('https://youtu.be/4mopDRr8uLA', {}, 'NEW_WINDOW');}}",
+      "widgetId": "3p0bg2gsec"
     }
   },
   "menuItemsSource": "STATIC",

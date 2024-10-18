@@ -8,8 +8,8 @@
     "pluginType": "JS",
     "variables": [
       {
-        "name": "idFrente",
-        "value": "vacinas_ativas.triggeredRow.fotoEtiqueta.id"
+        "name": "idDoc",
+        "value": "\"\""
       }
     ]
   }

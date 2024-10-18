@@ -1,0 +1,20 @@
+{
+  "gitSyncId": "66e325a097a37e7429f6c5a5_966d73f0-e6ee-4d7e-9ca8-a88893952f8b",
+  "id": "Prescrições_UploadDocumento",
+  "unpublishedCollection": {
+    "name": "UploadDocumento",
+    "pageId": "Prescrições",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "data",
+        "value": "{}"
+      },
+      {
+        "name": "id",
+        "value": "\"\""
+      }
+    ]
+  }
+}
