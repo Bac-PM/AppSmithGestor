@@ -59,6 +59,10 @@
         {
           "key": "filters[status_geral]",
           "value": "true"
+        },
+        {
+          "key": "pagination[pageSize]",
+          "value": "100"
         }
       ],
       "timeoutInMillisecond": 10000

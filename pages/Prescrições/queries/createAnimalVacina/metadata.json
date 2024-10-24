@@ -11,7 +11,7 @@
           "value": "application/json"
         }
       ],
-      "body": "{\n    \"data_proxima_aplicacao\": {{addDataProximaDose.selectedDate}},\n    \"observacao\": {{addAnotacoes.text}},\n    \"lembrete_em_dias\": {{addLembreteEmDias.selectedOptionValue}},\n    \"dose_atual\": {{addDoseAtual.text}},\n    \"animal\": {{seletor_animal.selectedOptionValue}},\n    \"foto_etiqueta\": {{parseInt(FotoIdFrente.text)}},\n    \"doses_totais\": {{parseInt(addDoseTotal.text)}},\n\t\t\"intervalo_entre_doses\": {{addDiaEntreDoses.text}},\n\t\t\"nome_vacina\": {{addNomeVacinaCopy.selectedOptionValue}},\n\t\t\"anual\" : {{\n\t(function() {\n  \tif(doseAnual.isChecked){\nreturn true\n      }else{\n\t\t\t\treturn false\n\t\t\t}\t\n\t\t\n})();\n\t}}\n}",
+      "body": "{\n    \"data_proxima_aplicacao\": {{addDataProximaDose.selectedDate}},\n    \"observacao\": {{addAnotacoes.text}},\n    \"lembrete_em_dias\": {{addLembreteEmDias.selectedOptionValue}},\n    \"dose_atual\": {{addDoseAtual.text}},\n    \"animal\": {{seletor_animal.selectedOptionValue}},\n    \"foto_etiqueta\": {{parseInt(FotoIdFrente.text)}},\n    \"doses_totais\": {{parseInt(addDoseTotal.text)}},\n\t\t\"intervalo_entre_doses\": {{addDiaEntreDoses.text}},\n\t\t\"nome_vacina\": {{addNomeVacinaCopy.selectedOptionValue}},\n\t  \"historico_nome\": {{addNomeVacinaCopy.selectedOptionLabel}},\n\t\t\"anual\" : {{\n\t(function() {\n  \tif(doseAnual.isChecked){\nreturn true\n      }else{\n\t\t\t\treturn false\n\t\t\t}\t\n\t\t\n})();\n\t}}\n}",
       "bodyFormData": [],
       "encodeParamsToggle": true,
       "formData": {

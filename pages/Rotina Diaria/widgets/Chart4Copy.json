@@ -3,7 +3,7 @@
   "allowScroll": false,
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 99,
+  "bottomRow": 132,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "chartData": {
     "ow5skjyjpy": {
@@ -90,7 +90,7 @@
   "iconSVG": "/static/media/icon.dfffacd2f1d58b018712b35563ae6a31.svg",
   "isDeprecated": false,
   "isLoading": false,
-  "isVisible": true,
+  "isVisible": false,
   "key": "3xcbfxos9u",
   "labelOrientation": "auto",
   "leftColumn": 0,
@@ -126,7 +126,7 @@
     "Display"
   ],
   "thumbnailSVG": "/static/media/thumbnail.98fb19b2c4f99671c0888284cf939f3a.svg",
-  "topRow": 67,
+  "topRow": 100,
   "type": "CHART_WIDGET",
   "version": 1,
   "widgetId": "80ycwvopgr",

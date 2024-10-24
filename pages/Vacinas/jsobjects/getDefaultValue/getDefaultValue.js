@@ -1,7 +1,7 @@
 export default {
 
 	getDefaultValue (nome, data) {
-	
+		
 		let nomeValue = nome;
 		let selectedValue = "";
 		if(nomeValue){

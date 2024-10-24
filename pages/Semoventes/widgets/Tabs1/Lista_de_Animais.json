@@ -523,7 +523,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 64,
   "searchKey": "",
-  "serverSidePaginationEnabled": true,
+  "serverSidePaginationEnabled": false,
   "showInlineEditingOptionDropdown": true,
   "tableData": "{{get_animals_painel.data.data}}",
   "tags": [

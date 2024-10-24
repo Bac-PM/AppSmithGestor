@@ -11,7 +11,7 @@
           "value": "application/json"
         }
       ],
-      "body": "{\n  \"data\": {\n    \"aplicado_por\": {{appsmith.store.idUsuario}}\n   \n  }\n}\n",
+      "body": "{\n  \"data\": {\n    \"aplicado_por\": {{appsmith.store.idUsuario}}\n  }\n}\n",
       "bodyFormData": [],
       "encodeParamsToggle": true,
       "formData": {
@@ -42,10 +42,10 @@
     },
     "dynamicBindingPathList": [
       {
-        "key": "body"
+        "key": "path"
       },
       {
-        "key": "path"
+        "key": "body"
       }
     ],
     "executeOnLoad": false,

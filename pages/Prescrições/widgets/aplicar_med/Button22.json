@@ -41,7 +41,7 @@
   "mobileRightColumn": 63,
   "mobileTopRow": 18,
   "needsErrorInfo": false,
-  "onClick": "{{AplicarMedicacao.run().then(() => {\n  closeModal('aplicar_med');\n\tget_medicamento_animalNaplic.run();\n  getAplicacoesMed.run();\n});}}",
+  "onClick": "{{Button22.setDisabled(true);\nAplicarMedicacao.run().then(() => {\n  closeModal('aplicar_med');\n\tButton22.setDisabled(false);\nget_medicamento_animalNaplic.run();\n  getAplicacoesMed.run();\n});\n}}",
   "originalBottomRow": 26,
   "originalTopRow": 22,
   "parentId": "soo66an7dp",

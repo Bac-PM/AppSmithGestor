@@ -1,6 +1,8 @@
 {
   "allowedFileTypes": [
-    "image/*"
+    "image/*",
+    "image/jpeg",
+    ".png"
   ],
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
@@ -38,7 +40,7 @@
   "isRequired": false,
   "isVisible": true,
   "key": "sekhywmq7u",
-  "label": "Adicionar Foto ",
+  "label": "Atualizar Foto ",
   "leftColumn": 49,
   "maxFileSize": "5",
   "maxNumFiles": 1,

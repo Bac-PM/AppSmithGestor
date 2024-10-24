@@ -41,9 +41,11 @@
     "createdAt",
     "updatedAt",
     "aplicado",
-    "observacao"
+    "observacao",
+    "historico_nome",
+    "aplicado_por"
   ],
-  "columnUpdatedAt": 1719431183898,
+  "columnUpdatedAt": 1729548490706,
   "columnWidthMap": {
     "data_proxima_aplicacao": 164,
     "observacao": 343,
@@ -98,6 +100,12 @@
     },
     {
       "key": "primaryColumns.tipo_aplicacao.computedValue"
+    },
+    {
+      "key": "primaryColumns.historico_nome.computedValue"
+    },
+    {
+      "key": "primaryColumns.aplicado_por.computedValue"
     }
   ],
   "dynamicPropertyPathList": [
@@ -209,6 +217,40 @@
       "verticalAlignment": "CENTER",
       "width": 150
     },
+    "aplicado_por": {
+      "alias": "aplicado_por",
+      "allowCellWrapping": false,
+      "allowSameOptionsInNewRow": true,
+      "cellBackground": "",
+      "columnType": "text",
+      "computedValue": "{{alertas_coleira.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"aplicado_por\"].username))}}",
+      "currencyCode": "USD",
+      "decimals": 0,
+      "enableFilter": true,
+      "enableSort": true,
+      "fontStyle": "",
+      "horizontalAlignment": "LEFT",
+      "id": "aplicado_por",
+      "index": 11,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "aplicado_por",
+      "notation": "standard",
+      "originalId": "aplicado_por",
+      "sticky": "",
+      "textColor": "",
+      "textSize": "0.875rem",
+      "thousandSeparator": true,
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
     "createdAt": {
       "alias": "createdAt",
       "allowCellWrapping": false,
@@ -304,6 +346,40 @@
       "notation": "standard",
       "originalId": "data_proxima_aplicacao",
       "outputFormat": "DD/MM/YYYY",
+      "sticky": "",
+      "textColor": "",
+      "textSize": "0.875rem",
+      "thousandSeparator": true,
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "historico_nome": {
+      "alias": "historico_nome",
+      "allowCellWrapping": false,
+      "allowSameOptionsInNewRow": true,
+      "cellBackground": "",
+      "columnType": "text",
+      "computedValue": "{{alertas_coleira.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"historico_nome\"]))}}",
+      "currencyCode": "USD",
+      "decimals": 0,
+      "enableFilter": true,
+      "enableSort": true,
+      "fontStyle": "",
+      "horizontalAlignment": "LEFT",
+      "id": "historico_nome",
+      "index": 8,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "historico_nome",
+      "notation": "standard",
+      "originalId": "historico_nome",
       "sticky": "",
       "textColor": "",
       "textSize": "0.875rem",

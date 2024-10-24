@@ -11,7 +11,7 @@
           "value": "application/json"
         }
       ],
-      "body": "{\n\t\"data\": {\n\t\t\"quantidade\": {{quantidade.text}},\n\t\t\"data\": {{getDataHoraAtual.getDataHoraAtual()}},\n\t\t\"users_permissions_user\" : {{getIdUsuario.data.id}},\n\t\t\"animal\":{{seletor_animal.selectedOptionValue}},\n\t\t\"tipo_racao\": {{tipo_racao.selectedOptionLabel}}\n\t}\n}",
+      "body": "{\n\t\"data\": {\n\t\t\"data\": {{getDataHoraAtual.getDataHoraAtual()}},\n\t\t\"quantidade\": {{quantidade.text}},\n\t\t\"users_permissions_user\" : {{getIdUsuario.data.id}},\n\t\t\"animal\":{{seletor_animal.selectedOptionValue}},\n\t\t\"tipo_racao\": {{tipo_racao.selectedOptionLabel}}\n\t}\n}",
       "bodyFormData": [],
       "encodeParamsToggle": true,
       "formData": {

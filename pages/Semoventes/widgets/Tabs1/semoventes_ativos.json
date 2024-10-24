@@ -1201,7 +1201,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 64,
   "searchKey": "",
-  "serverSidePaginationEnabled": true,
+  "serverSidePaginationEnabled": false,
   "showInlineEditingOptionDropdown": true,
   "tableData": "{{get_animals_ativos.data.data}}",
   "tags": [

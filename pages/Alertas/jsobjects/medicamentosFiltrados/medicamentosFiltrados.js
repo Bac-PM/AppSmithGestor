@@ -4,7 +4,7 @@ export default {
 
         const hoje = moment();
 
-        return get_all_med.data.data.filter(tarefa => this.isTarefaValida(tarefa, hoje));
+        return get_all_med.data.filter(tarefa => this.isTarefaValida(tarefa, hoje));
     },
     
     async getUmMedicamentosAnimal() {
@@ -12,7 +12,7 @@ export default {
 
         const hoje = moment();
 
-        return get_medicamento_animal.data.data.filter(tarefa => this.isTarefaValida(tarefa, hoje));
+        return get_medicamento_animal.data.filter(tarefa => this.isTarefaValida(tarefa, hoje));
     },
 
     // Função auxiliar para calcular a data de inicio do medicamento corrigida

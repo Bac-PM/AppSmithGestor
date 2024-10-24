@@ -8,6 +8,7 @@
     "doses_totais": {{parseInt(addDoseTotal.text)}},
 		"intervalo_entre_doses": {{addDiaEntreDoses.text}},
 		"nome_vacina": {{addNomeVacinaCopy.selectedOptionValue}},
+	  "historico_nome": {{addNomeVacinaCopy.selectedOptionLabel}},
 		"anual" : {{
 	(function() {
   	if(doseAnual.isChecked){

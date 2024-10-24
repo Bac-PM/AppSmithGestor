@@ -38,7 +38,7 @@
   "mobileRightColumn": 63,
   "mobileTopRow": 18,
   "needsErrorInfo": false,
-  "onClick": "{{desativarVacina.run().then(() => {\n  showAlert('Vacina Removida com sucesso!', 'success');\n  getAllVacina.run();\n}).catch(() => {\n  showAlert('Um erro ocorreu', 'error');\n});\ncloseModal(\"desativar_nome_vac\");}}",
+  "onClick": "{{desativaVacina.run().then(() => {\n  showAlert('Vacina Removida com sucesso!', 'success');\n  getAllVacina.run();\n}).catch(() => {\n  showAlert('Um erro ocorreu', 'error');\n});\ncloseModal(\"desativar_nome_vac\");}}",
   "originalBottomRow": 22,
   "originalTopRow": 18,
   "parentId": "livbehegs7",

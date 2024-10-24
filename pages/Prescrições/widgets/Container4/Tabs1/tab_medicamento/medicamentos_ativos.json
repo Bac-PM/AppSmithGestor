@@ -4,7 +4,7 @@
   "borderColor": "#E0DEDE",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "1",
-  "bottomRow": 39,
+  "bottomRow": 40,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "canFreezeColumn": true,
   "childStylesheet": {
@@ -203,6 +203,9 @@
     },
     {
       "key": "primaryColumns.customColumn1.isDisabled"
+    },
+    {
+      "key": "primaryColumns.customColumn1.onClick"
     }
   ],
   "dynamicTriggerPathList": [
@@ -244,8 +247,8 @@
     "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
-  "originalBottomRow": 89,
-  "originalTopRow": 54,
+  "originalBottomRow": 39,
+  "originalTopRow": 4,
   "parentColumnSpace": 16.0625,
   "parentId": "6skbc6y1b0",
   "parentRowSpace": 10,
@@ -506,7 +509,7 @@
       "label": "Aplicar",
       "labelColor": "#FFFFFF",
       "notation": "standard",
-      "onClick": "{{showModal(aplicar_med.name);}}",
+      "onClick": "{{Button22.setDisabled(false);\nshowModal(aplicar_med.name);}}",
       "originalId": "customColumn1",
       "sticky": "right",
       "textSize": "0.875rem",
@@ -1130,7 +1133,7 @@
   ],
   "textSize": "0.875rem",
   "thumbnailSVG": "/static/media/thumbnail.d0492f06681daa69baf92b07d3829dfc.svg",
-  "topRow": 4,
+  "topRow": 5,
   "totalRecordsCount": 0,
   "type": "TABLE_WIDGET_V2",
   "version": 2,

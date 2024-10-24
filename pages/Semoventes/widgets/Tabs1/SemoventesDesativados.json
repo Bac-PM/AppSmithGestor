@@ -665,7 +665,7 @@
       "labelColor": "#FFFFFF",
       "menuItemsSource": "STATIC",
       "notation": "standard",
-      "onClick": "{{\n\nshowModal('Visualizar_SemoventeCopy');}}",
+      "onClick": "{{getFotoCaoBaixado.run().then(() => {\n  getUrlFrenteBaixado.run();\n  getUrlEsquerdaBaixado.run();\n  getUrlDireitaBaixado.run();\n showModal(Visualizar_SemoventeCopy.name);\n});}}",
       "originalId": "customColumn1",
       "sticky": "right",
       "textSize": "0.875rem",

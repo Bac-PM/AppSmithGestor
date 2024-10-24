@@ -142,11 +142,7 @@
         },
         {
           "key": "pagination[pageSize]",
-          "value": "10"
-        },
-        {
-          "key": "pagination[page]",
-          "value": "{{semoventes_ativos.pageNo}}"
+          "value": "100"
         }
       ],
       "timeoutInMillisecond": 10000
@@ -163,9 +159,6 @@
       },
       {
         "key": "path"
-      },
-      {
-        "key": "queryParameters[29].value"
       }
     ],
     "executeOnLoad": true,

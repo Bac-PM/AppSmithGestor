@@ -4,7 +4,7 @@
   "borderColor": "#E0DEDE",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "1",
-  "bottomRow": 40,
+  "bottomRow": 36,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "canFreezeColumn": true,
   "childStylesheet": {
@@ -195,8 +195,8 @@
   "mobileTopRow": 5,
   "needsHeightForContent": true,
   "onPageChange": "{{get_vermifugos_animal.run()}}",
-  "originalBottomRow": 62,
-  "originalTopRow": 17,
+  "originalBottomRow": 40,
+  "originalTopRow": 4,
   "parentColumnSpace": 19.1904296875,
   "parentId": "g2kr1494qm",
   "parentRowSpace": 10,
@@ -598,7 +598,7 @@
     "Display"
   ],
   "textSize": "0.875rem",
-  "topRow": 4,
+  "topRow": 0,
   "totalRecordsCount": "",
   "type": "TABLE_WIDGET_V2",
   "version": 2,

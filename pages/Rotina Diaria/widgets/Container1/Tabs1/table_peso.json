@@ -119,6 +119,8 @@
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
   "onPageChange": "{{get_peso_cao.run()}}",
+  "originalBottomRow": 51,
+  "originalTopRow": 4,
   "parentColumnSpace": 7.1171875,
   "parentId": "nggzl6lf7g",
   "parentRowSpace": 10,
